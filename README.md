@@ -1,4 +1,5 @@
-# ST542_secDisclosures
+# ST542 SEC Disclosures Investigation
+Web scraping SEC 10-K reports to analyze the impact of diviserty declarations on company performance. This repo is responsible for scraping filings of select companies and identifying attributes of diversity reports. Analysis of significance of attributes will be done elsewhere.
 
 
 # Setup Guide (MacOS)
