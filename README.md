@@ -10,4 +10,4 @@
 * Start virtualenv `source env/bin/activate`
 * Install all packages from requirements.txt `pip install -r requirements.txt`
 * Start jupyter notebook `jupyter notebook`
-* Navigate to the notebook `notebook/miner.ipynb`
+* Navigate to the notebook `notebook/scraper.ipynb`
