@@ -1,7 +1,7 @@
 # ST542_secDisclosures
 
 
-# Setup Guide
+# Setup Guide (MacOS)
 * Clone repo in terminal `git clone https...`
 * Install pip `python3 -m pip install --user --upgrade pip`
 * Verify installation `python3 -m pip --version`
