@@ -21,6 +21,7 @@ def clean(d):
         #if cik not in clean_dict:
         # Would eventually have to indent this line]
         new_val = []
+        temp_val = []
         if value_list == []:
             no_hc[cik] = 'There is no Human Capital Disclosure'
         else:
@@ -36,13 +37,23 @@ def clean(d):
                 #########################
 
                 for element in value_list:
-                    if element in non_element:
+                    #if element in non_element:
+                    if element not in non_element:
+                        temp_val.append(element)
+                        #print(temp_val)
+                new_val = temp_val
+
+
+                        #print(f"Processing: {element}")
+                        #continue
                         #print(type(element)) # This also came in as a string
                     #if element in list(non_element):
                     #while non_element.count(element):
+
                         # Need to remove element from the value_list
-                        value_list.remove(element)
-                        new_val.append(value_list)
+                        #value_list.remove(element)
+                        #print(value_list)
+                        #new_val.append(value_list)
                         #clean_dict[cik] = new_val
                     # elif element.strip('%'):
                     #     new_val.append(value_list)
@@ -55,9 +66,12 @@ def clean(d):
                         #new_val.append(value_list.remove(element))
                         #value_list.remove(element)
                         #new_val.append(value_list)
-                    else:
-                        new_val.append(value_list)
-                clean_dict[cik] = new_val
+                    #else:
+                        #new_val.append(value_list)
+                        #print(f"Processing: {element}")
+                        #continue
+
+                # clean_dict[cik] = new_val
                 # new_val2 = []
                 # for element_list in new_val:
                 #     for element in element_list:
@@ -70,7 +84,13 @@ def clean(d):
                 # clean_dict[cik] = new_val2
                 # print(new_val2[0])
 
-                print(new_val[-1])
+                # for i in new_val[-1]:
+                #     print(f"Processing: {i}")
+
+
+                    #print(type(i))
+                #print(new_val)
+                pprint.pprint(new_val)
                 #pprint.pprint(new_val[0])
                 #print(type(new_val[0]))
                 #print(clean_dict)
