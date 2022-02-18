@@ -12,8 +12,8 @@ def clean(d):
     no_hc = {}
     #new_val = []
     non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
-    "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%", "\u200b",
-    "\u2019"]
+    "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
+    ". "]
 
     #unicode_element = ['\xa0','\u200b','\u2019','']
     #unicode_element = ['\u200b','\u2019','\u201c','\u201d','\u00a0']
@@ -29,9 +29,7 @@ def clean(d):
             new_val = []
             temp_val = []
             temp_val2 = []
-            temp_val3 = []
-            temp_val4 = []
-            temp_val5 = []
+
             if value_list == []:
                 no_hc[cik] = 'There is no Human Capital Disclosure'
             else:
@@ -41,63 +39,13 @@ def clean(d):
                     #if element in non_element:
                     if element not in non_element:
                         temp_val.append(element)
-                # for i in temp_val:
-                #     if '\xa0' in i:
-                #         temp_val2.append(i.replace('\xa0',''))
-                #     else:
-                #         temp_val2.append(i)
+
                 for i in temp_val:
                     if '\xa0' in i:
                         temp_val2.append(i.replace('\xa0',''))
-                    # elif u'’' in i:
-                    #     #iencode = i.encode("ascii", "ignore")
-                    #     #idecode = iencode.decode()
-                    #     #idecode = iencode.decode("utf-8", "ignore")
-                    #     #idecode = i.decode("utf-8")
-                    #     #temp_val2.append(idecode)
-                    #     temp_val2.append(i.replace(u'’',"'"))
-                    # elif '\u2019' in i:
-                    #     #new_string = u"{i}"
-                    #     #re.sub(u"(\u2018|\u2019)", "'", i)
-                    #     #new_string = re.sub(r"\u([0-9a-f]{4})", lambda m: chr(int(m.group(1), 16)), i)
-                    #     #new_string = i.replace(u'\u2019', "'")
-                    #     temp_val2.append(re.sub("(\u2018|\u2019)", "'", i))
-                    # elif "\u201c" in i:
-                    #     temp_val2.append(i.replace(u"\u201c", u'"'))
-                    # elif "\u201d" in i:
-                    #     temp_val2.append(i.replace(u"\u201d", u'"'))
                     else:
                         temp_val2.append(i)
-                # for i in temp_val2:
-                #     if i=='':
-                #         temp_val3.append(i)
-                #     else:
-                #         temp_val4.append(i)
 
-
-                        #print(temp_val)
-                #new_val = temp_val
-                # for i in temp_val:
-                #     if i in unicode_element:
-                #         temp_val2.append(i.replace(u'{i}',''))
-                #     else:
-                #         temp_val2.append(i)
-                # for i in temp_val2:
-                #     if "" not in i:
-                #         temp_val3.append(i)
-                    # else:
-                    #     temp_val2.append(i)
-                    # if '\xa0' in i:
-                    #     temp_val2.append(i.replace('\xa0',''))
-                    # #elif '\u200b' in i: # This worked
-                    # for i in unicode_element:
-                    # #elif i in unicode_element:
-                    #     #temp_val2.append(i.replace('\u200b',''))
-                    #     temp_val3.append(i)
-                    # else:
-                    #     temp_val2.append(i)
-
-                #for i in 
                 new_val = temp_val2
 
                 clean_dict[cik] = new_val
@@ -105,49 +53,13 @@ def clean(d):
                 #########################
         else:
             continue
-    #print(list(clean_dict.values())[0])
-    #print(len(list(clean_dict.keys())))
-    #print(len(list(clean_dict.values())))
-    #new_dict = {}
+
     for i in range(len(list(clean_dict.keys()))):
         new_dict = {}
         new_dict[list(clean_dict.keys())[i]] = list(clean_dict.values())[i]
         with open(f"{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
             json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
             print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-
-
-    # for i in range(7):
-    #     new_dict = {}
-    #     if i==5:
-    #         #pprint.pprint(list(clean_dict.values())[5])
-    #         with open(f"{list(clean_dict.keys())[5]}.json","w") as new_content:
-    #             json.dump(new_dict, new_content,ensure_ascii=True, indent=4)
-    #             print(f"Creating: {list(clean_dict.keys())[5]}.json file")
-    #     else:
-    #         continue
-
-
-        # #print(f"Processing: {list(clean_dict.keys())[i]}")
-        # #print(type(list(clean_dict.keys())[i])) # class is a string
-        # new_dict[list(clean_dict.keys())[i]] = list(clean_dict.values())[i]
-        # #print(new_dict)
-
-
-        # with open(f"{list(clean_dict.keys())[i]}.json","w") as new_content:
-        #     json.dumps(new_dict,ensure_ascii=False,new_content, indent=4)
-        #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-        #break
-        # with open(f"{list(clean_dict.keys())[i]}.json","w") as new_content:
-        #     json.dump(list(clean_dict.keys())[i], new_content)
-        #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-        # for cik in clean_dict.keys():
-        #     print(f"Processing{cik}")
-        # pprint.pprint(clean_dict)
-    # for key, value in clean_dict.items():
-    #     with open(f"{key}.json","w") as new_content:
-    #         json.dump(clean_dict, new_content)
-    #         print(f"Creating: {key}.json file")
 
 
 # Open json file for reading and print content using json.load
