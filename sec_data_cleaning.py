@@ -22,6 +22,8 @@ def clean(d):
         # Would eventually have to indent this line]
         new_val = []
         temp_val = []
+        temp_val2 = []
+        temp_val3 = []
         if value_list == []:
             no_hc[cik] = 'There is no Human Capital Disclosure'
         else:
@@ -41,65 +43,33 @@ def clean(d):
                     if element not in non_element:
                         temp_val.append(element)
                         #print(temp_val)
-                new_val = temp_val
+                #new_val = temp_val
+                for i in temp_val:
+                    if '\xa0' in i:
+                        temp_val2.append(i.replace('\xa0',''))
+                    else:
+                        temp_val2.append(i)
+                    
+                # for i in temp_val:
+                #     if u' ' in i:
+                #         i_encode = i.encode("ascii","ignore")
+                #         i_decode = i_encode.decode()
+                #         #new_val.append(i_decode)
+                #         temp_val.append(i_decode)
+                #         #new_val.append(i.replace(#'\xa0',''))
+                #         #new_val.append(i.strip())
+                new_val = temp_val2
 
-
-                        #print(f"Processing: {element}")
-                        #continue
-                        #print(type(element)) # This also came in as a string
-                    #if element in list(non_element):
-                    #while non_element.count(element):
-
-                        # Need to remove element from the value_list
-                        #value_list.remove(element)
-                        #print(value_list)
-                        #new_val.append(value_list)
-                        #clean_dict[cik] = new_val
-                    # elif element.strip('%'):
-                    #     new_val.append(value_list)
-                    #     clean_dict[cik] = new_val
-                    # elif element.strip('\xa0'):
-                    #     new_val.append(value_list)
-                    #     clean_dict[cik] = new_val
-                    #elif element=="":
-                        #new_val.append(element.replace("\xa0",""))
-                        #new_val.append(value_list.remove(element))
-                        #value_list.remove(element)
-                        #new_val.append(value_list)
-                    #else:
-                        #new_val.append(value_list)
-                        #print(f"Processing: {element}")
-                        #continue
-
-                # clean_dict[cik] = new_val
-                # new_val2 = []
-                # for element_list in new_val:
-                #     for element in element_list:
-                #         if "\xa0" in element:
-                #             new_val2.append(new_val.remove(element))
-                #         else:
-                #             continue
-                #         #if element.strip('\xa0'):
-                #             #new_val2.append(new_val)
-                # clean_dict[cik] = new_val2
-                # print(new_val2[0])
-
-                # for i in new_val[-1]:
-                #     print(f"Processing: {i}")
-
-
-                    #print(type(i))
+                    #print(type())
+                #print(new_val[11])
                 #print(new_val)
-                pprint.pprint(new_val)
+                #pprint.pprint(new_val)
                 #pprint.pprint(new_val[0])
                 #print(type(new_val[0]))
+                clean_dict[cik] = new_val
                 #print(clean_dict)
-                #pprint.pprint(clean_dict)
+                pprint.pprint(clean_dict)
                 #########################
-            # else:
-            #     continue
-        # else:
-        #     continue
 
     #testing purposes for clean_dict
     # for cik, value_list in clean_dict.items():
@@ -154,19 +124,6 @@ def clean(d):
 # 3453- has \u200b could think of these as breaking/stopping point
 # 4447
 # 
-
-
-
-            # if k == '1800':
-            #     print(element)
-            #     print("\n")
-            # else:
-            #     break
-        # if k == '1800':
-        #     #print(k)
-        #     print(v)
-        # else:
-        #     break
 
 
 # Open json file for reading and print content using json.load
