@@ -33,9 +33,6 @@ def clean(d):
             no_hc = {}
             no_hc_list = []
             if value_list == []:
-                #no_hc[cik] = 'There is no Human Capital Disclosure'
-                #for element in value_list:
-                #for i in  range(len(value_list)):
                 nohc = 'There is no Human Capital Disclosure'
                 no_hc_list.append(nohc)
                 no_hc[cik] = no_hc_list
@@ -84,98 +81,9 @@ def clean(d):
                             with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
                                 print(f"Creating: ../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json file")
-                #print(list(clean_dict.keys())[0])
-                #########################
-           # no_hc[cik] = no_hc_list
         else:
             continue
-    #no_hc[cik] = no_hc_list
-    #for nk, nv in no_hc.items():
-
-    #pprint.pprint(no_hc)
-    #print(no_hc)
-
-    # with open("yeshc.json","w", encoding='utf8') as new_content: # Note that this is taking into account if it has infomratino
-    #     json.dump(yes_hc, new_content,ensure_ascii=False, indent=4)
-    # with open("nohc.json","w", encoding='utf8') as new_content: # Note that this is assuming no values
-    #     json.dump(no_hc, new_content,ensure_ascii=False, indent=4)
-
-    # for i in range(len(list(clean_dict.keys()))):
-
-    # #for i in range(5):
-    #     new_dict = {}
-    #     new_dict[list(clean_dict.keys())[i]] = list(clean_dict.values())[i]
-    #     #no_hc_path = '../ST542_secDisclosures/nocik'
-    #     yes_hc_path = '../ST542_secDisclosures/yescik'
-    #     for k, v in new_dict.items():
-    #         if k in list(yes_hc.keys()): # This is causing the error
-    #             if not os.path.exists(yes_hc_path):
-    #                 os.makedirs(yes_hc_path)
-    #             with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
-    #                 json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-    #                 print(f"Creating: ../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json file")
-    #print(len(list(no_hc.keys())))
-
-    # for i in range(len(list(no_hc.keys()))):
-    #     new_dict2 = {}
-    #     new_dict2[list(no_hc.keys())[i]] = list(no_hc.values())[i]
-    #     no_hc_path = '../ST542_secDisclosures/nocik'
-    #     print(list(no_hc.values())[i])
-    #     #print("Error")
-    #     for k, v in new_dict2.items():
-    #         if k in list(no_hc.keys()):
-    #             if not os.path.exists(no_hc_path):
-    #                 os.makedirs(no_hc_path)
-    #             with open(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json","w", encoding='utf8') as new_content:
-    #                 json.dump(new_dict2, new_content,ensure_ascii=False, indent=4)
-    #                 print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
-    #             #continue
-    #         #else:
-    #         # else:
-    #         #     continue
-
-        #if new_dict[cik] is in yes_hc[cik]:
-        # 
-
-        # for k,v in new_dict.items():
-        #     #if v == "There is no Human Capital Disclosure":
-        #     if v == []:
-        #         print(k)
-        #     else:
-        #         #print("Nothing")
-        #         continue
-
-        # if new_dict.values() == "There is no Human Capital Disclosure":
-        #     print(new_dict.keys())
-        # else:
-        #     continue
-
-        #print(new_dict)
-        #print(list(new_dict.values())[i])
-        #if list(new_dict.values()) == "There is no Human Capital Disclosure":
-        # if "There is no Human Capital Disclosure" in list(new_dict.values())[i]:
-        #     print(list(new_dict.keys())[i])
-        # else:
-        #     continue
-        #print(list(new_dict.values()))
-        
-        #with open(f"{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
-            # if list(new_dict.values()) == "There is no Human Capital Disclosure":
-            #     if not os.path.exist(no_hc):
-            #         os.makedirs(no_hc)
-            #     json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-            #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-            #     # else:
-            #     #     json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-            #     #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-            # else:
-            #     if not os.path.exists(yes_hc):
-            #         os.makedirs(yes_hc)
-            #     json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-            #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
-                # else:
-                #     json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-                #     print(f"Creating: {list(clean_dict.keys())[i]}.json file")
+ 
 
 
 # Open json file for reading and print content using json.load
