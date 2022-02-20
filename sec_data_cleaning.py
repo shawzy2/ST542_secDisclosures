@@ -4,6 +4,7 @@ import json
 import unicodedata
 import pprint
 import re
+import string
 from glob import glob
 
 def clean(d):
@@ -14,7 +15,7 @@ def clean(d):
     #new_val = []
     non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
     "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-    ". ","​"]
+    ". ","​", " ", " (1)"]
 
     #unicode_element = ['\xa0','\u200b','\u2019','']
     #unicode_element = ['\u200b','\u2019','\u201c','\u201d','\u00a0']
@@ -30,6 +31,9 @@ def clean(d):
             new_val = []
             temp_val = []
             temp_val2 = []
+            temp_val3 = []
+            new_temp_val3 = []
+            temp_val4 = []
             no_hc = {}
             no_hc_list = []
             if value_list == []:
@@ -48,7 +52,7 @@ def clean(d):
                                 os.makedirs(no_hc_path)
                             with open(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict2, new_content,ensure_ascii=False, indent=4)
-                                print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
+                    print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
                 #temp_val.append(element)
             else:
                 #########################
@@ -63,10 +67,32 @@ def clean(d):
                         temp_val2.append(i.replace('\xa0',''))
                     # elif "​" in i:
                     #     temp_val
+                    #elif i.strip("%,. ").isdigit():
+                    # elif i[0].isdigit() or i[1].isdigit():
+                    #     temp_val3.append(i)
                     else:
+                        #temp_val2.append(i.strip())
                         temp_val2.append(i)
+                for i in temp_val2:
+                    if set(i.lower()) & set(string.ascii_lowercase):
+                        temp_val3.append(i.strip(" •. :  , ).\n\n; "))
+                    else:
+                        temp_val4.append(i)
+                
+                # Getting rid of duplicate elements
+                # The code below for getting rid of duplicate element is not the most efficient
+                # I did try using set, but it would not return the same order
+                for i in temp_val3:
+                    if i not in new_temp_val3:
+                        new_temp_val3.append(i)
+                    else:
+                        continue
 
-                new_val = temp_val2
+                #myset = set(temp_val3)
+                #new_temp_val3 = list(myset)
+                #print(myset)
+
+                new_val = new_temp_val3
                 #no_hc[cik] = no_hc_list
                 clean_dict[cik] = new_val
                 yes_hc[cik] = "There is Human Capital"
@@ -80,7 +106,7 @@ def clean(d):
                                 os.makedirs(yes_hc_path)
                             with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-                                print(f"Creating: ../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json file")
+                    print(f"Creating: ../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json file")
         else:
             continue
  
@@ -96,4 +122,4 @@ for file_name in glob('*.json'):
         clean_json_data
         #print(type(json_data)) class is a dict
         #pprint.pprint(json_data)
-    break
+    break # Would need to comment this out for the other json files for part2-6
