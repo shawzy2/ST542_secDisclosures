@@ -5,7 +5,16 @@ import unicodedata
 import pprint
 import re
 import string
+import sec_data_lists
 from glob import glob
+
+# non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
+# "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
+# ". ","​", " ", " (1)","﻿ "]
+non_element = sec_data_lists.non_element
+allFilings2021_part1_di_keywords = sec_data_lists.allFilings2021_part1_di_keywords
+
+
 
 def clean(d):
     dictionary_data = d
@@ -13,9 +22,9 @@ def clean(d):
     #no_hc = {}
     yes_hc = {}
     #new_val = []
-    non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
-    "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-    ". ","​", " ", " (1)"]
+    # non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
+    # "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
+    # ". ","​", " ", " (1)","﻿ "]
 
     #unicode_element = ['\xa0','\u200b','\u2019','']
     #unicode_element = ['\u200b','\u2019','\u201c','\u201d','\u00a0']
