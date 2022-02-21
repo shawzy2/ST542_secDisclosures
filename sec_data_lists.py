@@ -17,7 +17,8 @@ allFilings2021_part1_di_keywords = [
     "Inclusion and Diversity", "Diversity, Equity and Inclusion (“DEI”)", "Diversity, Equity & Inclusion (DE&I)",
     "Diversity, Inclusion, and Non-discrimination","Diversity, Equity & Inclusion ","Diversity and Inclusion.  ",
     "Diversity and Inclusion - Employee Hiring Practices","Our Inclusion, Diversity and Equity",
-    "Diversity, Equity and Inclusion (\"DE&I\")","D+I","Inclusion and diversity"
+    "Diversity, Equity and Inclusion (\"DE&I\")","D+I","Inclusion and diversity", "Belonging and Inclusion", "Diversity, Equity and Inclusion:",
+    "Diversity and Inclusion ", "Diversity and Inclusion","Diversity, Equity and Inclusion"
 ]
 
 # allFilings2021_part1_di_keywords the ones in question

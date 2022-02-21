@@ -61,7 +61,7 @@ def clean(d):
                                 os.makedirs(no_hc_path)
                             with open(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict2, new_content,ensure_ascii=False, indent=4)
-                    print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
+                    #print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
                 #temp_val.append(element)
             else:
                 #########################
@@ -82,40 +82,84 @@ def clean(d):
                     else:
                         #temp_val2.append(i.strip())
                         temp_val2.append(i)
-                for i in temp_val2:
-                    if set(i.lower()) & set(string.ascii_lowercase):
-                        temp_val3.append(i.strip(" •. :  , ).\n\n; "))
-                    else:
-                        temp_val4.append(i)
-                
+
+
                 # Getting rid of duplicate elements
-                # The code below for getting rid of duplicate element is not the most efficient
-                # I did try using set, but it would not return the same order
-                for i in temp_val3:
-                    if i not in new_temp_val3:
-                        new_temp_val3.append(i)
+                for i in temp_val2:
+                    if i not in temp_val3:
+                        temp_val3.append(i)
                     else:
                         continue
+
+                # for element in temp_val3:
+                #     di_list = 
+                #     if element in allFilings2021_part1_di_keywords:
+                #         print
+
+                        
+                # # This will get rid of all numbers
+                # for i in temp_val2:
+                #     if set(i.lower()) & set(string.ascii_lowercase): 
+                #         temp_val3.append(i.strip(" •. :  , ).\n\n; "))
+                #     else:
+                #         temp_val4.append(i)
+                
+                # # Getting rid of duplicate elements
+                # # The code below for getting rid of duplicate element is not the most efficient
+                # # I did try using set, but it would not return the same order
+                # for i in temp_val3:
+                #     if i not in new_temp_val3:
+                #         new_temp_val3.append(i)
+                #     else:
+                #         continue
 
                 #myset = set(temp_val3)
                 #new_temp_val3 = list(myset)
                 #print(myset)
 
-                new_val = new_temp_val3
+                #new_val = new_temp_val3
+                new_val = temp_val3
                 #no_hc[cik] = no_hc_list
                 clean_dict[cik] = new_val
                 yes_hc[cik] = "There is Human Capital"
+
+                #di_list = []
+                # di_dic = {}
+                # di_path = '../ST542_secDisclosures/di'
+                # for k,v in clean_dict.items():
+                #     for element in v:
+                #         #di_list.append(k)
+                #         if element in allFilings2021_part1_di_keywords:
+                #             di_dic[k] = 'There is a D+I section'
+                #             if not os.path.exists(di_path):
+                #                 os.makedirs(di_path)
+                #             with open(f"../ST542_secDisclosures/di/dic_dic.json","w", encoding='utf8') as new_content:
+                #                 json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
+                #         #di_list.append(k)
+                # #print(di_list)
+
+
                 for i in range(len(list(clean_dict.keys()))):
                     new_dict = {}
                     new_dict[list(clean_dict.keys())[i]] = list(clean_dict.values())[i]
                     yes_hc_path = '../ST542_secDisclosures/yescik'
+                    di_dic = {}
+                    di_path = '../ST542_secDisclosures/di'
                     for k, v in new_dict.items():
-                        if k in list(yes_hc.keys()): # This is causing the error
+                        if k in list(yes_hc.keys()): 
                             if not os.path.exists(yes_hc_path):
                                 os.makedirs(yes_hc_path)
                             with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-                    print(f"Creating: ../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json file")
+
+                        for element in v:
+                        #di_list.append(k)
+                            if element in allFilings2021_part1_di_keywords:
+                                di_dic[k] = 'There is a D+I section'
+                                if not os.path.exists(di_path):
+                                    os.makedirs(di_path)
+                                with open(f"../ST542_secDisclosures/di/{k}.json","w", encoding='utf8') as new_content:
+                                    json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
         else:
             continue
  
