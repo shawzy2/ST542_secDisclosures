@@ -13,7 +13,7 @@ from glob import glob
 # ". ","​", " ", " (1)","﻿ "]
 non_element = sec_data_lists.non_element
 allFilings2021_part1_di_keywords = sec_data_lists.allFilings2021_part1_di_keywords
-
+allFilings2021_part1_di_next_section_keywords = sec_data_lists.allFilings2021_part1_di_next_section_keywords
 
 
 def clean(d):
@@ -22,14 +22,6 @@ def clean(d):
     #no_hc = {}
     yes_hc = {}
     #new_val = []
-    # non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
-    # "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-    # ". ","​", " ", " (1)","﻿ "]
-
-    #unicode_element = ['\xa0','\u200b','\u2019','']
-    #unicode_element = ['\u200b','\u2019','\u201c','\u201d','\u00a0']
-
-    #For some odd reason, I could not get rid of %, \xa0
     for cik, value_list in dictionary_data.items():
         #print(cik)
         # We would want to strip empty elements, dash elements, elements that have \xa0, percent elements, dot element and period, etc.
@@ -143,8 +135,9 @@ def clean(d):
                     new_dict = {}
                     new_dict[list(clean_dict.keys())[i]] = list(clean_dict.values())[i]
                     yes_hc_path = '../ST542_secDisclosures/yescik'
-                    di_dic = {}
-                    di_path = '../ST542_secDisclosures/di'
+                    # di_dic = {}
+                    # di_list = []
+                    # di_path = '../ST542_secDisclosures/di'
                     for k, v in new_dict.items():
                         if k in list(yes_hc.keys()): 
                             if not os.path.exists(yes_hc_path):
@@ -152,14 +145,52 @@ def clean(d):
                             with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
                                 json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
 
-                        for element in v:
+
+                # Not the best way, but start hard coding
+                my_data_1800_list = clean_dict["1800"]
+                start_index = my_data_1800_list.index("Diversity and Inclusion ")
+                end_index = my_data_1800_list.index("Compensation and Benefits")
+                di_dic = {}
+                di_list = []
+                di_path = '../ST542_secDisclosures/di'
+                for ind in range(start_index+1,end_index):
+                    cik_1800 = my_data_1800_list[ind]
+                    di_list.append(cik_1800)
+                    #print(my_data_1800_list[ind])
+                di_dic["1800"] = di_list
+                if not os.path.exists(di_path):
+                        os.makedirs(di_path)
+                with open(f"../ST542_secDisclosures/di/1800.json","w", encoding='utf8') as new_content:
+                        json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
+                break
+                    
+
+                    
+                    # for ind in range(start_index+1, end_index):
+                    #     print(my_data_list[ind])
+                        #for element in v:
+                        #for i, element in enumerate(v):
+                        #    if element in allFilings2021_part1_di_keywords and element[i+1] in 
+                        # n = 1
+                        # for i in range(len(v)):
+                        #     if v[i] in allFilings2021_part1_di_keywords:
+                        #         if v[i+n] in allFilings2021_part1_di_next_section_keywords:
+                        #             di_list.append(v[i:i+n])
+                        #             di_dic[k] = di_list
+                        #             n += 1
+                        #         else:
+                        #             continue
+                                    #di_dic[k] = "Not in the list"
+                                    #continue
+                            
                         #di_list.append(k)
-                            if element in allFilings2021_part1_di_keywords:
-                                di_dic[k] = 'There is a D+I section'
-                                if not os.path.exists(di_path):
-                                    os.makedirs(di_path)
-                                with open(f"../ST542_secDisclosures/di/{k}.json","w", encoding='utf8') as new_content:
-                                    json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
+                            #if element in allFilings2021_part1_di_keywords:
+
+                                #di_dic[k] = 'There is a D+I section'
+                                # if not os.path.exists(di_path):
+                                #     os.makedirs(di_path)
+                                # with open(f"../ST542_secDisclosures/di/{k}.json","w", encoding='utf8') as new_content:
+                                #     json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
         else:
             continue
  
