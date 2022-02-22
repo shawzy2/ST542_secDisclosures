@@ -147,22 +147,22 @@ def clean(d):
 
 
                 # Not the best way, but start hard coding
-                my_data_1800_list = clean_dict["1800"]
-                start_index = my_data_1800_list.index("Diversity and Inclusion ")
-                end_index = my_data_1800_list.index("Compensation and Benefits")
-                di_dic = {}
-                di_list = []
-                di_path = '../ST542_secDisclosures/di'
-                for ind in range(start_index+1,end_index):
-                    cik_1800 = my_data_1800_list[ind]
-                    di_list.append(cik_1800)
-                    #print(my_data_1800_list[ind])
-                di_dic["1800"] = di_list
-                if not os.path.exists(di_path):
-                        os.makedirs(di_path)
-                with open(f"../ST542_secDisclosures/di/1800.json","w", encoding='utf8') as new_content:
-                        json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
-                break
+                # my_data_1800_list = clean_dict["1800"]
+                # start_index = my_data_1800_list.index("Diversity and Inclusion ")
+                # end_index = my_data_1800_list.index("Compensation and Benefits")
+                # di_dic = {}
+                # di_list = []
+                # di_path = '../ST542_secDisclosures/di'
+                # for ind in range(start_index+1,end_index):
+                #     cik_1800 = my_data_1800_list[ind]
+                #     di_list.append(cik_1800)
+                #     #print(my_data_1800_list[ind])
+                # di_dic["1800"] = di_list
+                # if not os.path.exists(di_path):
+                #         os.makedirs(di_path)
+                # with open(f"../ST542_secDisclosures/di/1800.json","w", encoding='utf8') as new_content:
+                #         json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
+                # break
                     
 
                     
