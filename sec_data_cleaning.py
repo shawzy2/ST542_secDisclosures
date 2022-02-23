@@ -51,8 +51,14 @@ def clean(d):
                         if k in list(no_hc.keys()):
                             if not os.path.exists(no_hc_path):
                                 os.makedirs(no_hc_path)
-                            with open(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json","w", encoding='utf8') as new_content:
-                                json.dump(new_dict2, new_content,ensure_ascii=False, indent=4)
+                            else:
+                               # if f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json" in no_hc_path:
+                                if os.path.isfile(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json"):
+                                    #print("skipping")
+                                    continue
+                                else:
+                                    with open(f"../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json","w", encoding='utf8') as new_content:
+                                        json.dump(new_dict2, new_content,ensure_ascii=False, indent=4)
                     #print(f"Creating: ../ST542_secDisclosures/nocik/{list(no_hc.keys())[i]}.json file") 
                 #temp_val.append(element)
             else:
@@ -142,8 +148,17 @@ def clean(d):
                         if k in list(yes_hc.keys()): 
                             if not os.path.exists(yes_hc_path):
                                 os.makedirs(yes_hc_path)
-                            with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
-                                json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
+                            else:
+                                if os.path.isfile(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json"):
+                                #f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json" in yes_hc_path:
+                                    #print("skipping")
+                                    # for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
+                                    #     print(json_file)
+                                        
+                                    continue
+                                else:
+                                    with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
+                                        json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
 
 
                 # Not the best way, but start hard coding
@@ -193,8 +208,6 @@ def clean(d):
                                 #     json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
         else:
             continue
- 
-
 
 # Open json file for reading and print content using json.load
 for file_name in glob('*.json'):
@@ -202,8 +215,184 @@ for file_name in glob('*.json'):
     with open(file_name, encoding='utf-8') as content:
         json_data = json.load(content)
         clean_json_data = clean(json_data)
+        #clean_json_data
+
         #print(clean_json_data)
-        clean_json_data
+        #clean_json_data
+        #filter_di_data
         #print(type(json_data)) class is a dict
         #pprint.pprint(json_data)
     break # Would need to comment this out for the other json files for part2-6
+
+# This will look into the yescik directory:
+
+di_keys = ["1800","2488","3453",
+"3570","4281","4447",
+"701288",
+"701374","702165","702513",
+"704415","708821","708955",
+"712034","712534","713676",
+"714310","717423","718877"]
+no_di_keys= ["2098","2178","3197",
+"701347","703604","704440",
+"704532","706129","707179",
+"708781","709005","709337",
+"711669","711772","712537",
+"714395","715072","715787",
+"715957","716006","716634",
+"717538","717605","717806",
+"718937","719220","719413"]
+def filter_di(d):
+    dictionary_data = d
+    di_path = "../ST542_secDisclosures/yescik/di/"
+    no_di_path = "../ST542_secDisclosures/yescik/nodi/"
+    #new_json = {}
+    for key, value in dictionary_data.items():
+        new_json = {}
+        new_no_di_json = {}
+        my_data_list = dictionary_data[key]
+        di_list = []
+        temp_val = []
+        #no_di_list = []
+        if key in di_keys:
+            if key == "1800":
+                start_index = my_data_list.index("Diversity and Inclusion ")
+                end_index = my_data_list.index("5")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "2488":
+                start_index = my_data_list.index("Belonging and Inclusion")
+                end_index = my_data_list.index("Total Rewards")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "3453":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion:")
+                end_index = my_data_list.index("Total Rewards Programs:")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "3570":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Development and Training")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "4281":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index("Health and Safety")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "4447":
+                start_index = my_data_list.index("Inclusion, Diversity and Equity")
+                end_index = my_data_list.index("Reward Programs")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "701288": # Similar to 702165
+                di_list.append(my_data_list[13:14])
+            elif key == "701374":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Employee Development")
+                for ind in range(start_index+1,end_index+1):
+                    di_list.append(my_data_list[ind])
+            elif key == "702165": # similar to 708955"; Not sure why this has a dash element
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index( "To underscore our commitment to cultivating a workplace experience where the unique experiences, perspectives, and contributions of all our people are valued, our senior management team recently signed a pledge reaffirming our commitment to diversity, equity, and inclusion.  To advance that commitment, senior leaders from across the company serve on an Inclusion Leadership Council, which is accountable for setting our enterprise inclusion strategy and articulating measurable goals and actions needed to achieve them.  ")
+                for ind in range(start_index+1,end_index+1):
+                    di_list.append(my_data_list[ind])
+            elif key == "702513":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Fair Wages and Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "704415":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Employee Engagement")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "708821":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Employee Engagement: ")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "708955": #Note: This had it at the end and the section was included inside of the elemnt
+                start_index = my_data_list.index( "Employee Engagement. First Financial launched its engagement initiative in 2020, partnering with a third party to measure associate engagement and develop action plans for continued improvement.  In 2020, we hosted virtual town hall meetings for all associates, opening the lines of communications and answering associate concerns. In conjunction with the town hall meetings, pulse surveys were completed with themes around wellbeing, return to work, diversity and inclusion, and career coaching and development.  These surveys provided insight into our associates’ needs and desires, which we can use in future program development. ")
+                end_index = my_data_list.index("Diversity, Equity and Inclusion. First Financial prioritizes diversity, equity and inclusion (DEI) as an employer, a financial institution and as a member of the communities in which we operate.  The DEI Committee of the Board provides guidance and oversight to First Financial’s executive committee, the Manager of Diversity, Equity and Inclusion, and the First Financial Diversity Council, which is comprised of 10 associates from across our footprint.  First Financial supports several associate-led business resource groups designed to facilitate networking and leadership development.  First Financial is in the process of building its DEI strategy which includes establishing goals for increased associate and management diversity.  During 2020, First Financial’s CEO held a series of listening sessions with diverse associates as part of our goal to foster a more inclusive environment.  ")
+                for ind in range(start_index+1,end_index+1):
+                    di_list.append(my_data_list[ind])
+            elif key == "712034":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("5")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "712534":
+                start_index = my_data_list.index("Diversity Equity and Inclusion")
+                end_index = my_data_list.index("Talent Assessment, Succession Planning and Career Path")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "713676":
+                start_index = my_data_list.index("Diversity, equity and inclusion")
+                end_index = my_data_list.index("Total rewards")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "714310":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion.")
+                end_index = my_data_list.index("Total Rewards.")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "717423": 
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index("13")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "718877":
+                start_index = my_data_list.index("Diversity, Equity, and Inclusion (“DE&I”)")
+                end_index = my_data_list.index("Compensation and Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+
+            for element in di_list:
+                if element not in non_element:
+                    temp_val.append(element)
+            new_json[key] = temp_val
+            if not os.path.exists(di_path):
+                os.makedirs(di_path)
+            else:
+                if os.path.isfile(f"../ST542_secDisclosures/yescik/di/{key}.json"):                      
+                    continue
+                else:
+                    with open(f"../ST542_secDisclosures/yescik/di/{key}.json","w", encoding='utf8') as new_content:
+                        json.dump(new_json, new_content,ensure_ascii=False, indent=4)
+
+        elif key in no_di_keys:
+            #no_di_list.append("No D+I")
+            new_no_di_json[key] = "No D+I"
+
+            if not os.path.exists(no_di_path):
+                os.makedirs(no_di_path)
+            else:
+                if os.path.isfile(f"../ST542_secDisclosures/yescik/nodi/{key}.json"):                      
+                        continue
+                else:
+                        with open(f"../ST542_secDisclosures/yescik/nodi/{key}.json","w", encoding='utf8') as new_content:
+                            json.dump(new_no_di_json, new_content,ensure_ascii=False, indent=4)
+        else:
+            continue
+
+            #     for ind in range(new_start_index+1, new_end_index):
+            # print(my_data_list[ind])
+
+    #print(dictionary_data)
+
+
+                    # my_data_1800_list = clean_dict["1800"]
+                # start_index = my_data_1800_list.index("Diversity and Inclusion ")
+                # end_index = my_data_1800_list.index("Compensation and Benefits")
+
+
+for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
+    with open(file_name, encoding='utf-8') as content:
+        json_data = json.load(content)
+        filter_di_data = filter_di(json_data)
+        filter_di_data
+
+                                    # for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
+                                    #     print(json_file)
+#for file_name in 
