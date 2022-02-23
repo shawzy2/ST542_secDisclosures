@@ -145,57 +145,35 @@ for file_name in glob('*.json'):
 
 # gray area- "101778", "89800"
 di_keys = ["1800","2488","3453",
-"79282","80661",
-"84246","84748","86312",
-"89800","91767","92230",
-"92380","93410","93556",
-"97134","97216","97745",
-"98222","100517","101199",
-"101778","102212","104889",
-"104894","105319","105770",
-"106535","107263","200406",
-"216085","216228","217346",
-"225648","230557","277135",
-"277509","310158","310522",
-"3570","4281","4447",
+"69488",
+"70415","70858","71691",
+"72162","72741","72971",
+"73088","73124","74208", "77360","78003","78128",
+"78814","79282","80661", "84246","84748","86312",
+"89800","91767","92230", "92380","93410","93556",
+"97134","97216","97745", "98222","100517","101199",
+"101778","102212","104889", "104894","105319","105770",
+"106535","107263","200406", "216085","216228","217346",
+"225648","230557","277135", "277509","310158","310522",
+"3570","4281","4447", 
 "313616","313927","317540",
-"318154","318833","320335",
-"350894","351569","352541",
-"352825","353020","354707",
-"357301","700564","701288",
-"701374","702165","702513",
-"704415","708821","708955",
-"712034","712534","713676",
-"714310","717423","718877"]
+"318154","318833","320335", "350894","351569","352541",
+"352825","353020","354707", "357301","700564","701288",
+"701374","702165","702513", "704415","708821","708955",
+"712034","712534","713676", "714310","717423","718877"]
 no_di_keys= ["2098","2178","3197",
-"80035","80172","82811",
-"85961","87347","88121",
-"88205","89439","90498",
-"91142","91440","91576",
-"91928","92122","93389",
-"94049","94344","95574",
-"95953","96943","97210",
-"97476","98362","99780",
-"100885","101382","101984",
-"102729","102752","103145",
-"103730","105016","105418",
-"105634","106640","109380",
-"203596","215466","277948",
-"310142","311094","314203",
-"314489","315709","315852",
-"316709","318300","350698",
-"350852","351834","352915",
-"353569","354190","354908",
-"354963","355811","356171",
-"357173","700565","700923",
-"701347","703604","704440",
-"704532","706129","707179",
-"708781","709005","709337",
-"711669","711772","712537",
-"714395","715072","715787",
-"715957","716006","716634",
-"717538","717605","717806",
-"718937","719220","719413"]
+"70318","70487",
+"72903","73309","73756", "74303","75208","75252", "75362","75677","76282",
+"76605","77281","77476", "77543","77877","78890", "80035","80172","82811",
+"85961","87347","88121", "88205","89439","90498", "91142","91440","91576",
+"91928","92122","93389", "94049","94344","95574", "95953","96943","97210",
+"97476","98362","99780", "100885","101382","101984", "102729","102752","103145",
+"103730","105016","105418", "105634","106640","109380", "203596","215466","277948",
+"310142","311094","314203", "314489","315709","315852", "316709","318300","350698",
+"350852","351834","352915", "353569","354190","354908", "354963","355811","356171",
+"357173","700565","700923", "701347","703604","704440", "704532","706129","707179",
+"708781","709005","709337", "711669","711772","712537", "714395","715072","715787",
+"715957","716006","716634", "717538","717605","717806", "718937","719220","719413"]
 def filter_di(d):
     dictionary_data = d
     di_path = "../ST542_secDisclosures/yescik/di/"
@@ -237,6 +215,70 @@ def filter_di(d):
             elif key == "4447":
                 start_index = my_data_list.index("Inclusion, Diversity and Equity")
                 end_index = my_data_list.index("Reward Programs")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "69488":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Talent Development")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "70415":
+                start_index = my_data_list.index("Diversity and Inclusion. ")
+                end_index = my_data_list.index("Talent Acquisition, Development and Retention. ")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "70858":
+                start_index = my_data_list.index("Diversity and Inclusion ")
+                end_index = my_data_list.index("Employee Engagement and Talent Retention")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "71691":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index("Talent and Development ")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "72162":
+                di_list.append(my_data_list[30:31])
+            elif key == "72741":
+                start_index = my_data_list.index("Diversity & Inclusion.")
+                end_index = my_data_list.index("Compensation, Health and Wellness Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "72971":
+                start_index = my_data_list.index("Promoting Diversity, Equity and Inclusion.  ")
+                end_index = my_data_list.index("Pay Equity Review.")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "73088":
+                start_index = my_data_list.index("Diversity")
+                end_index = my_data_list.index("Health and Safety")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "73124":
+                start_index = my_data_list.index("DIVERSITY, EQUITY, AND INCLUSION (DE&I)")
+                end_index = my_data_list.index("Progress and Accountability.")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "74208":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("5")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "77360":
+                start_index = my_data_list.index("Inclusion and diversity")
+                end_index = my_data_list.index("Health, safety and wellness")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "78003":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion.")
+                end_index = my_data_list.index("Colleague Engagement")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "78128":
+                di_list.append(my_data_list[69:71])
+            elif key == "78814":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Health, Safety and Wellness")
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "79282":
