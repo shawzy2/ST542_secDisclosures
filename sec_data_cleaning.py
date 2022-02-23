@@ -143,8 +143,11 @@ for file_name in glob('*.json'):
 
 # This will look into the yescik directory:
 
-# gray area- "101778"
+# gray area- "101778", "89800"
 di_keys = ["1800","2488","3453",
+"79282","80661",
+"84246","84748","86312",
+"89800","91767","92230",
 "92380","93410","93556",
 "97134","97216","97745",
 "98222","100517","101199",
@@ -165,7 +168,11 @@ di_keys = ["1800","2488","3453",
 "712034","712534","713676",
 "714310","717423","718877"]
 no_di_keys= ["2098","2178","3197",
-"93389",
+"80035","80172","82811",
+"85961","87347","88121",
+"88205","89439","90498",
+"91142","91440","91576",
+"91928","92122","93389",
 "94049","94344","95574",
 "95953","96943","97210",
 "97476","98362","99780",
@@ -230,6 +237,40 @@ def filter_di(d):
             elif key == "4447":
                 start_index = my_data_list.index("Inclusion, Diversity and Equity")
                 end_index = my_data_list.index("Reward Programs")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "79282":
+                start_index = my_data_list.index(" Diversity, Inclusion, and Belonging")
+                end_index = my_data_list.index(" Health and Safety")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "80661":
+                start_index = my_data_list.index("Diversity and Inclusion (D&I)")
+                end_index = my_data_list.index("Employee Acquisition, Retention, Engagement and Development ")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "84246": 
+                di_list.append(my_data_list[21:22])
+            elif key == "84748": 
+                di_list.append(my_data_list[11:12])
+            elif key == "86312": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("31")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "89800": 
+                start_index = my_data_list.index("Culture and Engagement")
+                end_index = my_data_list.index("Talent Management.")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "91767": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Talent Acquisition and Development")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "92230":  # Did not get grid of the source
+                start_index = my_data_list.index("Diversity, Equity & Inclusion")
+                end_index = my_data_list.index("Talent Development")
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "92380": 
