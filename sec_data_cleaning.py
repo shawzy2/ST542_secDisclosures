@@ -94,47 +94,11 @@ def clean(d):
                 #     if element in allFilings2021_part1_di_keywords:
                 #         print
 
-                        
-                # # This will get rid of all numbers
-                # for i in temp_val2:
-                #     if set(i.lower()) & set(string.ascii_lowercase): 
-                #         temp_val3.append(i.strip(" •. :  , ).\n\n; "))
-                #     else:
-                #         temp_val4.append(i)
-                
-                # # Getting rid of duplicate elements
-                # # The code below for getting rid of duplicate element is not the most efficient
-                # # I did try using set, but it would not return the same order
-                # for i in temp_val3:
-                #     if i not in new_temp_val3:
-                #         new_temp_val3.append(i)
-                #     else:
-                #         continue
-
-                #myset = set(temp_val3)
-                #new_temp_val3 = list(myset)
-                #print(myset)
-
                 #new_val = new_temp_val3
                 new_val = temp_val3
                 #no_hc[cik] = no_hc_list
                 clean_dict[cik] = new_val
                 yes_hc[cik] = "There is Human Capital"
-
-                #di_list = []
-                # di_dic = {}
-                # di_path = '../ST542_secDisclosures/di'
-                # for k,v in clean_dict.items():
-                #     for element in v:
-                #         #di_list.append(k)
-                #         if element in allFilings2021_part1_di_keywords:
-                #             di_dic[k] = 'There is a D+I section'
-                #             if not os.path.exists(di_path):
-                #                 os.makedirs(di_path)
-                #             with open(f"../ST542_secDisclosures/di/dic_dic.json","w", encoding='utf8') as new_content:
-                #                 json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
-                #         #di_list.append(k)
-                # #print(di_list)
 
 
                 for i in range(len(list(clean_dict.keys()))):
@@ -159,53 +123,6 @@ def clean(d):
                                 else:
                                     with open(f"../ST542_secDisclosures/yescik/{list(clean_dict.keys())[i]}.json","w", encoding='utf8') as new_content:
                                         json.dump(new_dict, new_content,ensure_ascii=False, indent=4)
-
-
-                # Not the best way, but start hard coding
-                # my_data_1800_list = clean_dict["1800"]
-                # start_index = my_data_1800_list.index("Diversity and Inclusion ")
-                # end_index = my_data_1800_list.index("Compensation and Benefits")
-                # di_dic = {}
-                # di_list = []
-                # di_path = '../ST542_secDisclosures/di'
-                # for ind in range(start_index+1,end_index):
-                #     cik_1800 = my_data_1800_list[ind]
-                #     di_list.append(cik_1800)
-                #     #print(my_data_1800_list[ind])
-                # di_dic["1800"] = di_list
-                # if not os.path.exists(di_path):
-                #         os.makedirs(di_path)
-                # with open(f"../ST542_secDisclosures/di/1800.json","w", encoding='utf8') as new_content:
-                #         json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
-                # break
-                    
-
-                    
-                    # for ind in range(start_index+1, end_index):
-                    #     print(my_data_list[ind])
-                        #for element in v:
-                        #for i, element in enumerate(v):
-                        #    if element in allFilings2021_part1_di_keywords and element[i+1] in 
-                        # n = 1
-                        # for i in range(len(v)):
-                        #     if v[i] in allFilings2021_part1_di_keywords:
-                        #         if v[i+n] in allFilings2021_part1_di_next_section_keywords:
-                        #             di_list.append(v[i:i+n])
-                        #             di_dic[k] = di_list
-                        #             n += 1
-                        #         else:
-                        #             continue
-                                    #di_dic[k] = "Not in the list"
-                                    #continue
-                            
-                        #di_list.append(k)
-                            #if element in allFilings2021_part1_di_keywords:
-
-                                #di_dic[k] = 'There is a D+I section'
-                                # if not os.path.exists(di_path):
-                                #     os.makedirs(di_path)
-                                # with open(f"../ST542_secDisclosures/di/{k}.json","w", encoding='utf8') as new_content:
-                                #     json.dump(di_dic, new_content,ensure_ascii=False, indent=4)
         else:
             continue
 
@@ -226,14 +143,44 @@ for file_name in glob('*.json'):
 
 # This will look into the yescik directory:
 
+# gray area- "101778"
 di_keys = ["1800","2488","3453",
+"92380","93410","93556",
+"97134","97216","97745",
+"98222","100517","101199",
+"101778","102212","104889",
+"104894","105319","105770",
+"106535","107263","200406",
+"216085","216228","217346",
+"225648","230557","277135",
+"277509","310158","310522",
 "3570","4281","4447",
-"701288",
+"313616","313927","317540",
+"318154","318833","320335",
+"350894","351569","352541",
+"352825","353020","354707",
+"357301","700564","701288",
 "701374","702165","702513",
 "704415","708821","708955",
 "712034","712534","713676",
 "714310","717423","718877"]
 no_di_keys= ["2098","2178","3197",
+"93389",
+"94049","94344","95574",
+"95953","96943","97210",
+"97476","98362","99780",
+"100885","101382","101984",
+"102729","102752","103145",
+"103730","105016","105418",
+"105634","106640","109380",
+"203596","215466","277948",
+"310142","311094","314203",
+"314489","315709","315852",
+"316709","318300","350698",
+"350852","351834","352915",
+"353569","354190","354908",
+"354963","355811","356171",
+"357173","700565","700923",
 "701347","703604","704440",
 "704532","706129","707179",
 "708781","709005","709337",
@@ -285,6 +232,183 @@ def filter_di(d):
                 end_index = my_data_list.index("Reward Programs")
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
+            elif key == "92380": 
+                start_index = my_data_list.index("Diversity, Equity, and Inclusion")
+                end_index = my_data_list.index("Effects of COVID-19")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "93410": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("4")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "93556": 
+                start_index = my_data_list.index("Diversity, Equity & Inclusion")
+                end_index = my_data_list.index("7")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "97134": 
+                di_list.append(my_data_list[6:7])
+            elif key == "97216" or key =="97745": 
+                end_index = my_data_list.index("13")
+                if key == "97216":
+                    start_index = my_data_list.index("DIVERSITY, EQUITY AND INCLUSION")
+                elif key == "97745":
+                    start_index = my_data_list.index("Diversity and Inclusion")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            # elif key == "97745": 
+            #     start_index = my_data_list.index("Diversity and Inclusion")
+            #     end_index = my_data_list.index("13")
+            #     for ind in range(start_index+1,end_index):
+            #         di_list.append(my_data_list[ind])
+            elif key == "98222": # This has an empty element
+                    di_list.append(my_data_list[39:42])
+            elif key == "100517": 
+                start_index = my_data_list.index("Diversity, Equity and Inclusion.")
+                end_index = my_data_list.index("Health Benefits: COVID-19 Impacts.")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "101199": 
+                start_index = my_data_list.index("Diversity and inclusion")
+                end_index = my_data_list.index( "Fulfilling careers; health, safety and wellness; compensation and benefits; talent development")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "101778": # Gray area
+                start_index = my_data_list.index("Our People")
+                end_index = my_data_list.index("Our Talent Landscape")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "102212": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("5")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "104889": 
+                di_list.append(my_data_list[24:25])
+            elif key == "104894": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Community Engagement")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "105319": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Training and Development")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "105770": 
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Compensation and Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "106535": 
+                start_index = my_data_list.index("DIVERSITY, EQUITY AND INCLUSION")
+                end_index = my_data_list.index("WEYERHAEUSER COMPANY > 2020 ANNUAL REPORT AND FORM 10-K 3")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "107263": # This one, was not sure to include or exclude the 20 because after that, it did talk a little bit more about diversity
+                start_index = my_data_list.index("Diversity & Inclusion")
+                end_index = my_data_list.index("Other operating costs including human capital expenses")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "200406":
+                start_index = my_data_list.index("Diversity, Equity, and Inclusion (DEI)")
+                end_index = my_data_list.index("Compensation and Benefits ")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "216085":
+                start_index = my_data_list.index("Diversity")
+                end_index = my_data_list.index("Retention")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "216228":
+                di_list.append(my_data_list[7:8])
+            elif key == "217346":
+                di_list.append(my_data_list[10:12])
+            elif key == "225648":
+                #di_list.append(my_data_list[10:28])
+                start_index = my_data_list.index("Diversity, Equity and Inclusion (\"DE&I\")")
+                end_index = my_data_list.index("Succession and Recruitment")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "230557":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("5")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "277135":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index("9")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "277509":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("4")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "310158":
+                start_index = my_data_list.index("Global Diversity and Inclusion")
+                end_index = my_data_list.index("Compensation and Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "310522":
+                di_list.append(my_data_list[15:16])
+            elif key == "313616":
+                start_index = my_data_list.index("D+I")
+                end_index = my_data_list.index("Retention")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "313927":
+                start_index = my_data_list.index("Diversity, Equity and Inclusion")
+                end_index = my_data_list.index("Hiring, Development and Retention")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "317540":
+                di_list.append(my_data_list[17:18])
+            elif key == "318154":
+                start_index = my_data_list.index("Diversity, Inclusion and Belonging")
+                end_index = my_data_list.index("25")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "318833":
+                start_index = my_data_list.index("Diversity and inclusion")
+                end_index = my_data_list.index("Health, safety and training")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "320335":
+                start_index = my_data_list.index("People, Culture, and Community")
+                end_index = my_data_list.index("Talent Development")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "350894":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index( "12")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "351569": # like 700564
+                di_list.append(my_data_list[14:21])
+            elif key == "352541": # Was not able to get rid of the first elemetn
+                #di_list.append(my_data_list[61,62,63,65]) 
+                start_index = my_data_list.index("Diversity, Equity and Inclusion (DE&I)")
+                end_index = my_data_list.index( "4")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "352825":
+                start_index = my_data_list.index("Diversity, Equity, and Inclusion")
+                end_index = my_data_list.index("6")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "353020":
+                start_index = my_data_list.index("Diversity and Inclusion")
+                end_index = my_data_list.index("Compensation and Benefits")
+                for ind in range(start_index+1,end_index):
+                    di_list.append(my_data_list[ind])
+            elif key == "354707": # Similar to 700564
+                di_list.append(my_data_list[27:28])
+            elif key == "357301": # Similar to 700564
+                di_list.append(my_data_list[39:40])
+            elif key == "700564": # Similar to 701288
+                di_list.append(my_data_list[7:8])
             elif key == "701288": # Similar to 702165
                 di_list.append(my_data_list[13:14])
             elif key == "701374":
@@ -376,23 +500,11 @@ def filter_di(d):
         else:
             continue
 
-            #     for ind in range(new_start_index+1, new_end_index):
-            # print(my_data_list[ind])
-
-    #print(dictionary_data)
-
-
-                    # my_data_1800_list = clean_dict["1800"]
-                # start_index = my_data_1800_list.index("Diversity and Inclusion ")
-                # end_index = my_data_1800_list.index("Compensation and Benefits")
-
-
+#for file_name in glob('*.json'):
 for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
-    with open(file_name, encoding='utf-8') as content:
+    with open(file_name, encoding='utf-8') as content: #Weird how the file_name works here, now thinking about it
         json_data = json.load(content)
         filter_di_data = filter_di(json_data)
         filter_di_data
 
-                                    # for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
-                                    #     print(json_file)
-#for file_name in 
+    break
