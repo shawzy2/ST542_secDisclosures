@@ -401,7 +401,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "65984": # gray area
-                di_list.append(my_data_list[36:68])
+                for ind in range(36,38):
+                    di_list.append(my_data_list[ind])
             elif key == "66570":
                 start_index = my_data_list.index("Diversity & Inclusion")
                 end_index = my_data_list.index("Leadership and Development")
@@ -413,7 +414,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "67716":
-                di_list.append(my_data_list[69:88])
+                for ind in range(69,88):
+                    di_list.append(my_data_list[ind])
             elif key == "69488":
                 start_index = my_data_list.index("Diversity and Inclusion")
                 end_index = my_data_list.index("Talent Development")
@@ -435,7 +437,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "72162":
-                di_list.append(my_data_list[30:31])
+                for ind in range(30,31):
+                    di_list.append(my_data_list[ind])
             elif key == "72741":
                 start_index = my_data_list.index("Diversity & Inclusion.")
                 end_index = my_data_list.index("Compensation, Health and Wellness Benefits")
@@ -472,7 +475,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "78128":
-                di_list.append(my_data_list[69:71])
+                for ind in range(69,71):
+                    di_list.append(my_data_list[ind])
             elif key == "78814":
                 start_index = my_data_list.index("Diversity and Inclusion")
                 end_index = my_data_list.index("Health, Safety and Wellness")
@@ -489,9 +493,11 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "84246": 
-                di_list.append(my_data_list[21:22])
+                for ind in range(21,22):
+                    di_list.append(my_data_list[ind])
             elif key == "84748": 
-                di_list.append(my_data_list[11:12])
+                for ind in range(11,12):
+                    di_list.append(my_data_list[ind])
             elif key == "86312": 
                 start_index = my_data_list.index("Diversity and Inclusion")
                 end_index = my_data_list.index("31")
@@ -528,7 +534,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "97134": 
-                di_list.append(my_data_list[6:7])
+                for ind in range(6,7):
+                    di_list.append(my_data_list[ind])
             elif key == "97216" or key =="97745": 
                 end_index = my_data_list.index("13")
                 if key == "97216":
@@ -543,7 +550,8 @@ def filter_di(d):
             #     for ind in range(start_index+1,end_index):
             #         di_list.append(my_data_list[ind])
             elif key == "98222": # This has an empty element
-                    di_list.append(my_data_list[39:42])
+                for ind in range(39,42):
+                    di_list.append(my_data_list[ind])
             elif key == "100517": 
                 start_index = my_data_list.index("Diversity, Equity and Inclusion.")
                 end_index = my_data_list.index("Health Benefits: COVID-19 Impacts.")
@@ -565,7 +573,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "104889": 
-                di_list.append(my_data_list[24:25])
+                for ind in range(24,25):
+                    di_list.append(my_data_list[ind])
             elif key == "104894": 
                 start_index = my_data_list.index("Diversity and Inclusion")
                 end_index = my_data_list.index("Community Engagement")
@@ -602,9 +611,11 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "216228":
-                di_list.append(my_data_list[7:8])
+                for ind in range(7,8):
+                    di_list.append(my_data_list[ind])
             elif key == "217346":
-                di_list.append(my_data_list[10:12])
+                for ind in range(10,12):
+                    di_list.append(my_data_list[ind])
             elif key == "225648":
                 #di_list.append(my_data_list[10:28])
                 start_index = my_data_list.index("Diversity, Equity and Inclusion (\"DE&I\")")
@@ -632,7 +643,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "310522":
-                di_list.append(my_data_list[15:16])
+                for ind in range(15,16):
+                    di_list.append(my_data_list[ind])
             elif key == "313616":
                 start_index = my_data_list.index("D+I")
                 end_index = my_data_list.index("Retention")
@@ -644,7 +656,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "317540":
-                di_list.append(my_data_list[17:18])
+                for ind in range(17,18):
+                    di_list.append(my_data_list[ind])
             elif key == "318154":
                 start_index = my_data_list.index("Diversity, Inclusion and Belonging")
                 end_index = my_data_list.index("25")
@@ -666,7 +679,8 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "351569": # like 700564
-                di_list.append(my_data_list[14:21])
+                for ind in range(14,21):
+                    di_list.append(my_data_list[ind])
             elif key == "352541": # Was not able to get rid of the first elemetn
                 #di_list.append(my_data_list[61,62,63,65]) 
                 start_index = my_data_list.index("Diversity, Equity and Inclusion (DE&I)")
@@ -684,13 +698,17 @@ def filter_di(d):
                 for ind in range(start_index+1,end_index):
                     di_list.append(my_data_list[ind])
             elif key == "354707": # Similar to 700564
-                di_list.append(my_data_list[27:28])
+                for ind in range(27,28):
+                    di_list.append(my_data_list[ind])
             elif key == "357301": # Similar to 700564
-                di_list.append(my_data_list[39:40])
+                for ind in range(39,40):
+                    di_list.append(my_data_list[ind])
             elif key == "700564": # Similar to 701288
-                di_list.append(my_data_list[7:8])
+                for ind in range(7,8):
+                    di_list.append(my_data_list[ind])
             elif key == "701288": # Similar to 702165
-                di_list.append(my_data_list[13:14])
+                for ind in range(13,14):
+                    di_list.append(my_data_list[ind])
             elif key == "701374":
                 start_index = my_data_list.index("Diversity and Inclusion")
                 end_index = my_data_list.index("Employee Development")

@@ -52,6 +52,9 @@ def di_stat(d):
     summary_list = []
     value2= []
     for key,value in dictionary_data.items():
+        # if len(value) == 1:
+        #     new_value = value
+        # else:
         new_value = ",".join(value)
         #print(new_value)
         #value2.append(new_value)
@@ -80,17 +83,24 @@ def di_stat(d):
     summary_dict["table_present"] = table_bool
     # print("\n")
     # print(f"Processing 100517: {summary_dict}")
-    pprint.pprint(summary_dict)
+    return summary_dict
+    #pprint.pprint(summary_dict)
     #print(new_dict.values())
     #pprint.pprint(new_dict)
 
 
 for di_file in os.listdir("../ST542_secDisclosures/yescik/di/"):
-    
+    #print(di_file)
+    di_file_dic = {}
     new_di_file = f"../ST542_secDisclosures/yescik/di/{di_file}"
     with open(new_di_file, encoding='utf-8') as content:
     #with open(di_file) as content:
         json_data = json.load(content)
         di_stat_data = di_stat(json_data)
-        di_stat_data
-    break
+        #di_stat_data
+
+        #di_file_dic[f"{di_file}"] = di_stat_data
+        di_file_dic[di_file] = di_stat_data
+        print(di_file_dic)
+
+    #break

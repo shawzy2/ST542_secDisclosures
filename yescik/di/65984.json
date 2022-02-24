@@ -1,38 +1,6 @@
 {
     "65984": [
-        [
-            "Below is the breakdown of Entergy’s employees by gender and race/ethnicity:",
-            "Gender (%)",
-            "2020",
-            "2019",
-            "Female",
-            "21",
-            "20",
-            "Male",
-            "79",
-            "80",
-            "100",
-            "100",
-            "Race/Ethnicity (%)",
-            "2020",
-            "2019",
-            "White",
-            "78",
-            "79",
-            "Black/African American",
-            "15",
-            "15",
-            "Hispanic/Latino",
-            "3",
-            "2",
-            "Asian",
-            "2",
-            "2",
-            "Other",
-            "2",
-            "2",
-            "100",
-            "100"
-        ]
+        "Below is the breakdown of Entergy’s employees by gender and race/ethnicity:",
+        "Gender (%)"
     ]
 }
