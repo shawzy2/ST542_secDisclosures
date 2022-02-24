@@ -1,5 +1,6 @@
 import os
 import json
+import pprint
 #import sec_data_lists
 import sec_data_listv2
 #import sec_functions
@@ -19,6 +20,12 @@ def filter_di_v2(d):
         # inner_key is the cik; inner_value is the list
         #inner_data = value.items()
         #inner_json = {}
+        '''
+        Scenario 1: D/I secion goes past the page number ...kind of done
+        Scenario 2: D/I stops at the page number
+        Scenario 3: D/I is at the end of the list and stops at the end of the list
+        Scenario 4: D/I is part of a string
+        '''
         for inner_key, inner_value in value.items():
             inner_json = {}
             my_data_list = inner_value
@@ -42,7 +49,8 @@ def filter_di_v2(d):
                                     if my_data_list[ind].isdigit() and len(my_data_list[ind]) == 2:
                                         continue # This will get rid of the page number
                                     else:
-                                        print(my_data_list[ind])
+                                        #print(my_data_list[ind])
+                                        di_list.append(my_data_list[ind])
                             else:
                                 continue
 
@@ -92,11 +100,22 @@ def filter_di_v2(d):
                     # like a page bnumber, but it still talked about diversity
                    # break
             elif inner_key in no_di_keys:
+                #di_list.append("No D+I")
                 continue
             else:
-                continue
+                if inner_value == "There is no Human Capital Disclosure":
+                    #print(inner_value)
+                    #di_list.append(inner_value)
+                    
+                    
+                    continue
+                else:
+                    continue
+                #print(inner_value)
+                #continue
             #break # stopping after first iterationr
             inner_json[inner_key] = di_list
+            pprint.pprint(inner_json)
            # print(inner_json)
             output_json[key] = inner_json
             #print(output_json)
