@@ -9,6 +9,7 @@ import string
 import sec_functions
 import sec_data_cleanv2
 import di_function
+import di_function_v2
 import di_analysis
 from glob import glob
 from collections import Counter
@@ -18,6 +19,7 @@ clean = sec_functions.clean
 filter_di = di_function.filter_di
 di_stat = di_analysis.di_stat
 clean_v2 = sec_data_cleanv2.clean_v2
+filter_di_v2 = di_function_v2.filter_di_v2
 #combine_json = sec_data_cleanv2.combine_json
 
 
@@ -29,27 +31,6 @@ for file_name in glob('*.json'):
         clean_json_data = clean(json_data)
 
     break # Would need to comment this out for the other json files for part2-6
-
-
-#V2 format
-# Testing purposes
-files = ['allFilings2021_part2.json','allFilings2021_part3.json','allFilings2021_part4.json','allFilings2021_part5.json','allFilings2021_part6.json']
-output_dic = {}
-for file in files:
-    file_dic = {}
-    with open(file, encoding = 'utf-8') as content:
-        json_data = json.load(content)
-        clean_json_data = clean_v2(json_data)
-        file_dic[file] = clean_json_data
-        output_dic.update(file_dic)
-        #combine_json(file,clean_json_data)
-        #print(json_data)
-
-    #break
-if not os.path.exists(f"../ST542_secDisclosures/cik_v2/"):
-    os.makedirs(f"../ST542_secDisclosures/cik_v2/")
-with open(f"../ST542_secDisclosures/cik_v2/nocikv2output.json","w", encoding='utf8') as new_content:
-    json.dump(output_dic, new_content,ensure_ascii=False, indent=4)
 
 
 #print(file_name)
@@ -82,3 +63,31 @@ for di_file in os.listdir("../ST542_secDisclosures/yescik/di/"):
         #pprint.pprint(json_data)
 
     break
+
+
+#V2 format
+# Testing purposes
+files = ['allFilings2021_part2.json','allFilings2021_part3.json','allFilings2021_part4.json','allFilings2021_part5.json','allFilings2021_part6.json']
+output_dic = {}
+for file in files:
+    file_dic = {}
+    with open(file, encoding = 'utf-8') as content:
+        json_data = json.load(content)
+        clean_json_data = clean_v2(json_data)
+        file_dic[file] = clean_json_data
+        output_dic.update(file_dic)
+        #combine_json(file,clean_json_data)
+        #print(json_data)
+
+    #break
+if not os.path.exists(f"../ST542_secDisclosures/cik_v2/"):
+    os.makedirs(f"../ST542_secDisclosures/cik_v2/")
+with open(f"../ST542_secDisclosures/cik_v2/cikv2output.json","w", encoding='utf8') as new_content:
+    json.dump(output_dic, new_content,ensure_ascii=False, indent=4)
+
+for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
+    new_name = f"../ST542_secDisclosures/cik_v2/{json_file}"
+    with open(new_name,encoding = 'utf-8') as content:
+        json_data = json.load(content)
+        filter_di_data2 = filter_di_v2(json_data)
+        filter_di_data2
