@@ -8,7 +8,7 @@ non_element = sec_data_listv2.non_element
 di_keys = sec_data_listv2.di_v2_keys
 no_di_keys = sec_data_listv2.no_di_v2_keys
 start_word_list = sec_data_listv2.st_word
-nt_wor_list = sec_data_listv2.nt_word
+nt_word_list = sec_data_listv2.nt_word
 
 
 def filter_di_v2(d):
@@ -27,36 +27,56 @@ def filter_di_v2(d):
             #if inner_key == "722723": # testing purposes
                 for element in inner_value:
                     if element in start_word_list:
-                        #print(element)
                         start_index = my_data_list.index(element)
-                        #print(start_index)
-                        #last_element = inner_value[-1].index
                         last_index = len(inner_value) - 1 
                         inner_list = inner_value[start_index+1:last_index]
-                        #new_inner_list = ",".join(inner_list)
-
-                        #print(start_index)
-
-                        #break
-                        #for end_element in range(start_index+1,last_index):
-                            #print(end_element)
-                        #print(inner_list)
-                        #break
                         for end_element in inner_list:
-                            if end_element.isdigit() and len(end_element) == 2: # This would break if it kept on talking about diversity
-                                print(inner_list[1])
-                                #interest_index = new_inner_list.index(end_element)
-                                #new_start_index = new_inner_list.index(element)
-                                # print(new_start_index)
-                                # print(interest_index)
-                                #for ind in range(new_start_index,interest_index-2):
-                                #    print(new_inner_list[ind])
-                                    
-                                # end_index = inner_list.index(end_element)
-                                # for ind in range(start_index+1,end_index):
-                                #     di_list.append(inner_list[ind])
+                            if end_element.isdigit() and len(end_element) == 2:
+                                continue # skipping page number, does not mean getting rid of it yet
+                            elif end_element in nt_word_list:
+                                end_index = my_data_list.index(end_element)
+                                #print(end_element)
+                                # print(start_index)
+                                # print(end_index)
+                                for ind in range(start_index+1,end_index):
+                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) == 2:
+                                        continue # This will get rid of the page number
+                                    else:
+                                        print(my_data_list[ind])
                             else:
                                 continue
+
+
+                        # #print(element)
+                        # start_index = my_data_list.index(element)
+                        # #print(start_index)
+                        # #last_element = inner_value[-1].index
+                        # last_index = len(inner_value) - 1 
+                        # inner_list = inner_value[start_index+1:last_index]
+                        # #new_inner_list = ",".join(inner_list)
+
+                        # #print(start_index)
+
+                        # #break
+                        # #for end_element in range(start_index+1,last_index):
+                        #     #print(end_element)
+                        # #print(inner_list)
+                        # #break
+                        # for end_element in inner_list:
+                        #     if end_element.isdigit() and len(end_element) == 2: # This would break if it kept on talking about diversity
+                        #         print(inner_list[1])
+                        #         #interest_index = new_inner_list.index(end_element)
+                        #         #new_start_index = new_inner_list.index(element)
+                        #         # print(new_start_index)
+                        #         # print(interest_index)
+                        #         #for ind in range(new_start_index,interest_index-2):
+                        #         #    print(new_inner_list[ind])
+                                    
+                        #         # end_index = inner_list.index(end_element)
+                        #         # for ind in range(start_index+1,end_index):
+                        #         #     di_list.append(inner_list[ind])
+                        #     else:
+                        #         continue
 
 
                         #for ind in range(start_index+1,end_index)

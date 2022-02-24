@@ -15,3 +15,7 @@ no_di_v2_keys = [
 st_word = [
     "Diversity and Inclusion"
 ]
+
+nt_word = [
+    "Total Rewards"
+]
