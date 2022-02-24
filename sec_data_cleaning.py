@@ -7,11 +7,12 @@ import re
 import string
 #import sec_data_lists
 import sec_functions
-import dipart1_functions
+#import dipart1_functions
+import di_function
 from glob import glob
 
 clean = sec_functions.clean
-filter_di = dipart1_functions.filter_di
+filter_di = di_function.filter_di
 
 
 # Open json file for reading and print content using json.load

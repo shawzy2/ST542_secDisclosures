@@ -1,7 +1,7 @@
 import os
 import json
 import sec_data_lists
-import sec_functions
+#import sec_functions
 
 non_element = sec_data_lists.non_element
 allFilings2021_part1_di_keywords = sec_data_lists.allFilings2021_part1_di_keywords
