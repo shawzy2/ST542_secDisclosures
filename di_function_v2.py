@@ -33,24 +33,78 @@ def filter_di_v2(d):
             if inner_key in di_keys:
             #if inner_key == "722723": # testing purposes
                 for element in inner_value:
-                    if element in start_word_list:
+                    # By creating the initial_ variables, this should hopefully resolve if more than one element appears in sec_Data_listv2
+                    initial_start_index = inner_value.index(element)
+                    start_element = inner_value[initial_start_index]
+                    if start_element in start_word_list: 
                         start_index = my_data_list.index(element)
+                        #print(initial_start_index)
+                        #print(start_index)
                         last_index = len(inner_value) - 1 
+                        last_index_case2 = len(inner_value)
                         inner_list = inner_value[start_index+1:last_index]
+                        inner_list_case2 = inner_value[start_index+1:last_index_case2]
+
+                        # This should take care of the number at the end or d/is that end with a number
+                        #Case1: 766421
+                        #Ex: ['D/I', 'D/I Description', '14']
+                        # if inner_key == "732834":
+                        #     #print(start_index)
+                        #     print(inner_list_case2)
+                        if len(inner_list) == 1:
+                            for ind in range(len(inner_list)):
+                                di_list.append(inner_list[ind])
+                        # Case 2: 732834
+                        #Ex: ['D/I', 'D/I Description']
+                        if len(inner_list_case2) == 1:
+                            for ind in range(len(inner_list_case2)):
+                                di_list.append(inner_list_case2[ind])
+                        
                         for end_element in inner_list:
-                            if end_element.isdigit() and len(end_element) == 2:
-                                continue # skipping page number, does not mean getting rid of it yet
-                            elif end_element in nt_word_list:
-                                end_index = my_data_list.index(end_element)
+                            initial_end_index = inner_value.index(end_element)
+                            initial_end_element = inner_value[initial_end_index]
+                            #print(start_element)
+                            #print(end_element)
+                            # print(initial_end_element)
+                            # print(initial_end_index)
+                            if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
                                 #print(end_element)
+                                #print(initial_end_index)
+                                continue # skipping page number, does not mean getting rid of it yet
+                            elif initial_end_element in nt_word_list: 
+                                end_index = my_data_list.index(initial_end_element)
+                                #print(initial_end_index)
+                                #print(end_index)
+
+                                # print(end_element)
                                 # print(start_index)
                                 # print(end_index)
+                                # break
                                 for ind in range(start_index+1,end_index):
-                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) == 2:
+                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
                                         continue # This will get rid of the page number
                                     else:
                                         #print(my_data_list[ind])
                                         di_list.append(my_data_list[ind])
+                                        #print(di_list)
+                                        #continue
+                                break # This break statement is necessary once initial_end_element is found in nt_word_list
+                            # elif initial_end_element not in nt_word_list and initial_end_element.isdigit():
+                            #     di_list.append(inner_list)
+
+                            # elif initial_end_element not in nt_word_list: # "732717","732834". most likely take the bottom
+                            #     #if inner_key == "732717": # Would have to delete this later
+                            # "766421"
+                            #         #last_element = inner_value[-1]
+                            #         #print(last_element)
+                            #         #print("is this working")
+                            #     print(inner_key)
+                            # elif initial_end_element not in nt_word_list:
+                            #     di_list.append("Working in progress")
+                            #     break
+
+                            # d/i inside of element:742278
+
                             else:
                                 continue
 
@@ -99,7 +153,8 @@ def filter_di_v2(d):
                     # ##if it has no section, then it reads through the end of thfile
                     # like a page bnumber, but it still talked about diversity
                    # break
-            elif inner_key in no_di_keys:
+            #elif inner_key in no_di_keys:
+            elif inner_key not in di_keys: # This could be for testing purposes, would be more efficient
                 #di_list.append("No D+I")
                 continue
             else:
