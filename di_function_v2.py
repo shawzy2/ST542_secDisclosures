@@ -4,13 +4,16 @@ import pprint
 #import sec_data_lists
 import sec_data_listv2
 #import sec_functions
+from nltk.tokenize import word_tokenize
 
 non_element = sec_data_listv2.non_element
 di_keys = sec_data_listv2.di_v2_keys
+dib_keys = sec_data_listv2.di_v2b_keys
 no_di_keys = sec_data_listv2.no_di_v2_keys
 start_word_list = sec_data_listv2.st_word
 nt_word_list = sec_data_listv2.nt_word
-
+i_start_word_list = sec_data_listv2.i_start_word_list
+i_nxt_word_list = sec_data_listv2.i_nxt_word_list
 
 def filter_di_v2(d):
     d_data = d
@@ -22,7 +25,8 @@ def filter_di_v2(d):
         #inner_json = {}
         '''
         Scenario 1: D/I secion goes past the page number ...kind of done
-        Scenario 2: D/I stops at the page number
+        Scenario 2: D/I stops at the page number   ... kind of done
+        --- Scenario 3 and 4 is a bit harder because there are different variations of it
         Scenario 3: D/I is at the end of the list and stops at the end of the list
         Scenario 4: D/I is part of a string
         '''
@@ -30,6 +34,9 @@ def filter_di_v2(d):
             inner_json = {}
             my_data_list = inner_value
             di_list = []
+            inner_combined_data = ",".join(my_data_list)
+            word_list = word_tokenize(inner_combined_data)
+            test_word_list = word_list
             if inner_key in di_keys:
             #if inner_key == "722723": # testing purposes
                 for element in inner_value:
@@ -46,16 +53,13 @@ def filter_di_v2(d):
                         inner_list_case2 = inner_value[start_index+1:last_index_case2]
 
                         # This should take care of the number at the end or d/is that end with a number
-                        #Case1: 766421
-                        #Ex: ['D/I', 'D/I Description', '14']
-                        # if inner_key == "732834":
-                        #     #print(start_index)
-                        #     print(inner_list_case2)
+                        # Case1: 766421
+                        # Ex: ['D/I', 'D/I Description', '14']
                         if len(inner_list) == 1:
                             for ind in range(len(inner_list)):
                                 di_list.append(inner_list[ind])
                         # Case 2: 732834
-                        #Ex: ['D/I', 'D/I Description']
+                        # Ex: ['D/I', 'D/I Description']
                         if len(inner_list_case2) == 1:
                             for ind in range(len(inner_list_case2)):
                                 di_list.append(inner_list_case2[ind])
@@ -89,70 +93,42 @@ def filter_di_v2(d):
                                         #print(di_list)
                                         #continue
                                 break # This break statement is necessary once initial_end_element is found in nt_word_list
-                            # elif initial_end_element not in nt_word_list and initial_end_element.isdigit():
-                            #     di_list.append(inner_list)
-
-                            # elif initial_end_element not in nt_word_list: # "732717","732834". most likely take the bottom
-                            #     #if inner_key == "732717": # Would have to delete this later
-                            # "766421"
-                            #         #last_element = inner_value[-1]
-                            #         #print(last_element)
-                            #         #print("is this working")
-                            #     print(inner_key)
-                            # elif initial_end_element not in nt_word_list:
-                            #     di_list.append("Working in progress")
-                            #     break
 
                             # d/i inside of element:742278
+                            # Need to take a look at again
+                            # 732717, 742278
+
 
                             else:
                                 continue
+                
+                # This ocde chunk below should take of Scenario 3 and 4
+                # 732717, 742278
+            elif inner_key in dib_keys:
+                print(inner_key)
+                for i_element in word_list:
+                    if i_element in i_start_word_list:
+                        i_start_index = test_word_list.index(i_element)
+                        i_last_index = len(word_list) - 1 
+                        i_inner_list = word_list[i_start_index+1:i_last_index]
+                        print(i_inner_list)
+                        for i_end_element in i_inner_list:
+                            i_initial_end_index = word_list.index(i_end_element)
+                            i_initial_end_element = word_list[i_initial_end_index]
+                            if i_initial_end_element in i_nxt_word_list: 
+                                i_end_index = test_word_list.index(i_initial_end_element)
+                                #print(initial_end_index)
+                                #print(end_index)
 
+                                # print(end_element)
+                                # print(start_index)
+                                # print(end_index)
+                                for ind in range(i_start_index+1,i_end_index):
+                                    di_list.append(test_word_list[ind])
+                                break # This break statement is necessary once initial_end_element is found in nt_word_list
 
-                        # #print(element)
-                        # start_index = my_data_list.index(element)
-                        # #print(start_index)
-                        # #last_element = inner_value[-1].index
-                        # last_index = len(inner_value) - 1 
-                        # inner_list = inner_value[start_index+1:last_index]
-                        # #new_inner_list = ",".join(inner_list)
-
-                        # #print(start_index)
-
-                        # #break
-                        # #for end_element in range(start_index+1,last_index):
-                        #     #print(end_element)
-                        # #print(inner_list)
-                        # #break
-                        # for end_element in inner_list:
-                        #     if end_element.isdigit() and len(end_element) == 2: # This would break if it kept on talking about diversity
-                        #         print(inner_list[1])
-                        #         #interest_index = new_inner_list.index(end_element)
-                        #         #new_start_index = new_inner_list.index(element)
-                        #         # print(new_start_index)
-                        #         # print(interest_index)
-                        #         #for ind in range(new_start_index,interest_index-2):
-                        #         #    print(new_inner_list[ind])
                                     
-                        #         # end_index = inner_list.index(end_element)
-                        #         # for ind in range(start_index+1,end_index):
-                        #         #     di_list.append(inner_list[ind])
-                        #     else:
-                        #         continue
 
-
-                        #for ind in range(start_index+1,end_index)
-
-
-                    # end index could take emtpy strings, other sections, and numbers
-                    # the numbers would be harder
-                #if inner_key == "722723":
-
-                    # Need to find and stop at first occurance at Diveristy and Inclusion using for loop
-                    # Thne it needs to stop at a digit or another section, 
-                    # ##if it has no section, then it reads through the end of thfile
-                    # like a page bnumber, but it still talked about diversity
-                   # break
             #elif inner_key in no_di_keys:
             elif inner_key not in di_keys: # This could be for testing purposes, would be more efficient
                 #di_list.append("No D+I")
@@ -165,6 +141,7 @@ def filter_di_v2(d):
                     
                     continue
                 else:
+                    #di_list.append("Working on it")
                     continue
                 #print(inner_value)
                 #continue

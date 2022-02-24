@@ -5,8 +5,11 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""]
 
 di_v2_keys = [
-    "722723","723612","726601","728535","732834","740260","742278","749251","750004","750577","759944","763744",
+    "722723","723612","726601","728535","732834","740260","749251","750004","750577","759944","763744",
     "763901","764038","764180","764622","765880","766421"
+]
+di_v2b_keys = [
+    "732717", "742278"
 ]
 '''
 "742112" - does have info about d/i, but no section title
@@ -33,6 +36,13 @@ nt_word = [
     "Talent Acquisition, Retention and Employee Development","Compensation and Benefits","Succession Planning",
     "Engagement: "
 
+]
+
+i_start_word_list = [
+    "Diversity"
+]
+i_nxt_word_list = [
+    "Development"
 ]
 
 ''''
