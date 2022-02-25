@@ -8,7 +8,7 @@ di_v2_keys = [
     "722723","723612","726601","728535","732717","732834","740260","742278","749251","750004","750577","759944","763744",
     "763901","764038","764180","764622","765880","766421","766829","768899","769520","776901","783325","784977",
     "785161","789460","789570","790051","793074","793733","793952",
-    "798287","798354","802481","802681","805676","809248","811156"
+    "798287","798354","802481","802681","805676","809248","811156","811596"
 ]
 
 di_v2_keys_s4 = [
@@ -36,7 +36,7 @@ st_word = [
     "Diversity, Equity and Inclusion (DEI) ",
     "We contract with independent contractors to supply one or more trucks and drivers for our use. Independent contractors must pay their own truck expenses, fuel, maintenance, insurance, and driver costs. They must meet and operate within our guidelines with respect to safety. We have a lease-purchase program whereby we offer independent contractors the opportunity to lease a truck, with the option to purchase the truck at the end of the lease term. We believe our lease-purchase program has contributed to our ability to attract and retain independent contractors. At December 31, 2020, approximately 305 independent contractors were leasing 393 trucks in this program.",
     "Diversity and Inclusion. ","Diversity, Equity and Inclusion.","D&I ",
-    "Diversity, Equity, and Inclusion"
+    "Diversity, Equity, and Inclusion",
 ]
 
 
@@ -55,6 +55,7 @@ nt_word = [
     "Employee Health and Safety. We are committed to being an industry leader in health and safety standards. The physical health, wellbeing, and mental health of our employees is crucial to our success. Most recently, our primary concern during the COVID-19 pandemic has been to do our part to protect our employees, customers, vendors and the general public from the spread of COVID-19 while continuing to serve the vital role of supplying essential goods to the nation. Where possible, our employees are working remotely from their homes. For essential functions, including our driving professionals, we have distributed cleaning and protective supplies to various terminals so that they are available to those that need them, increased cleaning frequency and coverage, and provided employees direction on precautionary measures, such as sanitizing truck interiors, personal hygiene, and social distancing. We will continue to adapt our operations as required to ensure safety while continuing to provide a high level of service to our customers.",
     "Development and Retention","Retention and Career Development.","Health & Safety. ","Summary","Training",
     #"capABLE, aimed at removing barriers and creating pathways to meaningful work for employees of all abilities"
+    "Labor Union Affiliations"
 ]
 
 i_start_word_list = [

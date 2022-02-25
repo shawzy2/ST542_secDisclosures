@@ -65,7 +65,7 @@ for di_file in os.listdir("../ST542_secDisclosures/yescik/di/"):
     break
 
 
-#V2 format
+# V2 format
 # Testing purposes
 files = ['allFilings2021_part2.json','allFilings2021_part3.json','allFilings2021_part4.json','allFilings2021_part5.json','allFilings2021_part6.json']
 output_dic = {}

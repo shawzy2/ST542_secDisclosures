@@ -19,6 +19,7 @@ di_v2_keys_s4 = sec_data_listv2.di_v2_keys_s4
 def filter_di_v2(d):
     d_data = d
     output_json = {}
+    all_inner_json = {}
     # key would be part 2-6
     for key, value in d_data.items(): # output_json[key] = dicitonary values or inner_json
         # inner_key is the cik; inner_value is the list
@@ -233,10 +234,20 @@ def filter_di_v2(d):
                 #continue
             #break # stopping after first iterationr
             inner_json[inner_key] = di_list
-            pprint.pprint(inner_json)
+            #pprint.pprint(inner_json)
+            all_inner_json.update(inner_json)
+            #pprint.pprint(all_inner_json)
            # print(inner_json)
-            output_json[key] = inner_json
+            #output_json[key] = all_inner_json
+            #pprint.pprint(output_json)
             #print(output_json)
         break
+    output_json[key] = all_inner_json
+    with open(f"../ST542_secDisclosures/cik_v2/dioutput.json","w", encoding='utf8') as new_content:
+        json.dump(output_json, new_content,ensure_ascii=False, indent=4)
         # output_json[key] = inner_json
         # print(output_json)
+    #output_json[key] = inner_json
+    #pprint.pprint(output_json)
+
+    # key: key_value dict
