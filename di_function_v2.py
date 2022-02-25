@@ -104,28 +104,28 @@ def filter_di_v2(d):
                 
                 # This ocde chunk below should take of Scenario 3 and 4
                 # 732717, 742278
-            elif inner_key in dib_keys:
-                print(inner_key)
-                for i_element in word_list:
-                    if i_element in i_start_word_list:
-                        i_start_index = test_word_list.index(i_element)
-                        i_last_index = len(word_list) - 1 
-                        i_inner_list = word_list[i_start_index+1:i_last_index]
-                        print(i_inner_list)
-                        for i_end_element in i_inner_list:
-                            i_initial_end_index = word_list.index(i_end_element)
-                            i_initial_end_element = word_list[i_initial_end_index]
-                            if i_initial_end_element in i_nxt_word_list: 
-                                i_end_index = test_word_list.index(i_initial_end_element)
-                                #print(initial_end_index)
-                                #print(end_index)
+            # elif inner_key in dib_keys:
+            #     print(inner_key)
+            #     for i_element in word_list:
+            #         if i_element in i_start_word_list:
+            #             i_start_index = test_word_list.index(i_element)
+            #             i_last_index = len(word_list) - 1 
+            #             i_inner_list = word_list[i_start_index+1:i_last_index]
+            #             print(i_inner_list)
+            #             for i_end_element in i_inner_list:
+            #                 i_initial_end_index = word_list.index(i_end_element)
+            #                 i_initial_end_element = word_list[i_initial_end_index]
+            #                 if i_initial_end_element in i_nxt_word_list: 
+            #                     i_end_index = test_word_list.index(i_initial_end_element)
+            #                     #print(initial_end_index)
+            #                     #print(end_index)
 
-                                # print(end_element)
-                                # print(start_index)
-                                # print(end_index)
-                                for ind in range(i_start_index+1,i_end_index):
-                                    di_list.append(test_word_list[ind])
-                                break # This break statement is necessary once initial_end_element is found in nt_word_list
+            #                     # print(end_element)
+            #                     # print(start_index)
+            #                     # print(end_index)
+            #                     for ind in range(i_start_index+1,i_end_index):
+            #                         di_list.append(test_word_list[ind])
+            #                     break # This break statement is necessary once initial_end_element is found in nt_word_list
 
                                     
 
