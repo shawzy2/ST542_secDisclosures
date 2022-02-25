@@ -15,6 +15,9 @@ di_v2_keys = [
 di_v2_keys_s4 = [
     "811156"
 ]
+di_v2_keys_s4b = [
+    "827052"
+]
 
 '''
 "742112" - does have info about d/i, but no section title

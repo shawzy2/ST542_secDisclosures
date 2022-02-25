@@ -15,6 +15,7 @@ nt_word_list = sec_data_listv2.nt_word
 i_start_word_list = sec_data_listv2.i_start_word_list
 i_nxt_word_list = sec_data_listv2.i_nxt_word_list
 di_v2_keys_s4 = sec_data_listv2.di_v2_keys_s4
+di_v2_keys_s4b = sec_data_listv2.di_v2_keys_s4b
 
 def filter_di_v2(d):
     d_data = d
@@ -68,7 +69,7 @@ def filter_di_v2(d):
                         elif len(inner_list) !=1: # 732834, 811156'
                             #print(len(inner_list))
                             # Maybe right a condition based off if the last element is a digit
-                            if inner_key not in di_v2_keys_s4:
+                            if inner_key not in di_v2_keys_s4 and inner_key not in di_v2_keys_s4b:
                                 for end_element in inner_list:
                                     initial_end_index = inner_value.index(end_element)
                                     initial_end_element = inner_value[initial_end_index]
@@ -84,6 +85,22 @@ def filter_di_v2(d):
                                             else:
                                                 di_list.append(my_data_list[ind])
                                         break # This break statement is necessary once initial_end_element is found in nt_word_list
+                            elif inner_key in di_v2_keys_s4b:
+                                for end_element in inner_list:
+                                    initial_end_index = inner_value.index(end_element)
+                                    initial_end_element = inner_value[initial_end_index]
+                                    if end_element.isdigit() and len(end_element) == 3: # this could break if the digit is part of the table
+                                        continue # skipping page number, does not mean getting rid of it yet
+                                    elif end_element in nt_word_list: 
+                                        end_index = my_data_list.index(initial_end_element)
+                                        for ind in range(start_index+1,end_index):
+                                            if my_data_list[ind].isdigit() and len(my_data_list[ind]) == 3:
+                                                continue # This will get rid of the page number
+                                            elif my_data_list[ind] in non_element:
+                                                continue
+                                            else:
+                                                di_list.append(my_data_list[ind])
+                                        break # This break statement is necessary once initial_end_element is found in nt_word_list                          
                             else:
                                 # This is for '811156'
                                 #print(inner_list[-1])
