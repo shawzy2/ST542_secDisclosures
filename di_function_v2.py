@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 
 non_element = sec_data_listv2.non_element
 di_keys = sec_data_listv2.di_v2_keys
-dib_keys = sec_data_listv2.di_v2b_keys
+#dib_keys = sec_data_listv2.di_v2b_keys
 no_di_keys = sec_data_listv2.no_di_v2_keys
 start_word_list = sec_data_listv2.st_word
 nt_word_list = sec_data_listv2.nt_word
@@ -51,6 +51,10 @@ def filter_di_v2(d):
                         last_index_case2 = len(inner_value)
                         inner_list = inner_value[start_index+1:last_index]
                         inner_list_case2 = inner_value[start_index+1:last_index_case2]
+                        inner_list_case3 = inner_value[start_index+1:last_index_case2+1]
+                        #print(inner_list_case2)
+                        #print(inner_list_case3)
+                        #print(len(inner_list_case3))
 
                         # This should take care of the number at the end or d/is that end with a number
                         # Case1: 766421
@@ -63,6 +67,17 @@ def filter_di_v2(d):
                         if len(inner_list_case2) == 1:
                             for ind in range(len(inner_list_case2)):
                                 di_list.append(inner_list_case2[ind])
+                        
+                        # Case 3: 811156
+                        if len(inner_list_case3) != 1:
+                            for ind in range(len(inner_list_case3)):
+                                if inner_list_case3[ind].isdigit() and len(inner_list_case3[ind]) <=2:
+                                    continue
+                                elif inner_list_case3[ind] in non_element:
+                                    continue
+                                else:
+                                    di_list.append(inner_list_case3[ind])
+                            break
                         
                         for end_element in inner_list:
                             initial_end_index = inner_value.index(end_element)
@@ -87,6 +102,8 @@ def filter_di_v2(d):
                                 for ind in range(start_index+1,end_index):
                                     if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
                                         continue # This will get rid of the page number
+                                    elif my_data_list[ind] in non_element:
+                                        continue
                                     else:
                                         #print(my_data_list[ind])
                                         di_list.append(my_data_list[ind])
@@ -102,30 +119,6 @@ def filter_di_v2(d):
                             else:
                                 continue
                 
-                # This ocde chunk below should take of Scenario 3 and 4
-                # 732717, 742278
-            # elif inner_key in dib_keys:
-            #     print(inner_key)
-            #     for i_element in word_list:
-            #         if i_element in i_start_word_list:
-            #             i_start_index = test_word_list.index(i_element)
-            #             i_last_index = len(word_list) - 1 
-            #             i_inner_list = word_list[i_start_index+1:i_last_index]
-            #             print(i_inner_list)
-            #             for i_end_element in i_inner_list:
-            #                 i_initial_end_index = word_list.index(i_end_element)
-            #                 i_initial_end_element = word_list[i_initial_end_index]
-            #                 if i_initial_end_element in i_nxt_word_list: 
-            #                     i_end_index = test_word_list.index(i_initial_end_element)
-            #                     #print(initial_end_index)
-            #                     #print(end_index)
-
-            #                     # print(end_element)
-            #                     # print(start_index)
-            #                     # print(end_index)
-            #                     for ind in range(i_start_index+1,i_end_index):
-            #                         di_list.append(test_word_list[ind])
-            #                     break # This break statement is necessary once initial_end_element is found in nt_word_list
 
                                     
 
