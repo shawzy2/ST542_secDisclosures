@@ -16,6 +16,7 @@ i_start_word_list = sec_data_listv2.i_start_word_list
 i_nxt_word_list = sec_data_listv2.i_nxt_word_list
 di_v2_keys_s4 = sec_data_listv2.di_v2_keys_s4
 di_v2_keys_s4b = sec_data_listv2.di_v2_keys_s4b
+di_v2_keys_s4c = sec_data_listv2.di_v2_keys_s4c
 
 def filter_di_v2(d):
     d_data = d
@@ -59,17 +60,33 @@ def filter_di_v2(d):
                         #print(inner_list_case3)
                         #print(len(inner_list_case3))
                         #print(len(inner_list))
+                        # if inner_key == "860731":
+                        #     print(inner_list_case2)
+                        #     print(len(inner_list_case2))
 
-                        if len(inner_list) ==0:# 732834
+                        if len(inner_list) ==0:# 732834, 850460
+                            #print(inner_key)
                             for ind in range(len(inner_list_case2)):
                                 di_list.append(inner_list_case2[ind])
-                        elif len(inner_list) == 1:
-                            for ind in range(len(inner_list)):
-                                di_list.append(inner_list[ind])
-                        elif len(inner_list) !=1: # 732834, 811156'
+                        elif len(inner_list) == 1:#766421, 860731
+                            #print(inner_key)
+                            if inner_key in di_v2_keys_s4c:
+                                last_index = len(inner_value) 
+                                inner_list = inner_value[start_index+1:last_index]
+                                #print(inner_list)
+                                for ind in range(len(inner_list)):
+                                    di_list.append(inner_list[ind])
+                            else:
+                                for ind in range(len(inner_list)):
+                                    di_list.append(inner_list[ind])
+                        # elif len(inner_list) == 2: # 823768, 831259
+                        #     #print(inner_key)
+                        elif len(inner_list) >=1: # 
                             #print(len(inner_list))
                             # Maybe right a condition based off if the last element is a digit
-                            if inner_key not in di_v2_keys_s4 and inner_key not in di_v2_keys_s4b:
+                            #print(inner_key)
+                            if inner_key not in di_v2_keys_s4 and inner_key not in di_v2_keys_s4b :#and inner_key not in di_v2_keys_s4c:
+                                #print(inner_key)
                                 for end_element in inner_list:
                                     initial_end_index = inner_value.index(end_element)
                                     initial_end_element = inner_value[initial_end_index]
@@ -85,7 +102,8 @@ def filter_di_v2(d):
                                             else:
                                                 di_list.append(my_data_list[ind])
                                         break # This break statement is necessary once initial_end_element is found in nt_word_list
-                            elif inner_key in di_v2_keys_s4b:
+                            elif inner_key in di_v2_keys_s4b:# and inner_key not in di_v2_keys_s4:# and inner_key not in di_v2_keys_s4c:
+                                #print(inner_key)
                                 for end_element in inner_list:
                                     initial_end_index = inner_value.index(end_element)
                                     initial_end_element = inner_value[initial_end_index]
@@ -100,8 +118,31 @@ def filter_di_v2(d):
                                                 continue
                                             else:
                                                 di_list.append(my_data_list[ind])
-                                        break # This break statement is necessary once initial_end_element is found in nt_word_list                          
+                                        break # This break statement is necessary once initial_end_element is found in nt_word_list  
+                            #elif inner_key in di_v2_keys_s4c and inner_key not in di_v2_keys_s4b and inner_key not in di_v2_keys_s4:
+                                #print(inner_key)
+                                # last_index_case = len(inner_value)
+                                # inner_list = inner_value[start_index+1:last_index]
+                                # for ind in range(len(inner_list_case2)):
+                                #     di_list.append(inner_list_case2[ind])
+                                # break
+                                # for end_element in inner_list_case2:
+                                #     initial_end_index = inner_value.index(end_element)
+                                #     initial_end_element = inner_value[initial_end_index]
+                                #     if end_element.isdigit() and len(end_element) <=2: # this could break if the digit is part of the table
+                                #         continue # skipping page number, does not mean getting rid of it yet
+                                #     elif end_element not in nt_word_list: 
+                                #         end_index = my_data_list.index(initial_end_element)
+                                #         for ind in range(start_index+1,end_index+1):
+                                #             if my_data_list[ind].isdigit() and len(my_data_list[ind]) <=2:
+                                #                 continue # This will get rid of the page number
+                                #             elif my_data_list[ind] in non_element:
+                                #                 continue
+                                #             else:
+                                #                 di_list.append(my_data_list[ind])
+                                #         break # This break statement is necessary once initial_end_element is found in nt_word_list                          
                             else:
+                                #print(inner_key)
                                 # This is for '811156'
                                 #print(inner_list[-1])
                                 end_element = inner_list[-1]

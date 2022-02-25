@@ -9,15 +9,20 @@ di_v2_keys = [
     "763901","764038","764180","764622","765880","766421","766829","768899","769520","776901","783325","784977",
     "785161","789460","789570","790051","793074","793733","793952",
     "798287","798354","802481","802681","805676","809248","811156","811596", "813672","813828","816761",
-    "816956","818479","820027","820313","821189","823768","825313","827052"
+    "816956","818479","820027","820313","821189","823768","825313","827052","831001","831259","832428","837465",
+    "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731"
 ]
 
 di_v2_keys_s4 = [
-    "811156"
+    "811156","831259","850460"
 ]
 di_v2_keys_s4b = [
     "827052"
 ]
+di_v2_keys_s4c = [
+    "860731"
+]
+
 
 '''
 "742112" - does have info about d/i, but no section title
@@ -42,7 +47,10 @@ st_word = [
     "Diversity and Inclusion. ","Diversity, Equity and Inclusion.","D&I ",
     "Diversity, Equity, and Inclusion", "Diversity and Inclusion ","A Culture of Diversity, Equity and Inclusion",
     "We have also continued to attract experienced, productive advisors, with 336 experienced advisors moving their practices to Ameriprise in 2020 and approximately 1,700 in the last 5 years.",
-    "Governance and Culture - Our Board of Directors (the “Board”) is actively involved in overseeing the Company’s employee-related strategies and practices as well as the Company’s culture. This oversight is conducted both directly and through certain of the Board’s committees. At each of its regularly scheduled quarterly meetings, the Board reviews changes in key personnel and, at least annually, meets with management to discuss various human resources related topics, including talent development, succession planning, compensation and culture. We believe the Company’s culture has been a critical component of the Company’s success and reinforcing that culture is a key responsibility of our executive management."
+    "Governance and Culture - Our Board of Directors (the “Board”) is actively involved in overseeing the Company’s employee-related strategies and practices as well as the Company’s culture. This oversight is conducted both directly and through certain of the Board’s committees. At each of its regularly scheduled quarterly meetings, the Board reviews changes in key personnel and, at least annually, meets with management to discuss various human resources related topics, including talent development, succession planning, compensation and culture. We believe the Company’s culture has been a critical component of the Company’s success and reinforcing that culture is a key responsibility of our executive management.",
+    "Inclusion and Diversity ","Equity, Diversity and Inclusion",
+    "As of December 31, 2020, we had 5,989 employees located in approximately 39 different countries in a variety of different roles. In the highly competitive medical device industry, we consider attracting, developing, and retaining talented people in technical, operational, marketing, sales, research, management, and other positions to be critical to our overall long-term growth strategy. Our ability to recruit and retain such talent depends on several factors, including compensation and benefits, talent development, career opportunities, and work environment. We invest in our people and cultivate a company culture committed to supporting a diverse and inclusive workforce.",
+    "Our People, Our Priority","Diversity, Equity and Inclusion "
 ]
 
 
@@ -64,7 +72,11 @@ nt_word = [
     "Labor Union Affiliations","Table of Contents","Preventing Harassment and Discrimination",
     "Training, Development and Retention","Diversity & Inclusion Council",
     "Importantly, our compensation programs are designed to drive a high-performing workforce with deliberate alignment of rewards with client and shareholder success. Weighing both individual goal achievement (the “what”) and leadership performance (the “how”) is critical to driving strong business results and engaging, motivating and retaining our employees.",
-    "Workforce Continuity"
+    "Workforce Continuity","Workforce Development","Employee Well Being","Together We Belong ","Talent Development",
+    "Career Development","Human Capital Risk",
+    "Employee Engagement. The engagement of our workforce is critical to delivering on our competitive strategy, and we place high importance on informed and engaged employees. We communicate frequently and transparently with our employees through a variety of communication methods, including video and written communications, town hall meetings, and our company intranet, and we acknowledge individual contributions to Merit by celebrating milestones of service in ",
+    "Employee Engagement Surveys","Compensation and Benefits "
+    #"In 2020, our diversity, equity and inclusion (DEI) efforts included focused DEI discussions at the executive and local team levels, assessment of DEI effectiveness across the HR lifecycle, hiring manager training, the development of a Women’s Leadership Mentoring program, and support and advocacy for local DEI councils at Tyler. We encourage you to review our 2020 Corporate Responsibility Report located at http://www.tylertech.com for more detailed information regarding our Human Capital programs and initiatives. "
 ]
 
 i_start_word_list = [
@@ -86,4 +98,5 @@ Did not include:
 Questionable:
 "818479
 "820027"
+"860413"
 """
