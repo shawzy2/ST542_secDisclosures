@@ -14,6 +14,7 @@ start_word_list = sec_data_listv2.st_word
 nt_word_list = sec_data_listv2.nt_word
 i_start_word_list = sec_data_listv2.i_start_word_list
 i_nxt_word_list = sec_data_listv2.i_nxt_word_list
+di_v2_keys_s4 = sec_data_listv2.di_v2_keys_s4
 
 def filter_di_v2(d):
     d_data = d
@@ -55,69 +56,161 @@ def filter_di_v2(d):
                         #print(inner_list_case2)
                         #print(inner_list_case3)
                         #print(len(inner_list_case3))
+                        #print(len(inner_list))
+
+                        # for end_element in inner_list:
+                        #     initial_end_index = inner_value.index(end_element)
+                        #     initial_end_element = inner_value[initial_end_index]
+                        #     #print(start_element)
+                        #     #print(end_element)
+                        #     # print(initial_end_element)
+                        #     # print(initial_end_index)
+                        #     if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                        #         #print(end_element)
+                        #         #print(initial_end_index)
+                        #         continue # skipping page number, does not mean getting rid of it yet
+                        #     elif initial_end_element in nt_word_list: 
+                        #         end_index = my_data_list.index(initial_end_element)
+                        #         #print(initial_end_index)
+                        #         #print(end_index)
+
+                        #         # print(end_element)
+                        #         # print(start_index)
+                        #         # print(end_index)
+                        #         # break
+                        #         for ind in range(start_index+1,end_index):
+                        #             if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                        #                 continue # This will get rid of the page number
+                        #             elif my_data_list[ind] in non_element:
+                        #                 continue
+                        #             else:
+                        #                 #print(my_data_list[ind])
+                        #                 di_list.append(my_data_list[ind])
+                        #                 #print(di_list)
+                        #                 #continue
+                        #         break # This break statement is necessary once initial_end_element is found in nt_word_list
+                        #     # d/i inside of element:742278
+                        #     # Need to take a look at again
+                        #     # 732717, 742278
+                        #     #print()
+                        #     else:
+                        #         continue
+                                    #print(inner_list_case2)
+
 
                         # This should take care of the number at the end or d/is that end with a number
                         # Case1: 766421
                         # Ex: ['D/I', 'D/I Description', '14']
-                        if len(inner_list) == 1:
-                            for ind in range(len(inner_list)):
-                                di_list.append(inner_list[ind])
-                        # Case 2: 732834
-                        # Ex: ['D/I', 'D/I Description']
-                        if len(inner_list_case2) == 1:
+                        # if inner_key == "732834":
+                        #     print(inner_list)
+                        if len(inner_list) ==0:# 732834
                             for ind in range(len(inner_list_case2)):
                                 di_list.append(inner_list_case2[ind])
-                        
-                        # Case 3: 811156
-                        if len(inner_list_case3) != 1:
-                            for ind in range(len(inner_list_case3)):
-                                if inner_list_case3[ind].isdigit() and len(inner_list_case3[ind]) <=2:
-                                    continue
-                                elif inner_list_case3[ind] in non_element:
-                                    continue
-                                else:
-                                    di_list.append(inner_list_case3[ind])
-                            break
-                        
-                        for end_element in inner_list:
-                            initial_end_index = inner_value.index(end_element)
-                            initial_end_element = inner_value[initial_end_index]
-                            #print(start_element)
-                            #print(end_element)
-                            # print(initial_end_element)
-                            # print(initial_end_index)
-                            if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
-                                #print(end_element)
-                                #print(initial_end_index)
-                                continue # skipping page number, does not mean getting rid of it yet
-                            elif initial_end_element in nt_word_list: 
-                                end_index = my_data_list.index(initial_end_element)
-                                #print(initial_end_index)
-                                #print(end_index)
-
-                                # print(end_element)
-                                # print(start_index)
-                                # print(end_index)
-                                # break
-                                for ind in range(start_index+1,end_index):
-                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
-                                        continue # This will get rid of the page number
-                                    elif my_data_list[ind] in non_element:
-                                        continue
-                                    else:
-                                        #print(my_data_list[ind])
-                                        di_list.append(my_data_list[ind])
-                                        #print(di_list)
-                                        #continue
-                                break # This break statement is necessary once initial_end_element is found in nt_word_list
-
-                            # d/i inside of element:742278
-                            # Need to take a look at again
-                            # 732717, 742278
-
-
+                        elif len(inner_list) == 1:
+                            for ind in range(len(inner_list)):
+                                di_list.append(inner_list[ind])
+                        elif len(inner_list) !=1: # 732834, 811156'
+                            #print(len(inner_list))
+                            # Maybe right a condition based off if the last element is a digit
+                            if inner_key not in di_v2_keys_s4:
+                                for end_element in inner_list:
+                                    initial_end_index = inner_value.index(end_element)
+                                    initial_end_element = inner_value[initial_end_index]
+                                    if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                        continue # skipping page number, does not mean getting rid of it yet
+                                    elif end_element in nt_word_list: 
+                                        end_index = my_data_list.index(initial_end_element)
+                                        for ind in range(start_index+1,end_index):
+                                            if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                continue # This will get rid of the page number
+                                            elif my_data_list[ind] in non_element:
+                                                continue
+                                            else:
+                                                di_list.append(my_data_list[ind])
+                                        break # This break statement is necessary once initial_end_element is found in nt_word_list
                             else:
-                                continue
+                                # This is for '811156'
+                                #print(inner_list[-1])
+                                end_element = inner_list[-1]
+                                initial_end_index = inner_list.index(inner_list[-1])
+                                initial_end_element = inner_list[initial_end_index]
+                                if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                    continue # skipping page number, does not mean getting rid of it yet
+                                elif end_element not in nt_word_list: 
+                                    end_index = my_data_list.index(initial_end_element)
+                                    for ind in range(start_index+1,end_index+1):
+                                        if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                            continue # This will get rid of the page number
+                                        elif my_data_list[ind] in non_element:
+                                            continue
+                                        else:
+                                            di_list.append(my_data_list[ind])
+                                    break # This break statement is necessary once initial_end_element is found in nt_word_list
+
+                                # elif initial_end_element not in nt_word_list: 
+                                #     end_index = my_data_list.index(initial_end_elementb)
+                                #     for ind in range(start_index+1,end_index):
+                                #         if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                #             continue # This will get rid of the page number
+                                #         elif my_data_list[ind] in non_element:
+                                #             continue
+                                #         else:
+                                #             di_list.append(my_data_list[ind])
+                                #     break
+                                    #print(initial_end_element)
+                                #     end_index = my_data_list.index(initial_end_element)
+                                #     for ind in range(start_index+1,end_index):
+                                #         if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                #             continue # This will get rid of the page number
+                                #         elif my_data_list[ind] in non_element:
+                                #             continue
+                                #         else:
+                                #             di_list.append(my_data_list[ind])
+                                #     break # This break statement is necessary once initial_end_element is found in nt_word_list
+                                else:
+                                    continue
+
+
+                            
+                            # for ind in range(len(inner_list)):
+                            #     if inner_list[ind].isdigit() and len(inner_list[ind]) <=2:
+                            #         continue
+                            #     elif inner_list[ind] in non_element:
+                            #         continue
+                            #     else:
+                            #         di_list.append(inner_list[ind])
+                        # Case 2: 732834
+                        # Ex: ['D/I', 'D/I Description']
+                        # elif len(inner_list_case2) == 1:
+                        #     for ind in range(len(inner_list_case2)):
+                        #         # if inner_list_case2[ind].isdigit() and len(inner_list_case2[ind]) <=2:
+                        #         #     continue
+                        #         # elif inner_list_case2[ind] in non_element:
+                        #         #     continue
+                        #         # else:
+                        #         di_list.append(inner_list_case2[ind])
+                        #inner_list does print out everyhtin I need
+                        #print(inner_list_case2)
+                        # Case 3: 811156
+                        # elif len(inner_list_case3) != 1:
+                        #     for ind in range(len(inner_list_case3)):
+                        #         if inner_list_case3[ind].isdigit() and len(inner_list_case3[ind]) <=2:
+                        #             continue
+                        #         elif inner_list_case3[ind] in non_element:
+                        #             continue
+                        #         else:
+                        #             di_list.append(inner_list_case3[ind])
+                        
+                        # # Case 3: 811156
+                        # if len(inner_list_case3) != 1:
+                        #     for ind in range(len(inner_list_case3)):
+                        #         if inner_list_case3[ind].isdigit() and len(inner_list_case3[ind]) <=2:
+                        #             continue
+                        #         elif inner_list_case3[ind] in non_element:
+                        #             continue
+                        #         else:
+                        #             di_list.append(inner_list_case3[ind])
+                        #     break
                 
 
                                     

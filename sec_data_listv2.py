@@ -11,6 +11,10 @@ di_v2_keys = [
     "798287","798354","802481","802681","805676","809248","811156"
 ]
 
+di_v2_keys_s4 = [
+    "811156"
+]
+
 '''
 "742112" - does have info about d/i, but no section title
 '''
@@ -50,7 +54,7 @@ nt_word = [
     "Health and Safety ",
     "Employee Health and Safety. We are committed to being an industry leader in health and safety standards. The physical health, wellbeing, and mental health of our employees is crucial to our success. Most recently, our primary concern during the COVID-19 pandemic has been to do our part to protect our employees, customers, vendors and the general public from the spread of COVID-19 while continuing to serve the vital role of supplying essential goods to the nation. Where possible, our employees are working remotely from their homes. For essential functions, including our driving professionals, we have distributed cleaning and protective supplies to various terminals so that they are available to those that need them, increased cleaning frequency and coverage, and provided employees direction on precautionary measures, such as sanitizing truck interiors, personal hygiene, and social distancing. We will continue to adapt our operations as required to ensure safety while continuing to provide a high level of service to our customers.",
     "Development and Retention","Retention and Career Development.","Health & Safety. ","Summary","Training",
-    "capABLE, aimed at removing barriers and creating pathways to meaningful work for employees of all abilities"
+    #"capABLE, aimed at removing barriers and creating pathways to meaningful work for employees of all abilities"
 ]
 
 i_start_word_list = [
