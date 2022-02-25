@@ -2,13 +2,14 @@
 
 non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-". ","​", " ", " (1)","﻿ ",""," —","–","-2-"]
+". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," "]
 
 di_v2_keys = [
     "722723","723612","726601","728535","732717","732834","740260","742278","749251","750004","750577","759944","763744",
     "763901","764038","764180","764622","765880","766421","766829","768899","769520","776901","783325","784977",
     "785161","789460","789570","790051","793074","793733","793952",
-    "798287","798354","802481","802681","805676","809248","811156","811596"
+    "798287","798354","802481","802681","805676","809248","811156","811596", "813672","813828","816761",
+    "816956","818479","820027","820313","821189","823768","825313","827052"
 ]
 
 di_v2_keys_s4 = [
@@ -36,7 +37,9 @@ st_word = [
     "Diversity, Equity and Inclusion (DEI) ",
     "We contract with independent contractors to supply one or more trucks and drivers for our use. Independent contractors must pay their own truck expenses, fuel, maintenance, insurance, and driver costs. They must meet and operate within our guidelines with respect to safety. We have a lease-purchase program whereby we offer independent contractors the opportunity to lease a truck, with the option to purchase the truck at the end of the lease term. We believe our lease-purchase program has contributed to our ability to attract and retain independent contractors. At December 31, 2020, approximately 305 independent contractors were leasing 393 trucks in this program.",
     "Diversity and Inclusion. ","Diversity, Equity and Inclusion.","D&I ",
-    "Diversity, Equity, and Inclusion",
+    "Diversity, Equity, and Inclusion", "Diversity and Inclusion ","A Culture of Diversity, Equity and Inclusion",
+    "We have also continued to attract experienced, productive advisors, with 336 experienced advisors moving their practices to Ameriprise in 2020 and approximately 1,700 in the last 5 years.",
+    "Governance and Culture - Our Board of Directors (the “Board”) is actively involved in overseeing the Company’s employee-related strategies and practices as well as the Company’s culture. This oversight is conducted both directly and through certain of the Board’s committees. At each of its regularly scheduled quarterly meetings, the Board reviews changes in key personnel and, at least annually, meets with management to discuss various human resources related topics, including talent development, succession planning, compensation and culture. We believe the Company’s culture has been a critical component of the Company’s success and reinforcing that culture is a key responsibility of our executive management."
 ]
 
 
@@ -55,7 +58,10 @@ nt_word = [
     "Employee Health and Safety. We are committed to being an industry leader in health and safety standards. The physical health, wellbeing, and mental health of our employees is crucial to our success. Most recently, our primary concern during the COVID-19 pandemic has been to do our part to protect our employees, customers, vendors and the general public from the spread of COVID-19 while continuing to serve the vital role of supplying essential goods to the nation. Where possible, our employees are working remotely from their homes. For essential functions, including our driving professionals, we have distributed cleaning and protective supplies to various terminals so that they are available to those that need them, increased cleaning frequency and coverage, and provided employees direction on precautionary measures, such as sanitizing truck interiors, personal hygiene, and social distancing. We will continue to adapt our operations as required to ensure safety while continuing to provide a high level of service to our customers.",
     "Development and Retention","Retention and Career Development.","Health & Safety. ","Summary","Training",
     #"capABLE, aimed at removing barriers and creating pathways to meaningful work for employees of all abilities"
-    "Labor Union Affiliations"
+    "Labor Union Affiliations","Table of Contents","Preventing Harassment and Discrimination",
+    "Training, Development and Retention","Diversity & Inclusion Council",
+    "Importantly, our compensation programs are designed to drive a high-performing workforce with deliberate alignment of rewards with client and shareholder success. Weighing both individual goal achievement (the “what”) and leadership performance (the “how”) is critical to driving strong business results and engaging, motivating and retaining our employees.",
+    "Workforce Continuity"
 ]
 
 i_start_word_list = [
@@ -69,5 +75,12 @@ i_nxt_word_list = [
 Did not include:
 731012
 742112
-
+814453
 '''
+
+
+"""
+Questionable:
+"818479
+"820027"
+"""
