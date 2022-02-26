@@ -289,18 +289,7 @@ def filter_di_v2(d):
                                                     di_list.append(my_data_list[ind])
                                             break
                                 #print(di_list)
-                                        #else:
-                                            #continue
-                                        #     end_index = my_data_list.index(initial_end_element)
-                                        #     for ind in range(start_index+1,end_index):
-                                        #         if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
-                                        #             continue # This will get rid of the page number
-                                        #         elif my_data_list[ind] in nt_word_list:
-                                        #             continue
-                                        #         elif my_data_list[ind] in non_element: # for 867773, it got rid of table of contents
-                                        #             continue
-                                        #         else:
-                                        #             di_list.append(my_data_list[ind])
+
 
 
 
