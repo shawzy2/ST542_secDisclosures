@@ -2,7 +2,7 @@
 
 non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," "]
+". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13"]
 
 di_v2_keys = [
     "722723","723612","726601","728535","732717","732834","740260","742278","749251","750004","750577","759944","763744",
@@ -10,7 +10,8 @@ di_v2_keys = [
     "785161","789460","789570","790051","793074","793733","793952",
     "798287","798354","802481","802681","805676","809248","811156","811596", "813672","813828","816761",
     "816956","818479","820027","820313","821189","823768","825313","827052","831001","831259","832428","837465",
-    "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731"
+    "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731","861459",
+    "861842","861878","864749","866368","866829","867773"
 ]
 
 di_v2_keys_s4 = [
@@ -21,6 +22,9 @@ di_v2_keys_s4b = [
 ]
 di_v2_keys_s4c = [
     "860731"
+]
+di_v2_keys_s4d = [
+    "867773"
 ]
 
 
@@ -50,7 +54,9 @@ st_word = [
     "Governance and Culture - Our Board of Directors (the “Board”) is actively involved in overseeing the Company’s employee-related strategies and practices as well as the Company’s culture. This oversight is conducted both directly and through certain of the Board’s committees. At each of its regularly scheduled quarterly meetings, the Board reviews changes in key personnel and, at least annually, meets with management to discuss various human resources related topics, including talent development, succession planning, compensation and culture. We believe the Company’s culture has been a critical component of the Company’s success and reinforcing that culture is a key responsibility of our executive management.",
     "Inclusion and Diversity ","Equity, Diversity and Inclusion",
     "As of December 31, 2020, we had 5,989 employees located in approximately 39 different countries in a variety of different roles. In the highly competitive medical device industry, we consider attracting, developing, and retaining talented people in technical, operational, marketing, sales, research, management, and other positions to be critical to our overall long-term growth strategy. Our ability to recruit and retain such talent depends on several factors, including compensation and benefits, talent development, career opportunities, and work environment. We invest in our people and cultivate a company culture committed to supporting a diverse and inclusive workforce.",
-    "Our People, Our Priority","Diversity, Equity and Inclusion "
+    "Our People, Our Priority","Diversity, Equity and Inclusion ","Inclusive Diversity",
+    "Diversity and Inclusion: ",
+    "The importance of diversity, equity, and inclusion"
 ]
 
 
@@ -75,8 +81,11 @@ nt_word = [
     "Workforce Continuity","Workforce Development","Employee Well Being","Together We Belong ","Talent Development",
     "Career Development","Human Capital Risk",
     "Employee Engagement. The engagement of our workforce is critical to delivering on our competitive strategy, and we place high importance on informed and engaged employees. We communicate frequently and transparently with our employees through a variety of communication methods, including video and written communications, town hall meetings, and our company intranet, and we acknowledge individual contributions to Merit by celebrating milestones of service in ",
-    "Employee Engagement Surveys","Compensation and Benefits "
+    "Employee Engagement Surveys","Compensation and Benefits ",
     #"In 2020, our diversity, equity and inclusion (DEI) efforts included focused DEI discussions at the executive and local team levels, assessment of DEI effectiveness across the HR lifecycle, hiring manager training, the development of a Women’s Leadership Mentoring program, and support and advocacy for local DEI councils at Tyler. We encourage you to review our 2020 Corporate Responsibility Report located at http://www.tylertech.com for more detailed information regarding our Human Capital programs and initiatives. "
+    "Employee Development and Training","Grow, Engage and Elevate",
+    "Work-from-Home and Protecting Our Team during the Pandemic ",
+    "Compensation Policies:","A strong safety culture"
 ]
 
 i_start_word_list = [
