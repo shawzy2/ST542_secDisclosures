@@ -11,7 +11,7 @@ di_v2_keys = [
     "798287","798354","802481","802681","805676","809248","811156","811596", "813672","813828","816761",
     "816956","818479","820027","820313","821189","823768","825313","827052","831001","831259","832428","837465",
     "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731","861459",
-    "861842","861878","864749","866368","866829","867773"
+    "861842","861878","864749","866368","866829","867773","868780"
 ]
 
 di_v2_keys_s4 = [
@@ -56,7 +56,7 @@ st_word = [
     "As of December 31, 2020, we had 5,989 employees located in approximately 39 different countries in a variety of different roles. In the highly competitive medical device industry, we consider attracting, developing, and retaining talented people in technical, operational, marketing, sales, research, management, and other positions to be critical to our overall long-term growth strategy. Our ability to recruit and retain such talent depends on several factors, including compensation and benefits, talent development, career opportunities, and work environment. We invest in our people and cultivate a company culture committed to supporting a diverse and inclusive workforce.",
     "Our People, Our Priority","Diversity, Equity and Inclusion ","Inclusive Diversity",
     "Diversity and Inclusion: ",
-    "The importance of diversity, equity, and inclusion"
+    "The importance of diversity, equity, and inclusion","Inclusion and Diversity"
 ]
 
 
@@ -85,7 +85,7 @@ nt_word = [
     #"In 2020, our diversity, equity and inclusion (DEI) efforts included focused DEI discussions at the executive and local team levels, assessment of DEI effectiveness across the HR lifecycle, hiring manager training, the development of a Women’s Leadership Mentoring program, and support and advocacy for local DEI councils at Tyler. We encourage you to review our 2020 Corporate Responsibility Report located at http://www.tylertech.com for more detailed information regarding our Human Capital programs and initiatives. "
     "Employee Development and Training","Grow, Engage and Elevate",
     "Work-from-Home and Protecting Our Team during the Pandemic ",
-    "Compensation Policies:","A strong safety culture"
+    "Compensation Policies:","A strong safety culture","Talent and Development"
 ]
 
 i_start_word_list = [

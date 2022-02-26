@@ -101,16 +101,35 @@ def filter_di_v2(d):
                                         sub_list.append(i)
                                     #print(sub_list)
                                     new_sub_list = []
+                                    nt_word_sub_list = []
                                     for j in sub_list:
-                                        if j in nt_word_list[-1]:
+                                        if j in nt_word_list: # This broke because I added a new term in nt_word_list
+                                            nt_word_sub_list.append(j)
                                             new_sub_list.append(j)
+                                            #for k in nt_word_sub_list:
                                         elif j not in nt_word_list:
                                             new_sub_list.append(j)
                                         else:
                                             continue
+                                    print(new_sub_list)
+                                    #print(nt_word_sub_list[-1])
+                                    new_sub_list2 = []
+                                    for k in new_sub_list:
+                                        if k == nt_word_sub_list[-1]:
+                                            new_sub_list2.append(k)
+                                        elif k not in nt_word_sub_list:
+                                            new_sub_list2.append(k)
+                                        else:
+                                            continue
+                                    #print(new_sub_list2)
+                                    # if j in nt_word_sub_list[-1]:
+                                    #         new_sub_list.append(j)
+                                    #         print(j)
+                                    #     else:
+                                    #         continue
                                     #print(new_sub_list)
 
-                                    for z in new_sub_list:
+                                    for z in new_sub_list2:
                                         initial_end_index = inner_value.index(z)
                                         initial_end_element = inner_value[initial_end_index]
                                         if z in nt_word_list:
@@ -126,6 +145,7 @@ def filter_di_v2(d):
                                                 else:
                                                     di_list.append(my_data_list[ind])
                                             break
+                                    print(di_list)
 
                                 else:
                                     for end_element in inner_list:
