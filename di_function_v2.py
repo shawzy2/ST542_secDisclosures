@@ -162,6 +162,7 @@ def filter_di_v2(d):
                                     #print(di_list)
 
                                 else:
+                                    #print(inner_key)
                                     for end_element in inner_list:
                                         initial_end_index = inner_value.index(end_element)
                                         initial_end_element = inner_value[initial_end_index]

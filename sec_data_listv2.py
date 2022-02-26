@@ -12,14 +12,15 @@ di_v2_keys = [
     "816956","818479","820027","820313","821189","823768","825313","827052","831001","831259","832428","837465",
     "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731","861459",
     "861842","861878","864749","866368","866829","867773","868780","871763","872589","873303",
-    "873860","874015","874716","874977","875045","875357","876378","876437","877212"
+    "873860","874015","874716","874977","875045","875357","876378","876437","877212","877422","879526"
+
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212"
 ]
 di_v2_keys_s4b = [
-    "827052"
+    "827052","875357"
 ]
 di_v2_keys_s4c = [
     "860731"#,"877212"
@@ -67,7 +68,8 @@ st_word = [
     "We Are Focused on Our Diversity, Our People and Our Culture. ",
     "General Information. As of December 31, 2020, we had 866 employees globally, 461 of whom hold advanced degrees. Of these employees, 494 are engaged directly in research and development activities and 372 are in selling and general and administration. None of our employees in the United States are covered by collective bargaining agreements and we consider relations with our employees to be good.",
     "Diversity and Inclusion (D&I)","Diversity, Equity, and Inclusion.","Diversity and Inclusion Efforts",
-    "Diversity, Equity & Inclusion, or DEI"
+    "Diversity, Equity & Inclusion, or DEI","Diversity and Inclusion Efforts"
+
 ]
 
 
@@ -99,10 +101,11 @@ nt_word = [
     "Compensation Policies:","A strong safety culture","Talent and Development",
     "Developing our People: We have increased our focus on learning through internal campaigns, curated self-directed learning and through our Sales Academies and our Talent Agent program, which provides skills enhancement to recruiters to foster career advancement. To date, we have trained 2,700 recruiters and 1,345 salespeople. We have also launched a new mobile learning platform that makes on-the-go micro-courses accessible to our employees. Our employees completed nearly 65,000 of these courses in 2020. We believe that our success is contingent upon the development of our next generation of leaders. In 2019, we launched the third cohort for our Emerging Leadership Experience Program. This program identifies emerging leaders who have worked for the company for five or more years and have potential to assume greater responsibility. The two-year program provides development through our three Es approach: Education, Exposure and Experience, which includes Harvard Business School Online coursework as well as mentoring from our most senior leaders.",
     "Employee Wellness, Health, and Safety",
-     "Compensation, Benefits and Ongoing Professional Development. We are committed to rewarding, supporting, and developing the employees who make it possible to deliver on our strategy. To that end, we offer a comprehensive total rewards package that includes market-competitive pay, broad-based equity grants and bonuses, healthcare benefits, pension and retirement savings plans, paid time off and family leave, caregiving support, fitness subsidies, tuition reimbursement and an Employee Assistance Program.We offer robust onsite learning opportunities for employees at every stage in their career, and in 2020 we launched ELEVATE – our leadership development program, the participants of which reflect ethnic, racial and gender diversity. In recognition of the new challenges the COVID-19 pandemic brought, we took various steps to support our employees, including by transitioning to remote work and by offering flexible schedule, childcare assistance and sessions focused on resilience and happiness in uncertain times. At the same time, we protected our facility-dependent employees, including those needed to maintain manufacturing and clinical research, by instituting strict protocols designed to ensure they remain healthy.   ",
-     "Talent Development","Training and Development","Compensation, Benefits and Well-being","Community Service", "Community Engagement",
-     "COVID-19 Pandemic",
-     #": We leverage technology to remove gendered language from job postings to attract a diverse pool of applicants. We also strive to create a diverse slate of candidates wherever possible, with additional emphasis on our director level roles and above. We have established partnerships with Catalyst, Society of Women Engineers (SWE), National Society of Black Engineers (NSBE), Disability IN, as well as Historically Black Colleges and Universities to enhance our recruitment efforts and deepen our partnerships with diverse talent."
+    "Compensation, Benefits and Ongoing Professional Development. We are committed to rewarding, supporting, and developing the employees who make it possible to deliver on our strategy. To that end, we offer a comprehensive total rewards package that includes market-competitive pay, broad-based equity grants and bonuses, healthcare benefits, pension and retirement savings plans, paid time off and family leave, caregiving support, fitness subsidies, tuition reimbursement and an Employee Assistance Program.We offer robust onsite learning opportunities for employees at every stage in their career, and in 2020 we launched ELEVATE – our leadership development program, the participants of which reflect ethnic, racial and gender diversity. In recognition of the new challenges the COVID-19 pandemic brought, we took various steps to support our employees, including by transitioning to remote work and by offering flexible schedule, childcare assistance and sessions focused on resilience and happiness in uncertain times. At the same time, we protected our facility-dependent employees, including those needed to maintain manufacturing and clinical research, by instituting strict protocols designed to ensure they remain healthy.   ",
+    "Talent Development","Training and Development","Compensation, Benefits and Well-being","Community Service", "Community Engagement",
+    "COVID-19 Pandemic",
+    #": We leverage technology to remove gendered language from job postings to attract a diverse pool of applicants. We also strive to create a diverse slate of candidates wherever possible, with additional emphasis on our director level roles and above. We have established partnerships with Catalyst, Society of Women Engineers (SWE), National Society of Black Engineers (NSBE), Disability IN, as well as Historically Black Colleges and Universities to enhance our recruitment efforts and deepen our partnerships with diverse talent."
+    "Engagement ","Benefits and Compensation Offerings",
 ]
 
 i_start_word_list = [
@@ -127,4 +130,11 @@ Questionable:
 "818479
 "820027"
 "860413"
+"""
+
+
+"""
+Did not do yet:
+
+
 """
