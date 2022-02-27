@@ -232,7 +232,7 @@ def filter_di_v2(d):
                                         else:
                                             continue
                                     #print(new_sub_list)
-                                    print(nt_word_sub_list)
+                                    #print(nt_word_sub_list)
                                     #print(nt_word_sub_list[-1])
                                     new_sub_list2 = []
                                     for k in new_sub_list:

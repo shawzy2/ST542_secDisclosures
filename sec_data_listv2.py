@@ -3,7 +3,7 @@
 non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
-"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":"]
+"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going"]
 
 di_v2_keys = [
     # Part 2
@@ -20,39 +20,48 @@ di_v2_keys = [
     "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107","906345",
     "908255","908937","909108","911177","912242","912595", "913144","913241","914475","915912","915913","916365",
     # Part 3
-    "917491","917520","920112","920148","920371", "920522"#, "921082","921582","921738"
+    "917491","917520","920112","920148","920371", "920522", "921082","921582","921738","922224",
+    "923571","923796","924901","926326","927066", "927628","928022","929008","930420","931015",
+    "931584","933136","935494","936340", "936468", "937556","944809","945764", "945841", "949157",
+    "949870", "1000694", "1000697", "1001385", "1001902", "1004980", "1009829", "1011570", "1012100", "1013462"
 
 ]
 
 di_v2_keys_s4 = [
-    "811156","831259","850460","877212","887343","906107",
+    "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "920112"
+    "920112","921082","921738"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
-    "920112" 
+    "920112","921082","921738"
 ]
 di_v2_keys_s4b = [
     "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
     # Part 3
-    "920148","920371","920522"  #Note:  This one has a table ; 906107 shows up here
+    "920148","920371","920522", "936468", "1013462" #Note:  This one has a table ; 906107 shows up here
     # 920522 has a table and a nt_keyword that is why it is not working.
 ]
 di_v2_keys_s4b_1 = [
     # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
     # If it has multiple keywords, it will use the last keyword
-    "920522"
+    "920522", "936468"
 ]
 di_v2_keys_s4c = [
     "860731","914475","916365",#,"877212"
+    # Part 3
+    "923796","926326", "930420" , "937556", "1004980"
 ]
 di_v2_keys_s4d = [
-    "867773","896159"
+    "867773","896159",
+    # Part 3
+    "923571","927628"
 ]
 di_v2_keys_s4e = [
-    "872589"
+    "872589",
+    # Part 3
+    "935494"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -104,8 +113,12 @@ st_word = [
     "Our Diversity, Equity and Inclusion (“DEI”) Initiatives","Diversity & Inclusion. ",
     "Diversity and Inclusion.",
     # Part 3
-    "Workplace Diversity"
-    
+    "Workplace Diversity","Diversity and Veteran Recruitment Initiatives",
+    "PPL, together with its subsidiaries, is committed to fostering an exceptional workplace for employees. PPL pledges to enable success of its current and future workforce through a human capital management approach that cultivates a diverse, equitable and inclusive culture, fosters professional development and encourages employee engagement. Matters related to these priorities and corporate culture are overseen by PPL's senior management, which provides updates to the PPL Board of Directors (the Board). Three priorities of this commitment and their oversight are as follows: ",
+    "Corporate Culture & Diversity","Diversity & Belonging","Inclusion and Diversity. ","Diversity, Equity and Inclusion Program",
+    "Commitment to Diversity and Inclusion.","Employee Inclusion", "Diversity and Inclusion Initiatives:",
+    "Diversity, Equity, and Inclusion (DEI)", "Diversity.", "Inclusion& Diversity ",
+    "Each of our plants utilize various interactions to achieve this performance, from a toolbox meeting to cover the day’s work and any particular safety concern, to monthly Safety Plan Meetings, ‘No Days Away’ Safety Awards, and our employee-favorite, Safety Day. Each year, a plant may close for one full day to cover safety training and updates. Outside vendors demonstrate the latest safety procedures and equipment in a hands-on fun atmosphere.",
 ]
 
 
@@ -156,7 +169,16 @@ nt_word = [
     "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent",
     # Part 3
     "Promoting an Inclusive Culture Through Learning Opportunities.",
-    "Training and Development"
+    "Training and Development", "Employee Health and Safety",
+    "Employee engagement – Create a workplace that fosters an engaged, high-quality workforce. PPL’s operating companies regularly conduct assessments related to employee engagement, safety and culture. Senior management reviews corporate culture with the Board annually.",
+    "Safety","Employee Incentives","Talent Pipeline and Career Development","Compensation and Wellness",
+    "Safety. ",
+    "Headcount.","Human Capital Risks","Talent Management:",
+    "Talent Acquisition, Retention and Development","Employee Compensation and Benefits",
+    "Talent Development.  ","Corporate Social Responsibility ", "Corporate Social Responsibility",
+     "Ethics and Compliance. We take pride in the high standards of conduct that identifies us as a company. We have controls in place relating to compliance with our Code of Business Conduct and Ethics (“Code”), including a requirement for employees to review and understand the requirements of our Code, as well as an established whistleblower hotline and related procedures.",
+     "Management Team ", "Recruiting, Retaining and Engaging Employees and Learning and Development",
+     "Employee Recruitment, Development and Retention"
 ]
 
 i_start_word_list = [
@@ -184,12 +206,21 @@ Questionable:
 """
 Did not do yet:
 
- "880631"
+"1013488"- this is where I stopped
 """
 
 
 """
 Note:
 "893949"- got rid of the "25 "
+
+"""
+
+
+"""
+This was not scraped properly or cleaned properly and it did have a d/i section and I did not include it in my code:
+"926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.
+
+
 
 """
