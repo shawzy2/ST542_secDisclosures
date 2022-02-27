@@ -3,7 +3,8 @@
 non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
-"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going"]
+"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
+"_______________"]
 
 di_v2_keys = [
     # Part 2
@@ -25,14 +26,16 @@ di_v2_keys = [
     "931584","933136","935494","936340", "936468", "937556","944809","945764", "945841", "949157",
     "949870", "1000694", "1000697", "1001385", "1001902", "1004980", "1009829", "1011570", "1012100", "1013462",
     "1013488","1013871","1013880","1015328","1018963","1020214","1020569","1020710","1021860","1022079",
-    "1022321","1022652","1024725","1025378","1025996","1026214"
+    "1022321","1022652","1024725","1025378","1025996","1026214","1027838","1028918","1030469","1031203",
+    "1031296","1033012","1035002","1035267","1035443","1035983","1037540","1037976","1038357",
+    "1039684"
 
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "920112","921082","921738"
+    "920112","921082","921738","1035002","1035443"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -58,7 +61,7 @@ di_v2_keys_s4c = [
 di_v2_keys_s4d = [
     "867773","896159",
     # Part 3
-    "923571","927628"
+    "923571","927628","1037540"
 ]
 di_v2_keys_s4e = [
     "872589",
@@ -124,7 +127,13 @@ st_word = [
     "Culture, Values & Inclusion, Diversity, & Equity",
     "Development and Training: The attraction, development and retention of our employees is important to TTEC’s success. To support advancement of our employees and prepare them for demands of rapidly changing workplace and client requirements we offer an extensive career focused curriculum. The pressures of COVID-19 pandemic notwithstanding, in 2020 we made significant investments in our talent management platform, TTEC University, that includes a library of more than 8,000 courses that cover topics important to general business acumen ranging from business operations, leadership, ethics, finance, negotiations, and project management to subject-matter specific professional and technical curriculum. TTEC development programs help identify top performers, improve employee retention, and create promotion-from-within opportunities in the Company. In 2020, TTEC launched the Talent Accelerator Program (“TAP”) designed to identify and attract new talent and prepare them for success within our organization. The program recruits recently graduated candidates with diverse backgrounds ranging for technology to humanities who undergo a three-year specialized training and rotation through all business functions and segments in our organization. Program participants gain experience in finance, risk, human capital, IT, communication, marketing, sales, and operations, becoming fully immersed in the day-to-day operations of the business. Once the program is completed, the TAP participants will be equipped with knowledge and experience necessary to progress as a manager in the Company.",
     "INCLUSION AND DIVERSITY","Diversity and Inclusion.","Inclusion and Diversity","Diversity and Inclusion ",
-    "Inclusion and Diversity"
+    "Inclusion and Diversity",
+    "Total Rewards: Rewarding and supporting our employees is essential to Company morale. To ensure we maintain a competitive salary and benefits package, we utilize an independent third party to evaluate employee wages. We continue to explore and utilize benefits options in line with our growing and diverse workforce to attract and retain top talent. These benefits include but are not limited to retirement savings, employee stock purchase plans, a variety of health insurance options, including dental and vision, discounts on healthy foods and fitness memberships, disability insurance, and paid maternity/paternity leave. Our Remote Work Policy also allows for a flexible work schedule and location, depending on business needs and the specific role. ",
+    "Diversity, Equity, and Inclusion.","Diversity, equity and inclusion",
+    "Diversity, Equity and Inclusion (“DEI”)","Diversity, equity and inclusion. ",
+    "Diversity, Equality, and Inclusion","Building a diverse and inclusive workforce",
+    "Safety—We have established comprehensive safety programs throughout our operations to ensure that all employees comply with safety standards we have established and that are established under federal, state and local laws and regulations. Safety leadership establishes safety programs and benchmarking to improve safety across the Company. Additionally, our employment screening process seeks to determine that prospective employees have requisite skills, sufficient background references and acceptable driving records, if applicable. Our rate of incidents recordable under the standards of the Occupational Safety and Health Administration (“OSHA”) per one hundred employees per year, also known as the OSHA recordable rate, was 1.36 during 2020. This level was 20% better than the most recently published OSHA rate for our industry.",
+    "Diversity & Inclusion ","Diversity and inclusion. "
 ]
 
 
@@ -189,7 +198,10 @@ nt_word = [
     "Competitive Pay/Benefits and Pay for Performance Philosophy: TTEC compensation programs are designed to align compensation of our employees to market, and to provide appropriate incentives to attract, retain and motivate employees to achieve exceptional results for our clients and our shareholders. Our pay-for-performance philosophy aligns our compensation with TTEC’s performance and with the returns that our stockholders receive from their investment in the Company. Further, TTEC provides employees with a comprehensive benefits program that includes nicotine abatement, mental health initiatives, and overall wellness programs to support employees’ physical, emotional, and financial health.",
     "Learning & Development","Governanc","COMPANY CULTURE","Labor Relations.",
     "Career satisfaction and skills","Engagement","Table of Contents ","Talent","Competitive Pay","Employee Wellness and Benefits ",
-    "Training and Education.","Compensation and Human Capital "
+    "Training and Education.","Compensation and Human Capital ",
+    "Fair Labor Practices: We seek fair labor practices throughout our business, including from our partners and key suppliers who share our values for human rights, dignity, and respect. We have implemented a Supplier Code of Conduct requiring the same commitment to human rights, fair labor practices, and anticorruption that we value at Tactile Medical. ",
+    "Health & Safety. ","Compensation ","Employee Development","Employee engagement. ",
+    "Culture & Employee Engagement","Talent development.","Employee Safety"
 ]
 
 i_start_word_list = [
@@ -231,7 +243,7 @@ Note:
 """
 This was not scraped properly or cleaned properly and it did have a d/i section and I did not include it in my code:
 "926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.
-"1026214" - This was not scraped properly, going to have to manually take it out
+"1026214" - This was not scraped properly, going to have to manually take it out->As of 02/27/2022 resolved it by hard coding
 
 
 """
