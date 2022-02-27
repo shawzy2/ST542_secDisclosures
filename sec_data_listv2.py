@@ -20,21 +20,33 @@ di_v2_keys = [
     "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107","906345",
     "908255","908937","909108","911177","912242","912595", "913144","913241","914475","915912","915913","916365",
     # Part 3
-    "917491"
+    "917491","917520","920112","920148","920371", "920522"#, "921082","921582","921738"
 
 ]
 
 di_v2_keys_s4 = [
-    "811156","831259","850460","877212","887343","906107"
+    "811156","831259","850460","877212","887343","906107",
+    # Part 3
+    "920112"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
+    # Part 3
+    "920112" 
 ]
 di_v2_keys_s4b = [
-    "827052","875357"
+    "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
+    # Part 3
+    "920148","920371","920522"  #Note:  This one has a table ; 906107 shows up here
+    # 920522 has a table and a nt_keyword that is why it is not working.
+]
+di_v2_keys_s4b_1 = [
+    # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
+    # If it has multiple keywords, it will use the last keyword
+    "920522"
 ]
 di_v2_keys_s4c = [
-    "860731","914475","916365"#,"877212"
+    "860731","914475","916365",#,"877212"
 ]
 di_v2_keys_s4d = [
     "867773","896159"
@@ -56,6 +68,7 @@ no_di_v2_keys = [
 ]
 
 st_word = [
+    # Part 2
     "Diversity and Inclusion","Diversity, Inclusion and Belonging", "DE&I",
     "The Company operates in a cyclical business where financial performance and headcount is influenced by, among other things, changes in oil and natural gas prices. The Company’s key human capital management objectives are focused on fostering talent in the following areas:",
     #"Diversity and Equality - The Company’s workforce reflects the diversity of the communities in which it operates. Our dedicated team of employees works towards a common purpose.Our Company is strong in its values, relationships and consistency in management.  We have long been dedicated to recruiting and hiring recently discharged military personnel, and dedicated resources undertake this recruiting effort at our company. The Company received the U.S. Department of Labor's \"2019 Hire Vets Medallion Award\" in recognition of this effort and its success.  The Board of Directors has a diversity committee that monitors compliance with applicable non-discrimination laws related to race, gender and other protected classes.  The Committee provides a report of such incidences to the Board on an annual basis.",
@@ -89,13 +102,16 @@ st_word = [
     "Diversity, Inclusion, and Belonging:","Diversity, Equity, and Inclusion. ",
     "Diversity, Equity & Inclusion (“DE&I”)","Diversity, Equity, and Inclusion",
     "Our Diversity, Equity and Inclusion (“DEI”) Initiatives","Diversity & Inclusion. ",
-    "Diversity and Inclusion."
+    "Diversity and Inclusion.",
+    # Part 3
+    "Workplace Diversity"
     
 ]
 
 
 
 nt_word = [
+    # Part 2
     "Total Rewards","Health and Safety","Community Involvement","Employee Safety and Health","Health & Safety",
     "Development and Training - The Company’s management team and all its employees are expected to exhibit and promote honest, ethical and respectful conduct in the workplace. We have implemented and maintained a corporate compliance program to provide guidance for everyone associated with the Company, including its employees, officers and directors (the \"Code\"). Annual review of the Code is required which prohibits unlawful or unethical activity, including discrimination, and directs our employees, officers, and directors to avoid actions that, even if not unlawful or unethical, might create an appearance of illegality or impropriety. In addition, the Company provides annual training for preventing, identifying, reporting and ending any type of unlawful discrimination. The Company also provides a wide variety of opportunities for professional growth for all employees with in-classroom and online training, on-the-job experience, education tuition assistance and counseling.",
     "Health, Safety and Compensation","Safety","Talent Development ","Colleague Growth and Development", "Employee Experience ",
@@ -137,7 +153,10 @@ nt_word = [
     "Purpose and Culture. We strive to differentiate ourselves by our culture and talent. How we manage our human capital is critical to how we deliver on our strategy and create sustained growth and value for our shareholders. Our purpose is to improve the lives of our team members, customers and shareholders, one experience at a time. We recognize a great culture is foundational to the success of this vision. Key components in managing our human capital are listed below.",
     "Engagement & Sentiment","Health and Well-Being",
     "Employee Engagement & Training and Development"," Employee Compensation and Benefits:","Well-being and Development ",
-    "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent"
+    "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent",
+    # Part 3
+    "Promoting an Inclusive Culture Through Learning Opportunities.",
+    "Training and Development"
 ]
 
 i_start_word_list = [

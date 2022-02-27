@@ -86,6 +86,7 @@ with open(f"../ST542_secDisclosures/cik_v2/cikv2output.json","w", encoding='utf8
     json.dump(output_dic, new_content,ensure_ascii=False, indent=4)
 
 #all_outer_json = {}
+# This for loop logic is now wrong
 for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
     new_name = f"../ST542_secDisclosures/cik_v2/{json_file}"
     file_dic = {}
