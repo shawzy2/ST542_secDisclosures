@@ -231,7 +231,7 @@ def filter_di_v2(d):
                                         #print(inner_list)
                                         last_index = len(inner_value)
                                         inner_list = inner_value[start_index+1:last_index]
-                                        print(inner_list)
+                                        #print(inner_list)
                                         end_element = inner_list[-1]
                                         initial_end_index = inner_list.index(inner_list[-1])
                                         initial_end_element = inner_list[initial_end_index]

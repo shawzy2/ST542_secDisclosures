@@ -16,7 +16,8 @@ di_v2_keys = [
     "873860","874015","874716","874977","875045","875357","876378","876437","877212","877422","879526",
     "880266","880631","882095","883948","884219","884269","884713","885590","885725","886346","886982","887343",
     "887596","889331","889900","890564","891014","893949","894405","894627","895126",
-    "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107"
+    "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107","906345",
+    "908255","908937","909108","911177","912242","912595", "913144","913241","914475","915912","915913","916365"
 
 ]
 
@@ -24,13 +25,13 @@ di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
 ]
 di_v2_keys_s4_1 = [
-    "906107"
+    "906107", 
 ]
 di_v2_keys_s4b = [
     "827052","875357"
 ]
 di_v2_keys_s4c = [
-    "860731"#,"877212"
+    "860731","914475","916365"#,"877212"
 ]
 di_v2_keys_s4d = [
     "867773","896159"
@@ -82,7 +83,11 @@ st_word = [
     "The safety of our employees and others is our highest priority, as our goal is to provide an incident-free work environment. We have robust safety training programs in place that are designed to comply with applicable laws and industry standards and to benefit our employees, communities and our business. All field-based employees are required to attend an Employee Safety Orientation, which includes classes on behavior-based safety, hazard awareness, safe systems of work, permission to work, time out for safety, energy isolation, hazard communication (HAZCOM) and material handling. In response to the COVID-19 pandemic, we implemented, and continue to implement, safety protocols at our offices, facilities and worksites.These protocols include allowing many of our office-based employees to work from home, while implementing additional safety measures for employees continuing critical on-site work.",
     "Celebrating Inclusion and Diversity","Diversity and inclusion",
     "Corporate Social Responsibility, Diversity, Equity and Inclusion","Inclusive Diversity and Equity (“IDE”)",
-    "Diversity, Inclusion, and Belonging:"
+    "Diversity, Inclusion, and Belonging:","Diversity, Equity, and Inclusion. ",
+    "Diversity, Equity & Inclusion (“DE&I”)","Diversity, Equity, and Inclusion",
+    "Our Diversity, Equity and Inclusion (“DEI”) Initiatives","Diversity & Inclusion. ",
+    "Diversity and Inclusion."
+    
 ]
 
 
@@ -125,7 +130,11 @@ nt_word = [
     "Work Practices and Employee Well-Being","Total Rewards: Compensation and Benefits ","Health, Safety, and Security",
     "Stewards of Our Environment","Talent Development and Retention","Attraction, Development, and Retention",
     "Talent Acquisition, Retention and Development:","Employee Development & Engagement","C.","Employee Wellbeing and Safety",
-    "Employee Engagement","COVID-19 Pandemic:", "Talent Attraction, Retention and Development"
+    "Employee Engagement","COVID-19 Pandemic:", "Talent Attraction, Retention and Development",
+    "Purpose and Culture. We strive to differentiate ourselves by our culture and talent. How we manage our human capital is critical to how we deliver on our strategy and create sustained growth and value for our shareholders. Our purpose is to improve the lives of our team members, customers and shareholders, one experience at a time. We recognize a great culture is foundational to the success of this vision. Key components in managing our human capital are listed below.",
+    "Engagement & Sentiment","Health and Well-Being",
+    "Employee Engagement & Training and Development"," Employee Compensation and Benefits:","Well-being and Development ",
+    "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent"
 ]
 
 i_start_word_list = [
@@ -137,12 +146,7 @@ i_nxt_word_list = [
 
 ''''
 Did not include in d/i keys:
-731012
-742112
-814453
-"874238"
-"875320"
-"898437"
+731012, 742112, 814453, "874238", "875320", "898437", "910329","912562","914208"
 '''
 
 
