@@ -85,9 +85,16 @@ if not os.path.exists(f"../ST542_secDisclosures/cik_v2/"):
 with open(f"../ST542_secDisclosures/cik_v2/cikv2output.json","w", encoding='utf8') as new_content:
     json.dump(output_dic, new_content,ensure_ascii=False, indent=4)
 
+#all_outer_json = {}
 for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
     new_name = f"../ST542_secDisclosures/cik_v2/{json_file}"
+    file_dic = {}
     with open(new_name,encoding = 'utf-8') as content:
         json_data = json.load(content)
         filter_di_data2 = filter_di_v2(json_data)
         filter_di_data2
+        # all_outer_json[json_file] = filter_di_data2
+        # all_outer_json.update(file_dic)
+        #filter_di_data2
+# with open(f"../ST542_secDisclosures/cik_v2/dioutput.json","w", encoding='utf8') as new_content:
+#     new_content.write(json.dump(all_outer_json, new_content,ensure_ascii=False, indent=4))

@@ -6,6 +6,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":"]
 
 di_v2_keys = [
+    # Part 2
     "722723","723612","726601","728535","732717","732834","740260","742278","749251","750004","750577","759944","763744",
     "763901","764038","764180","764622","765880","766421","766829","768899","769520","776901","783325","784977",
     "785161","789460","789570","790051","793074","793733","793952",
@@ -17,7 +18,9 @@ di_v2_keys = [
     "880266","880631","882095","883948","884219","884269","884713","885590","885725","886346","886982","887343",
     "887596","889331","889900","890564","891014","893949","894405","894627","895126",
     "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107","906345",
-    "908255","908937","909108","911177","912242","912595", "913144","913241","914475","915912","915913","916365"
+    "908255","908937","909108","911177","912242","912595", "913144","913241","914475","915912","915913","916365",
+    # Part 3
+    "917491"
 
 ]
 
@@ -106,7 +109,7 @@ nt_word = [
     "Employee Health and Safety. We are committed to being an industry leader in health and safety standards. The physical health, wellbeing, and mental health of our employees is crucial to our success. Most recently, our primary concern during the COVID-19 pandemic has been to do our part to protect our employees, customers, vendors and the general public from the spread of COVID-19 while continuing to serve the vital role of supplying essential goods to the nation. Where possible, our employees are working remotely from their homes. For essential functions, including our driving professionals, we have distributed cleaning and protective supplies to various terminals so that they are available to those that need them, increased cleaning frequency and coverage, and provided employees direction on precautionary measures, such as sanitizing truck interiors, personal hygiene, and social distancing. We will continue to adapt our operations as required to ensure safety while continuing to provide a high level of service to our customers.",
     "Development and Retention","Retention and Career Development.","Health & Safety. ","Summary","Training",
     #"capABLE, aimed at removing barriers and creating pathways to meaningful work for employees of all abilities"
-    "Labor Union Affiliations","Table of Contents","Preventing Harassment and Discrimination",
+    "Labor Union Affiliations","Preventing Harassment and Discrimination",
     "Training, Development and Retention","Diversity & Inclusion Council",
     "Importantly, our compensation programs are designed to drive a high-performing workforce with deliberate alignment of rewards with client and shareholder success. Weighing both individual goal achievement (the “what”) and leadership performance (the “how”) is critical to driving strong business results and engaging, motivating and retaining our employees.",
     "Workforce Continuity","Workforce Development","Employee Well Being","Together We Belong ","Talent Development",
@@ -146,7 +149,8 @@ i_nxt_word_list = [
 
 ''''
 Did not include in d/i keys:
-731012, 742112, 814453, "874238", "875320", "898437", "910329","912562","914208"
+part2.json- 731012, 742112, 814453, "874238", "875320", "898437", "910329","912562","914208"
+part3.json- 
 '''
 
 

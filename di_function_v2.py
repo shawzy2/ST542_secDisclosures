@@ -21,16 +21,22 @@ di_v2_keys_s4d = sec_data_listv2.di_v2_keys_s4d # Asssuming nt_word of the lemen
 di_v2_keys_s4e = sec_data_listv2.di_v2_keys_s4e # Asssuming nt_word of the lement is second to last
 di_v2_keys_s4f = sec_data_listv2.di_v2_keys_s4f
 di_v2_keys_s4_1 = sec_data_listv2.di_v2_keys_s4_1
-
+# all_outer_json = {}
+# output_json = {}
 def filter_di_v2(d):
     d_data = d
+    all_outer_json = {}
+    #all_outer_json = {}
     output_json = {}
-    all_inner_json = {}
+    #output_json = {}
+    #all_inner_json = {}
     # key would be part 2-6
     for key, value in d_data.items(): # output_json[key] = dicitonary values or inner_json
         # inner_key is the cik; inner_value is the list
         #inner_data = value.items()
         #inner_json = {}
+        all_inner_json = {}
+        #print(key)
         '''
         Scenario 1: D/I secion goes past the page number ...kind of done
         Scenario 2: D/I stops at the page number   ... kind of done
@@ -340,8 +346,15 @@ def filter_di_v2(d):
             inner_json[inner_key] = di_list
             #pprint.pprint(inner_json)
             all_inner_json.update(inner_json)
-
-        break
-    output_json[key] = all_inner_json
+            #all_inner_json.clear()
+            #all_inner_json[key] = inner_json
+            #all_inner_json.update(inner_json)
+        #break
+    #all_inner_json[key] = inner_json
+        output_json[key] = all_inner_json
+    # di_list.clear()
+    # all_inner_json.clear()
+    #output_json.clear()
+    #all_outer_json.update(output_json)
     with open(f"../ST542_secDisclosures/cik_v2/dioutput.json","w", encoding='utf8') as new_content:
         new_content.write(json.dump(output_json, new_content,ensure_ascii=False, indent=4))
