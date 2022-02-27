@@ -2,7 +2,8 @@
 
 non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
-". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**"]
+". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
+"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":"]
 
 di_v2_keys = [
     "722723","723612","726601","728535","732717","732834","740260","742278","749251","750004","750577","759944","763744",
@@ -12,12 +13,18 @@ di_v2_keys = [
     "816956","818479","820027","820313","821189","823768","825313","827052","831001","831259","832428","837465",
     "842162","842633","844965","845877","850460","855874","856982","857855","860413","860730","860731","861459",
     "861842","861878","864749","866368","866829","867773","868780","871763","872589","873303",
-    "873860","874015","874716","874977","875045","875357","876378","876437","877212","877422","879526"
+    "873860","874015","874716","874977","875045","875357","876378","876437","877212","877422","879526",
+    "880266","880631","882095","883948","884219","884269","884713","885590","885725","886346","886982","887343",
+    "887596","889331","889900","890564","891014","893949","894405","894627","895126",
+    "895421","896159","896262","897448","898174","899051","899629","899866","901491","903129","906107"
 
 ]
 
 di_v2_keys_s4 = [
-    "811156","831259","850460","877212"
+    "811156","831259","850460","877212","887343","906107"
+]
+di_v2_keys_s4_1 = [
+    "906107"
 ]
 di_v2_keys_s4b = [
     "827052","875357"
@@ -26,7 +33,7 @@ di_v2_keys_s4c = [
     "860731"#,"877212"
 ]
 di_v2_keys_s4d = [
-    "867773"
+    "867773","896159"
 ]
 di_v2_keys_s4e = [
     "872589"
@@ -68,8 +75,14 @@ st_word = [
     "We Are Focused on Our Diversity, Our People and Our Culture. ",
     "General Information. As of December 31, 2020, we had 866 employees globally, 461 of whom hold advanced degrees. Of these employees, 494 are engaged directly in research and development activities and 372 are in selling and general and administration. None of our employees in the United States are covered by collective bargaining agreements and we consider relations with our employees to be good.",
     "Diversity and Inclusion (D&I)","Diversity, Equity, and Inclusion.","Diversity and Inclusion Efforts",
-    "Diversity, Equity & Inclusion, or DEI","Diversity and Inclusion Efforts"
-
+    "Diversity, Equity & Inclusion, or DEI","Diversity and Inclusion Efforts","Inclusion & Diversity",
+    " Diversity, Equity and Inclusion","Diversity, equity, and inclusion: ","Diversity Equity and Inclusion ",
+    "Talent, Development, Diversity and Inclusion",
+    "Demographics:As of December 31, 2020 the company employed 2,187 full and part-time employees. None of these employees is represented by a collective bargaining agreement. During fiscal year 2020, we hired 423 employees. Our voluntary turnover rate was 18.3% in 2020, which compares to 19.6% in 2019.",
+    "The safety of our employees and others is our highest priority, as our goal is to provide an incident-free work environment. We have robust safety training programs in place that are designed to comply with applicable laws and industry standards and to benefit our employees, communities and our business. All field-based employees are required to attend an Employee Safety Orientation, which includes classes on behavior-based safety, hazard awareness, safe systems of work, permission to work, time out for safety, energy isolation, hazard communication (HAZCOM) and material handling. In response to the COVID-19 pandemic, we implemented, and continue to implement, safety protocols at our offices, facilities and worksites.These protocols include allowing many of our office-based employees to work from home, while implementing additional safety measures for employees continuing critical on-site work.",
+    "Celebrating Inclusion and Diversity","Diversity and inclusion",
+    "Corporate Social Responsibility, Diversity, Equity and Inclusion","Inclusive Diversity and Equity (“IDE”)",
+    "Diversity, Inclusion, and Belonging:"
 ]
 
 
@@ -105,7 +118,14 @@ nt_word = [
     "Talent Development","Training and Development","Compensation, Benefits and Well-being","Community Service", "Community Engagement",
     "COVID-19 Pandemic",
     #": We leverage technology to remove gendered language from job postings to attract a diverse pool of applicants. We also strive to create a diverse slate of candidates wherever possible, with additional emphasis on our director level roles and above. We have established partnerships with Catalyst, Society of Women Engineers (SWE), National Society of Black Engineers (NSBE), Disability IN, as well as Historically Black Colleges and Universities to enhance our recruitment efforts and deepen our partnerships with diverse talent."
-    "Engagement ","Benefits and Compensation Offerings",
+    "Engagement ","Benefits and Compensation Offerings","Human Capital Risks","Employee Wellness, Health and Safety ","Health and Safety",
+    "INFORMATION ABOUT OUR EXECUTIVE OFFICERS","Rewards and Performance Management: ","Talent Development",
+    "Health, Safety and Wellness ",
+    "Maintaining our Core Values – In 2020, we trained over 4,000 employees on our Code of Business Conduct and Ethics, which addresses conflicts of interest, confidentiality, fair dealing with others, proper use of company assets, compliance with laws, insider trading, keeping of books and records, zero tolerance for discrimination and harassment in the work environment, as well as reporting of violations.",
+    "Work Practices and Employee Well-Being","Total Rewards: Compensation and Benefits ","Health, Safety, and Security",
+    "Stewards of Our Environment","Talent Development and Retention","Attraction, Development, and Retention",
+    "Talent Acquisition, Retention and Development:","Employee Development & Engagement","C.","Employee Wellbeing and Safety",
+    "Employee Engagement","COVID-19 Pandemic:", "Talent Attraction, Retention and Development"
 ]
 
 i_start_word_list = [
@@ -122,6 +142,7 @@ Did not include in d/i keys:
 814453
 "874238"
 "875320"
+"898437"
 '''
 
 
@@ -136,5 +157,12 @@ Questionable:
 """
 Did not do yet:
 
+ "880631"
+"""
+
+
+"""
+Note:
+"893949"- got rid of the "25 "
 
 """
