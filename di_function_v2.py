@@ -173,6 +173,25 @@ def filter_di_v2(d):
                                                     di_list.append(my_data_list[ind])
                                             break
                                     #print(di_list)
+                                elif inner_key ==  "1026214":
+                                    for end_element in inner_list:
+                                        initial_end_index = inner_value.index(end_element)
+                                        initial_end_element = inner_value[initial_end_index]
+                                        if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                            continue # skipping page number, does not mean getting rid of it yet
+                                        elif end_element in nt_word_list: 
+                                            end_index = my_data_list.index(initial_end_element)
+                                            for ind in range(start_index+1,end_index):
+                                                if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                    continue # This will get rid of the page number
+                                                elif my_data_list[ind] in non_element:
+                                                    continue
+                                                elif my_data_list[ind] in ["Directors, Corporate Governance, and Executive Officers ","– ","Directors –"," Director Criteria, Diversity, Qualifications, Experience, and Tenure"]:
+                                                    continue
+                                                else:
+                                                    #print(f"Processing: {my_data_list[ind]}")
+                                                    di_list.append(my_data_list[ind])
+                                            break # This break statement is necessary once initial_end_element is found in nt_word_list
 
                                 else:
                                     #print(inner_key)

@@ -23,7 +23,9 @@ di_v2_keys = [
     "917491","917520","920112","920148","920371", "920522", "921082","921582","921738","922224",
     "923571","923796","924901","926326","927066", "927628","928022","929008","930420","931015",
     "931584","933136","935494","936340", "936468", "937556","944809","945764", "945841", "949157",
-    "949870", "1000694", "1000697", "1001385", "1001902", "1004980", "1009829", "1011570", "1012100", "1013462"
+    "949870", "1000694", "1000697", "1001385", "1001902", "1004980", "1009829", "1011570", "1012100", "1013462",
+    "1013488","1013871","1013880","1015328","1018963","1020214","1020569","1020710","1021860","1022079",
+    "1022321","1022652","1024725","1025378","1025996","1026214"
 
 ]
 
@@ -119,6 +121,10 @@ st_word = [
     "Commitment to Diversity and Inclusion.","Employee Inclusion", "Diversity and Inclusion Initiatives:",
     "Diversity, Equity, and Inclusion (DEI)", "Diversity.", "Inclusion& Diversity ",
     "Each of our plants utilize various interactions to achieve this performance, from a toolbox meeting to cover the day’s work and any particular safety concern, to monthly Safety Plan Meetings, ‘No Days Away’ Safety Awards, and our employee-favorite, Safety Day. Each year, a plant may close for one full day to cover safety training and updates. Outside vendors demonstrate the latest safety procedures and equipment in a hands-on fun atmosphere.",
+    "Culture, Values & Inclusion, Diversity, & Equity",
+    "Development and Training: The attraction, development and retention of our employees is important to TTEC’s success. To support advancement of our employees and prepare them for demands of rapidly changing workplace and client requirements we offer an extensive career focused curriculum. The pressures of COVID-19 pandemic notwithstanding, in 2020 we made significant investments in our talent management platform, TTEC University, that includes a library of more than 8,000 courses that cover topics important to general business acumen ranging from business operations, leadership, ethics, finance, negotiations, and project management to subject-matter specific professional and technical curriculum. TTEC development programs help identify top performers, improve employee retention, and create promotion-from-within opportunities in the Company. In 2020, TTEC launched the Talent Accelerator Program (“TAP”) designed to identify and attract new talent and prepare them for success within our organization. The program recruits recently graduated candidates with diverse backgrounds ranging for technology to humanities who undergo a three-year specialized training and rotation through all business functions and segments in our organization. Program participants gain experience in finance, risk, human capital, IT, communication, marketing, sales, and operations, becoming fully immersed in the day-to-day operations of the business. Once the program is completed, the TAP participants will be equipped with knowledge and experience necessary to progress as a manager in the Company.",
+    "INCLUSION AND DIVERSITY","Diversity and Inclusion.","Inclusion and Diversity","Diversity and Inclusion ",
+    "Inclusion and Diversity"
 ]
 
 
@@ -176,9 +182,14 @@ nt_word = [
     "Headcount.","Human Capital Risks","Talent Management:",
     "Talent Acquisition, Retention and Development","Employee Compensation and Benefits",
     "Talent Development.  ","Corporate Social Responsibility ", "Corporate Social Responsibility",
-     "Ethics and Compliance. We take pride in the high standards of conduct that identifies us as a company. We have controls in place relating to compliance with our Code of Business Conduct and Ethics (“Code”), including a requirement for employees to review and understand the requirements of our Code, as well as an established whistleblower hotline and related procedures.",
-     "Management Team ", "Recruiting, Retaining and Engaging Employees and Learning and Development",
-     "Employee Recruitment, Development and Retention"
+    "Ethics and Compliance. We take pride in the high standards of conduct that identifies us as a company. We have controls in place relating to compliance with our Code of Business Conduct and Ethics (“Code”), including a requirement for employees to review and understand the requirements of our Code, as well as an established whistleblower hotline and related procedures.",
+    "Management Team ", "Recruiting, Retaining and Engaging Employees and Learning and Development",
+    "Employee Recruitment, Development and Retention",
+    "Employee Wellness Initiatives",
+    "Competitive Pay/Benefits and Pay for Performance Philosophy: TTEC compensation programs are designed to align compensation of our employees to market, and to provide appropriate incentives to attract, retain and motivate employees to achieve exceptional results for our clients and our shareholders. Our pay-for-performance philosophy aligns our compensation with TTEC’s performance and with the returns that our stockholders receive from their investment in the Company. Further, TTEC provides employees with a comprehensive benefits program that includes nicotine abatement, mental health initiatives, and overall wellness programs to support employees’ physical, emotional, and financial health.",
+    "Learning & Development","Governanc","COMPANY CULTURE","Labor Relations.",
+    "Career satisfaction and skills","Engagement","Table of Contents ","Talent","Competitive Pay","Employee Wellness and Benefits ",
+    "Training and Education.","Compensation and Human Capital "
 ]
 
 i_start_word_list = [
@@ -220,7 +231,7 @@ Note:
 """
 This was not scraped properly or cleaned properly and it did have a d/i section and I did not include it in my code:
 "926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.
-
+"1026214" - This was not scraped properly, going to have to manually take it out
 
 
 """

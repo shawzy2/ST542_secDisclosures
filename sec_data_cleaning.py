@@ -87,7 +87,9 @@ with open(f"../ST542_secDisclosures/cik_v2/cikv2output.json","w", encoding='utf8
 
 #all_outer_json = {}
 # This for loop logic is now wrong
-for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
+json_file = "cikv2output.json"
+#for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
+if json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
     new_name = f"../ST542_secDisclosures/cik_v2/{json_file}"
     file_dic = {}
     with open(new_name,encoding = 'utf-8') as content:
