@@ -344,17 +344,9 @@ def filter_di_v2(d):
                     #di_list.append("Working on it")
                     continue
             inner_json[inner_key] = di_list
-            #pprint.pprint(inner_json)
             all_inner_json.update(inner_json)
-            #all_inner_json.clear()
-            #all_inner_json[key] = inner_json
-            #all_inner_json.update(inner_json)
-        #break
-    #all_inner_json[key] = inner_json
+
         output_json[key] = all_inner_json
-    # di_list.clear()
-    # all_inner_json.clear()
-    #output_json.clear()
-    #all_outer_json.update(output_json)
+
     with open(f"../ST542_secDisclosures/cik_v2/dioutput.json","w", encoding='utf8') as new_content:
         new_content.write(json.dump(output_json, new_content,ensure_ascii=False, indent=4))
