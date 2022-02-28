@@ -4,7 +4,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
-"_______________"]
+"_______________","- 11 -"]
 
 di_v2_keys = [
     # Part 2
@@ -30,19 +30,23 @@ di_v2_keys = [
     "1031296","1033012","1035002","1035267","1035443","1035983","1037540","1037976","1038357",
     "1039684","1041061","1042893","1043604","1046025","1046311","1047340","1048477","1049502", "1049606",
     "1050441","1050797","1051343","1053507","1057877","1058090","1059556","1060391","1060736", "1060822",
-    "1065088","1065696", "1066605","1067701"
+    "1065088","1065696", "1066605","1067701","1068851","1068875","1069157","1069183","1069202", "1070412",
+    "1070494","1070985","1071255","1071739","1073429","1075531", "1076930","1077183", "1077771","1082554",
+    "1082923","1084048","1084961","1085913","1090012","1091667","1091748","1091883","1093557","1096056","1097149",
+    "1097864","1099219","1099590","1101302","1102112", "1102993","1103982","1104506","1104657","1107843","1108109",
+    "1108827","1109546","1111335","1111711","1114483","1120193"
 
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "920112","921082","921738","1035002","1035443"
+    "920112","921082","921738","1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
-    "920112","921082","921738"
+    "920112","921082","921738","1071255","1077183", "1091883","1102112"
 ]
 di_v2_keys_s4b = [
     "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
@@ -68,7 +72,7 @@ di_v2_keys_s4d = [
 di_v2_keys_s4e = [
     "872589",
     # Part 3
-    "935494","1060391", "1067701"
+    "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -139,11 +143,18 @@ st_word = [
     "Diversity, Equity, and Inclusion ","Choice Culture and Diversity",
     "Health and Safety – Protecting the health and safety of our employees, our customers, our business partners and the natural environment is one of our core values. We are committed to conducting our business in ways that provide all personnel with a safe and healthy work environment and have established safety and environmental programs and goals to achieve such results. We expect our manufacturing facilities to produce our products safely and in compliance with local permits and policies intended to protect the environment and we have established global policies designed to promote such compliance. We require our employees to comply with legal and regulatory requirements and our policies, standards and practices.",
     "Diversity, Equity and Inclusion. ", "Diversity, Equity, and Inclusion:",
-    "Culture, Values & Diversity, Equity & Inclusion", "Inclusion and diversity (“I&D”):"
+    "Culture, Values & Diversity, Equity & Inclusion", "Inclusion and diversity (“I&D”):",
+    "As of December31, 2020, the Company had 3,756 full-time equivalent associates, 1,124 of whom were officers of the Bank. Neither the Company nor the Bank is a party to any collective bargaining agreement.",
+    "Employee and Board Diversity. ",
+    "Employee Engagement, Benefits & Development.We believe that our future success is dependent upon our ability to recruit, hire and retain exceptional employees. We provide our employees with competitive cash compensation, opportunities to own equity, and an employee benefit program that promotes well-being, including healthcare, retirement planning and paid vacation time. We also provide employees with opportunities to continue their education and growth, including leadership development and tuition reimbursement. In order to receive feedback from our employees and evaluate our level of employee engagement, we regularly conduct an employee survey.",
+    "Diversity, Equity, and Inclusion (DEI)","Diversity and Gender Equity","Human resources and hiring","World-Class Culture",
+    "Diversity, Equity and Inclusion.  ","Diversity, Equity & Inclusion","Driving a diverse and inclusive culture.",
+    "Diversity & Inclusion (\"D&I\")","Diversity. ","Diversity, equity and inclusion:",
+    "Diversity and Inclusion.. ","Focus on Inclusion"
 ]
 
 
-
+# If the nt_word list ordering changes, the whole code base I wrote will break
 nt_word = [
     # Part 2
     "Total Rewards","Health and Safety","Community Involvement","Employee Safety and Health","Health & Safety",
@@ -212,7 +223,18 @@ nt_word = [
     "Learning and Development",
     "Environmental, Social and Governance (“ESG”)","Employee Well-Being","Talent Acquisition",
     "IDACORP FINANCIAL SERVICES, INC.","Employee Engagement ","Recruiting and Retention", "Acting with Integrity",
-    "Commitment to Values and Ethics","Employee Engagement.","Compensation programs and employee benefits:"
+    "Commitment to Values and Ethics","Employee Engagement.","Compensation programs and employee benefits:",
+    "Compensation and Benefits. The Company believes in maintaining progressive employment policies, as well as a competitive wage and benefit package.The Company has invested heavily in its officers and associates by recruiting talented officers in its market areas and providing them with economic incentives. The senior management team has substantial experience in the Company’s market areas and the surrounding communities in which the Company has a presence. Most banking center locations are overseen by a local president or manager with knowledge of the community and lending expertise in the specific industries found in the community. The Company operates each banking center as a separate profit center, maintaining separate data with respect to each banking center’s net interest income, efficiency ratio, deposit growth, loan growth and overall profitability. Banking center presidents and managers are accountable for performance in these areas and compensated accordingly. ",
+    "Utilization of Independent Contractors and Referring Representatives.",
+    "Talent Acquisition, Development and Promotion",
+    "Compensation and Benefit Programs. We are committed to providing our employees with a competitive compensation package that rewards performance and achievement of desired business results.  Our compensation package consists of three primary benefits: pay (base pay and incentive programs), health and welfare benefits, and retirement contributions.  We analyze our compensation and benefits programs annually to ensure we remain competitive and make changes as necessary.",
+    "Employee Attraction and Retention", "Hiring and Sustaining our Workforce","Health, Safety and Well-Being","Labor relations",
+    "Attraction, Development and Retention", "Employee Communication and Engagement. ","Hiring ", "Financial, Health and Mental Well-Being",
+    "Harassment Prevention","Index to Financial Statements","Focusing on a safe and healthy workplace.  ","Recruitment and Retention",
+    "Communications and Engagement", "Training and Development. ","Training and Professional Development",
+    "Compensation, Benefits, Health, Safety and Wellness","Health and safety policies adopted during the COVID-19 pandemic",
+    "Health, Safety and Wellness","Employee Wellness and COVID-19 Response", "Health and Safety","Training and Talent Development",
+    "Recruiting & Hiring Practices","Giving Programs. ","Workplace Safety","Impact of COVID-19"
 ]
 
 i_start_word_list = [
