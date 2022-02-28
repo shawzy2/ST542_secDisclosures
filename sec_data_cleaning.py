@@ -91,6 +91,7 @@ json_file = "cikv2output.json"
 #for json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
 if json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
     new_name = f"../ST542_secDisclosures/cik_v2/{json_file}"
+    #new_name = json_file
     file_dic = {}
     with open(new_name,encoding = 'utf-8') as content:
         json_data = json.load(content)
