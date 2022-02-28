@@ -4,7 +4,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
-"_______________","- 11 -"," - "]
+"_______________","- 11 -"," - "," 17","- 12 -"]
 
 di_v2_keys = [
     # Part 2
@@ -41,7 +41,9 @@ di_v2_keys = [
     "1142596","1142750","1144980","1145197","1156039","1156375","1158172", "1158324","1158463","1159036",
     "1159167","1159281","1162461","1163165","1163302","1163370","1163739","1165002","1166003","1168054",
     "1169445","1171662","1171759","1171825","1173514","1175454","1176948", "1177702","1196501","1200375",
-    "1206264","1212458","1212545","1214816","1220754","1222840","1224608","1227025","1227636","1227654"
+    "1206264","1212458","1212545","1214816","1220754","1222840","1224608","1227025","1227636","1227654",
+    "1230245","1232524","1255474","1257640","1258602","1267238","1271214","1273813","1273931","1274173",
+    "1278021","1278027"
 
 ]
 
@@ -95,7 +97,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739"#,"1212545"
+    "1158324", "1163739","1232524","1278027"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -184,7 +186,13 @@ st_word = [
     "Diversity and Inclusion:","Employees and Equal Opportunity. ",
     "Employee Profile and Diversity","Diversity and Equal Opportunity",
     "Diversity, Equity and Inclusion:","Diversity, inclusion and belonging","Global Workforce and Diversity. ",
-    "Diversity and Inclusion  ","Demographics and Diversity"
+    "Diversity and Inclusion  ","Demographics and Diversity","Diversity and Inclusion (\"D&I\")",
+    "Training, Development and Career Opportunities.  We are committed to the personal and professional development of our employees, with the belief that a greater level of knowledge, skill and ability is of personal benefit to the employee and fosters a more creative, innovative, efficient and therefore competitive company. We strive to empower our employees to develop the skills they need to perform their current jobs while developing acumen for future opportunities. We want our talent pool to identify a successful and fulfilling career progression within our company. ",
+    "Health and safety – Protecting the health and safety of our employees, our customers, our business partners and the natural environment is one of our core values. We are committed to conducting our business in ways that provide all personnel with a safe and healthy work environment and have established safety and environmental programs and goals to achieve such results. We expect our manufacturing facilities to produce our products safely and in compliance with local permits and policies intended to protect the environment and have established global policies designed to promote such compliance.We require our employees to comply with legal and regulatory requirements and our policies, standards and practices.",   
+    "Fostering Diversity, Equity and Inclusion ","Diversity and inclusion initiatives. ",
+    "Diversity, Equity & Inclusion—",
+    "Employee Empowerment, Training and Professional Development. We enable and encourage our employees to grow, excel and realize their full potential. We strive to hire people more talented than we are. We empower our people to make the decisions needed today, and prepare them for even bigger decisions they will make in the future. We support professional development by providing access to internal and external training resources and programs.",
+
 ]
 
 
@@ -282,7 +290,13 @@ nt_word = [
     "Talent Development and Retention ","Support of Human Capital in Response to COVID-19","Training and Talent Management",
     "Employees","Talent Acquisition, Retention and Stability","Restaurant Management","Total Rewards ",
     "Employee Wellness","Recruiting","Engagement.","Health and safety","Freedom of Association and Collective Bargaining.",
-    "Recruiting, Retention, and Talent Development","Professional Development and Training","Employee Development "
+    "Recruiting, Retention, and Talent Development","Professional Development and Training","Employee Development ",
+    "Safety. “Safety Always” is one of our core, foundational values. We strive to create a culture of safety that promotes transparency and accountability by providing the tools and resources that empower our people to identify and report potential hazards and stop work when ",
+    "Environmental, Social and Governance (“ESG”)","Talent, development, and training",
+    "Pay Equity ",
+    "•greater financial and human capital resources;",
+    "Employee Remuneration and Benefits",
+    "Discrimination and Harassment. As set forth in our Code and our discrimination and harassment policy, we have a zero-tolerance policy on discrimination and harassment and have several methods under which employees can report incidents, including an online and telephone hotline through which employees can report any discrimination and harassment or any other compliance and ethics concerns confidentially or anonymously and without fear of reprisal.",
 ]
 
 i_start_word_list = [
@@ -325,8 +339,8 @@ Other than that, I have some feeling about dioutput.json that it is not totally 
 
 """
 This was not scraped properly or cleaned properly and it did have a d/i section and I did not include it in my code:
-"926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.
+"926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.-> actually this is due to scraping
 "1026214" - This was not scraped properly, going to have to manually take it out->As of 02/27/2022 resolved it by hard coding
-
+"1274173"- This was not scraped properly. Some information is missing, therefore, I could not scape it-> I did include it, but it is still missing info
 
 """
