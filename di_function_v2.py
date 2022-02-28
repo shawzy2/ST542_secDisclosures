@@ -253,13 +253,21 @@ def filter_di_v2(d):
                                                 #print(inner_key)
                                                 # if inner_key == "1060391":
                                                 #     print(nt_word_sub_list)
-                                                if inner_key == "872589":
+                                                if inner_key == "872589" or inner_key == "1067701":
                                                     if k == nt_word_sub_list[1]:
                                                         new_sub_list2.append(k)
                                                     elif k not in nt_word_sub_list:
                                                         new_sub_list2.append(k)
                                                     else:
                                                         continue 
+                                                # elif inner_key ==  "1067701":
+                                                #     #print(nt_word_sub_list)
+                                                #     if k == nt_word_sub_list[0]:
+                                                #         new_sub_list2.append(k)
+                                                #     elif k not in nt_word_sub_list:
+                                                #         new_sub_list2.append(k)
+                                                #     else:
+                                                #         continue                                                   
                                                 else:
                                                     if k == nt_word_sub_list[-2]: # this code is flawed
                                                         new_sub_list2.append(k)

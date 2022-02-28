@@ -29,7 +29,8 @@ di_v2_keys = [
     "1022321","1022652","1024725","1025378","1025996","1026214","1027838","1028918","1030469","1031203",
     "1031296","1033012","1035002","1035267","1035443","1035983","1037540","1037976","1038357",
     "1039684","1041061","1042893","1043604","1046025","1046311","1047340","1048477","1049502", "1049606",
-    "1050441","1050797","1051343","1053507","1057877","1058090","1059556","1060391"
+    "1050441","1050797","1051343","1053507","1057877","1058090","1059556","1060391","1060736", "1060822",
+    "1065088","1065696", "1066605","1067701"
 
 ]
 
@@ -67,7 +68,7 @@ di_v2_keys_s4d = [
 di_v2_keys_s4e = [
     "872589",
     # Part 3
-    "935494","1060391"
+    "935494","1060391", "1067701"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -138,7 +139,7 @@ st_word = [
     "Diversity, Equity, and Inclusion ","Choice Culture and Diversity",
     "Health and Safety – Protecting the health and safety of our employees, our customers, our business partners and the natural environment is one of our core values. We are committed to conducting our business in ways that provide all personnel with a safe and healthy work environment and have established safety and environmental programs and goals to achieve such results. We expect our manufacturing facilities to produce our products safely and in compliance with local permits and policies intended to protect the environment and we have established global policies designed to promote such compliance. We require our employees to comply with legal and regulatory requirements and our policies, standards and practices.",
     "Diversity, Equity and Inclusion. ", "Diversity, Equity, and Inclusion:",
-    "Culture, Values & Diversity, Equity & Inclusion"
+    "Culture, Values & Diversity, Equity & Inclusion", "Inclusion and diversity (“I&D”):"
 ]
 
 
@@ -210,7 +211,8 @@ nt_word = [
     "COVID-19 Response","Engagement and Opportunities","Compensation, Benefits and Well-being",
     "Learning and Development",
     "Environmental, Social and Governance (“ESG”)","Employee Well-Being","Talent Acquisition",
-    "IDACORP FINANCIAL SERVICES, INC.","Employee Engagement "
+    "IDACORP FINANCIAL SERVICES, INC.","Employee Engagement ","Recruiting and Retention", "Acting with Integrity",
+    "Commitment to Values and Ethics","Employee Engagement.","Compensation programs and employee benefits:"
 ]
 
 i_start_word_list = [
