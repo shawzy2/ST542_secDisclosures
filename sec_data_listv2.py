@@ -41,19 +41,31 @@ di_v2_keys = [
     "1142596","1142750","1144980","1145197","1156039","1156375","1158172", "1158324","1158463","1159036",
     "1159167","1159281","1162461","1163165","1163302","1163370","1163739","1165002","1166003","1168054",
     "1169445","1171662","1171759","1171825","1173514","1175454","1176948", "1177702","1196501","1200375",
-    "1206264","1212458","1212545","1214816"
+    "1206264","1212458","1212545","1214816","1220754"
 
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "920112","921082","921738","1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054"
+    "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054"
+    # Part 4
+    "1220754"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
-    "920112","921082","921738","1071255","1077183", "1091883","1102112","1168054"
+    "1071255","1077183", "1091883","1102112","1168054",
+    # Part 4
+    #"1220754"
+]
+di_v2_keys_s4_2 = [
+    # Part 3
+    "920112","921082", "921738"#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
+]
+di_v2_keys_s4_3 = [
+    # Part 3
+    "917520"#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
 ]
 di_v2_keys_s4b = [
     "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
@@ -161,7 +173,7 @@ st_word = [
     "Diversity, Equity, and Inclusion (DEI)","Diversity and Gender Equity","Human resources and hiring","World-Class Culture",
     "Diversity, Equity and Inclusion.  ","Diversity, Equity & Inclusion","Driving a diverse and inclusive culture.",
     "Diversity & Inclusion (\"D&I\")","Diversity. ","Diversity, equity and inclusion:",
-    "Diversity and Inclusion.. ","Focus on Inclusion",
+    "Diversity and Inclusion.. ","Focus on Inclusion",#"Promoting an Inclusive Culture Through Learning Opportunities."
     # Part 4
     "Diversity, Inclusion and Belonging (DIB)",
     "The recreational boating industry is cyclical and therefore headcount is subject to change based on production levels which are a function of dealer and consumer demand. The Company’s key human capital management objectives are focused on fostering talent in the following areas:",
@@ -172,7 +184,7 @@ st_word = [
     "Diversity and Inclusion:","Employees and Equal Opportunity. ",
     "Employee Profile and Diversity","Diversity and Equal Opportunity",
     "Diversity, Equity and Inclusion:","Diversity, inclusion and belonging","Global Workforce and Diversity. ",
-    "Diversity and Inclusion  "
+    "Diversity and Inclusion  ","Demographics and Diversity"
 ]
 
 
@@ -270,7 +282,7 @@ nt_word = [
     "Talent Development and Retention ","Support of Human Capital in Response to COVID-19","Training and Talent Management",
     "Employees","Talent Acquisition, Retention and Stability","Restaurant Management","Total Rewards ",
     "Employee Wellness","Recruiting","Engagement.","Health and safety","Freedom of Association and Collective Bargaining.",
-    "Recruiting, Retention, and Talent Development"
+    "Recruiting, Retention, and Talent Development",
 ]
 
 i_start_word_list = [
