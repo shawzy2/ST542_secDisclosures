@@ -251,9 +251,9 @@ def filter_di_v2(d):
                                                     continue
                                             else:
                                                 #print(inner_key)
-                                                # if inner_key == "1060391":
+                                                # if inner_key == "1212545":
                                                 #     print(nt_word_sub_list)
-                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324":
+                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739":# or inner_key == "1212545":
                                                     if k == nt_word_sub_list[1]:
                                                         new_sub_list2.append(k)
                                                     elif k not in nt_word_sub_list:
@@ -389,6 +389,18 @@ def filter_di_v2(d):
                                         elif end_element not in nt_word_list: 
                                             end_index = my_data_list.index(initial_end_element)
                                             for ind in range(start_index+1,end_index+1):
+                                                # if inner_key == "1163165":
+                                                #     if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                #         continue # This will get rid of the page number
+                                                #     elif my_data_list[ind] in non_element:
+                                                #         continue
+                                                #     elif my_data_list[ind] == "20 ":
+                                                #         continue
+                                                #     elif my_data_list[ind] in nt_word_list:
+                                                #         continue
+                                                #     else:
+                                                #         di_list.append(my_data_list[ind])
+                                                # else:
                                                 if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
                                                     continue # This will get rid of the page number
                                                 elif my_data_list[ind] in non_element:
