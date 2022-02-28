@@ -4,7 +4,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
-"_______________","- 11 -"]
+"_______________","- 11 -"," - "]
 
 di_v2_keys = [
     # Part 2
@@ -34,14 +34,18 @@ di_v2_keys = [
     "1070494","1070985","1071255","1071739","1073429","1075531", "1076930","1077183", "1077771","1082554",
     "1082923","1084048","1084961","1085913","1090012","1091667","1091748","1091883","1093557","1096056","1097149",
     "1097864","1099219","1099590","1101302","1102112", "1102993","1103982","1104506","1104657","1107843","1108109",
-    "1108827","1109546","1111335","1111711","1114483","1120193"
+    "1108827","1109546","1111335","1111711","1114483",
+    # Part 4
+    "1120193", "1121142", "1121484","1122976","1123360","1124140","1124198","1127703","1128928","1129155",
+    "1130310","1130713","1133421","1135185","1136869","1137774","1138118","1138639","1140536","1141103",
+    "1142596","1142750","1144980","1145197","1156039","1156375","1158172", "1158324"
 
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "920112","921082","921738","1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112"
+    "920112","921082","921738","1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112",
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -62,7 +66,9 @@ di_v2_keys_s4b_1 = [
 di_v2_keys_s4c = [
     "860731","914475","916365",#,"877212"
     # Part 3
-    "923796","926326", "930420" , "937556", "1004980"
+    "923796","926326", "930420" , "937556", "1004980",
+    # Part 4
+    "1137774","1158172"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -72,7 +78,9 @@ di_v2_keys_s4d = [
 di_v2_keys_s4e = [
     "872589",
     # Part 3
-    "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546"
+    "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
+    # Part 4
+    "1158324"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -150,7 +158,15 @@ st_word = [
     "Diversity, Equity, and Inclusion (DEI)","Diversity and Gender Equity","Human resources and hiring","World-Class Culture",
     "Diversity, Equity and Inclusion.  ","Diversity, Equity & Inclusion","Driving a diverse and inclusive culture.",
     "Diversity & Inclusion (\"D&I\")","Diversity. ","Diversity, equity and inclusion:",
-    "Diversity and Inclusion.. ","Focus on Inclusion"
+    "Diversity and Inclusion.. ","Focus on Inclusion",
+    # Part 4
+    "Diversity, Inclusion and Belonging (DIB)",
+    "The recreational boating industry is cyclical and therefore headcount is subject to change based on production levels which are a function of dealer and consumer demand. The Company’s key human capital management objectives are focused on fostering talent in the following areas:",
+    "Diversity, Equity and Inclusion (“DEI”)","Diversity and Inclusion at Prudential",
+    "At December 31, 2020, Willis Towers Watson’s global workforce was 53.8% female and 46.2% male, and global and senior leadership was 27.7% female. Our Board of Directors was 33.3% female, including the Compensation Committee Chairman.Voluntary turnover (rolling 12-month attrition) was 11.3% in 2020 compared to 11.2% in 2019. ",
+    "Diversity, Equality, and Inclusion. ","Diversity, Equality and Inclusion",
+    "As of December 31, 2020, we had 1,083 employees located in 15 different countries in a variety of different roles. Approximately 82.5% of our employees are located in the United States and Canada, 16.8% are located in Europe and 0.7% are located in Asia. As of December 31, 2020, 53% of our employees were quota-bearing sales representatives, 13% were in sales management or sales support roles and 34% were in operational or administrative functions.  Unions represent 30 of our employees in France.  We believe that we have a satisfactory relationship with our employees.",
+
 ]
 
 
@@ -234,7 +250,17 @@ nt_word = [
     "Communications and Engagement", "Training and Development. ","Training and Professional Development",
     "Compensation, Benefits, Health, Safety and Wellness","Health and safety policies adopted during the COVID-19 pandemic",
     "Health, Safety and Wellness","Employee Wellness and COVID-19 Response", "Health and Safety","Training and Talent Development",
-    "Recruiting & Hiring Practices","Giving Programs. ","Workplace Safety","Impact of COVID-19"
+    "Recruiting & Hiring Practices","Giving Programs. ","Workplace Safety","Impact of COVID-19",
+    # Part 4
+    "Hiring, Training and Development of our Workforce","Compensation and Benefits Programs","Development Opportunities",
+    "Employee and Leadership Development",
+    "Development and Training - The Company’s management team and all its employees are expected to exhibit and promote honest, ethical and respectful conduct in the workplace. We have implemented and maintained a corporate compliance program to provide guidance for everyone associated with the Company, including its employees, officers and directors (the \"Code\"). Annual review of the Code is required which prohibits unlawful or unethical activity, including discrimination, and directs our employees, officers, and directors to avoid actions that, even if not unlawful or unethical, might create an appearance of illegality or impropriety. In addition, the Company provides annual training for preventing, identifying, reporting and stopping any type of unlawful discrimination.",
+    "Compensation and Benefits.","Workforce Compensation & Pay Equity","Health and Wellness","Employee Engagement",
+    "Compensation, Benefits and Well-being",
+    "Our enterprise-wide I&D priorities include the following:","Team Member Engagement","Community Outreach",
+    "For more information, please refer to our current Corporate Citizenship & Sustainability Report, which is available on our website at ",
+     "Employee Retention.  We compete in an industry that is highly competitive for talent. Attracting, developing and retaining skilled people in sales, technical and other positions is crucial to executing our strategy and our ability to compete effectively. While we monitor overall employee retention, we focus in particular on sales representative retention, as our new sales and revenue growth are driven almost entirely by the sales generated by our direct sales force.   As a complement to our sales representative retention metric, we also closely track the pace of hiring new sales representatives.",
+
 ]
 
 i_start_word_list = [
