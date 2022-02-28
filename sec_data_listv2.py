@@ -28,7 +28,8 @@ di_v2_keys = [
     "1013488","1013871","1013880","1015328","1018963","1020214","1020569","1020710","1021860","1022079",
     "1022321","1022652","1024725","1025378","1025996","1026214","1027838","1028918","1030469","1031203",
     "1031296","1033012","1035002","1035267","1035443","1035983","1037540","1037976","1038357",
-    "1039684"
+    "1039684","1041061","1042893","1043604","1046025","1046311","1047340","1048477","1049502", "1049606",
+    "1050441","1050797","1051343","1053507","1057877","1058090","1059556","1060391"
 
 ]
 
@@ -66,7 +67,7 @@ di_v2_keys_s4d = [
 di_v2_keys_s4e = [
     "872589",
     # Part 3
-    "935494"
+    "935494","1060391"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -133,7 +134,11 @@ st_word = [
     "Diversity, Equity and Inclusion (“DEI”)","Diversity, equity and inclusion. ",
     "Diversity, Equality, and Inclusion","Building a diverse and inclusive workforce",
     "Safety—We have established comprehensive safety programs throughout our operations to ensure that all employees comply with safety standards we have established and that are established under federal, state and local laws and regulations. Safety leadership establishes safety programs and benchmarking to improve safety across the Company. Additionally, our employment screening process seeks to determine that prospective employees have requisite skills, sufficient background references and acceptable driving records, if applicable. Our rate of incidents recordable under the standards of the Occupational Safety and Health Administration (“OSHA”) per one hundred employees per year, also known as the OSHA recordable rate, was 1.36 during 2020. This level was 20% better than the most recently published OSHA rate for our industry.",
-    "Diversity & Inclusion ","Diversity and inclusion. "
+    "Diversity & Inclusion ","Diversity and inclusion. ","Equity, Inclusion & Belonging", "Employee Development",
+    "Diversity, Equity, and Inclusion ","Choice Culture and Diversity",
+    "Health and Safety – Protecting the health and safety of our employees, our customers, our business partners and the natural environment is one of our core values. We are committed to conducting our business in ways that provide all personnel with a safe and healthy work environment and have established safety and environmental programs and goals to achieve such results. We expect our manufacturing facilities to produce our products safely and in compliance with local permits and policies intended to protect the environment and we have established global policies designed to promote such compliance. We require our employees to comply with legal and regulatory requirements and our policies, standards and practices.",
+    "Diversity, Equity and Inclusion. ", "Diversity, Equity, and Inclusion:",
+    "Culture, Values & Diversity, Equity & Inclusion"
 ]
 
 
@@ -181,7 +186,7 @@ nt_word = [
     "Purpose and Culture. We strive to differentiate ourselves by our culture and talent. How we manage our human capital is critical to how we deliver on our strategy and create sustained growth and value for our shareholders. Our purpose is to improve the lives of our team members, customers and shareholders, one experience at a time. We recognize a great culture is foundational to the success of this vision. Key components in managing our human capital are listed below.",
     "Engagement & Sentiment","Health and Well-Being",
     "Employee Engagement & Training and Development"," Employee Compensation and Benefits:","Well-being and Development ",
-    "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent",
+    "Our Compensation Practices","Wellness ","Associate Engagement.","Investment in Talent","Employee Growth and Development"
     # Part 3
     "Promoting an Inclusive Culture Through Learning Opportunities.",
     "Training and Development", "Employee Health and Safety",
@@ -201,7 +206,11 @@ nt_word = [
     "Training and Education.","Compensation and Human Capital ",
     "Fair Labor Practices: We seek fair labor practices throughout our business, including from our partners and key suppliers who share our values for human rights, dignity, and respect. We have implemented a Supplier Code of Conduct requiring the same commitment to human rights, fair labor practices, and anticorruption that we value at Tactile Medical. ",
     "Health & Safety. ","Compensation ","Employee Development","Employee engagement. ",
-    "Culture & Employee Engagement","Talent development.","Employee Safety"
+    "Culture & Employee Engagement","Talent development.","Employee Safety",
+    "COVID-19 Response","Engagement and Opportunities","Compensation, Benefits and Well-being",
+    "Learning and Development",
+    "Environmental, Social and Governance (“ESG”)","Employee Well-Being","Talent Acquisition",
+    "IDACORP FINANCIAL SERVICES, INC.","Employee Engagement "
 ]
 
 i_start_word_list = [
