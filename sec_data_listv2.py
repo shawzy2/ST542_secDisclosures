@@ -83,7 +83,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739",#"1212545"
+    "1158324", "1163739","1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
