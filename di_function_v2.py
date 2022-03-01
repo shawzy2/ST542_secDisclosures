@@ -434,7 +434,7 @@ def filter_di_v2(d):
                                                     continue
                                             else:
                                                 #print(inner_key)
-                                                # if inner_key == "1212545":
+                                                # if inner_key == "1278027":
                                                 #     print(nt_word_sub_list)
                                                 if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027":
                                                     if k == nt_word_sub_list[1]:
@@ -476,7 +476,9 @@ def filter_di_v2(d):
                                                         continue
                                                     else:
                                                         di_list.append(my_data_list[ind])
-                                                break       
+                                                break      
+                                        # if inner_key == "1278027":
+                                        #     print(di_list)
 
 
                             elif inner_key in di_v2_keys_s4b:# and inner_key not in di_v2_keys_s4:# and inner_key not in di_v2_keys_s4c:
