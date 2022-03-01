@@ -56,7 +56,7 @@ di_v2_keys = [
     "1398987","1400891","1401521",
     # Part 5
     "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
-    "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402"
+    "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402", "1437578"
 
 ]
 
@@ -244,7 +244,7 @@ st_word = [
     "Inclusion and Diversity (I&D).",
     "Leadership, Training and Development: We aim to provide our employees with advanced professional and development skills so that they can perform effectively in their roles and build their capabilities and career prospects for the future. We maintain a leadership program for managers and team leaders and deliver advanced professional training for sales, research and development and other functional teams as part of our extensive training program each year. ",
     "Inclusion, Diversity and Engagement","Diversity, Inclusion and Workplace Culture ",
-    "Diversity, Equity and Inclusion (\"DE&I\") "
+    "Diversity, Equity and Inclusion (\"DE&I\") ","Our Diversity, Equity and Inclusion Focus"
 ]
 
 
@@ -382,7 +382,8 @@ nt_word = [
     "Employee Health & Safety. Allison’s overriding priority is to protect the health and safety of each employee. As part of our health and safety programs, employees participate in training focused on this topic and metrics are reviewed regularly, including the number of injury incidents that occur and those incidents that result in lost work days. For 2020, we achieved an overall recordable rate of 1.53, meaning that for every 100 employees, 1.53 employees incurred an injury that resulted in recordable medical treatment and the number of lost work days was 0.28, meaning that for every 100 employees, 0.28 individuals experienced an incident that resulted in days away from work.",
     "Flexibility and Decentralization.",
     "Workplace safety: We believe that all accidents and injuries at work are preventable and we aim to ensure a zero-injury culture across our offices and operations. We comply with applicable occupational health and safety regulations and are certified to Occupational Health and Safety Quality Management Standard ISO 45001:2018. Our injury rates are low. "
-    "Employee Benefits","Training & Employee Development","Labor Practices and Policies","Core Values"
+    "Employee Benefits","Training & Employee Development","Labor Practices and Policies","Core Values",
+    "Our Investment in Career Growth and Professional Development and our Horizons Teacher Degree Program"
 ]
 
 i_start_word_list = [
