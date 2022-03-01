@@ -57,7 +57,8 @@ di_v2_keys = [
     # Part 5
     "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
     "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402", "1437578",
-    "1437958","1438133","1438231"
+    "1437958","1438133","1438231","1439095","1441683","1446847","1447669","1449488","1455684", "1459417",
+    "1459839","1460329","1462120","1462418","1463172"
 
 ]
 
@@ -68,7 +69,7 @@ di_v2_keys_s4 = [
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
     # Part 5
-    "1433270"
+    "1433270","1441683",
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -78,7 +79,7 @@ di_v2_keys_s4_1 = [
     "1293971","1295401","1297184","1309402","1354327","1356576",
     #"1220754"
     # Part 5
-    "1433270"
+    "1433270","1441683",
 ]
 di_v2_keys_s4_2 = [
     # Part 3
@@ -106,7 +107,7 @@ di_v2_keys_s4c = [
     # Part 4
     "1137774","1158172","1364479", "1380846","1389002","1393612","1401708",
     # Part 5
-    
+    "1460329"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -122,7 +123,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402"
+    ,"1411494","1418135","1424929","1437402","1459417"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -245,7 +246,9 @@ st_word = [
     "Inclusion and Diversity (I&D).",
     "Leadership, Training and Development: We aim to provide our employees with advanced professional and development skills so that they can perform effectively in their roles and build their capabilities and career prospects for the future. We maintain a leadership program for managers and team leaders and deliver advanced professional training for sales, research and development and other functional teams as part of our extensive training program each year. ",
     "Inclusion, Diversity and Engagement","Diversity, Inclusion and Workplace Culture ",
-    "Diversity, Equity and Inclusion (\"DE&I\") ","Our Diversity, Equity and Inclusion Focus","Diversity, Equity and Inclusion (DEI)"
+    "Diversity, Equity and Inclusion (\"DE&I\") ","Our Diversity, Equity and Inclusion Focus","Diversity, Equity and Inclusion (DEI)",
+    "All new hires are onboarded with training that covers our culture including mission, vision, and core values. Adherence to the core values are also evaluated for every employee as part of our employee development process. We maintain an independent process for confidential reporting of workplace concerns through our toll-free hotline, and the ability to bypass management and directly contact the Legal or HR Departments or the Company's Audit Committeeregarding concerns.",
+    "Equity, Diversity, and Inclusion (EDI)","Diversity, Equity, & Inclusion", "Workforce and Diversity"
 ]
 
 
@@ -385,7 +388,8 @@ nt_word = [
     "Workplace safety: We believe that all accidents and injuries at work are preventable and we aim to ensure a zero-injury culture across our offices and operations. We comply with applicable occupational health and safety regulations and are certified to Occupational Health and Safety Quality Management Standard ISO 45001:2018. Our injury rates are low. "
     "Employee Benefits","Training & Employee Development","Labor Practices and Policies","Core Values",
     "Our Investment in Career Growth and Professional Development and our Horizons Teacher Degree Program",
-    "Organizational Development"
+    "Organizational Development","Monitoring for Success. We monitor our workforce to determine its overall effectiveness by reviewing metrics related to headcount, composition, performance per employee (such as revenue per employee or adjusted EBTIDA per employee) and selling, general and administrative expense as a percentage of sales.In 2020, we implemented a new human capital management system that is global in nature to help us manage our employee initiatives and development.We expect in 2021 to continue to develop the capabilities in this system to further improve our ability to manage our human resources.",
+    "Hiring Practices","Culture and Talent Acquisition "
 ]
 
 i_start_word_list = [

@@ -293,7 +293,26 @@ def filter_di_v2(d):
                                                 else:
                                                     #print(f"Processing: {my_data_list[ind]}")
                                                     di_list.append(my_data_list[ind])
-                                            break # This break statement is necessary once initial_end_element is found in nt_word_list                               
+                                            break # This break statement is necessary once initial_end_element is found in nt_word_list  
+                                elif inner_key == "1463172":
+                                     for end_element in inner_list:
+                                        initial_end_index = inner_value.index(end_element)
+                                        initial_end_element = inner_value[initial_end_index]
+                                        if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                            continue # skipping page number, does not mean getting rid of it yet
+                                        elif end_element in nt_word_list: 
+                                            end_index = my_data_list.index(initial_end_element)
+                                            for ind in range(start_index+1,end_index):
+                                                # if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                #     continue # This will get rid of the page number
+                                                if my_data_list[ind] in non_element:
+                                                    continue
+                                                elif my_data_list[ind] in ["12"]:
+                                                    continue
+                                                else:
+                                                    #print(f"Processing: {my_data_list[ind]}")
+                                                    di_list.append(my_data_list[ind])
+                                            break # This break statement is necessary once initial_end_element is found in nt_word_list                                                                  
                                 # elif inner_key == "1333986":
                                 #     start_word = "Diversity and Inclusion"
                                 #     start_index = my_data_list.index(start_word)
@@ -614,7 +633,7 @@ def filter_di_v2(d):
                                                 #print(inner_key)
                                                 # if inner_key == "1278027":
                                                 #     print(nt_word_sub_list)
-                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761" or inner_key == "1298675" or inner_key == "1310114" or inner_key == "1324404" or inner_key == "1324424" or inner_key == "1337619" or inner_key == "1355096" or inner_key == "1370450" or inner_key == "1373715" or inner_key == "1388658" or inner_key == "1401521" or inner_key == "1411494" or inner_key == "1418135" or inner_key == "1437402":
+                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761" or inner_key == "1298675" or inner_key == "1310114" or inner_key == "1324404" or inner_key == "1324424" or inner_key == "1337619" or inner_key == "1355096" or inner_key == "1370450" or inner_key == "1373715" or inner_key == "1388658" or inner_key == "1401521" or inner_key == "1411494" or inner_key == "1418135" or inner_key == "1437402" or inner_key == "1459417":
                                                     if k == nt_word_sub_list[1]:
                                                         new_sub_list2.append(k)
                                                     elif k not in nt_word_sub_list:
