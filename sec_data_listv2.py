@@ -47,7 +47,8 @@ di_v2_keys = [
     "1278021","1278027","1280600","1281761","1283630","1283699","1284812","1286613","1287213","1288403",
     "1288847","1289848","1289945","1290677","1293971","1294133","1295401","1296435","1297184","1297989",
     "1297996","1298675","1299130","1300514","1303313","1308208","1309108","1309402","1310114", "1311370",
-    "1316835","1318220","1318568"
+    "1316835","1318220","1318568", "1320414","1320695","1321646","1323885","1324404","1324424","1325702",
+    "1326801","1331520", "1331875","1332349","1333274","1333986"
 
 ]
 
@@ -102,7 +103,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -204,7 +205,9 @@ st_word = [
     "Retirement benefits: all eligible employees are able to participate in retirement planning schemes, which may include contributions from the employer, as well as the employee; ",
     "Inclusion and diversity",
     "Talent Development. We seek to hire talented and motivated individuals and prioritize their continued education and training. The Company works to support the success and growth of its employees through a collaborative and dynamic 360-degree performance management and review cycle. Furthermore, through investments in technology, we have enhanced knowledge management and collaboration tools across our businesses.",
-    "Diversity and Inclusion of our workforce",
+    "Diversity and Inclusion of our workforce","Diversity, Equity, & Inclusion: ","Culture, Inclusion and Diversity.",
+    "In managing the Company’s business, management focuses on various human capital measures and objectives designed to address the development, attraction and retention of personnel. These include competitive compensation and benefits, paid time off, an employee retirement plan, bonus and other incentive compensation plans, modern equipment and support, leadership development and professional development as well as those benefits described below.",
+
 ]
 
 
@@ -320,7 +323,11 @@ nt_word = [
     "Subsidized child care programs for employees, including access to onsite centers in Las Vegas;",
     "Compensation Programs and Employee Benefits","Employee","Benefits.",
     "Personal Well-Being. The Company invests in the well-being of our employees by offering benefits intended to meet the varied and evolving needs of our diverse workforce across businesses and geographies. The Company addresses this through its Work to Wellness program, a global initiative that educates, motivates and empowers employees to maintain a healthy lifestyle in and out of the workplace. We offer a wide range of resources to support employees and their families’ emotional and financial well-being. We have also made investments in technology that enable remote and hybrid working options.",
-    "Employee Recruiting"
+    "Employee Recruiting","Employee Engagement and Wellness","COVID-19 Response:","Total Rewards. ",
+    "Workforce Health and Safety."," COVID-19 Response","Labor and Ethics ",
+    "Employee Safety and Health.The health and well-being of our employees is a priority for our business. Our full-time officers and employees are provided hospitalization and major medical insurance. We pay a substantial part of the premiums for these coverages. We also provide other basic insurance coverage including dental, life, and long-term disability insurance.",
+    "Training and Personal Development","Talent Acquisition, Development, and Retention:",
+    "Description of Certain Indebtedness","Equitable Foundation"
 ]
 
 i_start_word_list = [

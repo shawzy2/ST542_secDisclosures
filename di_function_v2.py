@@ -274,7 +274,26 @@ def filter_di_v2(d):
                                                 else:
                                                     #print(f"Processing: {my_data_list[ind]}")
                                                     di_list.append(my_data_list[ind])
-                                            break # This break statement is necessary once initial_end_element is found in nt_word_list                                   
+                                            break # This break statement is necessary once initial_end_element is found in nt_word_list 
+                                # elif inner_key == "1333986":
+                                #     start_word = "Diversity and Inclusion"
+                                #     start_index = my_data_list.index(start_word)
+                                #     initial_end_index = inner_value.index(3)
+                                #     initial_end_element = inner_value[3]
+                                #     for end_element in inner_list:
+                                #         if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                #             continue # skipping page number, does not mean getting rid of it yet
+                                #         elif end_element in nt_word_list: 
+                                #             end_index = my_data_list.index(initial_end_element)
+                                #             for ind in range(start_index+1,end_index):
+                                #                 if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                #                     continue # This will get rid of the page number
+                                #                 elif my_data_list[ind] in non_element:
+                                #                     continue
+                                #                 else:
+                                #                     #print(f"Processing: {my_data_list[ind]}")
+                                #                     di_list.append(my_data_list[ind])
+                                #             break # This break statement is necessary once initial_end_element is found in nt_word_list                                                                  
 
                                 else:
                                     if inner_key not in di_v2_keys_s4e:
@@ -374,24 +393,63 @@ def filter_di_v2(d):
                                             #         continue
                                             #print(new_sub_list)
                                         else:
-                                            for end_element in inner_list:
-                                                initial_end_index = inner_value.index(end_element)
-                                                initial_end_element = inner_value[initial_end_index]
-                                                if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                            #print(inner_key)
+                                            if inner_key == "1333986":
+                                                #print(inner_key)
+                                                start_word = "Diversity and Inclusion"
+                                                start_index = my_data_list.index(start_word)
+                                                #print(my_data_list[start_index])
+                                                #print(inner_value[15:18])
+                                                #end_word = ""
+                                                # initial_end_index = inner_value.index(end_element)
+                                                # initial_end_element = inner_value[initial_end_index]
+                                                # #testing_index = inner_value.index(initial_end_element)
+                                                # testing_element = inner_value[17]
+                                                # #print(testing_index)
+                                                # print(testing_element)
+                                                #print(inner_list[12])
+                                                end_word = "Equitable Foundation"
+                                                end_index =  my_data_list.index(end_word)
+                                                
+                                                # for end_element in inner_list[9:12]:
+                                                #     initial_end_index = inner_value.index(end_element)
+                                                #     initial_end_element = inner_value[initial_end_index]
+                                                if end_word.isdigit() and len(end_word) <= 2: # this could break if the digit is part of the table
                                                     continue # skipping page number, does not mean getting rid of it yet
-                                                elif end_element in nt_word_list: 
-                                                    end_index = my_data_list.index(initial_end_element)
-                                                    #print(end_element)
-                                                    for ind in range(start_index+1,end_index):
-                                                        if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
-                                                            continue # This will get rid of the page number
-                                                        # elif my_data_list[ind] in nt_word_list:
-                                                        #     continue
-                                                        elif my_data_list[ind] in non_element:
-                                                            continue
-                                                        else:
-                                                            di_list.append(my_data_list[ind])
-                                                    break # This break statement is necessary once initial_end_element is found in nt_word_list
+                                                # elif end_word in nt_word_list: 
+                                                #     end_index = my_data_list.index(initial_end_element)
+                                                for ind in range(start_index+1,end_index):
+                                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                        continue # This will get rid of the page number
+                                                    elif my_data_list[ind] in non_element:
+                                                        continue
+                                                    elif my_data_list[ind] in nt_word_list:
+                                                        continue
+                                                    else:
+                                                        #print(f"Processing: {my_data_list[ind]}")
+                                                        di_list.append(my_data_list[ind])
+                                                #print(di_list)
+                                                break # This break statement is necessary once initial_end_element is found in nt_word_list
+                                                    
+                                            else:
+                                                for end_element in inner_list:
+                                                    initial_end_index = inner_value.index(end_element)
+                                                    initial_end_element = inner_value[initial_end_index]
+                                                    if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                                        continue # skipping page number, does not mean getting rid of it yet
+                                                    elif end_element in nt_word_list: 
+                                                        end_index = my_data_list.index(initial_end_element)
+                                                        #print(end_element)
+                                                        for ind in range(start_index+1,end_index):
+                                                            if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                                continue # This will get rid of the page number
+                                                            # elif my_data_list[ind] in nt_word_list:
+                                                            #     continue
+                                                            elif my_data_list[ind] in non_element:
+                                                                continue
+                                                            else:
+                                                                di_list.append(my_data_list[ind])
+                                                        break # This break statement is necessary once initial_end_element is found in nt_word_list
                                         # elif inner_key in di_v2_keys_s4_3:
                                         #     print(inner_key)
                                             #print(inner_list)
@@ -514,7 +572,7 @@ def filter_di_v2(d):
                                                 #print(inner_key)
                                                 # if inner_key == "1278027":
                                                 #     print(nt_word_sub_list)
-                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761" or inner_key == "1298675" or inner_key == "1310114":
+                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761" or inner_key == "1298675" or inner_key == "1310114" or inner_key == "1324404" or inner_key == "1324424":
                                                     if k == nt_word_sub_list[1]:
                                                         new_sub_list2.append(k)
                                                     elif k not in nt_word_sub_list:
