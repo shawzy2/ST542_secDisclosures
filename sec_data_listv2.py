@@ -56,7 +56,7 @@ di_v2_keys = [
     "1398987","1400891","1401521",
     # Part 5
     "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
-    "1418135","1419612","1421461","1424929"
+    "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402"
 
 ]
 
@@ -66,14 +66,18 @@ di_v2_keys_s4 = [
     "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054",
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
+    # Part 5
+    "1433270"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
     "1071255","1077183", "1091883","1102112","1168054",
     # Part 4
-    "1293971","1295401","1297184","1309402","1354327","1356576"
+    "1293971","1295401","1297184","1309402","1354327","1356576",
     #"1220754"
+    # Part 5
+    "1433270"
 ]
 di_v2_keys_s4_2 = [
     # Part 3
@@ -99,12 +103,16 @@ di_v2_keys_s4c = [
     # Part 3
     "923796","926326", "930420" , "937556", "1004980",
     # Part 4
-    "1137774","1158172","1364479", "1380846","1389002","1393612","1401708"
+    "1137774","1158172","1364479", "1380846","1389002","1393612","1401708",
+    # Part 5
+    
 ]
 di_v2_keys_s4d = [
     "867773","896159",
     # Part 3
-    "923571","927628","1037540","1284812"
+    "923571","927628","1037540","1284812",
+    # Part 5
+
 ]
 di_v2_keys_s4e = [
     "872589",
@@ -113,7 +121,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929"
+    ,"1411494","1418135","1424929","1437402"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -235,7 +243,8 @@ st_word = [
     "Workforce Demographics. Our people continue to be a critical component in our continued success, the delivery of our values and the execution of our growth initiatives. As of December31, 2020, we had a highly skilled workforce of approximately 3,300 employees, with approximately 89% of those employees in the U.S. Approximately 47% of our U.S. employees are represented by the International Union, United Automobile, Aerospace and Agricultural Implement Workers of America (“UAW”) and are subject to a collective bargaining agreement. In December 2017, we entered into a six year collective bargaining agreement with UAW Local 933 that expires in November 2023. There have been no strikes or work stoppages due to Allison-specific issues in over 30 years.",
     "Inclusion and Diversity (I&D).",
     "Leadership, Training and Development: We aim to provide our employees with advanced professional and development skills so that they can perform effectively in their roles and build their capabilities and career prospects for the future. We maintain a leadership program for managers and team leaders and deliver advanced professional training for sales, research and development and other functional teams as part of our extensive training program each year. ",
-    "Inclusion, Diversity and Engagement",
+    "Inclusion, Diversity and Engagement","Diversity, Inclusion and Workplace Culture ",
+    "Diversity, Equity and Inclusion (\"DE&I\") "
 ]
 
 
@@ -373,7 +382,7 @@ nt_word = [
     "Employee Health & Safety. Allison’s overriding priority is to protect the health and safety of each employee. As part of our health and safety programs, employees participate in training focused on this topic and metrics are reviewed regularly, including the number of injury incidents that occur and those incidents that result in lost work days. For 2020, we achieved an overall recordable rate of 1.53, meaning that for every 100 employees, 1.53 employees incurred an injury that resulted in recordable medical treatment and the number of lost work days was 0.28, meaning that for every 100 employees, 0.28 individuals experienced an incident that resulted in days away from work.",
     "Flexibility and Decentralization.",
     "Workplace safety: We believe that all accidents and injuries at work are preventable and we aim to ensure a zero-injury culture across our offices and operations. We comply with applicable occupational health and safety regulations and are certified to Occupational Health and Safety Quality Management Standard ISO 45001:2018. Our injury rates are low. "
-    "Employee Benefits"
+    "Employee Benefits","Training & Employee Development","Labor Practices and Policies","Core Values"
 ]
 
 i_start_word_list = [
@@ -421,4 +430,5 @@ This was not scraped properly or cleaned properly and it did have a d/i section 
 "1274173"- This was not scraped properly. Some information is missing, therefore, I could not scape it-> I did include it, but it is still missing info
 "1378950" - this was not scraped properly.
 "1404655"- this was not scraped properly.
+"1428875" this was not scraped properly
 """
