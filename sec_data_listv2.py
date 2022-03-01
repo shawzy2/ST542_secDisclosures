@@ -53,7 +53,9 @@ di_v2_keys = [
     "1361113","1361658","1361983","1364479","1364885","1365135","1366246","1367644","1370450","1370880",
     "1371285","1373715","1374310","1374535","1377630","1378946","1378950","1380846","1381531","1388658",
     "1389002","1389170","1390777", "1391127","1392972","1393311","1393612","1396009","1396033","1396814",
-    "1398987","1400891","1401521"
+    "1398987","1400891","1401521",
+    # Part 5
+    "1401680",
 
 ]
 
@@ -225,6 +227,8 @@ st_word = [
     "Diversity Equity and Inclusion/Culture","Diversity, Inclusion & equal opportunity",
     "We offer a competitive compensation package to attract, retain and motivate highly qualified and diverse talent. We believe in pay-for-performance; our compensation programs are grounded in a pay-for-performance philosophy that is designed to reward achievement of our Company’s financial and strategic performance. We review performance and compensation with all employees annually. We seek to pay our employees fairly for their work and we continuously monitor our performance and address any discrepancies or issues. We regularly benchmark roles and compensation data to help ensure internal pay equity. Discover partners with an independent, third-party consultant to conduct a company-wide pay equity analysis that includes race and gender to identify pay discrepancies. Based on our last two reviews using this approach, women and minorities at Discover earn, on average, between $0.99 and $1.02 for every $1 earned by men and non-minorities.",
     "Diversity and inclusion are important values at Vulcan","Diversity and Employment Statistics",
+    # Part 5
+    "Commitment to Diversity and Inclusion",
 ]
 
 
@@ -356,7 +360,9 @@ nt_word = [
     "Organizational Development—Our Human Resources team is focused on providing training to our local sales team to provide our salespeople with the skills and confidence to sell larger contracts at a faster pace. With the exception of the current year due to the COVID-19 Pandemic, this training consists of in-person instruction. Managers and supervisors also participate in specialized training to develop management skills, encourage employee development and retention and assist the Company with succession planning by identifying top talent to be developed into future leaders. Our Human Resources department also regularly provides employees with mandatory compliance training regarding workplace diversity, our code of conduct, password management, cyber security and other personnel related courses to help them with their daily responsibilities. Compliance with mandatory training requirements is tracked by our Human Resources department and management is notified when the requirements are not met. ",
     "Health and Safety/Well-Being","Compensation and Pay Equity","Retention, Training and Development",
     "Health, safety, and wellness. ","Compensation, Health and Wellness","shareholder return performance","Employees ",
-    "Independent Sales Agents","Oversight and Management"
+    "Independent Sales Agents","Oversight and Management",
+    # Part 5
+    "Giving Our People a Voice"
 ]
 
 i_start_word_list = [
