@@ -5,7 +5,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
-".  ","” below.","” above.","“","”)"]
+".  ","” below.","” above.","“","”)","(continued)","-10-",""]
 
 di_v2_keys = [
     # Part 2
@@ -51,7 +51,9 @@ di_v2_keys = [
     "1326801","1331520", "1331875","1332349","1333274","1333986","1334978","1336917","1337553", "1337619",
     "1338749","1345016","1351636","1352010","1354327","1355096","1356576","1358762","1359841","1360901",
     "1361113","1361658","1361983","1364479","1364885","1365135","1366246","1367644","1370450","1370880",
-    "1371285","1373715","1374310","1374535","1377630","1378946","1378950"
+    "1371285","1373715","1374310","1374535","1377630","1378946","1378950","1380846","1381531","1388658",
+    "1389002","1389170","1390777", "1391127","1392972","1393311","1393612","1396009","1396033","1396814",
+    "1398987","1400891","1401521"
 
 ]
 
@@ -94,7 +96,7 @@ di_v2_keys_s4c = [
     # Part 3
     "923796","926326", "930420" , "937556", "1004980",
     # Part 4
-    "1137774","1158172","1364479"
+    "1137774","1158172","1364479", "1380846","1389002","1393612"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -106,7 +108,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -220,7 +222,9 @@ st_word = [
     "Equal Opportunity, Diversity, and Pay Equity",
     "Within the United States, approximately650 were hourly-rated, unionized employees. Outside the United States, we have government-mandated collective bargaining arrangements and union contracts in certain countries, particularly in Europe where certain of our employees are represented by unions and/or works councils. The Company believes that its relationship with employees is good. See “Risk Factors—Risks Related to Our Business and Industry—We may be subject to work stoppages at our facilities, or our customers may be subjected to work stoppages, which could seriously impact our operations and the profitability of our business.”",
     "—We invest in our employees by providing comprehensive benefits and compensation packages. Our benefits packages include: comprehensive health insurance with a wellness program for all employees working 30 hours or more, parental leave for all new parents for the birth or adoption of a child or placement of foster care, 401k plan with a comprehensive financial wellness component and voluntary benefits employees can tailor to their specific needs ranging from additional life insurance to pet insurance. ",
-    "Diversity Equity and Inclusion/Culture",
+    "Diversity Equity and Inclusion/Culture","Diversity, Inclusion & equal opportunity",
+    "We offer a competitive compensation package to attract, retain and motivate highly qualified and diverse talent. We believe in pay-for-performance; our compensation programs are grounded in a pay-for-performance philosophy that is designed to reward achievement of our Company’s financial and strategic performance. We review performance and compensation with all employees annually. We seek to pay our employees fairly for their work and we continuously monitor our performance and address any discrepancies or issues. We regularly benchmark roles and compensation data to help ensure internal pay equity. Discover partners with an independent, third-party consultant to conduct a company-wide pay equity analysis that includes race and gender to identify pay discrepancies. Based on our last two reviews using this approach, women and minorities at Discover earn, on average, between $0.99 and $1.02 for every $1 earned by men and non-minorities.",
+    "Diversity and inclusion are important values at Vulcan","Diversity and Employment Statistics",
 ]
 
 
@@ -350,7 +354,9 @@ nt_word = [
     "Human Capital Management in Response to COVID-19","Performance and Career Development",
     "Employee Engagement.  We prioritize employee engagement and value employee feedback.In 2020, approximately 80% of Altra team members responded to and participated in our employee engagement survey.The survey enables us to monitor engagement and results serve as a guide to establish initiatives aimed to enhance the employee experience and analyze efficacy of those initiatives year over year.In addition to our company-wide engagement survey, our businesses also conduct localized, periodic reviews and pulse surveys to gauge employee satisfaction, obtain employee feedback of specific issues on initiatives, and identify shortfalls and opportunities for improvement.",
     "Organizational Development—Our Human Resources team is focused on providing training to our local sales team to provide our salespeople with the skills and confidence to sell larger contracts at a faster pace. With the exception of the current year due to the COVID-19 Pandemic, this training consists of in-person instruction. Managers and supervisors also participate in specialized training to develop management skills, encourage employee development and retention and assist the Company with succession planning by identifying top talent to be developed into future leaders. Our Human Resources department also regularly provides employees with mandatory compliance training regarding workplace diversity, our code of conduct, password management, cyber security and other personnel related courses to help them with their daily responsibilities. Compliance with mandatory training requirements is tracked by our Human Resources department and management is notified when the requirements are not met. ",
-    "Health and Safety/Well-Being"
+    "Health and Safety/Well-Being","Compensation and Pay Equity","Retention, Training and Development",
+    "Health, safety, and wellness. ","Compensation, Health and Wellness","shareholder return performance","Employees ",
+    "Independent Sales Agents","Oversight and Management"
 ]
 
 i_start_word_list = [
