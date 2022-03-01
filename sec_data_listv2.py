@@ -5,7 +5,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
-".  ","” below.","” above.","“","”)","(continued)","-10-",""]
+".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-"]
 
 di_v2_keys = [
     # Part 2
@@ -55,7 +55,7 @@ di_v2_keys = [
     "1389002","1389170","1390777", "1391127","1392972","1393311","1393612","1396009","1396033","1396814",
     "1398987","1400891","1401521",
     # Part 5
-    "1401680",
+    "1401680","1401708","1402057","1403256","1408075"
 
 ]
 
@@ -98,7 +98,7 @@ di_v2_keys_s4c = [
     # Part 3
     "923796","926326", "930420" , "937556", "1004980",
     # Part 4
-    "1137774","1158172","1364479", "1380846","1389002","1393612"
+    "1137774","1158172","1364479", "1380846","1389002","1393612","1401708"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -362,7 +362,7 @@ nt_word = [
     "Health, safety, and wellness. ","Compensation, Health and Wellness","shareholder return performance","Employees ",
     "Independent Sales Agents","Oversight and Management",
     # Part 5
-    "Giving Our People a Voice"
+    "Giving Our People a Voice","Training & Developmen"
 ]
 
 i_start_word_list = [
@@ -409,4 +409,5 @@ This was not scraped properly or cleaned properly and it did have a d/i section 
 "1026214" - This was not scraped properly, going to have to manually take it out->As of 02/27/2022 resolved it by hard coding
 "1274173"- This was not scraped properly. Some information is missing, therefore, I could not scape it-> I did include it, but it is still missing info
 "1378950" - this was not scraped properly.
+"1404655"- this was not scraped properly.
 """
