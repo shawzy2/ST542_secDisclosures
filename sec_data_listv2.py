@@ -58,7 +58,9 @@ di_v2_keys = [
     "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
     "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402", "1437578",
     "1437958","1438133","1438231","1439095","1441683","1446847","1447669","1449488","1455684", "1459417",
-    "1459839","1460329","1462120","1462418","1463172","1464343","1466085","1466258","1467623"
+    "1459839","1460329","1462120","1462418","1463172","1464343","1466085","1466258","1467623","1467858",
+    "1469367","1470205","1471265", "1474735","1475115","1475841","1477294","1478242","1479290","1481582",
+    "1481792","1482512","1486159","1486957","1488139","1490281","1492691","1493225"
 
 ]
 
@@ -107,7 +109,7 @@ di_v2_keys_s4c = [
     # Part 4
     "1137774","1158172","1364479", "1380846","1389002","1393612","1401708",
     # Part 5
-    "1460329"
+    "1460329","1486159"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -123,7 +125,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -251,6 +253,10 @@ st_word = [
     "Equity, Diversity, and Inclusion (EDI)","Diversity, Equity, & Inclusion", "Workforce and Diversity",
     "Health and Safety. The health and safety of our employees and their families is a top priority.In response to the COVID-19 pandemic, we successfully instituted a company‑wide remote work program in March 2020 to ensure the safety of all of our employees and their families. We communicateregularly with employees andprovideresources for health, wellness and engagement, and have establishedsafety protocols for employees continuing critical on-site work.We continue tomonitorthe ongoing pandemic for new developments that may impact the Company, our work locations or our employees and are taking reasonable measures.",
     "Our People. As of February 8, 2021, we had 444 employees, all of whom were employed in the United States, and none of whom are covered by collective bargaining agreements. We have experienced no material interruptions of our operations due to disputes with our employees.",
+    "Inclusion and Diversity.",
+    "Health, wellness and safety – Employee health and safety is the Company’s top priority. Generac’s Healthy & Thriving Total Rewards are based on the four pillars of balance, security, well-being andcommunity. These programs are designed to meet the varied and evolving needs of our diverse workforce. We maintain an employee wellness program, incentivize healthy-living activities, provide emergency paid COVID-19 leave benefits to help employees care for themselves and their families, and we develop and administer company-wide policies to ensure the safety of each employee and compliance with government agency and other standards.",
+    "Equity, Diversity and Inclusion ",
+    "Employee Development. Ryerson believes in promoting from within and provides the resources for long-term career development.Our summer internship program and Ryerson Academy provide meaningful training to entry-level employees.Ryerson Academy is a unique, 12-month immersive training program for entry-level inside sales associates. The program provides intensive training and experience in sales and customer service for approximately 20 new hires and entry-level employees each year.  Ryerson Academy also teaches critical communication, negotiation, and presentation skills, and participants regularly interact with Ryerson’s senior leadership and subject matter experts.We have a robust training platform, Ryerson EDvantage, available to all employees which offers Ryerson product training along with general skills courses that are customized for our employees’ development.We focus on succession planning and ensure that proper cross-training and knowledge transfer is in place.Our average employee tenure is 12 years, and our voluntary turnover rate in 2020 was less than 7 percent.",
 
 ]
 
@@ -395,7 +401,12 @@ nt_word = [
     "Hiring Practices","Culture and Talent Acquisition ",
     "Compensation and Benefits. We have demonstrated a history of investing in our workforce by offering a comprehensive compensation and benefits program to our employees. Salaries and wages paid to our employees are competitive based on position, skill and experience level, knowledge, and geographic location. In addition, we maintain an employee stock purchase plan, an equity incentive planand a 401(k) plan (that provides for a matching contribution by us)for eligible employees. We also provide, among other benefits, healthcare and insurance benefits, health savings and flexible spending accounts, a healthcare advocacy service, employer paid disability leave, employer paid life insurance, paid time off, paid parental leave, employer paid telehealth andemployee assistance programs.",
     "Training and Development and Program.We are committed to providing the resources to engage our employees and enhance their educational and professional growth.We provide technical and leadership training to employees in a number of formats, including through an on-line resource library with over 550 on-demand courses.Our maintenance teams are trained through a mixture of online courses, simulation training and on-site, hands-on training.In addition, we define education benefits and guidelines under which our team members may receive financial assistance for certifications and continued education.In 2020, 11 of our approximately 60 community managers became newly-certified apartment managers through our tuition reimbursement program. In addition, we are pleased to promote approximately 13% of our staff to more senior positions. ",
-
+    "Develop and Retain Talented People  ","Human Capital.","Supervision and Regulation ",
+    "Talent development & employee engagement – We prioritize and invest in creating opportunities to help employees build careers at Generac. We hold internal career events as well as partner with local educational resources to offer on the job learning, collaborative work experiences and formal learning programs on continuous improvement and project management skills to support progressions and advancement of our workforce. Further, we maintain an ongoing global employee engagement initiative with targeted action plans by region, function, and business group. Action plans and their progress are measured by global employee engagement surveys.",
+    "Social Impact ","Associate Development and Training","Learning and Development ","Employee Well-being.",
+    "Employee Safety.Upholding a safe workplace is one of our core values and a part of the company's culture. Our safety standards, which go beyond the minimum requirements required by applicable law, have helped protect the well-being of our people and prevent workplace injuries that can impact business productivity. We continuously work to maintain a safety performance rating that outperforms the industry average and have implemented an Environmental, Health, and Safety policy that reinforces the goal of a ",
+    "Community Relations","Benefits with a Purpose", "Workplace Culture and Values","Succession Planning and Talent Management",
+    "Training and Development."
 ]
 
 i_start_word_list = [
@@ -410,6 +421,7 @@ Did not include in d/i keys:
 part2.json- 731012, 742112, 814453, "874238", "875320", "898437", "910329","912562","914208"
 part3.json- 
 part4.json - "1178711"
+part5.json- "1477449"(had diversity council, but not d/i section)
 '''
 
 
