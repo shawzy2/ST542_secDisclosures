@@ -46,7 +46,8 @@ di_v2_keys = [
     "1230245","1232524","1255474","1257640","1258602","1267238","1271214","1273813","1273931","1274173",
     "1278021","1278027","1280600","1281761","1283630","1283699","1284812","1286613","1287213","1288403",
     "1288847","1289848","1289945","1290677","1293971","1294133","1295401","1296435","1297184","1297989",
-    "1297996","1298675"
+    "1297996","1298675","1299130","1300514","1303313","1308208","1309108","1309402","1310114", "1311370",
+    "1316835","1318220","1318568"
 
 ]
 
@@ -55,14 +56,14 @@ di_v2_keys_s4 = [
     # Part 3
     "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054",
     # Part 4
-    "1220754","1293971","1295401","1297184"
+    "1220754","1293971","1295401","1297184","1309402"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
     "1071255","1077183", "1091883","1102112","1168054",
     # Part 4
-    "1293971","1295401","1297184"
+    "1293971","1295401","1297184","1309402"
     #"1220754"
 ]
 di_v2_keys_s4_2 = [
@@ -101,7 +102,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761", "1298675"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -200,7 +201,10 @@ st_word = [
     "As part of our compensation philosophy, we believewe must offer and maintain market competitive total rewards programs in order to attract and retain superior talent. These programs not only include base wages and incentives in support of our pay for performance culture, but also healthand retirement benefits. We focus many programs on employee wellness. We believe these solutions helpthe overall health and wellness of our employees and helpus successfully manage healthcare and prescription drug costs for our employee population.",
     "Diversity & Inclusion at Five9 ","DIVERSITY, EQUITY AND INCLUSION",
     "Employee Engagement: To assess and improve employee retention and engagement, we have surveyed employees, with the assistance of third-party consultants, and use the results of and feedback from the survey to address employee concerns. Our most recent survey was conducted in November 2020 and included participation by over two-thirds of our employees.",
-
+    "Retirement benefits: all eligible employees are able to participate in retirement planning schemes, which may include contributions from the employer, as well as the employee; ",
+    "Inclusion and diversity",
+    "Talent Development. We seek to hire talented and motivated individuals and prioritize their continued education and training. The Company works to support the success and growth of its employees through a collaborative and dynamic 360-degree performance management and review cycle. Furthermore, through investments in technology, we have enhanced knowledge management and collaboration tools across our businesses.",
+    "Diversity and Inclusion of our workforce",
 ]
 
 
@@ -312,7 +316,11 @@ nt_word = [
     "Development, Training and Retention","Website Access to Company Reports",
     "Compensation Philosophy","Risks Related to Human Capital Resources","Ethical Standards",
     "Training and Talent Development: We provide technical and leadership training to employees at both the officer and non-officer levels. The Company has also launched a learning management system for tracking training hours for its employees.",
-    "Health and safety","Recruiting our Employees","Index to Financial Statements","COVID-19 Update"
+    "Health and safety","Recruiting our Employees","Index to Financial Statements","COVID-19 Update",
+    "Subsidized child care programs for employees, including access to onsite centers in Las Vegas;",
+    "Compensation Programs and Employee Benefits","Employee","Benefits.",
+    "Personal Well-Being. The Company invests in the well-being of our employees by offering benefits intended to meet the varied and evolving needs of our diverse workforce across businesses and geographies. The Company addresses this through its Work to Wellness program, a global initiative that educates, motivates and empowers employees to maintain a healthy lifestyle in and out of the workplace. We offer a wide range of resources to support employees and their families’ emotional and financial well-being. We have also made investments in technology that enable remote and hybrid working options.",
+    "Employee Recruiting"
 ]
 
 i_start_word_list = [
