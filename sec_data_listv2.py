@@ -5,7 +5,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
-".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-"]
+".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-"]
 
 di_v2_keys = [
     # Part 2
@@ -55,7 +55,8 @@ di_v2_keys = [
     "1389002","1389170","1390777", "1391127","1392972","1393311","1393612","1396009","1396033","1396814",
     "1398987","1400891","1401521",
     # Part 5
-    "1401680","1401708","1402057","1403256","1408075"
+    "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
+    "1418135","1419612","1421461","1424929"
 
 ]
 
@@ -111,6 +112,8 @@ di_v2_keys_s4e = [
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
+    # Part 5
+    ,"1411494","1418135","1424929"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -229,6 +232,10 @@ st_word = [
     "Diversity and inclusion are important values at Vulcan","Diversity and Employment Statistics",
     # Part 5
     "Commitment to Diversity and Inclusion",
+    "Workforce Demographics. Our people continue to be a critical component in our continued success, the delivery of our values and the execution of our growth initiatives. As of December31, 2020, we had a highly skilled workforce of approximately 3,300 employees, with approximately 89% of those employees in the U.S. Approximately 47% of our U.S. employees are represented by the International Union, United Automobile, Aerospace and Agricultural Implement Workers of America (“UAW”) and are subject to a collective bargaining agreement. In December 2017, we entered into a six year collective bargaining agreement with UAW Local 933 that expires in November 2023. There have been no strikes or work stoppages due to Allison-specific issues in over 30 years.",
+    "Inclusion and Diversity (I&D).",
+    "Leadership, Training and Development: We aim to provide our employees with advanced professional and development skills so that they can perform effectively in their roles and build their capabilities and career prospects for the future. We maintain a leadership program for managers and team leaders and deliver advanced professional training for sales, research and development and other functional teams as part of our extensive training program each year. ",
+    "Inclusion, Diversity and Engagement",
 ]
 
 
@@ -362,7 +369,11 @@ nt_word = [
     "Health, safety, and wellness. ","Compensation, Health and Wellness","shareholder return performance","Employees ",
     "Independent Sales Agents","Oversight and Management",
     # Part 5
-    "Giving Our People a Voice","Training & Developmen"
+    "Giving Our People a Voice","Training & Developmen",
+    "Employee Health & Safety. Allison’s overriding priority is to protect the health and safety of each employee. As part of our health and safety programs, employees participate in training focused on this topic and metrics are reviewed regularly, including the number of injury incidents that occur and those incidents that result in lost work days. For 2020, we achieved an overall recordable rate of 1.53, meaning that for every 100 employees, 1.53 employees incurred an injury that resulted in recordable medical treatment and the number of lost work days was 0.28, meaning that for every 100 employees, 0.28 individuals experienced an incident that resulted in days away from work.",
+    "Flexibility and Decentralization.",
+    "Workplace safety: We believe that all accidents and injuries at work are preventable and we aim to ensure a zero-injury culture across our offices and operations. We comply with applicable occupational health and safety regulations and are certified to Occupational Health and Safety Quality Management Standard ISO 45001:2018. Our injury rates are low. "
+    "Employee Benefits"
 ]
 
 i_start_word_list = [
