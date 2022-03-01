@@ -43,7 +43,7 @@ di_v2_keys = [
     "1169445","1171662","1171759","1171825","1173514","1175454","1176948", "1177702","1196501","1200375",
     "1206264","1212458","1212545","1214816","1220754","1222840","1224608","1227025","1227636","1227654",
     "1230245","1232524","1255474","1257640","1258602","1267238","1271214","1273813","1273931","1274173",
-    "1278021","1278027"
+    "1278021","1278027","1280600","1281761","1283630","1283699","1284812"
 
 ]
 
@@ -90,14 +90,14 @@ di_v2_keys_s4c = [
 di_v2_keys_s4d = [
     "867773","896159",
     # Part 3
-    "923571","927628","1037540"
+    "923571","927628","1037540","1284812"
 ]
 di_v2_keys_s4e = [
     "872589",
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -192,6 +192,7 @@ st_word = [
     "Fostering Diversity, Equity and Inclusion ","Diversity and inclusion initiatives. ",
     "Diversity, Equity & Inclusion—",
     "Employee Empowerment, Training and Professional Development. We enable and encourage our employees to grow, excel and realize their full potential. We strive to hire people more talented than we are. We empower our people to make the decisions needed today, and prepare them for even bigger decisions they will make in the future. We support professional development by providing access to internal and external training resources and programs.",
+    "In order to build the best team, it is necessary for us to fill talent needs with qualified, diverse and engaged associates. Key to our success is our internal talent management program which strives to optimally deploy existing talent across Regions by focusing on where our associates excel and helping them find the best roles for them. One of the hallmarks of our success in this area is demonstrated by our ability to fill vacancies from within. For example, in 2020, 45 percent of our hires were internal fills. For those roles which we fill externally, we continually build talent pipelines with an eye towards not only current needs, but also future demands of our business. Regions uses a number of innovative tools and structured processes to achieve our goals including applications and resources designed to reach larger and more diverse audiences. Our recruiting technology is agile, user friendly and allows us to offer to candidates a robust understanding of our needs, requirements and a view of our culture to support the building of a diverse, engaged workforce.",
 
 ]
 
@@ -297,6 +298,11 @@ nt_word = [
     "•greater financial and human capital resources;",
     "Employee Remuneration and Benefits",
     "Discrimination and Harassment. As set forth in our Code and our discrimination and harassment policy, we have a zero-tolerance policy on discrimination and harassment and have several methods under which employees can report incidents, including an online and telephone hotline through which employees can report any discrimination and harassment or any other compliance and ethics concerns confidentially or anonymously and without fear of reprisal.",
+    "Conduct and Ethics",
+    "We also consider it critical to our success to invest in the professional development of all of our associates. We emphasize our commitment to professional development through opportunities such as technical, skills-based, management, and leadership training programs; formal talent and performance management processes; and sustainable career paths. We also aim to prepare our workforce for a rapidly changing environment and understand that reskilling and upskilling are crucial to staying competitive, meeting the needs of the modern workforce, and retaining associates. We’ve established a customized learning experience platform that provides the tools to measure, build, and communicate skills inside the Company. This tool provides the ability to inventory the skills our associates have, allowing us to target our development efforts on specific areas where elevated skills are needed. Regions also offers a leader and manager development program created to help people managers understand how to evaluate performance by leveraging the power of a strengths-based and engagement-focused workforce and culture.",
+    "Training and Professional Development: ","Regulation ",
+    "We were recently recognized as a “Best Place to Work in Money Management” by Pensions & Investments (“P&I”), the international newspaper of money management. The 2020 award was part of P&I’s ninth-annual survey and recognition program, which seeks to identify the best employers in the money management industry. This achievement recognized the strength of our culture, which is defined by the hard work, dedication, and commitment to excellence and inclusion by everyone at the Company.",
+
 ]
 
 i_start_word_list = [
