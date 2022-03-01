@@ -5,7 +5,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
-".  "]
+".  ","” below.","” above.","“","”)"]
 
 di_v2_keys = [
     # Part 2
@@ -48,7 +48,9 @@ di_v2_keys = [
     "1288847","1289848","1289945","1290677","1293971","1294133","1295401","1296435","1297184","1297989",
     "1297996","1298675","1299130","1300514","1303313","1308208","1309108","1309402","1310114", "1311370",
     "1316835","1318220","1318568", "1320414","1320695","1321646","1323885","1324404","1324424","1325702",
-    "1326801","1331520", "1331875","1332349","1333274","1333986"
+    "1326801","1331520", "1331875","1332349","1333274","1333986","1334978","1336917","1337553", "1337619",
+    "1338749","1345016","1351636","1352010","1354327","1355096","1356576","1358762","1359841","1360901",
+    "1361113","1361658"
 
 ]
 
@@ -57,14 +59,14 @@ di_v2_keys_s4 = [
     # Part 3
     "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054",
     # Part 4
-    "1220754","1293971","1295401","1297184","1309402"
+    "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
     "1071255","1077183", "1091883","1102112","1168054",
     # Part 4
-    "1293971","1295401","1297184","1309402"
+    "1293971","1295401","1297184","1309402","1354327","1356576"
     #"1220754"
 ]
 di_v2_keys_s4_2 = [
@@ -103,7 +105,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -207,7 +209,11 @@ st_word = [
     "Talent Development. We seek to hire talented and motivated individuals and prioritize their continued education and training. The Company works to support the success and growth of its employees through a collaborative and dynamic 360-degree performance management and review cycle. Furthermore, through investments in technology, we have enhanced knowledge management and collaboration tools across our businesses.",
     "Diversity and Inclusion of our workforce","Diversity, Equity, & Inclusion: ","Culture, Inclusion and Diversity.",
     "In managing the Company’s business, management focuses on various human capital measures and objectives designed to address the development, attraction and retention of personnel. These include competitive compensation and benefits, paid time off, an employee retirement plan, bonus and other incentive compensation plans, modern equipment and support, leadership development and professional development as well as those benefits described below.",
-
+    "Equity, Diversity & Inclusion (",
+    "Additionally, our operations have comprehensive safety programs that include safety audits, training, contractor safety requirements and that include annual health and safety budgets as part of essential capital planning. Furthermore, contractors must meet stringent state and federal safety regulations and undergo industry-specific safety training. Four of our seven Wood Products facilities have received the U.S. Occupational Safety & Health Administration’s Voluntary Protection Program (VPP) status which recognizes excellence in occupational health and safety. VPP status requires a good health and safety management system, hazard prevention, training, incident rates below industry average and audits to evaluate the facilities for health and safety performance.",
+    "We strive to help our employees maintain job stability, so they are encouraged to stay with the Company and positioned to grow their skills and knowledge on the job. The 2020 annualized voluntary turnover rate in our workforce generally was flat as compared to 2019. In an effort to reduce employee turnover, we engage in annual surveys with employees, we maintain an open-door policy that enables us to help identify any issues before they cause an employee to leave the Company, and we review exit interview data, hotline calls and root cause analysis to help deter turnover. We also assign dedicated Company human resources representatives to each department so that we can better monitor employee morale within each department. ",
+    "Additionally, as of December 31, 2020, our consolidated subsidiaries had an aggregate of approximately 26,424 full and part-time employees. Employment levels fluctuate due to seasonal factors affecting our business. Additionally, our consolidated subsidiaries utilize independent contractors and temporary staffing agency personnel to supplement their workforce, particularly on a seasonal basis. We believe that our employee relations are good and a key factor in our workforce strategy.",
+    "Diversity, Equity and Inclusion: ","Promote Sense of Belonging through Diversity and Inclusion Initiatives",
 ]
 
 
@@ -327,7 +333,11 @@ nt_word = [
     "Workforce Health and Safety."," COVID-19 Response","Labor and Ethics ",
     "Employee Safety and Health.The health and well-being of our employees is a priority for our business. Our full-time officers and employees are provided hospitalization and major medical insurance. We pay a substantial part of the premiums for these coverages. We also provide other basic insurance coverage including dental, life, and long-term disability insurance.",
     "Training and Personal Development","Talent Acquisition, Development, and Retention:",
-    "Description of Certain Indebtedness","Equitable Foundation"
+    "Description of Certain Indebtedness","Equitable Foundation","Safety and Wellness",
+    #"Employee Growth and Development. We invest significant resources to develop the talent needed to remain a leader in the industry and an employer of choice.We have formal and informal programs to develop our workforce through employee improvement and professional growth. Additionally, succession planning is critical to ensuring that we have the right people in the right position at the right time. We conduct annual succession planning meetings across the organization starting with our local operations and rolling up to our division and corporate levels including our executive team. As part of our succession planning and commitment to developing talent, we conduct an annual leadership training program to build bench strength at the supervisor and management level. ",
+    "Board Composition and Refreshment","Employee Engagement and Retention:",
+    "Health and Safety. As a result of the spread of COVID-19, most local, state and federal governmental agencies have imposed travel restrictions and local quarantines or stay at home restrictions to contain the spread. In an effort to minimize the risk of COVID-19 to employees working for our consolidated subsidiaries and the communities in which they operate, the Company mandated that all non-essential employees work from home. For employees who need to perform their jobs on-site, including warehouse and studio production teams at our consolidated subsidiaries, the Company took precautions to protect their health and safety. This included reducing the number of people on-site to allow for more social distancing; limiting visitors and screening all people who come into the Company’s work sites; in addition to elevated cleaning protocols in alignment with the recommended protocols from the Centers for Disease Control and Prevention. Our consolidated subsidiaries have also taken measures to support their employees’ ability to make a living. In addition to offering flexible hours and expanding work-at-home policies, our consolidated subsidiaries have made changes to their attendance policies and are offering additional paid time off options to support certain COVID-19 related absences. Additionally, our consolidated subsidiaries have expanded programs to support their employees, including alternative work arrangements to help families juggling competing work and personal challenges, greater access to home care help, added resources to support mental health, and paid special bonuses for many employees, among a number of other initiatives.",
+    "COVID-19employee safety and benefits","Talent Development: ","Provide Programs for Employee Recognition","Competitive Pay/Benefits",
 ]
 
 i_start_word_list = [
