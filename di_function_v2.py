@@ -927,7 +927,7 @@ def filter_di_v2(d):
                                                     di_list.append(my_data_list[ind])
                                             break # This break statement is necessary once initial_end_element is found in nt_word_list
                                 else:
-                                    #print(inner_key)
+                                    print(inner_key)
                                     sub_list =[]
                                     for i in inner_value:
                                         if i.isdigit() and len(i) <= 2:
@@ -959,6 +959,13 @@ def filter_di_v2(d):
                                                 new_sub_list2.append(k)
                                             else:
                                                 continue
+                                        elif inner_key == "1467623":
+                                            if k == nt_word_sub_list[0]:
+                                                new_sub_list2.append(k)
+                                            elif k not in nt_word_sub_list:
+                                                new_sub_list2.append(k)
+                                            else:
+                                                continue                                    
                                         else:
                                             if k == nt_word_sub_list[-2] or k ==nt_word_sub_list[-1]: # this is the problem, and could be a problem if more elemnts get added
                                                 new_sub_list2.append(k)
@@ -971,6 +978,8 @@ def filter_di_v2(d):
                                     #print(len(new_sub_list2))
                                     #print(new_sub_list[20])
                                     #print(inner_value[-1])
+                                    # if inner_key == "1467623":
+                                    #     print(inner_value)
                                     initial_end_index = inner_value.index(inner_value[-1])
                                     initial_end_element = inner_value[initial_end_index]
                                     end_index = my_data_list.index(initial_end_element)

@@ -58,7 +58,7 @@ di_v2_keys = [
     "1401680","1401708","1402057","1403256","1408075","1410636","1411207","1411494","1412707","1418091",
     "1418135","1419612","1421461","1424929","1428439","1433270","1437107", "1437352","1437402", "1437578",
     "1437958","1438133","1438231","1439095","1441683","1446847","1447669","1449488","1455684", "1459417",
-    "1459839","1460329","1462120","1462418","1463172"
+    "1459839","1460329","1462120","1462418","1463172","1464343","1466085","1466258","1467623"
 
 ]
 
@@ -69,7 +69,7 @@ di_v2_keys_s4 = [
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
     # Part 5
-    "1433270","1441683",
+    "1433270","1441683","1467623"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -126,7 +126,7 @@ di_v2_keys_s4e = [
     ,"1411494","1418135","1424929","1437402","1459417"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
-    "877212"
+    "877212","1467623"
 ]# This will be used if the nt_word does apper more than once
 
 
@@ -248,7 +248,10 @@ st_word = [
     "Inclusion, Diversity and Engagement","Diversity, Inclusion and Workplace Culture ",
     "Diversity, Equity and Inclusion (\"DE&I\") ","Our Diversity, Equity and Inclusion Focus","Diversity, Equity and Inclusion (DEI)",
     "All new hires are onboarded with training that covers our culture including mission, vision, and core values. Adherence to the core values are also evaluated for every employee as part of our employee development process. We maintain an independent process for confidential reporting of workplace concerns through our toll-free hotline, and the ability to bypass management and directly contact the Legal or HR Departments or the Company's Audit Committeeregarding concerns.",
-    "Equity, Diversity, and Inclusion (EDI)","Diversity, Equity, & Inclusion", "Workforce and Diversity"
+    "Equity, Diversity, and Inclusion (EDI)","Diversity, Equity, & Inclusion", "Workforce and Diversity",
+    "Health and Safety. The health and safety of our employees and their families is a top priority.In response to the COVID-19 pandemic, we successfully instituted a company‑wide remote work program in March 2020 to ensure the safety of all of our employees and their families. We communicateregularly with employees andprovideresources for health, wellness and engagement, and have establishedsafety protocols for employees continuing critical on-site work.We continue tomonitorthe ongoing pandemic for new developments that may impact the Company, our work locations or our employees and are taking reasonable measures.",
+    "Our People. As of February 8, 2021, we had 444 employees, all of whom were employed in the United States, and none of whom are covered by collective bargaining agreements. We have experienced no material interruptions of our operations due to disputes with our employees.",
+
 ]
 
 
@@ -389,7 +392,10 @@ nt_word = [
     "Employee Benefits","Training & Employee Development","Labor Practices and Policies","Core Values",
     "Our Investment in Career Growth and Professional Development and our Horizons Teacher Degree Program",
     "Organizational Development","Monitoring for Success. We monitor our workforce to determine its overall effectiveness by reviewing metrics related to headcount, composition, performance per employee (such as revenue per employee or adjusted EBTIDA per employee) and selling, general and administrative expense as a percentage of sales.In 2020, we implemented a new human capital management system that is global in nature to help us manage our employee initiatives and development.We expect in 2021 to continue to develop the capabilities in this system to further improve our ability to manage our human resources.",
-    "Hiring Practices","Culture and Talent Acquisition "
+    "Hiring Practices","Culture and Talent Acquisition ",
+    "Compensation and Benefits. We have demonstrated a history of investing in our workforce by offering a comprehensive compensation and benefits program to our employees. Salaries and wages paid to our employees are competitive based on position, skill and experience level, knowledge, and geographic location. In addition, we maintain an employee stock purchase plan, an equity incentive planand a 401(k) plan (that provides for a matching contribution by us)for eligible employees. We also provide, among other benefits, healthcare and insurance benefits, health savings and flexible spending accounts, a healthcare advocacy service, employer paid disability leave, employer paid life insurance, paid time off, paid parental leave, employer paid telehealth andemployee assistance programs.",
+    "Training and Development and Program.We are committed to providing the resources to engage our employees and enhance their educational and professional growth.We provide technical and leadership training to employees in a number of formats, including through an on-line resource library with over 550 on-demand courses.Our maintenance teams are trained through a mixture of online courses, simulation training and on-site, hands-on training.In addition, we define education benefits and guidelines under which our team members may receive financial assistance for certifications and continued education.In 2020, 11 of our approximately 60 community managers became newly-certified apartment managers through our tuition reimbursement program. In addition, we are pleased to promote approximately 13% of our staff to more senior positions. ",
+
 ]
 
 i_start_word_list = [
