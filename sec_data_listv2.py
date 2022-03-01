@@ -50,7 +50,8 @@ di_v2_keys = [
     "1316835","1318220","1318568", "1320414","1320695","1321646","1323885","1324404","1324424","1325702",
     "1326801","1331520", "1331875","1332349","1333274","1333986","1334978","1336917","1337553", "1337619",
     "1338749","1345016","1351636","1352010","1354327","1355096","1356576","1358762","1359841","1360901",
-    "1361113","1361658"
+    "1361113","1361658","1361983","1364479","1364885","1365135","1366246","1367644","1370450","1370880",
+    "1371285","1373715","1374310","1374535","1377630","1378946","1378950"
 
 ]
 
@@ -59,7 +60,7 @@ di_v2_keys_s4 = [
     # Part 3
     "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054",
     # Part 4
-    "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576"
+    "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -75,7 +76,7 @@ di_v2_keys_s4_2 = [
 ]
 di_v2_keys_s4_3 = [
     # Part 3
-    "917520"#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
+    "917520",#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
 ]
 di_v2_keys_s4b = [
     "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
@@ -93,7 +94,7 @@ di_v2_keys_s4c = [
     # Part 3
     "923796","926326", "930420" , "937556", "1004980",
     # Part 4
-    "1137774","1158172"
+    "1137774","1158172","1364479"
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -105,7 +106,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -214,6 +215,12 @@ st_word = [
     "We strive to help our employees maintain job stability, so they are encouraged to stay with the Company and positioned to grow their skills and knowledge on the job. The 2020 annualized voluntary turnover rate in our workforce generally was flat as compared to 2019. In an effort to reduce employee turnover, we engage in annual surveys with employees, we maintain an open-door policy that enables us to help identify any issues before they cause an employee to leave the Company, and we review exit interview data, hotline calls and root cause analysis to help deter turnover. We also assign dedicated Company human resources representatives to each department so that we can better monitor employee morale within each department. ",
     "Additionally, as of December 31, 2020, our consolidated subsidiaries had an aggregate of approximately 26,424 full and part-time employees. Employment levels fluctuate due to seasonal factors affecting our business. Additionally, our consolidated subsidiaries utilize independent contractors and temporary staffing agency personnel to supplement their workforce, particularly on a seasonal basis. We believe that our employee relations are good and a key factor in our workforce strategy.",
     "Diversity, Equity and Inclusion: ","Promote Sense of Belonging through Diversity and Inclusion Initiatives",
+    "Diversity, Equity, and Inclusion Commitment ","Diversity, inclusion and belonging. ",
+    "We screen leadership hires and measure employee performance against these company values, and regularly measure employee engagement against these values through our Employee Voice Survey. We believe our values-driven culture of open and transparent communication has contributed to our recognition as a great place to work by our employees. ",
+    "Equal Opportunity, Diversity, and Pay Equity",
+    "Within the United States, approximately650 were hourly-rated, unionized employees. Outside the United States, we have government-mandated collective bargaining arrangements and union contracts in certain countries, particularly in Europe where certain of our employees are represented by unions and/or works councils. The Company believes that its relationship with employees is good. See “Risk Factors—Risks Related to Our Business and Industry—We may be subject to work stoppages at our facilities, or our customers may be subjected to work stoppages, which could seriously impact our operations and the profitability of our business.”",
+    "—We invest in our employees by providing comprehensive benefits and compensation packages. Our benefits packages include: comprehensive health insurance with a wellness program for all employees working 30 hours or more, parental leave for all new parents for the birth or adoption of a child or placement of foster care, 401k plan with a comprehensive financial wellness component and voluntary benefits employees can tailor to their specific needs ranging from additional life insurance to pet insurance. ",
+    "Diversity Equity and Inclusion/Culture",
 ]
 
 
@@ -338,6 +345,12 @@ nt_word = [
     "Board Composition and Refreshment","Employee Engagement and Retention:",
     "Health and Safety. As a result of the spread of COVID-19, most local, state and federal governmental agencies have imposed travel restrictions and local quarantines or stay at home restrictions to contain the spread. In an effort to minimize the risk of COVID-19 to employees working for our consolidated subsidiaries and the communities in which they operate, the Company mandated that all non-essential employees work from home. For employees who need to perform their jobs on-site, including warehouse and studio production teams at our consolidated subsidiaries, the Company took precautions to protect their health and safety. This included reducing the number of people on-site to allow for more social distancing; limiting visitors and screening all people who come into the Company’s work sites; in addition to elevated cleaning protocols in alignment with the recommended protocols from the Centers for Disease Control and Prevention. Our consolidated subsidiaries have also taken measures to support their employees’ ability to make a living. In addition to offering flexible hours and expanding work-at-home policies, our consolidated subsidiaries have made changes to their attendance policies and are offering additional paid time off options to support certain COVID-19 related absences. Additionally, our consolidated subsidiaries have expanded programs to support their employees, including alternative work arrangements to help families juggling competing work and personal challenges, greater access to home care help, added resources to support mental health, and paid special bonuses for many employees, among a number of other initiatives.",
     "COVID-19employee safety and benefits","Talent Development: ","Provide Programs for Employee Recognition","Competitive Pay/Benefits",
+    "Talent Management","Compensation, Benefits, and Wellness","Employee Compensation, Benefits & Wellbeing",
+    "Social, Environmental, and Community Responsibility  ","Compensation and benefits.","Career Development",
+    "Human Capital Management in Response to COVID-19","Performance and Career Development",
+    "Employee Engagement.  We prioritize employee engagement and value employee feedback.In 2020, approximately 80% of Altra team members responded to and participated in our employee engagement survey.The survey enables us to monitor engagement and results serve as a guide to establish initiatives aimed to enhance the employee experience and analyze efficacy of those initiatives year over year.In addition to our company-wide engagement survey, our businesses also conduct localized, periodic reviews and pulse surveys to gauge employee satisfaction, obtain employee feedback of specific issues on initiatives, and identify shortfalls and opportunities for improvement.",
+    "Organizational Development—Our Human Resources team is focused on providing training to our local sales team to provide our salespeople with the skills and confidence to sell larger contracts at a faster pace. With the exception of the current year due to the COVID-19 Pandemic, this training consists of in-person instruction. Managers and supervisors also participate in specialized training to develop management skills, encourage employee development and retention and assist the Company with succession planning by identifying top talent to be developed into future leaders. Our Human Resources department also regularly provides employees with mandatory compliance training regarding workplace diversity, our code of conduct, password management, cyber security and other personnel related courses to help them with their daily responsibilities. Compliance with mandatory training requirements is tracked by our Human Resources department and management is notified when the requirements are not met. ",
+    "Health and Safety/Well-Being"
 ]
 
 i_start_word_list = [
@@ -383,5 +396,5 @@ This was not scraped properly or cleaned properly and it did have a d/i section 
 "926282"- I realized that in the part 3 json file, my code took out a good chunk of the code.-> actually this is due to scraping
 "1026214" - This was not scraped properly, going to have to manually take it out->As of 02/27/2022 resolved it by hard coding
 "1274173"- This was not scraped properly. Some information is missing, therefore, I could not scape it-> I did include it, but it is still missing info
-
+"1378950" - this was not scraped properly.
 """
