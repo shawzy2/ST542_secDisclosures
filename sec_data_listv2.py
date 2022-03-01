@@ -4,7 +4,8 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
-"_______________","- 11 -"," - "," 17","- 12 -"]
+"_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
+".  "]
 
 di_v2_keys = [
     # Part 2
@@ -43,22 +44,25 @@ di_v2_keys = [
     "1169445","1171662","1171759","1171825","1173514","1175454","1176948", "1177702","1196501","1200375",
     "1206264","1212458","1212545","1214816","1220754","1222840","1224608","1227025","1227636","1227654",
     "1230245","1232524","1255474","1257640","1258602","1267238","1271214","1273813","1273931","1274173",
-    "1278021","1278027","1280600","1281761","1283630","1283699","1284812"
+    "1278021","1278027","1280600","1281761","1283630","1283699","1284812","1286613","1287213","1288403",
+    "1288847","1289848","1289945","1290677","1293971","1294133","1295401","1296435","1297184","1297989",
+    "1297996","1298675"
 
 ]
 
 di_v2_keys_s4 = [
     "811156","831259","850460","877212","887343","906107"
     # Part 3
-    "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054"
+    "1035002","1035443","1070494","1071255","1077183", "1077771", "1091883","1102112","1168054",
     # Part 4
-    "1220754"
+    "1220754","1293971","1295401","1297184"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
     # Part 3
     "1071255","1077183", "1091883","1102112","1168054",
     # Part 4
+    "1293971","1295401","1297184"
     #"1220754"
 ]
 di_v2_keys_s4_2 = [
@@ -97,7 +101,7 @@ di_v2_keys_s4e = [
     # Part 3
     "935494","1060391", "1067701","1082554", "1084961","1090012", "1109546",
     # Part 4
-    "1158324", "1163739","1232524","1278027","1281761"#,"1212545"
+    "1158324", "1163739","1232524","1278027","1281761", "1298675"#,"1212545"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212"
@@ -193,6 +197,9 @@ st_word = [
     "Diversity, Equity & Inclusion—",
     "Employee Empowerment, Training and Professional Development. We enable and encourage our employees to grow, excel and realize their full potential. We strive to hire people more talented than we are. We empower our people to make the decisions needed today, and prepare them for even bigger decisions they will make in the future. We support professional development by providing access to internal and external training resources and programs.",
     "In order to build the best team, it is necessary for us to fill talent needs with qualified, diverse and engaged associates. Key to our success is our internal talent management program which strives to optimally deploy existing talent across Regions by focusing on where our associates excel and helping them find the best roles for them. One of the hallmarks of our success in this area is demonstrated by our ability to fill vacancies from within. For example, in 2020, 45 percent of our hires were internal fills. For those roles which we fill externally, we continually build talent pipelines with an eye towards not only current needs, but also future demands of our business. Regions uses a number of innovative tools and structured processes to achieve our goals including applications and resources designed to reach larger and more diverse audiences. Our recruiting technology is agile, user friendly and allows us to offer to candidates a robust understanding of our needs, requirements and a view of our culture to support the building of a diverse, engaged workforce.",
+    "As part of our compensation philosophy, we believewe must offer and maintain market competitive total rewards programs in order to attract and retain superior talent. These programs not only include base wages and incentives in support of our pay for performance culture, but also healthand retirement benefits. We focus many programs on employee wellness. We believe these solutions helpthe overall health and wellness of our employees and helpus successfully manage healthcare and prescription drug costs for our employee population.",
+    "Diversity & Inclusion at Five9 ","DIVERSITY, EQUITY AND INCLUSION",
+    "Employee Engagement: To assess and improve employee retention and engagement, we have surveyed employees, with the assistance of third-party consultants, and use the results of and feedback from the survey to address employee concerns. Our most recent survey was conducted in November 2020 and included participation by over two-thirds of our employees.",
 
 ]
 
@@ -302,7 +309,10 @@ nt_word = [
     "We also consider it critical to our success to invest in the professional development of all of our associates. We emphasize our commitment to professional development through opportunities such as technical, skills-based, management, and leadership training programs; formal talent and performance management processes; and sustainable career paths. We also aim to prepare our workforce for a rapidly changing environment and understand that reskilling and upskilling are crucial to staying competitive, meeting the needs of the modern workforce, and retaining associates. We’ve established a customized learning experience platform that provides the tools to measure, build, and communicate skills inside the Company. This tool provides the ability to inventory the skills our associates have, allowing us to target our development efforts on specific areas where elevated skills are needed. Regions also offers a leader and manager development program created to help people managers understand how to evaluate performance by leveraging the power of a strengths-based and engagement-focused workforce and culture.",
     "Training and Professional Development: ","Regulation ",
     "We were recently recognized as a “Best Place to Work in Money Management” by Pensions & Investments (“P&I”), the international newspaper of money management. The 2020 award was part of P&I’s ninth-annual survey and recognition program, which seeks to identify the best employers in the money management industry. This achievement recognized the strength of our culture, which is defined by the hard work, dedication, and commitment to excellence and inclusion by everyone at the Company.",
-
+    "Development, Training and Retention","Website Access to Company Reports",
+    "Compensation Philosophy","Risks Related to Human Capital Resources","Ethical Standards",
+    "Training and Talent Development: We provide technical and leadership training to employees at both the officer and non-officer levels. The Company has also launched a learning management system for tracking training hours for its employees.",
+    "Health and safety","Recruiting our Employees","Index to Financial Statements","COVID-19 Update"
 ]
 
 i_start_word_list = [

@@ -187,7 +187,38 @@ def filter_di_v2(d):
                                                         di_list.append(my_data_list[ind])
                                                 #print(di_list)
                                                 break
+                                    elif inner_key == "923571":
+                                        #print(nt_word_sub_list)
+                                        for k in new_sub_list:
+                                                if k == nt_word_sub_list[-2]:
+                                                    new_sub_list2.append(k)
+                                                elif k not in nt_word_sub_list:
+                                                    new_sub_list2.append(k)
+                                                else:
+                                                    continue  
 
+                                        last_index = len(inner_value)
+                                        inner_list = inner_value[start_index+1:last_index]
+                                        print(inner_list[5])
+                                        end_element = inner_list[5]
+                                        initial_end_index = inner_list.index(inner_list[5])
+                                        initial_end_element = inner_list[initial_end_index]
+                                        for z in new_sub_list2:
+                                            # initial_end_index = inner_value.index(z)
+                                            # initial_end_element = inner_value[initial_end_index]
+                                            if z in nt_word_list:
+                                                #print(z)
+                                                end_index = my_data_list.index(initial_end_element)
+                                                for ind in range(start_index+1,end_index):
+                                                    if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                        continue # This will get rid of the page number
+                                                    elif my_data_list[ind] in nt_word_list:
+                                                        continue
+                                                    elif my_data_list[ind] in non_element: # for 867773, it got rid of table of contents
+                                                        continue
+                                                    else:
+                                                        di_list.append(my_data_list[ind])
+                                                break
                                     else:
                                         for z in new_sub_list2:
                                             initial_end_index = inner_value.index(z)
@@ -464,7 +495,7 @@ def filter_di_v2(d):
                                                 #print(inner_key)
                                                 # if inner_key == "1278027":
                                                 #     print(nt_word_sub_list)
-                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761":
+                                                if inner_key == "872589" or inner_key == "1067701" or inner_key == "1082554" or inner_key == "1084961" or inner_key == "1090012" or inner_key == "1109546" or inner_key == "1158324" or inner_key =="1163739" or inner_key == "1212545" or inner_key == "1232524" or inner_key == "1278027" or inner_key == "1281761" or inner_key == "1298675":
                                                     if k == nt_word_sub_list[1]:
                                                         new_sub_list2.append(k)
                                                     elif k not in nt_word_sub_list:
