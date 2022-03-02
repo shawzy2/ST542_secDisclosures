@@ -68,7 +68,9 @@ di_v2_keys = [
     "1560327","1562401","1575515","1576940","1577368","1579241","1579877","1580156","1580608","1580808",
     "1581091","1581990","1583107","1585364","1585583","1585689","1587523","1588972","1590877","1590895",
     "1590955","1593034","1593548","1595974","1596532","1597033","1597672","1598428","1599489","1599617",
-    "1601548","1603923","1604821","1605301","1606498","1609550","1610950","1614184"
+    "1601548","1603923","1604821","1605301","1606498","1609550","1610950","1614184","1617406","1617640",
+    # Part 6
+     "1619954",
 
 ]
 
@@ -286,7 +288,7 @@ st_word = [
     "We operate in an industry in which competition for highly qualified personnel is intense. In addition to our compensation programs, we are highly focused on talent acquisition, retention and development. We conduct an annual employee engagement survey, the results of which inform internal company and management goals to help ensure impactful and meaningful actions in response to feedback received. Our annual employee evaluation process helps us to support developing employees as well as identify and cultivate high performers, and we have various initiatives underway to further develop leaders and managers.",
     "Culture of Respect and Inclusion",
     "Safety and Health.The safety, health, and welfare of our employees are paramount to our Company. We work closely with our customers and regulatory agencies to continuously monitor our employees’ working conditions and implement measures to ensure their wellness. During 2020, in response to the COVID‑19 pandemic, we implemented extensive safety measures throughout our Company to protect our employees, enabling the organization to continue to work with customers pursuing innovative ways to get effective therapies to patients as quickly as possible. These efforts included adherence to stringent safety protocols for employees working at clinical study sites and the interim movement of our office-based staff to remote working environments. These efforts were further supported by extensive internal and external CEO-led communications making all stakeholders aware of the precautions taken to protect the health and safety of our employees and their families, our customers, patients, and communities.",
-    
+    "Equity and Belonging"
 ]
 
 
@@ -452,7 +454,7 @@ nt_word = [
     "Veteran Recruitment & Support","Talent Retention","Compensation and total rewards","Employee Engagement: ","Workforce Health and Safety",
     "Employee Statistics",
     "In response to the COVID-19 pandemic, we implemented significant changes that we determined were in the best interest of our employees and which comply with government orders in all the states and countries where we operate. In an effort to keep our employees safe and to maintain operations during the COVID-19 pandemic, we implemented a number of health-related measures, including implementing a general work from home policy and restricting on-site access to essential employees such as laboratory personnel, increasing hygiene, cleaning and sanitizing procedures at our office and laboratory facilities, requiring face masks while on company premises, and implementing temperature checks and COVID-19 testing requirements in order to enter company facilities. ",
-    "Employee Metrics"
+    "Employee Metrics","Pay Equity","Total Rewards and Employee Engagement"
 ]
 
 i_start_word_list = [
