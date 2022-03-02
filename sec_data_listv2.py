@@ -5,7 +5,8 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 ". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
-".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-"]
+".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-",
+"__________________________________________________",]
 
 di_v2_keys = [
     # Part 2
@@ -64,7 +65,10 @@ di_v2_keys = [
     "1498828","1499422","1504008","1507079","1509991","1510295","1513761","1514705","1514991", "1517228",
     "1518715","1519061","1521036","1521332","1524358","1524741","1528129","1533924","1534992","1535929",
     "1537054","1539638","1539838","1541401","1545654","1551152","1551182","1552033","1553079","1555280",
-    "1560327","1562401","1575515","1576940","1577368","1579241","1579877","1580156","1580608"
+    "1560327","1562401","1575515","1576940","1577368","1579241","1579877","1580156","1580608","1580808",
+    "1581091","1581990","1583107","1585364","1585583","1585689","1587523","1588972","1590877","1590895",
+    "1590955","1593034","1593548","1595974","1596532","1597033","1597672","1598428","1599489","1599617",
+    "1601548","1603923","1604821","1605301","1606498","1609550","1610950","1614184"
 
 ]
 
@@ -75,7 +79,7 @@ di_v2_keys_s4 = [
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
     # Part 5
-    "1433270","1441683","1467623","1575515"
+    "1433270","1441683","1467623","1575515","1593034","1606498","1610950"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -85,7 +89,7 @@ di_v2_keys_s4_1 = [
     "1293971","1295401","1297184","1309402","1354327","1356576",
     #"1220754"
     # Part 5
-    "1433270","1441683","1575515"
+    "1433270","1441683","1575515","1593034","1606498","1610950"
 ]
 di_v2_keys_s4_2 = [
     # Part 3
@@ -101,12 +105,12 @@ di_v2_keys_s4b = [
     "920148","920371","920522", "936468", "1013462", #Note:  This one has a table ; 906107 shows up here
     # 920522 has a table and a nt_keyword that is why it is not working.
     # Part 5
-    "1551182","1552033","1562401"
+    "1551182","1552033","1562401","1614184"
 ]
 di_v2_keys_s4b_1 = [
     # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
     # If it has multiple keywords, it will use the last keyword
-    "920522", "936468"
+    "920522", "936468",
 ]
 di_v2_keys_s4c = [
     "860731","914475","916365",#,"877212"
@@ -131,7 +135,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923" #"1588972"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -275,7 +279,14 @@ st_word = [
     "We are committed to maintaining a safe environment for our team members and customers. Our stores implement various programs to reduce and eliminate hazards, resulting in a safer workplace and improved shopping experience. In 2020, our stores reported a 20% reduction in non-COVID worker compensation claims over the prior year.",
     "Diversity, inclusion, and ethics","Engagement, Inclusion and Diversity ",
     "benchmarked peer companies with engagement among our employees in the 86th percentile.Frequent employee pulse surveys were conducted during 2020 in light of the COVID-19 pandemic, allowing us to quickly collect and respond to feedback – including with more activities and initiatives to support our employees. We additionally continue to provide all of our employees with a variety of training and development opportunities. All regular employees have access to Knowledge Network, HMH’s online learning management system offering over 6,000 on demand training courses and programs, live webinars and in-person training opportunities. More than 2,900 employees participated in training programs in 2020, including Unconscious Bias, Cybersecurity, Sales, Product and Compliance Training as well as Leadership and Management Development Workshops, with more than 15,000 corporate training hours logged.",
-
+    "Diversity, Inclusion & Equal Opportunity",
+    "succession planning for senior leadership is overseen by our Board of Directors, including development plans for the next level of our senior leaders. Annual talent reviews focus on both high performers as well as those with high potential to keep our pipeline of tomorrow’s leaders full.",
+    "Commitment To  Diversity, Inclusion, and Equality",
+    "Diversity and Equal Employment","Workforce Diversity and Inclusion",
+    "We operate in an industry in which competition for highly qualified personnel is intense. In addition to our compensation programs, we are highly focused on talent acquisition, retention and development. We conduct an annual employee engagement survey, the results of which inform internal company and management goals to help ensure impactful and meaningful actions in response to feedback received. Our annual employee evaluation process helps us to support developing employees as well as identify and cultivate high performers, and we have various initiatives underway to further develop leaders and managers.",
+    "Culture of Respect and Inclusion",
+    "Safety and Health.The safety, health, and welfare of our employees are paramount to our Company. We work closely with our customers and regulatory agencies to continuously monitor our employees’ working conditions and implement measures to ensure their wellness. During 2020, in response to the COVID‑19 pandemic, we implemented extensive safety measures throughout our Company to protect our employees, enabling the organization to continue to work with customers pursuing innovative ways to get effective therapies to patients as quickly as possible. These efforts included adherence to stringent safety protocols for employees working at clinical study sites and the interim movement of our office-based staff to remote working environments. These efforts were further supported by extensive internal and external CEO-led communications making all stakeholders aware of the precautions taken to protect the health and safety of our employees and their families, our customers, patients, and communities.",
+    
 ]
 
 
@@ -435,7 +446,13 @@ nt_word = [
     "Talent Acquisition and Retention.","Community involvement","COVID-19 Health and Safety.", "Compensation", "Talent Acquisition and Retention",
     #"In 2020, we offered diversity, equity and inclusion training to all our employees.",
     "Talent Recruitment, Development and Retention","Employee Development/Training","Civic Involvement ",
-    "Compensation, Benefits, Health and Safety","Intellectual property "
+    "Compensation, Benefits, Health and Safety","Intellectual property ",
+    "Seasonality ","Training and Leadership Development ","Perrigo Company plc ","Oversight and Management",
+    "Thrive@Hilton","Providing a Competitive Total Rewards Program","Competitive Pay & Benefits","COVID-19 Public Health Emergency",
+    "Veteran Recruitment & Support","Talent Retention","Compensation and total rewards","Employee Engagement: ","Workforce Health and Safety",
+    "Employee Statistics",
+    "In response to the COVID-19 pandemic, we implemented significant changes that we determined were in the best interest of our employees and which comply with government orders in all the states and countries where we operate. In an effort to keep our employees safe and to maintain operations during the COVID-19 pandemic, we implemented a number of health-related measures, including implementing a general work from home policy and restricting on-site access to essential employees such as laboratory personnel, increasing hygiene, cleaning and sanitizing procedures at our office and laboratory facilities, requiring face masks while on company premises, and implementing temperature checks and COVID-19 testing requirements in order to enter company facilities. ",
+    "Employee Metrics"
 ]
 
 i_start_word_list = [
