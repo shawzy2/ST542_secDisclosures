@@ -685,6 +685,14 @@ def filter_di_v2(d):
                                                         new_sub_list2.append(k)
                                                     else:
                                                         continue 
+                                                elif inner_key == "1497770":
+                                                    #print(nt_word_sub_list)
+                                                    if k == nt_word_sub_list[-1]:
+                                                        new_sub_list2.append(k)
+                                                    elif k not in nt_word_sub_list:
+                                                        new_sub_list2.append(k)
+                                                    else:
+                                                        continue                         
                                                 # elif inner_key == "1082554":
                                                 #     print(nt_word_sub_list)
                                                 # elif inner_key ==  "1067701":
@@ -727,6 +735,8 @@ def filter_di_v2(d):
                                                     #print(di_list)
                                                     break                       
                                         else:
+                                            # if inner_key == "1497770":
+                                            #     print(new_sub_list2)
                                             for z in new_sub_list2:
                                                 initial_end_index = inner_value.index(z)
                                                 initial_end_element = inner_value[initial_end_index]
