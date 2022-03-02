@@ -60,7 +60,8 @@ di_v2_keys = [
     "1437958","1438133","1438231","1439095","1441683","1446847","1447669","1449488","1455684", "1459417",
     "1459839","1460329","1462120","1462418","1463172","1464343","1466085","1466258","1467623","1467858",
     "1469367","1470205","1471265", "1474735","1475115","1475841","1477294","1478242","1479290","1481582",
-    "1481792","1482512","1486159","1486957","1488139","1490281","1492691","1493225","1494319", "1497770"
+    "1481792","1482512","1486159","1486957","1488139","1490281","1492691","1493225","1494319", "1497770",
+    "1498828","1499422","1504008","1507079","1509991","1510295","1513761","1514705"
 
 ]
 
@@ -125,7 +126,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -259,6 +260,8 @@ st_word = [
     "Employee Development. Ryerson believes in promoting from within and provides the resources for long-term career development.Our summer internship program and Ryerson Academy provide meaningful training to entry-level employees.Ryerson Academy is a unique, 12-month immersive training program for entry-level inside sales associates. The program provides intensive training and experience in sales and customer service for approximately 20 new hires and entry-level employees each year.  Ryerson Academy also teaches critical communication, negotiation, and presentation skills, and participants regularly interact with Ryerson’s senior leadership and subject matter experts.We have a robust training platform, Ryerson EDvantage, available to all employees which offers Ryerson product training along with general skills courses that are customized for our employees’ development.We focus on succession planning and ensure that proper cross-training and knowledge transfer is in place.Our average employee tenure is 12 years, and our voluntary turnover rate in 2020 was less than 7 percent.",
     "Diversity, Equity & Inclusion (DEI)",
     "Our human capital strategy is to create a culture that allows us to attract and retain the very best talent in our industry, provide competitive pay and benefits, and to ensure that all of our employees are welcome everywhere in our Company. We believe the core values that make up “The Walker Way” represent the inclusive culture that we strive to create: an employee base that is driven, caring, collaborative, insightful, and tenacious. We are committed to building a great place to work for all employees and to be a leader in diversity and inclusion. ",
+    "Staffing Model.The majority of our staff are regular full-time employees. We also employ regular part-time associates and some seasonal/temporary associates. As of December 31, 2020, we had 360 full-time employees and 11 part-time employees, totaling 365.5 full-time equivalent staff. We do not outsource job functions or use subcontractors to fill open positions.None of our employees are represented by any collective bargaining unit or are parties to a collective bargaining agreement.",
+    "Inclusion", "Workforce Composition, Recruitment and Our Commitment to Diversity, Equity and Inclusion (“DEI”)",
 
 ]
 
@@ -408,7 +411,10 @@ nt_word = [
     "Social Impact ","Associate Development and Training","Learning and Development ","Employee Well-being.",
     "Employee Safety.Upholding a safe workplace is one of our core values and a part of the company's culture. Our safety standards, which go beyond the minimum requirements required by applicable law, have helped protect the well-being of our people and prevent workplace injuries that can impact business productivity. We continuously work to maintain a safety performance rating that outperforms the industry average and have implemented an Environmental, Health, and Safety policy that reinforces the goal of a ",
     "Community Relations","Benefits with a Purpose", "Workplace Culture and Values","Succession Planning and Talent Management",
-    "Training and Development."
+    "Training and Development.","Philanthropy ",
+    "Health & Safety. We are focused on conducting our business in a safe and efficient manner and in compliance with all local, state and federal safety and health regulations, and special safety concerns.",
+    "Health, Wellness and Safety","Employee Well-being ","Safety ",
+    "Workforce Stability & Leadership Experience "
 ]
 
 i_start_word_list = [
@@ -458,4 +464,5 @@ This was not scraped properly or cleaned properly and it did have a d/i section 
 "1378950" - this was not scraped properly.
 "1404655"- this was not scraped properly.
 "1428875" this was not scraped properly
+"1514705" - I think some of the data was lost due to cleaning
 """
