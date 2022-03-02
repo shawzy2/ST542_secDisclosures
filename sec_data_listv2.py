@@ -6,7 +6,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
 ".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-",
-"__________________________________________________","o"]
+"__________________________________________________","o","     |     20"]
 
 di_v2_keys = [
     # Part 2
@@ -76,7 +76,7 @@ di_v2_keys = [
     "1671933","1673358","1673985","1675149","1679688","1680247","1680379","1681459","1689923","1690334",
     "1692819","1694426","1697500","1698990","1699150","1701114","1701605","1702750","1704720","1705338",
     "1710155","1710583","1712184","1712923","1718512","1720635","1722684","1723089","1723596","1725579",
-    "1727263","1733998"
+    "1727263","1733998","1734342","1739104","1739445","1739940","1740332","1742924","1770450"
 
 ]
 
@@ -151,7 +151,7 @@ di_v2_keys_s4e = [
     # Part 5
     ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923", #"1588972"
     # Part 6
-    "1669779","1679688","1699150","1718512"
+    "1669779","1679688","1699150","1718512","1739445"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -318,7 +318,8 @@ st_word = [
     "Valuing Diversity","Diversity, Equity, and Inclusion Initiatives","Diversity Equity & Inclusion (“DEI”) Initiatives:",
     "Equality, Diversity & Inclusion. ",
     "Talent Training and Development: We offer numerous talent training and development programs to team members, including tuition and professional development reimbursement programs. We developed career ladders for the majority of our roles, empowering our team members to monitor and manage the trajectory and progression of their role and field. We instituted performance agreements for every team member, which are directly tied to departmental and company objectives and key results. Additionally, we provide skills training through our platform and leadership training to managers. Lastly, Pluralsight leaders provide countless hours of one-on-one and group coaching to help them achieve their goals.",
-
+    "In April 2020, we took the necessary steps to weather the COVID-19 crisis with several cost saving programs including temporary payroll savings, furloughs, and reduced work schedules. Where employee agreement was necessary, an overwhelming majority of employees joined their worldwide colleagues in supporting this effort to help the Company preserve business continuity. In December 2020, we announced a special year-end bonus payable to current employees who had been directly impacted by COVID-19 cost saving actions, in an amount generally comparable to the financial impact of the cost savings actions. ",
+    "Workforce Diversity and Governance for Diversity, Equity & Inclusion (\"DE&I\")",
 ]
 
 
@@ -504,7 +505,10 @@ nt_word = [
     "Initiatives Supporting Physical, Emotional, Financial and Social Wellbeing:","Healthy Work Environment","COVID-19 Response. ",
     "Summary of Risks Related to Human Capital Management","Wellness","Training & Development","Succession Planning ",
     "Talent Recruitment and Hiring Processes: As we focus more deeply on diversity and belonging, we have also brought this focus into our talent acquisition programs and processes. We partnered with Howard University in 2020 to onboard interns. We also worked with YearUp, a Boston organization that brings top companies and talented young adults together to power business, launch careers, and build community. Our implicit bias and interview training for hiring managers is aimed at helping them understand where they might be unconsciously bringing biases to the hiring process. We also broadened our set of sources to identify and locate talent with the intention of increasing diversity at the top of the recruiting funnel.  ",
-    "Employee Benefits and Talent Development."
+    "Employee Benefits and Talent Development.","Total Rewards.  ","Talent Attraction and Management.",
+    "Talent Acquisition, Development and Retention",
+    "Talent Acquisition, Management and Development: We have a robustrecruitingmodel to attractall levels oftalent acrossthe regions where we operate.In2020,our average time to fill open roles was35 days, and we hired6,700employees, of which approximately5,600wereproductionworkers.We expanded our virtual interviewing platforms and onboarding experience tomitigate COVID-19risk.Internally, strategic talent reviews and succession planning occur on an annual basis, globally and across all business areas.",
+     "Employee Growth, Development & Recognition","Talent Management and Workforce Development"
 ]
 
 i_start_word_list = [
