@@ -76,7 +76,8 @@ di_v2_keys = [
     "1671933","1673358","1673985","1675149","1679688","1680247","1680379","1681459","1689923","1690334",
     "1692819","1694426","1697500","1698990","1699150","1701114","1701605","1702750","1704720","1705338",
     "1710155","1710583","1712184","1712923","1718512","1720635","1722684","1723089","1723596","1725579",
-    "1727263","1733998","1734342","1739104","1739445","1739940","1740332","1742924","1770450"
+    "1727263","1733998","1734342","1739104","1739445","1739940","1740332","1742924","1770450","1792044",
+    "1823608"
 
 ]
 
@@ -151,7 +152,7 @@ di_v2_keys_s4e = [
     # Part 5
     ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923", #"1588972"
     # Part 6
-    "1669779","1679688","1699150","1718512","1739445"
+    "1669779","1679688","1699150","1718512","1739445","1792044"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -319,7 +320,8 @@ st_word = [
     "Equality, Diversity & Inclusion. ",
     "Talent Training and Development: We offer numerous talent training and development programs to team members, including tuition and professional development reimbursement programs. We developed career ladders for the majority of our roles, empowering our team members to monitor and manage the trajectory and progression of their role and field. We instituted performance agreements for every team member, which are directly tied to departmental and company objectives and key results. Additionally, we provide skills training through our platform and leadership training to managers. Lastly, Pluralsight leaders provide countless hours of one-on-one and group coaching to help them achieve their goals.",
     "In April 2020, we took the necessary steps to weather the COVID-19 crisis with several cost saving programs including temporary payroll savings, furloughs, and reduced work schedules. Where employee agreement was necessary, an overwhelming majority of employees joined their worldwide colleagues in supporting this effort to help the Company preserve business continuity. In December 2020, we announced a special year-end bonus payable to current employees who had been directly impacted by COVID-19 cost saving actions, in an amount generally comparable to the financial impact of the cost savings actions. ",
-    "Workforce Diversity and Governance for Diversity, Equity & Inclusion (\"DE&I\")",
+    "Workforce Diversity and Governance for Diversity, Equity & Inclusion (\"DE&I\")","Diversity and inclusion ",
+    "Diversity, Inclusion and Equity"
 ]
 
 
@@ -508,7 +510,8 @@ nt_word = [
     "Employee Benefits and Talent Development.","Total Rewards.  ","Talent Attraction and Management.",
     "Talent Acquisition, Development and Retention",
     "Talent Acquisition, Management and Development: We have a robustrecruitingmodel to attractall levels oftalent acrossthe regions where we operate.In2020,our average time to fill open roles was35 days, and we hired6,700employees, of which approximately5,600wereproductionworkers.We expanded our virtual interviewing platforms and onboarding experience tomitigate COVID-19risk.Internally, strategic talent reviews and succession planning occur on an annual basis, globally and across all business areas.",
-     "Employee Growth, Development & Recognition","Talent Management and Workforce Development"
+    "Employee Growth, Development & Recognition","Talent Management and Workforce Development",
+    "Employee wellbeing and safety","Culture and Employee Engagement "
 ]
 
 i_start_word_list = [
