@@ -63,7 +63,8 @@ di_v2_keys = [
     "1481792","1482512","1486159","1486957","1488139","1490281","1492691","1493225","1494319", "1497770",
     "1498828","1499422","1504008","1507079","1509991","1510295","1513761","1514705","1514991", "1517228",
     "1518715","1519061","1521036","1521332","1524358","1524741","1528129","1533924","1534992","1535929",
-    "1537054","1539638","1539838","1541401","1545654","1551152","1551182","1552033"
+    "1537054","1539638","1539838","1541401","1545654","1551152","1551182","1552033","1553079","1555280",
+    "1560327","1562401"
 
 ]
 
@@ -100,7 +101,7 @@ di_v2_keys_s4b = [
     "920148","920371","920522", "936468", "1013462", #Note:  This one has a table ; 906107 shows up here
     # 920522 has a table and a nt_keyword that is why it is not working.
     # Part 5
-    "1551182","1552033"
+    "1551182","1552033","1562401"
 ]
 di_v2_keys_s4b_1 = [
     # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
@@ -114,7 +115,7 @@ di_v2_keys_s4c = [
     # Part 4
     "1137774","1158172","1364479", "1380846","1389002","1393612","1401708",
     # Part 5
-    "1460329","1486159","1494319","1533924"
+    "1460329","1486159","1494319","1533924",
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -130,7 +131,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -427,7 +428,9 @@ nt_word = [
     "Employee Health, Safety and Well-being","Compensation of Employees","Talent Management and Employee Development",
     "Associate Development","Training and Talent Developmen","Talent Management & Development",
     "Training & Development: The continued development of our people is critical to our success. New hires participate in an onboarding and orientation program, which is intended to build knowledge and understanding of our business. We also invest in various professional development and leadership training initiatives and conduct quarterly forums relevant to our business that provide unique learning and networking opportunities across all business functions. ",
-    "Talent Acquisition and Retention.","Community involvement","COVID-19 Health and Safety.", "Compensation", "Talent Acquisition and Retention"
+    "Talent Acquisition and Retention.","Community involvement","COVID-19 Health and Safety.", "Compensation", "Talent Acquisition and Retention",
+    #"In 2020, we offered diversity, equity and inclusion training to all our employees.",
+    "Talent Recruitment, Development and Retention"
 ]
 
 i_start_word_list = [
