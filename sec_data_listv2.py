@@ -6,7 +6,7 @@ non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)",
 "\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
 "_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
 ".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-",
-"__________________________________________________",]
+"__________________________________________________","o"]
 
 di_v2_keys = [
     # Part 2
@@ -70,7 +70,13 @@ di_v2_keys = [
     "1590955","1593034","1593548","1595974","1596532","1597033","1597672","1598428","1599489","1599617",
     "1601548","1603923","1604821","1605301","1606498","1609550","1610950","1614184","1617406","1617640",
     # Part 6
-     "1619954",
+    "1619954","1620179","1621563","1627223","1628908","1631574","1632127","1633917","1633931","1636286",
+    "1637207","1637459","1637655","1639691","1641991","1642081","1643953","1647088","1650729","1652130",
+    "1655075","1659166","1665918","1666071","1666134","1668105","1669162","1669779","1669811","1670592",
+    "1671933","1673358","1673985","1675149","1679688","1680247","1680379","1681459","1689923","1690334",
+    "1692819","1694426","1697500","1698990","1699150","1701114","1701605","1702750","1704720","1705338",
+    "1710155","1710583","1712184","1712923","1718512","1720635","1722684","1723089","1723596","1725579",
+    "1727263","1733998"
 
 ]
 
@@ -81,7 +87,9 @@ di_v2_keys_s4 = [
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
     # Part 5
-    "1433270","1441683","1467623","1575515","1593034","1606498","1610950"
+    "1433270","1441683","1467623","1575515","1593034","1606498","1610950",
+    # Part 6
+    "1632127","1633917","1669162","1675149","1701114","1704720","1710583","1733998"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -91,15 +99,19 @@ di_v2_keys_s4_1 = [
     "1293971","1295401","1297184","1309402","1354327","1356576",
     #"1220754"
     # Part 5
-    "1433270","1441683","1575515","1593034","1606498","1610950"
+    "1433270","1441683","1575515","1593034","1606498","1610950",
+    # Part 6
+    "1632127","1669162","1675149","1701114","1704720","1710583","1733998"
 ]
 di_v2_keys_s4_2 = [
     # Part 3
     "920112","921082", "921738","1227025"#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
+    # Part 6
 ]
 di_v2_keys_s4_3 = [
     # Part 3
     "917520",#, "1220754" # I am a bit confliced if I should get rid of 920112 in di_v2_keys_s4 and s4_1
+    # Part 6
 ]
 di_v2_keys_s4b = [
     "827052","875357",# Confused as to why 811156, 831259, 877212 shows up here
@@ -107,7 +119,7 @@ di_v2_keys_s4b = [
     "920148","920371","920522", "936468", "1013462", #Note:  This one has a table ; 906107 shows up here
     # 920522 has a table and a nt_keyword that is why it is not working.
     # Part 5
-    "1551182","1552033","1562401","1614184"
+    "1551182","1552033","1562401","1614184","1681459"
 ]
 di_v2_keys_s4b_1 = [
     # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
@@ -121,7 +133,7 @@ di_v2_keys_s4c = [
     # Part 4
     "1137774","1158172","1364479", "1380846","1389002","1393612","1401708",
     # Part 5
-    "1460329","1486159","1494319","1533924",
+    "1460329","1486159","1494319","1533924","1637207",
 ]
 di_v2_keys_s4d = [
     "867773","896159",
@@ -137,7 +149,9 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923" #"1588972"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923", #"1588972"
+    # Part 6
+    "1669779","1679688","1699150","1718512"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -288,7 +302,23 @@ st_word = [
     "We operate in an industry in which competition for highly qualified personnel is intense. In addition to our compensation programs, we are highly focused on talent acquisition, retention and development. We conduct an annual employee engagement survey, the results of which inform internal company and management goals to help ensure impactful and meaningful actions in response to feedback received. Our annual employee evaluation process helps us to support developing employees as well as identify and cultivate high performers, and we have various initiatives underway to further develop leaders and managers.",
     "Culture of Respect and Inclusion",
     "Safety and Health.The safety, health, and welfare of our employees are paramount to our Company. We work closely with our customers and regulatory agencies to continuously monitor our employees’ working conditions and implement measures to ensure their wellness. During 2020, in response to the COVID‑19 pandemic, we implemented extensive safety measures throughout our Company to protect our employees, enabling the organization to continue to work with customers pursuing innovative ways to get effective therapies to patients as quickly as possible. These efforts included adherence to stringent safety protocols for employees working at clinical study sites and the interim movement of our office-based staff to remote working environments. These efforts were further supported by extensive internal and external CEO-led communications making all stakeholders aware of the precautions taken to protect the health and safety of our employees and their families, our customers, patients, and communities.",
-    "Equity and Belonging"
+    "Equity and Belonging",
+    # Part 6
+    "Inclusion and Diversity:","Diverse and Inclusive Leadership and Workforce",
+    "Health and Well-Being: We believe that the overall well-being of our employees and ensuring that their basic health and wellness needs are met is fundamental for us to achieve success as a company. We provide an Employee Assistance Program (“EAP”), as a cost-free benefit, which is available to help employees and their household members confidentially manage everyday life, work challenges, stress, and other personal issues by providing consultation, referrals and resources.In 2020, in light of the COVID-19 global pandemic, we partnered with our EAP provider to provide a series of virtual meetings where employees could discuss the challenges and successes they have had during these unprecedented times, and discuss the importance of staying resilient while facing uncertainty. ",
+    "Diversity, Inclusion, Equity, and Belonging","Diversity ",
+    "Building Leadership—through improving manager effectiveness and promoting internal talent for critical roles; and ",
+    "Diversity, Equity and Inclusion (“DE&I”)",#"Committed to Inclusion & Diversity:"
+    "Company Communications andEngagement.More than 25% of our employees actively participate in our Cultural Ambassador program, fostering a grassroots approach to engagement with support and guidance from our executive leadership team. Our Cultural Ambassador programs focus on the following: diversity, equity and inclusion, continuous learning, wellness and sustainability, social events, community outreach, and Intellia values and engagement.",
+    "We are focused on building a revolutionary company, and we know this starts with investing in each of our employees. Headquartered in Atlanta, GA with additional offices in New York, NY; San Francisco, CA; London, U.K. and Visakhapatnam, India, our employees are a big part of what drives our exceptional desire to win and help our advertisers and FI partners win. ",
+    "Employee Wellbeing—DFIN’s wellbeing program focuses on physical health, emotional/mental health and financial wellness and encourages all employees to take ownership of their wellbeing. The Company’s approach has been to raise awareness about and increase participation in programs that address the diverse needs of its employee base. Program highlights include topical webinars, targeted programs (e.g., tobacco cessation, diabetes management, weight management), virtual health challenges and paid time off to support individual wellbeing. During the fourth quarter of 2020, DFIN surveyed employees to gauge how they were coping with issues arising during 2020. They identified stress, burnout, work/life balance, career advancement and financial stress as their top five challenges, but they also felt that their managers showed support for their wellbeing. By continuing to foster a culture of wellbeing, DFIN advances employee morale, productivity and engagement. ",
+    "Diversity and Equal Opportunity","Inclusion, Diversity, and Equality",
+    "Diversity and inclusion.",
+    "COVID-19 Health Measures:Since theonsetof the COVID-19 pandemic, the health and safety ofthe Company’semployees has beenitshighest priority, with the Company conducting weekly COVID-19 Response Management Meetings. Management has been mandated to immediately implement several changes to enhanceCOVID-19safety and to mitigaterelatedwork environment health risks. Forthe Company’soffshore operations, thesechanges included providing personal protective equipment such as protective eyewear, medical suits, medical nitrile gloves, boot covers, face masks, anti-bacterial hand soap and alcohol sanitizers, digital infrared thermometers, and Biohazard Spill-Paks. In addition to providing personal protective equipment, the Company implemented COVID-19 vessel response plans across its global fleet which included quarterly fleet-wide shoreside pandemic illness drills and onboard illness drills, as well as developed a health screening questionnaire and related guidelines.For the Company’s other employees, this included enhancing remote working capabilities as well as other arrangements. In addition, the Company provided access to short-term counseling for any employees dealing with the stress of COVID-19 or other issues. SEACOR Marine will continue to enhance its COVID-19 response and is, among other initiatives, evaluating the use of hydroxyl generators in vessel heating, ventilation, and air conditioning systems primarily to destroy pathogens, viruses and bacteria on surfaces and in the air. ",
+    "Valuing Diversity","Diversity, Equity, and Inclusion Initiatives","Diversity Equity & Inclusion (“DEI”) Initiatives:",
+    "Equality, Diversity & Inclusion. ",
+    "Talent Training and Development: We offer numerous talent training and development programs to team members, including tuition and professional development reimbursement programs. We developed career ladders for the majority of our roles, empowering our team members to monitor and manage the trajectory and progression of their role and field. We instituted performance agreements for every team member, which are directly tied to departmental and company objectives and key results. Additionally, we provide skills training through our platform and leadership training to managers. Lastly, Pluralsight leaders provide countless hours of one-on-one and group coaching to help them achieve their goals.",
+
 ]
 
 
@@ -454,7 +484,27 @@ nt_word = [
     "Veteran Recruitment & Support","Talent Retention","Compensation and total rewards","Employee Engagement: ","Workforce Health and Safety",
     "Employee Statistics",
     "In response to the COVID-19 pandemic, we implemented significant changes that we determined were in the best interest of our employees and which comply with government orders in all the states and countries where we operate. In an effort to keep our employees safe and to maintain operations during the COVID-19 pandemic, we implemented a number of health-related measures, including implementing a general work from home policy and restricting on-site access to essential employees such as laboratory personnel, increasing hygiene, cleaning and sanitizing procedures at our office and laboratory facilities, requiring face masks while on company premises, and implementing temperature checks and COVID-19 testing requirements in order to enter company facilities. ",
-    "Employee Metrics","Pay Equity","Total Rewards and Employee Engagement"
+    "Employee Metrics","Pay Equity","Total Rewards and Employee Engagement",
+    # Part 6
+    "Compensation and benefits","Talent Development:",
+    "Corporate Responsibility Commitment",
+    "Community Outreach and Engagement: Our community engagement activities are focused on seeking to better understand the lives of people living with rare disease and identifying opportunities to support the rare disease community. We believe that partnering with and understanding the lives of patients and their families differentiates Wave and enhances our ability to discover and develop potential therapies. Through collaboration with patients, families and advocacy organizations, face-to-face meetings, and participation in patient-focused conferences and community events, we aim to broaden our understanding of the needs of patients and families and incorporate those critical learnings into every aspect of our company. These insights inform the design and execution of our clinical trials, the enrichment of our corporate culture, and the development of programs and services that make a positive impact on people’s lives. Employee volunteerism is another important component of our community engagement initiatives. We partner with advocacy and service organizations to provide opportunities for employees to contribute directly to our local communities. By participating in a broad range of volunteer activities, our employees donate time and resources to support patients and families in the rare disease community.",
+    "HUMAN CAPITAL ","* sums to >100% due to multi-racial reporting",#"Compensation, Benefits, Wellness"
+    "Learning and Development:",
+    "Our compensation programs are market-driven and performance-based, allowing us to recognize and reward employees who display the values and leadership practices we embrace. In addition to offering competitive compensation packages (including salary, incentive bonus and stock compensation), we also provide a benefits package that provides employees with options in managing their well-being (including health insurance, paid time off, an employee assistance program, paid parental leave and retirement savings plans).",
+    "Philanthropy","Environmental and Social Responsibility and Safety","Benefits",
+    "Compensationand Benefits, Healthand Wellness. We offer competitive benefits, including competitive salaries, excellent health insurance, and a 401K match. We are committed to pay equity, regardless of gender, race/ethnicity, or sexual orientation and conduct comprehensive pay equity analyses on a semi-annual basis. Since the onset of the COVID-19 pandemic, we have taken additional steps to support our employees in managing their work and personal responsibilities, with a focus on employee wellbeing.  ",
+    "Competitive Pay and Employee Benefits","Engagement and Communication","Impact of the COVID-19 Pandemic on our Employees",
+    "A key component to our sustainability and success is learning and development. We are intentional in our efforts to provide all employees opportunities to grow. Cardlytics University is a resource for both new hires as well as longer tenured employees, and we have specialized curriculum for emerging leaders, managers and mentors. ",
+    "Training and Development—DFIN invests in its employees’ skills and professional development by offering virtual, social and self-directed learning, mentoring, coaching and career development opportunities. In 2020, approximately 70% of employees engaged in self-directed learning and development activities through its on-demand learning platform. DFIN equips its employees with targeted learning pathways for leadership, finance, and technical roles as well as safety, compliance and equipment-related training. Guided by the Company’s philosophy of continuous performance management, DFIN encourages its people managers to check in with employees frequently.",
+    "Training, Development and Employability","Employee Development","Compensation and Benefits Program","Training and Safety. ",
+    "Employee Attraction, Development and Retention","Employee and Social Matters",
+    "The Company is proud of its diverse workforce and cross-cultural competences and, as of December 31, 2020, employed individuals from over 34 countries. The Company further recognizes that the maritime industry has traditionally been male dominated, and as a result, the Company is seeking to increase the representation of women by developing practical and innovative strategies. As of December 31, 2020, 29% of SEACOR Marine’s onshore workforce was female, while only a small fraction of its at sea workforce was represented by female seafarers. SEACOR Marine is committed to continue to recruit and employ qualified candidates regardless of their gender or cultural background. ",
+    "Turnover and Talent Management","Remaining Focused","Talent Development and Employee Engagement",
+    "Initiatives Supporting Physical, Emotional, Financial and Social Wellbeing:","Healthy Work Environment","COVID-19 Response. ",
+    "Summary of Risks Related to Human Capital Management","Wellness","Training & Development","Succession Planning ",
+    "Talent Recruitment and Hiring Processes: As we focus more deeply on diversity and belonging, we have also brought this focus into our talent acquisition programs and processes. We partnered with Howard University in 2020 to onboard interns. We also worked with YearUp, a Boston organization that brings top companies and talented young adults together to power business, launch careers, and build community. Our implicit bias and interview training for hiring managers is aimed at helping them understand where they might be unconsciously bringing biases to the hiring process. We also broadened our set of sources to identify and locate talent with the intention of increasing diversity at the top of the recruiting funnel.  ",
+    "Employee Benefits and Talent Development."
 ]
 
 i_start_word_list = [
