@@ -64,7 +64,7 @@ di_v2_keys = [
     "1498828","1499422","1504008","1507079","1509991","1510295","1513761","1514705","1514991", "1517228",
     "1518715","1519061","1521036","1521332","1524358","1524741","1528129","1533924","1534992","1535929",
     "1537054","1539638","1539838","1541401","1545654","1551152","1551182","1552033","1553079","1555280",
-    "1560327","1562401"
+    "1560327","1562401","1575515","1576940","1577368","1579241","1579877","1580156","1580608"
 
 ]
 
@@ -75,7 +75,7 @@ di_v2_keys_s4 = [
     # Part 4
     "1220754","1293971","1295401","1297184","1309402","1338749","1354327","1356576",
     # Part 5
-    "1433270","1441683","1467623",
+    "1433270","1441683","1467623","1575515"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -85,7 +85,7 @@ di_v2_keys_s4_1 = [
     "1293971","1295401","1297184","1309402","1354327","1356576",
     #"1220754"
     # Part 5
-    "1433270","1441683",
+    "1433270","1441683","1575515"
 ]
 di_v2_keys_s4_2 = [
     # Part 3
@@ -131,7 +131,7 @@ di_v2_keys_s4e = [
     # Part 4
     "1158324", "1163739","1232524","1278027","1281761", "1298675","1310114","1324404","1324424","1337619","1355096","1370450","1373715","1388658","1401521"#,"1212545"
     # Part 5
-    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327"
+    ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -271,7 +271,11 @@ st_word = [
     "Diversity, Inclusion, Ethics and Compliance","Culture, Values & Diversity, Equity & Inclusion",
     "Compensation: Our compensation program is designed to attract, retain and reward the best performers. In addition to carefully calibrated salaries and bonuses, which are reviewed annually, our employees benefit from a generous benefit package, including employee stock purchase and 401(k) programs. Additionally, many of our employees are eligible for equity awards through our annual equity program as a part of their compensation. ",
     "Company culture - engagement, diversity and inclusion","Equity, Equality, Diversity & Inclusion (EED&I).    ",
-    "Diversity Strategy"
+    "Diversity Strategy",
+    "We are committed to maintaining a safe environment for our team members and customers. Our stores implement various programs to reduce and eliminate hazards, resulting in a safer workplace and improved shopping experience. In 2020, our stores reported a 20% reduction in non-COVID worker compensation claims over the prior year.",
+    "Diversity, inclusion, and ethics","Engagement, Inclusion and Diversity ",
+    "benchmarked peer companies with engagement among our employees in the 86th percentile.Frequent employee pulse surveys were conducted during 2020 in light of the COVID-19 pandemic, allowing us to quickly collect and respond to feedback – including with more activities and initiatives to support our employees. We additionally continue to provide all of our employees with a variety of training and development opportunities. All regular employees have access to Knowledge Network, HMH’s online learning management system offering over 6,000 on demand training courses and programs, live webinars and in-person training opportunities. More than 2,900 employees participated in training programs in 2020, including Unconscious Bias, Cybersecurity, Sales, Product and Compliance Training as well as Leadership and Management Development Workshops, with more than 15,000 corporate training hours logged.",
+
 ]
 
 
@@ -430,7 +434,8 @@ nt_word = [
     "Training & Development: The continued development of our people is critical to our success. New hires participate in an onboarding and orientation program, which is intended to build knowledge and understanding of our business. We also invest in various professional development and leadership training initiatives and conduct quarterly forums relevant to our business that provide unique learning and networking opportunities across all business functions. ",
     "Talent Acquisition and Retention.","Community involvement","COVID-19 Health and Safety.", "Compensation", "Talent Acquisition and Retention",
     #"In 2020, we offered diversity, equity and inclusion training to all our employees.",
-    "Talent Recruitment, Development and Retention"
+    "Talent Recruitment, Development and Retention","Employee Development/Training","Civic Involvement ",
+    "Compensation, Benefits, Health and Safety","Intellectual property "
 ]
 
 i_start_word_list = [
