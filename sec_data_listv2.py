@@ -161,7 +161,7 @@ di_v2_keys_s4e = [
     ,"1411494","1418135","1424929","1437402","1459417","1467858","1475841","1497770","1513761","1514705","1519061","1521036","1521332","1535929","1560327","1576940","1587523","1603923", #"1588972"
     # Part 6
     "1669779","1679688","1699150","1718512","1739445","1792044",
-    "790051","813672","816761","875045"
+    "790051","813672","816761","875045","887596"
 ]# This will be used if the nt_word does apper more than once, but less than 2
 di_v2_keys_s4f = [
     "877212","1467623"
@@ -529,7 +529,7 @@ nt_word = [
     "Our Commitment to Discrimination Prevention and Equal Employment Opportunities","Organizational Effectiveness",
     "Competition","Labor rights","Turnover Rates","Business ethics",
     # Other
-    "Philosophy on Pay Equity"
+    "Philosophy on Pay Equity","Development and Training"
 
 ]
 
