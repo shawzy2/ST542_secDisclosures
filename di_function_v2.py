@@ -289,6 +289,11 @@ def filter_di_v2(d):
                                                         di_list.append(my_data_list[ind])
                                                 break
                                     #print(di_list)
+                                elif inner_key == "1026214":
+                                    di_section = ["We are committed to embedding inclusion and diversity in our business and culture. FHFA's Office of Minority and Women Inclusion has adopted regulations with respect to the promotion of diversity and inclusion and has provided us with guidance on areas of improvement. We have partnered with our CHC Committee to enhance our inclusion and diversity strategic plan. ",
+                                    "We place a priority on attracting and recruiting a pipeline of diverse candidates while advancing a culture of inclusion where everyone at the company feels welcome and valued. We work with third party partners to help ensure diverse candidate slates for open positions. Our diversity efforts are reflected in the composition of our workforce, leadership, and Board. For example, we are a majority minority company, and women make up nearly half of our workforce and lead two of our three business lines. For additional information on Board composition, see "]
+                                    for i in di_section:
+                                        di_list.append(i)
                                 elif inner_key == "732717":
                                         #print(nt_word_sub_list)
                                     start_word = "Diversity and Inclusion"
