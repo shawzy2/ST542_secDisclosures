@@ -99,6 +99,11 @@ def filter_di_v2(d):
                                 #print(inner_list)
                                 for ind in range(len(inner_list)):
                                     di_list.append(inner_list[ind])
+                            elif inner_key == "1220754":
+                                di_section =["Our employees reflect the communities in which we live and work, and the customers we serve, and they possess a broad range of thought and experiences that have helped us achieve our successes to date. A key component of our growth and success is our focus on inclusion and diversity. We believe this commitment allows us to better our understanding of patient and customer needs, and develop technologies and solutions to meet those needs. Although we have made progress in our workforce diversity representation, we continue to seek to improve in this important area. We have established goals to continue improving our hiring, development, and retention of diverse employees and our overall diversity representation, including within our executive management team, in an effort to be a socially responsible community member.",
+            "In response to COVID-19, we took action to protect our employees’ health and safety, including by equipping employees with personal protective equipment, establishing minimum staffing and social distancing policies, sanitizing workspaces more frequently, adopting alternate work schedules and instituting other measures aimed at minimizing the transmission of COVID-19 while sustaining productivity on behalf of our customers and their patients. In addition, we implemented a flexible teleworking policy for employees who can meet our customer commitments remotely, allowing a significant portion of our workforce to begin teleworking in mid-March 2020 and continuing to do so through December 31, 2020."]
+                                for i in di_section:
+                                    di_list.append(i)
                             else:
                                 for ind in range(len(inner_list)):
                                     di_list.append(inner_list[ind])
@@ -308,6 +313,12 @@ def filter_di_v2(d):
                                     "The Company is proud to have been named as one of the Best Employers for Diversity, as well as one of the Best Employers for Veterans in 2020 by Forbes magazine. The Company has also been named one of the \"Best Places to Work for People with Disabilities” with a top score in the 2020 Disability Equality Index and “Best Places to Work for LGBTQ Equality” with a 100% Corporate Equality Index designation from the Human Rights Campaign in 2020. The Company offers a generous benefits package including a 401(k) matching program, paid family leave, paid caregiver leave, a monthly fitness subsidy, commuter benefits, a legal services plan, charitable gift matching, a LEED certified workspace, and paid volunteer leave."]
                                     for i in di_section:
                                         di_list.append(i)
+                                # elif inner_key == "1220754":
+                                #     print("testing")
+            #                         di_section = ["Our employees reflect the communities in which we live and work, and the customers we serve, and they possess a broad range of thought and experiences that have helped us achieve our successes to date. A key component of our growth and success is our focus on inclusion and diversity. We believe this commitment allows us to better our understanding of patient and customer needs, and develop technologies and solutions to meet those needs. Although we have made progress in our workforce diversity representation, we continue to seek to improve in this important area. We have established goals to continue improving our hiring, development, and retention of diverse employees and our overall diversity representation, including within our executive management team, in an effort to be a socially responsible community member.",
+            # "In response to COVID-19, we took action to protect our employees’ health and safety, including by equipping employees with personal protective equipment, establishing minimum staffing and social distancing policies, sanitizing workspaces more frequently, adopting alternate work schedules and instituting other measures aimed at minimizing the transmission of COVID-19 while sustaining productivity on behalf of our customers and their patients. In addition, we implemented a flexible teleworking policy for employees who can meet our customer commitments remotely, allowing a significant portion of our workforce to begin teleworking in mid-March 2020 and continuing to do so through December 31, 2020."]
+            #                         for i in di_section:
+            #                             di_list.append(i)
                                 elif inner_key == "732717":
                                         #print(nt_word_sub_list)
                                     start_word = "Diversity and Inclusion"
@@ -1120,6 +1131,12 @@ def filter_di_v2(d):
                                         #         break # This break statement is necessary once initial_end_element is found in nt_word_list 
                                     # elif inner_key == "1552033":
                                     #     print(inner_key)
+                                    # elif inner_key == "1220754":
+                                    #     print(inner_key)
+                                    #     # di_section = ["Our employees reflect the communities in which we live and work, and the customers we serve, and they possess a broad range of thought and experiences that have helped us achieve our successes to date. A key component of our growth and success is our focus on inclusion and diversity. We believe this commitment allows us to better our understanding of patient and customer needs, and develop technologies and solutions to meet those needs. Although we have made progress in our workforce diversity representation, we continue to seek to improve in this important area. We have established goals to continue improving our hiring, development, and retention of diverse employees and our overall diversity representation, including within our executive management team, in an effort to be a socially responsible community member.",
+                                    #     # "In response to COVID-19, we took action to protect our employees’ health and safety, including by equipping employees with personal protective equipment, establishing minimum staffing and social distancing policies, sanitizing workspaces more frequently, adopting alternate work schedules and instituting other measures aimed at minimizing the transmission of COVID-19 while sustaining productivity on behalf of our customers and their patients. In addition, we implemented a flexible teleworking policy for employees who can meet our customer commitments remotely, allowing a significant portion of our workforce to begin teleworking in mid-March 2020 and continuing to do so through December 31, 2020."]
+                                    #     # for i in di_section:
+                                    #     #     di_list.append(i)
                                     elif inner_key == "1552033":
                                         for end_element in inner_list:
                                             initial_end_index = inner_value.index(end_element)
@@ -1221,6 +1238,7 @@ def filter_di_v2(d):
                                                 #print(my_data_list[ind])
                                             break # This break statement is necessary once initial_end_element is found in nt_word_list 
                                     else:
+                                        #print(inner_key)
                                         for end_element in inner_list:
                                             initial_end_index = inner_value.index(end_element)
                                             initial_end_element = inner_value[initial_end_index]
