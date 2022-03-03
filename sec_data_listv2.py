@@ -77,7 +77,10 @@ di_v2_keys = [
     "1692819","1694426","1697500","1698990","1699150","1701114","1701605","1702750","1704720","1705338",
     "1710155","1710583","1712184","1712923","1718512","1720635","1722684","1723089","1723596","1725579",
     "1727263","1733998","1734342","1739104","1739445","1739940","1740332","1742924","1770450","1792044",
-    "1823608"
+    "1823608",
+    # Part 7
+    "6201","45012","51253","51644","88790","93751","310764","915778","1013857","1034670","1109357",
+    "1122904","1289419","1583648"
 
 ]
 
@@ -90,7 +93,10 @@ di_v2_keys_s4 = [
     # Part 5
     "1433270","1441683","1467623","1575515","1593034","1606498","1610950",
     # Part 6
-    "1632127","1633917","1669162","1675149","1701114","1704720","1710583","1733998"
+    "1632127","1633917","1669162","1675149","1701114","1704720","1710583","1733998",
+    # Part 7
+    #"45012"
+    "310764","1013857"
 ]
 di_v2_keys_s4_1 = [
     "906107", 
@@ -102,7 +108,9 @@ di_v2_keys_s4_1 = [
     # Part 5
     "1433270","1441683","1575515","1593034","1606498","1610950",
     # Part 6
-    "1632127","1669162","1675149","1701114","1704720","1710583","1733998"
+    "1632127","1669162","1675149","1701114","1704720","1710583","1733998",
+    # Part 7
+    "310764"
 ]
 di_v2_keys_s4_2 = [
     # Part 3
@@ -120,12 +128,12 @@ di_v2_keys_s4b = [
     "920148","920371","920522", "936468", "1013462", #Note:  This one has a table ; 906107 shows up here
     # 920522 has a table and a nt_keyword that is why it is not working.
     # Part 5
-    "1551182","1552033","1562401","1614184","1681459"
+    "1551182","1552033","1562401","1614184","1681459","1109357"
 ]
 di_v2_keys_s4b_1 = [
     # This will be a sub_case of di_v2_keys_sb_1: it will have a table and see if it has any keywords or not
     # If it has multiple keywords, it will use the last keyword
-    "920522", "936468",
+    "920522", "936468","1109357"
 ]
 di_v2_keys_s4c = [
     "860731","914475","916365",#,"877212"
@@ -321,7 +329,10 @@ st_word = [
     "Talent Training and Development: We offer numerous talent training and development programs to team members, including tuition and professional development reimbursement programs. We developed career ladders for the majority of our roles, empowering our team members to monitor and manage the trajectory and progression of their role and field. We instituted performance agreements for every team member, which are directly tied to departmental and company objectives and key results. Additionally, we provide skills training through our platform and leadership training to managers. Lastly, Pluralsight leaders provide countless hours of one-on-one and group coaching to help them achieve their goals.",
     "In April 2020, we took the necessary steps to weather the COVID-19 crisis with several cost saving programs including temporary payroll savings, furloughs, and reduced work schedules. Where employee agreement was necessary, an overwhelming majority of employees joined their worldwide colleagues in supporting this effort to help the Company preserve business continuity. In December 2020, we announced a special year-end bonus payable to current employees who had been directly impacted by COVID-19 cost saving actions, in an amount generally comparable to the financial impact of the cost savings actions. ",
     "Workforce Diversity and Governance for Diversity, Equity & Inclusion (\"DE&I\")","Diversity and inclusion ",
-    "Diversity, Inclusion and Equity"
+    "Diversity, Inclusion and Equity","Diversity, inclusion and career development",
+    "Market Strategy — Diversity, Equity and Inclusion","Our Commitment to a Diverse and Respectful Workplace",
+    # Part 7
+    "Diversity, Equity and Inclusion (DE&I)","Global Inclusion and Diversity", "Diversity Metrics"
 ]
 
 
@@ -511,7 +522,12 @@ nt_word = [
     "Talent Acquisition, Development and Retention",
     "Talent Acquisition, Management and Development: We have a robustrecruitingmodel to attractall levels oftalent acrossthe regions where we operate.In2020,our average time to fill open roles was35 days, and we hired6,700employees, of which approximately5,600wereproductionworkers.We expanded our virtual interviewing platforms and onboarding experience tomitigate COVID-19risk.Internally, strategic talent reviews and succession planning occur on an annual basis, globally and across all business areas.",
     "Employee Growth, Development & Recognition","Talent Management and Workforce Development",
-    "Employee wellbeing and safety","Culture and Employee Engagement "
+    "Employee wellbeing and safety","Culture and Employee Engagement ",
+    # Part 7
+    "Competitive Pay and Comprehensive Benefits","HAL 2020 FORM 10-K | 4","Occupational Health & Safety",
+    "Our Commitment to Discrimination Prevention and Equal Employment Opportunities","Organizational Effectiveness",
+    "Competition","Labor rights","Turnover Rates","Business ethics"
+
 ]
 
 i_start_word_list = [
