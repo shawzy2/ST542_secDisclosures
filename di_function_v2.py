@@ -887,6 +887,8 @@ def filter_di_v2(d):
                                                 #         continue  
                                                 elif inner_key == "1123360":
                                                     continue
+                                                elif inner_key == "1053507":
+                                                    continue
                                                 elif inner_key == "1022321":
                                                     #print(nt_word_sub_list)
                                                     #print(nt_word_sub_list)
@@ -981,6 +983,13 @@ def filter_di_v2(d):
                                             for i in di_section:
                                                 di_list.append(i)
                                             break
+                                        elif inner_key == "1053507":
+                                            di_section = ["Diversity, equity and inclusion are top priorities for us. A critical factor in our success is ensuring that each of these remains at the core of our business culture, infusing fresh ideas, helping us remain connected to our tenants in a dynamic global market and ensuring mutual respect guides us in our interactions both internally and externally.   ",
+                                            "Half of the members of our board of directors are either female or part of a minority group. In addition, our recruiting efforts consistently include strategies to build diverse candidate pipelines and create an environment that maintains a diverse team of global employees. As part of our efforts to help employees succeed in their roles and have access to career opportunities, we ",
+                                            "create a variety of development opportunities unique to each market. For example, in the United States, we have programs designed to enhance opportunities for our female leaders, such as Strategies for Success, the Simmons Women’s Leadership Conference and the Women’s Wireless Leadership Forum of the Wireless Infrastructure Association. ",
+                                            "Additionally, in 2020, we implemented several new initiatives designed to address racial injustice and enhance our diversity. These include CEO-led listening sessions with employees of color, a pledge of $1.0 million from the American Tower Foundation to counter systemic racism, expanding recruiting efforts at Historically Black Colleges and Universities, increasing diversity and inclusion training for employees and managers and launching an employee-led CEO Advisory Council that will identify diversity action items and next steps for our diversity and inclusion efforts."]
+                                            for i in di_section:
+                                                di_list.append(i)
                                         elif inner_key == "1022321":
                                             #print(new_sub_list2[-2])
                                             #print(new_sub_list[0])
