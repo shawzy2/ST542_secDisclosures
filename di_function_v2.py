@@ -854,7 +854,18 @@ def filter_di_v2(d):
                                                 #     # elif k == "Fostering and maintaining a strong, healthy culture is a key strategic focus. Our core values reflect who we are and the way our employees interact with one another, our partners and our stockholders. We are dedicated to our core values, recognizing that this dedication will foster an environment where we will be able to realize our vision of creating a healthier tomorrow for patients with kidney and cardiovascular disease. We are Passionate, aware that with integrity and determination, we make a difference for patients. We are Fearless, aware that by challenging convention, we truly innovate. We are Dedicated, aware that working tirelessly together, we are greater than the sum of our parts. We are Inclusive, aware that with respect, grace and humor, we are family. We encourage our employees to live out our core values and to discuss our core values with potential candidates looking to join our team. We believe that this is an important step in helping our culture stay strong and unique. ":
                                                 #     #     new_sub_list2.append(k)
                                                 #     else:
-                                                #         continue                                                    
+                                                #         continue  
+                                                elif inner_key == "1022321":
+                                                    #print(nt_word_sub_list)
+                                                    #print(nt_word_sub_list)
+                                                    if k == nt_word_sub_list[1]:
+                                                        new_sub_list2.append(k)
+                                                    elif k not in nt_word_sub_list:
+                                                        new_sub_list2.append(k)
+                                                    # elif k == "Our success as a company is measured by the successful performance of our employees in their respective roles. Thus, it is our policy to properly train and equip each employee to perform his or her job functions safely and in compliance with all laws, regulations, and internal procedures.":
+                                                    #     continue
+                                                    else:
+                                                        continue                                                                                                 
                                                 elif inner_key == "1424929":
                                                     #print(nt_word_sub_list)
                                                     if k == nt_word_sub_list[0]:
@@ -928,6 +939,39 @@ def filter_di_v2(d):
                                                             di_list.append(my_data_list[ind])
                                                     #print(di_list)
                                                     break
+                                        elif inner_key == "1022321":
+                                            #print(new_sub_list2[-2])
+                                            #print(new_sub_list[0])
+                                            # my_data_list = new_sub_list2[:-1]
+                                            di_section = ["We are an equal opportunity employer. We believe that eliminating barriers to employment results in a more plentiful recruiting pool, diverse perspectives to problem solving, and stronger teams. We maintain a positive work environment by striving to create a strong culture of diversity and inclusion, supported by both our Code of Business Conduct and our employment practices. ",
+                                            "We have policies in place that reinforce our commitment to diversity and inclusion within the workplace. Our employee handbook includes equal employment opportunity commitments and nondiscrimination and anti-harassment disclosures, which communicate our expectations with respect to maintaining a professional workplace free of harassment. We prohibit discrimination or harassment against any employee or applicant on the basis of sex, race, ethnicity, or any other protected categories. We are committed to a harassment free workplace, which is further supported through prevention training we provide for employees.",]
+                                            for ind in di_section:
+                                                di_list.append(ind)
+                                            break
+                                            # start_word = new_sub_list[0]
+                                            # start_index = my_data_list.index(start_word)
+                                            # z = new_sub_list2[-2]
+                                            # # for z in new_sub_list2[-2]:
+                                            # initial_end_index = inner_value.index(z)
+                                            # initial_end_element = inner_value[initial_end_index]
+                                            # #print(my_data_list)
+                                            # if z not in nt_word_list:
+                                            #     #print(z)
+                                            #     end_index = my_data_list.index(initial_end_element)
+                                            #     for ind in range(start_index,end_index):
+                                            #         if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                            #             continue # This will get rid of the page number
+                                            #         # elif my_data_list[ind] in nt_word_list:
+                                            #         #     continue
+                                            #         elif my_data_list[ind] in non_element: # for 867773, it got rid of table of contents
+                                            #             continue
+                                            #         # elif my_data_list[ind] == "Employee Development":
+                                            #         #     continue
+                                            #         # elif my_data_list[ind] == "Our success as a company is measured by the successful performance of our employees in their respective roles. Thus, it is our policy to properly train and equip each employee to perform his or her job functions safely and in compliance with all laws, regulations, and internal procedures.":
+                                            #         #     continue
+                                            #         else:
+                                            #             di_list.append(my_data_list[ind])
+                                            # #         break  
                                         elif inner_key == "1514705":
                                              for z in new_sub_list2:
                                                 initial_end_index = inner_value.index(z)
