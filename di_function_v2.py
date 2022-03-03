@@ -874,6 +874,8 @@ def filter_di_v2(d):
                                                 #     #     new_sub_list2.append(k)
                                                 #     else:
                                                 #         continue  
+                                                elif inner_key == "1123360":
+                                                    continue
                                                 elif inner_key == "1022321":
                                                     #print(nt_word_sub_list)
                                                     #print(nt_word_sub_list)
@@ -958,6 +960,16 @@ def filter_di_v2(d):
                                                             di_list.append(my_data_list[ind])
                                                     #print(di_list)
                                                     break
+                                        elif inner_key == "1123360":
+                                            di_section = ["Our inclusion and diversity program focuses on workforce (our people), workplace (culture, tools and programs) and community. We believe that our business is strengthened by a diverse workforce that reflects the communities in which we operate. We believe all of our employees should be treated with respect and equality, regardless of gender, ethnicity, sexual orientation, gender identity, religious beliefs, or other characteristics and to further this goal, we formally launched an inclusion and diversity initiative in 2018. As part of this initiative, we became a signatory to the CEO Action for Diversity and Inclusion, the largest CEO-driven business commitment to advance inclusion and diversity in the workplace. We have worked to make inclusion and diversity a common thread in all of our human resource practices so that we can attract, develop, and retain the best talent for our workforce. Our focus on these efforts includes:",
+                                            "Establishing an Inclusion and Diversity Advisory Council, consisting of team members worldwide who provide insight and input on our inclusion and diversity initiative;",
+                                            "Launching employee resource groups whose mission is to foster support, professional development, and cultural inclusivity for LGBTQIA, women, veterans, and Black team members;",
+                                            "Creating a sponsorship program to ensure that women and people of color are represented in succession planning for key leadership roles; and",
+                                            "Establishing the Social Justice and Equality fund as a part of our pre-established philanthropic giving, which is used to advocate for or support education, health and wellness, financial empowerment and social equality in underserved communities.",
+                                            "For more information on certain of our human capital practices, including inclusion and diversity, refer to the Proxy Statement Summary section of our 2021 Proxy Statement.",] 
+                                            for i in di_section:
+                                                di_list.append(i)
+                                            break
                                         elif inner_key == "1022321":
                                             #print(new_sub_list2[-2])
                                             #print(new_sub_list[0])
