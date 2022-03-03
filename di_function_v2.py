@@ -195,7 +195,14 @@ def filter_di_v2(d):
                                                 elif k not in nt_word_sub_list:
                                                     new_sub_list2.append(k)
                                                 else:
-                                                    continue  
+                                                    continue 
+                                        # for k in new_sub_list:
+                                        #         if k == nt_word_sub_list[-2]:
+                                        #             new_sub_list2.append(k)
+                                        #         elif k not in nt_word_sub_list:
+                                        #             new_sub_list2.append(k)
+                                        #         else:
+                                        #             continue  
                                     # elif inner_key == "51644":
                                     #     print(nt_word_sub_list)
                                         # for k in new_sub_list:
@@ -228,6 +235,10 @@ def filter_di_v2(d):
                                                     else:
                                                         di_list.append(my_data_list[ind])
                                                 break
+                                    # elif inner_key == "732717":
+                                    #     #print(nt_word_sub_list)
+                                    #     start_word = "Diversity and Inclusion"
+                                    #     start_index = my_data_list.index(start_word)
                                     # elif inner_key == "1514991":
                                     #     print(nt_word_sub_list)
                                         # for k in new_sub_list:
@@ -278,6 +289,26 @@ def filter_di_v2(d):
                                                         di_list.append(my_data_list[ind])
                                                 break
                                     #print(di_list)
+                                elif inner_key == "732717":
+                                        #print(nt_word_sub_list)
+                                    start_word = "Diversity and Inclusion"
+                                    start_index = my_data_list.index(start_word)
+                                    for end_element in inner_list:
+                                        initial_end_index = inner_value.index(end_element)
+                                        initial_end_element = inner_value[initial_end_index]    
+                                        if end_element.isdigit() and len(end_element) <= 2: # this could break if the digit is part of the table
+                                            continue # skipping page number, does not mean getting rid of it yet
+                                        elif end_element in nt_word_list:    
+                                            end_index = my_data_list.index(initial_end_element)
+                                            for ind in range(start_index+1,end_index):    
+                                                if my_data_list[ind].isdigit() and len(my_data_list[ind]) <= 2:
+                                                    continue # This will get rid of the page number
+                                                elif my_data_list[ind] in non_element:
+                                                    continue     
+                                                else:
+                                                    #print(f"Processing: {my_data_list[ind]}")
+                                                    di_list.append(my_data_list[ind])      
+                                            break                                           
                                 elif inner_key ==  "1026214":
                                     for end_element in inner_list:
                                         initial_end_index = inner_value.index(end_element)
