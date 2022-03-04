@@ -121,5 +121,5 @@ if json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
 
 
 
-# Need to combine part1dioutput, diouput,
+# Need to combine part1dioutput, diouput, and part 8
 
