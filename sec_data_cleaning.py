@@ -44,6 +44,38 @@ for json_file in os.listdir("../ST542_secDisclosures/yescik/"):
 
     break
 
+# This code should combine part 1 json file
+part1_dict = {}
+full_part1_dic = {}
+#for json_dic_files in os.listdir("../ST542_secDisclosures/yescik/di/"):
+for di_file2 in os.listdir("../ST542_secDisclosures/yescik/di/"):
+    new_name = f"../ST542_secDisclosures/yescik/di/{di_file2}"
+    #full_part1_dic = {}
+    #print(di_file2)
+    #all_inner_dic = {}
+    # dictionary(key, dictionaryvalue(sub_key, sub_value_list))
+    full_part1_dic.update(json.load(open(new_name, encoding = 'utf-8')))
+ 
+#     with open(new_name, encoding = 'utf-8') as content:
+#         json_data = json.load(content)
+#         #full_part1_dic = {}
+#         inner_dic_2 = {}
+#         for key, value in json_data.items():
+#             inner_dic = {}
+
+#             inner_dic[key] = value
+#             #print(inner_dic)
+#             inner_dic_2.update(inner_dic)
+#         #pprint.pprint(inner_dic_2)
+#     full_part1_dic["allFilings2021_part1"] = inner_dic_2
+# #         #print(full_part1_dic)
+# # #pprint.pprint(full_part1_dic)
+part1_dict["allFilings2021_part1"] = full_part1_dic
+with open(f"../ST542_secDisclosures/part1dioutput.json","w", encoding='utf8') as new_content:
+    new_content.write(json.dump(part1_dict, new_content,ensure_ascii=False, indent=4)) 
+
+
+
 
 
 # NLP Analysis work
@@ -102,3 +134,27 @@ if json_file in os.listdir("../ST542_secDisclosures/cik_v2/"):
         #filter_di_data2
 # with open(f"../ST542_secDisclosures/cik_v2/dioutput.json","w", encoding='utf8') as new_content:
 #     new_content.write(json.dump(all_outer_json, new_content,ensure_ascii=False, indent=4))
+
+
+# # This code should combine part 1 json file
+# full_part1_dic = {}
+# #for json_dic_files in os.listdir("../ST542_secDisclosures/yescik/di/"):
+# for di_file2 in os.listdir("../ST542_secDisclosures/yescik/di/"):
+#     new_name = f"../ST542_secDisclosures/yescik/di/{di_file2}"
+#     #full_part1_dic = {}
+#     print(di_file2)
+
+
+#for di_file in os.listdir("../ST542_secDisclosures/yescik/di/"):
+#     with open(new_name, encoding = 'utf-8') as content:
+#         json_data = json.load(content)
+#         all_inner_dic = {}
+#         for key, value in json_data.items():
+#             inner_dic = {}
+#             inner_dic[key] = value
+#             all_inner_dic.update(inner_dic)
+#     full_part1_dic["allFilings2021_part1"] = all_inner_dic
+# pprint.pprint(full_part1_dic)
+
+# with open(f"../ST542_secDisclosures/cik_v2/part1dioutput.json","w", encoding='utf8') as new_content:
+#     new_content.write(json.dump(full_part1_dic, new_content,ensure_ascii=False, indent=4)) 
