@@ -56,20 +56,6 @@ for di_file2 in os.listdir("../ST542_secDisclosures/yescik/di/"):
     # dictionary(key, dictionaryvalue(sub_key, sub_value_list))
     full_part1_dic.update(json.load(open(new_name, encoding = 'utf-8')))
  
-#     with open(new_name, encoding = 'utf-8') as content:
-#         json_data = json.load(content)
-#         #full_part1_dic = {}
-#         inner_dic_2 = {}
-#         for key, value in json_data.items():
-#             inner_dic = {}
-
-#             inner_dic[key] = value
-#             #print(inner_dic)
-#             inner_dic_2.update(inner_dic)
-#         #pprint.pprint(inner_dic_2)
-#     full_part1_dic["allFilings2021_part1"] = inner_dic_2
-# #         #print(full_part1_dic)
-# # #pprint.pprint(full_part1_dic)
 part1_dict["allFilings2021_part1.json"] = full_part1_dic
 with open(f"../ST542_secDisclosures/part1dioutput.json","w", encoding='utf8') as new_content:
     new_content.write(json.dump(part1_dict, new_content,ensure_ascii=False, indent=4)) 
