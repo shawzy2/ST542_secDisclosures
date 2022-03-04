@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import nltk
 import nlp_analysis
-
+import textstat
 
 di_stat = nlp_analysis.di_stat
 # # This code should combine all of the json files
