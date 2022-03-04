@@ -37,7 +37,7 @@ def di_stat(d):
             reading_difficulty = lexical_diversity(sub_value2)
             sub_value2_tuple = (sub_value2)
             fog_index = textstat.gunning_fog(sub_value2_tuple)
-            if "table" in value:# This might not be that accurate
+            if "tables" in word_list:# This might not be that accurate
                 table_bool = 1
             else:
                 table_bool = 0
