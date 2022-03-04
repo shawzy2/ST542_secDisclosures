@@ -50,9 +50,13 @@ def di_stat(d):
             #print(summary_dict)
             
             cik_di[sub_key2] = summary_dict
-            print(cik_di)
-            #all_cik.update(cik_di)
+            #print(cik_di)
+            all_cik.update(cik_di)
+            #pprint.pprint(all_cik)
+        with open(f"../ST542_secDisclosures/dianalysis.json","w", encoding='utf8') as new_content:
+            new_content.write(json.dump(all_cik, new_content,ensure_ascii=False, indent=4)) 
     # all_cik_v2.update(all_cik)
     #pprint.pprint(all_cik_v2)
 
     #return cik_di
+    #return new_content
