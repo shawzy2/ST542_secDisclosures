@@ -36,7 +36,7 @@ def di_stat(d):
             summary_dict = {}
             word_list = word_tokenize(sub_value2)
             len_of_word_list = len(word_list)
-            reading_difficulty = lexical_diversity(sub_value2)
+            #reading_difficulty = lexical_diversity(sub_value2)
             metric_in_di = occurance_of_metrics.is_metric_in_di_section(sub_value2)
             sub_value2_tuple = (sub_value2) # -> ("Diveristy and et.c")
             fog_index = textstat.gunning_fog(sub_value2_tuple)
@@ -46,7 +46,7 @@ def di_stat(d):
                 table_bool = 0
 
             summary_dict["elements_num"] = len_of_word_list
-            summary_dict["reading_score"] = reading_difficulty # the higher it is, the more complex
+            #summary_dict["reading_score"] = reading_difficulty # the higher it is, the more complex
             summary_dict["Gunning Fog Index"] = fog_index # the higher it is, the more complex
             summary_dict["table_present"] = table_bool
             summary_dict["metric_in_di"] = metric_in_di
