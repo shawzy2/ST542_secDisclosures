@@ -4,7 +4,9 @@ import pandas as pd
 import nltk
 import textstat
 import pprint
+import occurance_of_metrics
 from nltk.tokenize import word_tokenize
+
 
 def lexical_diversity(text):
     return len(set(text)) / len(text)
@@ -35,7 +37,8 @@ def di_stat(d):
             word_list = word_tokenize(sub_value2)
             len_of_word_list = len(word_list)
             reading_difficulty = lexical_diversity(sub_value2)
-            sub_value2_tuple = (sub_value2)
+            metric_in_di = occurance_of_metrics.is_metric_in_di_section(sub_value2)
+            sub_value2_tuple = (sub_value2) # -> ("Diveristy and et.c")
             fog_index = textstat.gunning_fog(sub_value2_tuple)
             if "tables" in word_list:# This might not be that accurate
                 table_bool = 1
@@ -46,6 +49,7 @@ def di_stat(d):
             summary_dict["reading_score"] = reading_difficulty # the higher it is, the more complex
             summary_dict["Gunning Fog Index"] = fog_index # the higher it is, the more complex
             summary_dict["table_present"] = table_bool
+            summary_dict["metric_in_di"] = metric_in_di
             #pprint.pprint(summary_dict)
             #print(summary_dict)
             
