@@ -7,6 +7,13 @@ import pprint
 import occurance_of_metrics
 from nltk.tokenize import word_tokenize
 
+non_element = [" ","","— ","•","    ",",",", ",": ",".","$",")","(a)","(b)", "(",
+"                                           ","◦","■","▪"," — ","—","*","%", "®", "® ", "X","†","††", "•",", ",")%",
+". ","​", " ", " (1)","﻿ ",""," —","–","-2-","I-12"," ","•13","**","\n\n\n\n\n \n\nGoldmanSachs2020Form 10-K\n\n5    ",
+"\n\n13\n\n\n\n\n","\n13\n\n","25 ",":","Page 9", "):","on-going",
+"_______________","- 11 -"," - "," 17","- 12 -","\n\n13\n\n\n\nTable of Contents\n\n","\n13\n","\nTable of Contents\n",
+".  ","” below.","” above.","“","”)","(continued)","-10-","","-19-","-22-",
+"__________________________________________________","o","     |     20", ",", "?",".","!","(",")"]
 
 def lexical_diversity(text):
     return len(set(text)) / len(text)
@@ -35,7 +42,14 @@ def di_stat(d):
             cik_di = {}
             summary_dict = {}
             word_list = word_tokenize(sub_value2)
-            len_of_word_list = len(word_list)
+            #print(type(word_list))
+            new_word_list = []
+            for i in word_list:
+                if i not in non_element:
+                    new_word_list.append(i)
+                else:
+                    continue
+            len_of_word_list = len(new_word_list)
             #reading_difficulty = lexical_diversity(sub_value2)
             metric_in_di = occurance_of_metrics.is_metric_in_di_section(sub_value2)
             sub_value2_tuple = (sub_value2) # -> ("Diveristy and et.c")
