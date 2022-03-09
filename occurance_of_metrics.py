@@ -35,8 +35,8 @@ def is_metric_in_di_section(s):
     metrics.extend(extract_dollar(s))
     metrics.extend(extract_number(s))
     if len(metrics) > 0:
-        #return True
-        return metrics
+        return True
+        #return metrics
         #return len(metrics)
-    #return False
-    return 0
+    return False
+    #return 0

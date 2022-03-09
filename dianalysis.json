@@ -3,1553 +3,966 @@
         "elements_num": 265,
         "Gunning Fog Index": 17.87,
         "table_present": 0,
-        "metric_in_di": [
-            "100%",
-            "8,000",
-            "100",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "101199": {
         "elements_num": 139,
         "Gunning Fog Index": 22.67,
         "table_present": 0,
-        "metric_in_di": [
-            "55.1%",
-            "56.7%",
-            "57.4%",
-            "12.4%",
-            "11.6%",
-            "10.8%",
-            "8.4%",
-            "8.6%",
-            "12.2%",
-            "2020,2019",
-            "1,165",
-            "1,185",
-            "1,183",
-            "0,9",
-            "6,9",
-            "10.0",
-            "9.6",
-            "9.1",
-            "55.1",
-            "56.7",
-            "57.4",
-            "12.4",
-            "11.6",
-            "10.8",
-            "8.4",
-            "8.6",
-            "12.2",
-            "165",
-            "185",
-            "183",
-            "55",
-            "56",
-            "57"
-        ]
+        "metric_in_di": true
     },
     "101778": {
         "elements_num": 93,
         "Gunning Fog Index": 18.23,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "102212": {
         "elements_num": 267,
         "Gunning Fog Index": 24.76,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "104889": {
         "elements_num": 76,
         "Gunning Fog Index": 23.09,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "104894": {
         "elements_num": 128,
         "Gunning Fog Index": 22.04,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "105319": {
         "elements_num": 113,
         "Gunning Fog Index": 17.27,
         "table_present": 0,
-        "metric_in_di": [
-            "50%"
-        ]
+        "metric_in_di": true
     },
     "105770": {
         "elements_num": 296,
         "Gunning Fog Index": 16.4,
         "table_present": 0,
-        "metric_in_di": [
-            "1,300",
-            "33,500",
-            "300",
-            "500"
-        ]
+        "metric_in_di": true
     },
     "106535": {
         "elements_num": 266,
         "Gunning Fog Index": 27.44,
         "table_present": 0,
-        "metric_in_di": [
-            "40 percent",
-            "82 percent",
-            "82"
-        ]
+        "metric_in_di": true
     },
     "107263": {
         "elements_num": 233,
         "Gunning Fog Index": 22.16,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "12208": {
         "elements_num": 142,
         "Gunning Fog Index": 37.33,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "14272": {
         "elements_num": 394,
         "Gunning Fog Index": 21.8,
         "table_present": 0,
-        "metric_in_di": [
-            "$300",
-            "300"
-        ]
+        "metric_in_di": true
     },
     "15615": {
         "elements_num": 165,
         "Gunning Fog Index": 73.52,
         "table_present": 0,
-        "metric_in_di": [
-            "49%",
-            "43%"
-        ]
+        "metric_in_di": true
     },
     "1800": {
         "elements_num": 256,
         "Gunning Fog Index": 16.61,
         "table_present": 0,
-        "metric_in_di": [
-            "52%",
-            "55%",
-            "39%",
-            "58%",
-            "71%",
-            "52",
-            "55",
-            "58",
-            "71"
-        ]
+        "metric_in_di": true
     },
     "18230": {
         "elements_num": 145,
         "Gunning Fog Index": 27.03,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "18349": {
         "elements_num": 431,
         "Gunning Fog Index": 20.75,
         "table_present": 0,
-        "metric_in_di": [
-            "33%",
-            "37%",
-            "8%",
-            "14%",
-            "40%",
-            "15%",
-            "26%",
-            "26%",
-            "30%",
-            "40%",
-            "$1",
-            "1.0"
-        ]
+        "metric_in_di": true
     },
     "18926": {
         "elements_num": 169,
         "Gunning Fog Index": 21.43,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "19411": {
         "elements_num": 35,
         "Gunning Fog Index": 17.65,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "200406": {
         "elements_num": 141,
         "Gunning Fog Index": 21.46,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "20212": {
         "elements_num": 163,
         "Gunning Fog Index": 23.5,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "21344": {
         "elements_num": 318,
         "Gunning Fog Index": 21.06,
         "table_present": 0,
-        "metric_in_di": [
-            "38 percent",
-            "43 percent",
-            "50 percent",
-            "8,900",
-            "900"
-        ]
+        "metric_in_di": true
     },
     "21535": {
         "elements_num": 81,
         "Gunning Fog Index": 24.13,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "216085": {
         "elements_num": 89,
         "Gunning Fog Index": 11.13,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "216228": {
         "elements_num": 174,
         "Gunning Fog Index": 17.95,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "21665": {
         "elements_num": 334,
         "Gunning Fog Index": 18.36,
         "table_present": 0,
-        "metric_in_di": [
-            "60%",
-            "40%",
-            "41%",
-            "67%",
-            "11%",
-            "9%",
-            "8%",
-            "5%",
-            "60",
-            "67"
-        ]
+        "metric_in_di": true
     },
     "217346": {
         "elements_num": 146,
         "Gunning Fog Index": 21.26,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "225648": {
         "elements_num": 355,
         "Gunning Fog Index": 25.17,
         "table_present": 0,
-        "metric_in_di": [
-            "12%",
-            "88%",
-            "30%",
-            "70%",
-            "88",
-            "70"
-        ]
+        "metric_in_di": true
     },
     "230557": {
         "elements_num": 195,
         "Gunning Fog Index": 84.15,
         "table_present": 0,
-        "metric_in_di": [
-            "57%",
-            "31%",
-            "82%",
-            "18%",
-            "57",
-            "82"
-        ]
+        "metric_in_di": true
     },
     "24090": {
         "elements_num": 66,
         "Gunning Fog Index": 18.54,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "24491": {
         "elements_num": 253,
         "Gunning Fog Index": 24.74,
         "table_present": 0,
-        "metric_in_di": [
-            "30 percent"
-        ]
+        "metric_in_di": true
     },
     "2488": {
         "elements_num": 138,
         "Gunning Fog Index": 15.13,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "25475": {
         "elements_num": 168,
         "Gunning Fog Index": 18.52,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "26172": {
         "elements_num": 180,
         "Gunning Fog Index": 16.78,
         "table_present": 0,
-        "metric_in_di": [
-            "50 percent",
-            "40 percent",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "26324": {
         "elements_num": 90,
         "Gunning Fog Index": 18.22,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "26780": {
         "elements_num": 103,
         "Gunning Fog Index": 18.48,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "277135": {
         "elements_num": 193,
         "Gunning Fog Index": 18.59,
         "table_present": 0,
-        "metric_in_di": [
-            "25%",
-            "33%",
-            "50%",
-            "33%",
-            "38%",
-            "35%"
-        ]
+        "metric_in_di": true
     },
     "277509": {
         "elements_num": 230,
         "Gunning Fog Index": 22.86,
         "table_present": 0,
-        "metric_in_di": [
-            "20%",
-            "5%",
-            "50%",
-            "3000",
-            "3000"
-        ]
+        "metric_in_di": true
     },
     "27996": {
         "elements_num": 239,
         "Gunning Fog Index": 17.19,
         "table_present": 0,
-        "metric_in_di": [
-            "55%",
-            "43%",
-            "58%",
-            "14%",
-            "10%",
-            "10%",
-            "55",
-            "58"
-        ]
+        "metric_in_di": true
     },
     "28412": {
         "elements_num": 122,
         "Gunning Fog Index": 24.03,
         "table_present": 0,
-        "metric_in_di": [
-            "100%",
-            "65,41",
-            "52,28",
-            "38,23",
-            "65",
-            "52",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "28823": {
         "elements_num": 150,
         "Gunning Fog Index": 17.17,
         "table_present": 0,
-        "metric_in_di": [
-            "100"
-        ]
+        "metric_in_di": true
     },
     "29669": {
         "elements_num": 203,
         "Gunning Fog Index": 47.92,
         "table_present": 0,
-        "metric_in_di": [
-            "50%",
-            "25%"
-        ]
+        "metric_in_di": true
     },
     "30697": {
         "elements_num": 270,
         "Gunning Fog Index": 108.53,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "310158": {
         "elements_num": 296,
         "Gunning Fog Index": 22.33,
         "table_present": 0,
-        "metric_in_di": [
-            "49%",
-            "49%",
-            "49%",
-            "50%",
-            "50%",
-            "46%",
-            "33%",
-            "23%",
-            "34%",
-            "36%",
-            "32%",
-            "43%",
-            "43%",
-            "41%",
-            "23%",
-            "17%",
-            "15%",
-            "22%",
-            "26%",
-            "21%",
-            "31%",
-            "29%",
-            "27%",
-            "29%",
-            "27%",
-            "25%",
-            "50%",
-            "50%",
-            "51%",
-            "42%",
-            "33%",
-            "36%",
-            "2020,2019",
-            "51"
-        ]
+        "metric_in_di": true
     },
     "310522": {
         "elements_num": 267,
         "Gunning Fog Index": 21.44,
         "table_present": 0,
-        "metric_in_di": [
-            "55%",
-            "24%",
-            "44%",
-            "37%",
-            "55"
-        ]
+        "metric_in_di": true
     },
     "313616": {
         "elements_num": 198,
         "Gunning Fog Index": 82.01,
         "table_present": 0,
-        "metric_in_di": [
-            "36%",
-            "29%",
-            "33%",
-            "25%"
-        ]
+        "metric_in_di": true
     },
     "313927": {
         "elements_num": 149,
         "Gunning Fog Index": 18.46,
         "table_present": 0,
-        "metric_in_di": [
-            "40.6%",
-            "40.6"
-        ]
+        "metric_in_di": true
     },
     "317540": {
         "elements_num": 130,
         "Gunning Fog Index": 17.2,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "31791": {
         "elements_num": 143,
         "Gunning Fog Index": 17.87,
         "table_present": 0,
-        "metric_in_di": [
-            "30%"
-        ]
+        "metric_in_di": true
     },
     "318154": {
         "elements_num": 375,
         "Gunning Fog Index": 22.74,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "318833": {
         "elements_num": 205,
         "Gunning Fog Index": 27.1,
         "table_present": 0,
-        "metric_in_di": [
-            "75%",
-            "21%",
-            "50%",
-            "12%",
-            "79%",
-            "50%",
-            "88%",
-            "75",
-            "79",
-            "88"
-        ]
+        "metric_in_di": true
     },
     "320335": {
         "elements_num": 320,
         "Gunning Fog Index": 31.47,
         "table_present": 0,
-        "metric_in_di": [
-            "56%",
-            "22%",
-            "56",
-            "53",
-            "67",
-            "1925",
-            "1945",
-            "1946",
-            "1964",
-            "1965",
-            "1977",
-            "1978",
-            "100",
-            "100",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "34067": {
         "elements_num": 71,
         "Gunning Fog Index": 35.43,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "3453": {
         "elements_num": 156,
         "Gunning Fog Index": 39.89,
         "table_present": 0,
-        "metric_in_di": [
-            "$100",
-            "$200",
-            "100,000",
-            "200,000",
-            "100",
-            "200"
-        ]
+        "metric_in_di": true
     },
     "34903": {
         "elements_num": 34,
         "Gunning Fog Index": 26.54,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "350894": {
         "elements_num": 217,
         "Gunning Fog Index": 18.09,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "351569": {
         "elements_num": 251,
         "Gunning Fog Index": 105.72,
         "table_present": 0,
-        "metric_in_di": [
-            "69%",
-            "29%",
-            "43%",
-            "14%",
-            "69"
-        ]
+        "metric_in_di": true
     },
     "352541": {
         "elements_num": 102,
         "Gunning Fog Index": 44.91,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "352825": {
         "elements_num": 90,
         "Gunning Fog Index": 20.11,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "353020": {
         "elements_num": 181,
         "Gunning Fog Index": 20.08,
         "table_present": 0,
-        "metric_in_di": [
-            "80"
-        ]
+        "metric_in_di": true
     },
     "354707": {
         "elements_num": 45,
         "Gunning Fog Index": 24.67,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "35527": {
         "elements_num": 20,
         "Gunning Fog Index": 16.0,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "3570": {
         "elements_num": 141,
         "Gunning Fog Index": 66.86,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "357301": {
         "elements_num": 156,
         "Gunning Fog Index": 24.83,
         "table_present": 0,
-        "metric_in_di": [
-            "65%",
-            "35%",
-            "38%",
-            "65"
-        ]
+        "metric_in_di": true
     },
     "36047": {
         "elements_num": 76,
         "Gunning Fog Index": 37.97,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "36270": {
         "elements_num": 207,
         "Gunning Fog Index": 19.03,
         "table_present": 0,
-        "metric_in_di": [
-            "60%",
-            "23%",
-            "36%",
-            "50%",
-            "60"
-        ]
+        "metric_in_di": true
     },
     "36377": {
         "elements_num": 121,
         "Gunning Fog Index": 18.0,
         "table_present": 0,
-        "metric_in_di": [
-            "38%",
-            "63%",
-            "66%",
-            "55%",
-            "88%",
-            "63",
-            "66",
-            "55",
-            "88"
-        ]
+        "metric_in_di": true
     },
     "37785": {
         "elements_num": 299,
         "Gunning Fog Index": 15.55,
         "table_present": 0,
-        "metric_in_di": [
-            "14 percent",
-            "50 percent",
-            "100 percent",
-            "100 percent",
-            "32 percent",
-            "34 percent",
-            "2027",
-            "100",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "37808": {
         "elements_num": 128,
         "Gunning Fog Index": 57.76,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "37996": {
         "elements_num": 309,
         "Gunning Fog Index": 126.18,
         "table_present": 0,
-        "metric_in_di": [
-            "27.7%",
-            "25.1%",
-            "34.4%",
-            "27.7",
-            "25.1",
-            "34.4"
-        ]
+        "metric_in_di": true
     },
     "39899": {
         "elements_num": 447,
         "Gunning Fog Index": 27.29,
         "table_present": 0,
-        "metric_in_di": [
-            "2025"
-        ]
+        "metric_in_di": true
     },
     "40211": {
         "elements_num": 72,
         "Gunning Fog Index": 19.62,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "40729": {
         "elements_num": 94,
         "Gunning Fog Index": 18.76,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "40888": {
         "elements_num": 114,
         "Gunning Fog Index": 15.66,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "40987": {
         "elements_num": 247,
         "Gunning Fog Index": 23.5,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "4281": {
         "elements_num": 220,
         "Gunning Fog Index": 20.96,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "4447": {
         "elements_num": 259,
         "Gunning Fog Index": 42.88,
         "table_present": 0,
-        "metric_in_di": [
-            "2020,2019",
-            "2018,2020",
-            "2019,2018",
-            "13,16",
-            "13,13",
-            "23,22",
-            "20,19",
-            "32,31",
-            "27,26",
-            "17,18",
-            "16,17",
-            "26,26",
-            "22,22"
-        ]
+        "metric_in_di": true
     },
     "46080": {
         "elements_num": 229,
         "Gunning Fog Index": 27.81,
         "table_present": 0,
-        "metric_in_di": [
-            "50%",
-            "800",
-            "2025"
-        ]
+        "metric_in_di": true
     },
     "46129": {
         "elements_num": 114,
         "Gunning Fog Index": 21.91,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "46195": {
         "elements_num": 74,
         "Gunning Fog Index": 35.78,
         "table_present": 0,
-        "metric_in_di": [
-            "86%",
-            "64%",
-            "43%",
-            "60%",
-            "86",
-            "64",
-            "60"
-        ]
+        "metric_in_di": true
     },
     "47111": {
         "elements_num": 164,
         "Gunning Fog Index": 16.35,
         "table_present": 0,
-        "metric_in_di": [
-            "50%",
-            "$1",
-            "1.00"
-        ]
+        "metric_in_di": true
     },
     "48039": {
         "elements_num": 154,
         "Gunning Fog Index": 22.95,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "4904": {
         "elements_num": 201,
         "Gunning Fog Index": 83.05,
         "table_present": 0,
-        "metric_in_di": [
-            "20%",
-            "19%",
-            "1,400",
-            "400"
-        ]
+        "metric_in_di": true
     },
     "49071": {
         "elements_num": 140,
         "Gunning Fog Index": 22.84,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "49196": {
         "elements_num": 309,
         "Gunning Fog Index": 129.1,
         "table_present": 0,
-        "metric_in_di": [
-            "65%",
-            "45%",
-            "65"
-        ]
+        "metric_in_di": true
     },
     "49826": {
         "elements_num": 113,
         "Gunning Fog Index": 18.58,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "50863": {
         "elements_num": 305,
         "Gunning Fog Index": 19.18,
         "table_present": 0,
-        "metric_in_di": [
-            "40%",
-            "10%",
-            "2030"
-        ]
+        "metric_in_di": true
     },
     "51434": {
         "elements_num": 159,
         "Gunning Fog Index": 27.21,
         "table_present": 0,
-        "metric_in_di": [
-            "30%",
-            "50%",
-            "30%",
-            "2030"
-        ]
+        "metric_in_di": true
     },
     "52827": {
         "elements_num": 132,
         "Gunning Fog Index": 19.84,
         "table_present": 0,
-        "metric_in_di": [
-            "413",
-            "314",
-            "99"
-        ]
+        "metric_in_di": true
     },
     "54381": {
         "elements_num": 197,
         "Gunning Fog Index": 22.76,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "55067": {
         "elements_num": 302,
         "Gunning Fog Index": 30.02,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "5513": {
         "elements_num": 181,
         "Gunning Fog Index": 75.85,
         "table_present": 0,
-        "metric_in_di": [
-            "66 percent",
-            "17 percent",
-            "10,700",
-            "700",
-            "66"
-        ]
+        "metric_in_di": true
     },
     "56047": {
         "elements_num": 47,
         "Gunning Fog Index": 29.86,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "58492": {
         "elements_num": 284,
         "Gunning Fog Index": 20.86,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "59255": {
         "elements_num": 87,
         "Gunning Fog Index": 19.75,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "59478": {
         "elements_num": 60,
         "Gunning Fog Index": 13.93,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "59527": {
         "elements_num": 105,
         "Gunning Fog Index": 29.26,
         "table_present": 0,
-        "metric_in_di": [
-            "125"
-        ]
+        "metric_in_di": true
     },
     "59558": {
         "elements_num": 73,
         "Gunning Fog Index": 36.87,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "60977": {
         "elements_num": 30,
         "Gunning Fog Index": 22.67,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "6176": {
         "elements_num": 43,
         "Gunning Fog Index": 18.8,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "61986": {
         "elements_num": 137,
         "Gunning Fog Index": 17.02,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "62709": {
         "elements_num": 141,
         "Gunning Fog Index": 16.19,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "62996": {
         "elements_num": 171,
         "Gunning Fog Index": 20.23,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "63276": {
         "elements_num": 227,
         "Gunning Fog Index": 36.66,
         "table_present": 0,
-        "metric_in_di": [
-            "100%",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "63908": {
         "elements_num": 336,
         "Gunning Fog Index": 33.38,
         "table_present": 0,
-        "metric_in_di": [
-            "65"
-        ]
+        "metric_in_di": true
     },
     "64040": {
         "elements_num": 253,
         "Gunning Fog Index": 25.2,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "64803": {
         "elements_num": 300,
         "Gunning Fog Index": 17.48,
         "table_present": 0,
-        "metric_in_di": [
-            "70%",
-            "52%",
-            "53%",
-            "16%",
-            "15%",
-            "11%",
-            "5%",
-            "100 percent",
-            "22,000",
-            "100",
-            "70",
-            "52",
-            "53"
-        ]
+        "metric_in_di": true
     },
     "65984": {
         "elements_num": 14,
         "Gunning Fog Index": 15.31,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "66570": {
         "elements_num": 213,
         "Gunning Fog Index": 88.27,
         "table_present": 0,
-        "metric_in_di": [
-            "51%",
-            "42%",
-            "34%",
-            "51"
-        ]
+        "metric_in_di": true
     },
     "66756": {
         "elements_num": 127,
         "Gunning Fog Index": 17.34,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "67716": {
         "elements_num": 304,
         "Gunning Fog Index": 25.92,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "69488": {
         "elements_num": 73,
         "Gunning Fog Index": 19.58,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "700564": {
         "elements_num": 54,
         "Gunning Fog Index": 13.66,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "701288": {
         "elements_num": 218,
         "Gunning Fog Index": 14.77,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "701374": {
         "elements_num": 183,
         "Gunning Fog Index": 44.77,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "702165": {
         "elements_num": 159,
         "Gunning Fog Index": 72.25,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "702513": {
         "elements_num": 62,
         "Gunning Fog Index": 16.64,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "70415": {
         "elements_num": 102,
         "Gunning Fog Index": 28.52,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "704415": {
         "elements_num": 124,
         "Gunning Fog Index": 33.71,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "7084": {
         "elements_num": 315,
         "Gunning Fog Index": 120.51,
         "table_present": 1,
-        "metric_in_di": [
-            "39,000",
-            "8,196",
-            "10,227",
-            "18,693",
-            "4,586",
-            "4,847",
-            "9,997",
-            "2,543",
-            "4,476",
-            "7,678",
-            "1,648",
-            "2,377",
-            "17,163",
-            "20,412",
-            "1,513",
-            "39,088",
-            "29,538",
-            "8,037",
-            "37,575",
-            "1,513",
-            "30,227",
-            "8,861",
-            "39,088",
-            "2020,2019",
-            "196",
-            "227",
-            "270",
-            "693",
-            "586",
-            "847",
-            "564",
-            "997",
-            "543",
-            "476",
-            "659",
-            "678",
-            "648",
-            "717",
-            "377",
-            "190",
-            "145",
-            "343",
-            "163",
-            "412",
-            "513",
-            "088",
-            "538",
-            "79",
-            "575",
-            "100",
-            "689",
-            "824",
-            "54",
-            "513",
-            "100",
-            "227",
-            "77",
-            "861",
-            "088",
-            "100",
-            "72",
-            "100",
-            "87",
-            "100",
-            "73",
-            "100",
-            "74",
-            "100",
-            "64",
-            "100",
-            "65",
-            "100"
-        ]
+        "metric_in_di": true
     },
     "70858": {
         "elements_num": 357,
         "Gunning Fog Index": 16.59,
         "table_present": 0,
-        "metric_in_di": [
-            "47 percent",
-            "50 percent",
-            "50 percent",
-            "48 percent",
-            "14 percent",
-            "19 percent",
-            "42 percent",
-            "20 percent",
-            "45 percent",
-            "54 percent",
-            "54"
-        ]
+        "metric_in_di": true
     },
     "708821": {
         "elements_num": 100,
         "Gunning Fog Index": 22.4,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "708955": {
         "elements_num": 132,
         "Gunning Fog Index": 33.1,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "712034": {
         "elements_num": 196,
         "Gunning Fog Index": 16.26,
         "table_present": 0,
-        "metric_in_di": [
-            "33%",
-            "40%",
-            "2025"
-        ]
+        "metric_in_di": true
     },
     "712534": {
         "elements_num": 103,
         "Gunning Fog Index": 49.11,
         "table_present": 0,
-        "metric_in_di": [
-            "100"
-        ]
+        "metric_in_di": true
     },
     "713676": {
         "elements_num": 94,
         "Gunning Fog Index": 14.25,
         "table_present": 0,
-        "metric_in_di": [
-            "59%",
-            "50%",
-            "29%",
-            "22%",
-            "59"
-        ]
+        "metric_in_di": true
     },
     "714310": {
         "elements_num": 65,
         "Gunning Fog Index": 18.54,
         "table_present": 0,
-        "metric_in_di": [
-            "11,2020"
-        ]
+        "metric_in_di": true
     },
     "71691": {
         "elements_num": 289,
         "Gunning Fog Index": 45.18,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "717423": {
         "elements_num": 451,
         "Gunning Fog Index": 24.63,
         "table_present": 0,
-        "metric_in_di": [
-            "30,1",
-            "1934"
-        ]
+        "metric_in_di": true
     },
     "718877": {
         "elements_num": 261,
         "Gunning Fog Index": 21.53,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "72162": {
         "elements_num": 91,
         "Gunning Fog Index": 20.07,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "72741": {
         "elements_num": 300,
         "Gunning Fog Index": 46.25,
         "table_present": 0,
-        "metric_in_di": [
-            "6 percent",
-            "47.6"
-        ]
+        "metric_in_di": true
     },
     "72971": {
         "elements_num": 228,
         "Gunning Fog Index": 17.44,
         "table_present": 0,
-        "metric_in_di": [
-            "48%",
-            "25%",
-            "9%"
-        ]
+        "metric_in_di": true
     },
     "73088": {
         "elements_num": 259,
         "Gunning Fog Index": 16.38,
         "table_present": 0,
-        "metric_in_di": [
-            "28 percent",
-            "24 percent"
-        ]
+        "metric_in_di": true
     },
     "73124": {
         "elements_num": 188,
         "Gunning Fog Index": 20.61,
         "table_present": 0,
-        "metric_in_di": [
-            "23%",
-            "77%",
-            "61%",
-            "23%",
-            "8%",
-            "8%",
-            "33%",
-            "67%",
-            "83%",
-            "17%",
-            "77",
-            "61",
-            "67",
-            "83"
-        ]
+        "metric_in_di": true
     },
     "74208": {
         "elements_num": 150,
         "Gunning Fog Index": 25.04,
         "table_present": 0,
-        "metric_in_di": [
-            "61%",
-            "39%",
-            "55%",
-            "26%",
-            "11%",
-            "3%",
-            "5%",
-            "45%",
-            "55%",
-            "80%",
-            "20%",
-            "60%",
-            "15%",
-            "61",
-            "55",
-            "55",
-            "80",
-            "740",
-            "60"
-        ]
+        "metric_in_di": true
     },
     "7431": {
         "elements_num": 169,
         "Gunning Fog Index": 19.67,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "77360": {
         "elements_num": 275,
         "Gunning Fog Index": 20.3,
         "table_present": 0,
-        "metric_in_di": [
-            "41.5%",
-            "24.8%",
-            "31.4%",
-            "27.6%",
-            "41.5",
-            "24.8",
-            "31.4",
-            "27.6"
-        ]
+        "metric_in_di": true
     },
     "78003": {
         "elements_num": 132,
         "Gunning Fog Index": 32.93,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "78128": {
         "elements_num": 192,
         "Gunning Fog Index": 18.58,
         "table_present": 0,
-        "metric_in_di": [
-            "7%",
-            "7%",
-            "23%",
-            "17%"
-        ]
+        "metric_in_di": true
     },
     "78814": {
         "elements_num": 123,
         "Gunning Fog Index": 22.0,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "79282": {
         "elements_num": 400,
         "Gunning Fog Index": 27.97,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "8063": {
         "elements_num": 73,
         "Gunning Fog Index": 16.64,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "80661": {
         "elements_num": 219,
         "Gunning Fog Index": 19.09,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "84246": {
         "elements_num": 63,
         "Gunning Fog Index": 20.85,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "84748": {
         "elements_num": 51,
         "Gunning Fog Index": 19.61,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "86312": {
         "elements_num": 360,
         "Gunning Fog Index": 18.65,
         "table_present": 0,
-        "metric_in_di": [
-            "55%",
-            "25%",
-            "11,000",
-            "55"
-        ]
+        "metric_in_di": true
     },
     "8818": {
         "elements_num": 86,
         "Gunning Fog Index": 14.18,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "89800": {
         "elements_num": 85,
         "Gunning Fog Index": 20.24,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "9092": {
         "elements_num": 31,
         "Gunning Fog Index": 22.72,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "91767": {
         "elements_num": 333,
         "Gunning Fog Index": 17.75,
         "table_present": 0,
-        "metric_in_di": [
-            "48%",
-            "30%",
-            "12%",
-            "10%",
-            "26%",
-            "74%",
-            "34%",
-            "16%",
-            "9.8%",
-            "$1",
-            "1.5",
-            "9.8",
-            "74"
-        ]
+        "metric_in_di": true
     },
     "92230": {
         "elements_num": 222,
         "Gunning Fog Index": 21.92,
         "table_present": 1,
-        "metric_in_di": [
-            "15%",
-            "31.8",
-            "18.2",
-            "22.1",
-            "11.8",
-            "54.1",
-            "24.7",
-            "50.4",
-            "33.2",
-            "76.9",
-            "40.9",
-            "64.4",
-            "35.6",
-            "54",
-            "76",
-            "64"
-        ]
+        "metric_in_di": true
     },
     "92380": {
         "elements_num": 191,
         "Gunning Fog Index": 25.91,
         "table_present": 0,
-        "metric_in_di": [
-            "2025",
-            "2025"
-        ]
+        "metric_in_di": true
     },
     "9326": {
         "elements_num": 98,
         "Gunning Fog Index": 48.28,
         "table_present": 0,
-        "metric_in_di": [
-            "77%",
-            "23%",
-            "48%",
-            "52%",
-            "77",
-            "52"
-        ]
+        "metric_in_di": true
     },
     "93410": {
         "elements_num": 158,
         "Gunning Fog Index": 21.97,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "9346": {
         "elements_num": 81,
         "Gunning Fog Index": 44.75,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "93556": {
         "elements_num": 208,
         "Gunning Fog Index": 18.24,
         "table_present": 0,
-        "metric_in_di": [
-            "27%",
-            "20%",
-            "31%",
-            "33%",
-            "90"
-        ]
+        "metric_in_di": true
     },
     "9389": {
         "elements_num": 340,
         "Gunning Fog Index": 21.73,
         "table_present": 0,
-        "metric_in_di": [
-            "58 percent",
-            "30 percent",
-            "58"
-        ]
+        "metric_in_di": true
     },
     "97134": {
         "elements_num": 87,
         "Gunning Fog Index": 48.35,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "97216": {
         "elements_num": 71,
         "Gunning Fog Index": 36.85,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     },
     "97745": {
         "elements_num": 382,
         "Gunning Fog Index": 17.68,
         "table_present": 0,
-        "metric_in_di": [
-            "2030"
-        ]
+        "metric_in_di": true
     },
     "98222": {
         "elements_num": 238,
         "Gunning Fog Index": 22.65,
         "table_present": 0,
-        "metric_in_di": 0
+        "metric_in_di": false
     }
 }
