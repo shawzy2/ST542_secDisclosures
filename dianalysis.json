@@ -1,968 +1,4884 @@
 {
-    "100517": {
-        "elements_num": 265,
-        "Gunning Fog Index": 17.87,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "101199": {
-        "elements_num": 139,
-        "Gunning Fog Index": 22.67,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "101778": {
-        "elements_num": 93,
-        "Gunning Fog Index": 18.23,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "102212": {
-        "elements_num": 267,
-        "Gunning Fog Index": 24.76,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "104889": {
-        "elements_num": 76,
-        "Gunning Fog Index": 23.09,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "104894": {
-        "elements_num": 128,
-        "Gunning Fog Index": 22.04,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "105319": {
-        "elements_num": 113,
-        "Gunning Fog Index": 17.27,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "105770": {
-        "elements_num": 296,
-        "Gunning Fog Index": 16.4,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "106535": {
-        "elements_num": 266,
-        "Gunning Fog Index": 27.44,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "107263": {
-        "elements_num": 233,
-        "Gunning Fog Index": 22.16,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "12208": {
-        "elements_num": 142,
-        "Gunning Fog Index": 37.33,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "14272": {
-        "elements_num": 394,
-        "Gunning Fog Index": 21.8,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "15615": {
-        "elements_num": 165,
-        "Gunning Fog Index": 73.52,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "1800": {
-        "elements_num": 256,
-        "Gunning Fog Index": 16.61,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "18230": {
-        "elements_num": 145,
-        "Gunning Fog Index": 27.03,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "18349": {
-        "elements_num": 431,
-        "Gunning Fog Index": 20.75,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "18926": {
-        "elements_num": 169,
-        "Gunning Fog Index": 21.43,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "19411": {
-        "elements_num": 35,
-        "Gunning Fog Index": 17.65,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "200406": {
-        "elements_num": 141,
-        "Gunning Fog Index": 21.46,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "20212": {
-        "elements_num": 163,
-        "Gunning Fog Index": 23.5,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "21344": {
-        "elements_num": 318,
-        "Gunning Fog Index": 21.06,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "21535": {
-        "elements_num": 81,
-        "Gunning Fog Index": 24.13,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "216085": {
-        "elements_num": 89,
-        "Gunning Fog Index": 11.13,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "216228": {
-        "elements_num": 174,
-        "Gunning Fog Index": 17.95,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "21665": {
-        "elements_num": 334,
-        "Gunning Fog Index": 18.36,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "217346": {
-        "elements_num": 146,
-        "Gunning Fog Index": 21.26,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "225648": {
-        "elements_num": 355,
-        "Gunning Fog Index": 25.17,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "230557": {
-        "elements_num": 195,
-        "Gunning Fog Index": 84.15,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "24090": {
-        "elements_num": 66,
-        "Gunning Fog Index": 18.54,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "24491": {
-        "elements_num": 253,
-        "Gunning Fog Index": 24.74,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "2488": {
-        "elements_num": 138,
-        "Gunning Fog Index": 15.13,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "25475": {
-        "elements_num": 168,
-        "Gunning Fog Index": 18.52,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "26172": {
-        "elements_num": 180,
-        "Gunning Fog Index": 16.78,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "26324": {
-        "elements_num": 90,
-        "Gunning Fog Index": 18.22,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "26780": {
-        "elements_num": 103,
-        "Gunning Fog Index": 18.48,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "277135": {
-        "elements_num": 193,
-        "Gunning Fog Index": 18.59,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "277509": {
-        "elements_num": 230,
-        "Gunning Fog Index": 22.86,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "27996": {
-        "elements_num": 239,
-        "Gunning Fog Index": 17.19,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "28412": {
-        "elements_num": 122,
-        "Gunning Fog Index": 24.03,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "28823": {
-        "elements_num": 150,
-        "Gunning Fog Index": 17.17,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "29669": {
-        "elements_num": 203,
-        "Gunning Fog Index": 47.92,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "30697": {
-        "elements_num": 270,
-        "Gunning Fog Index": 108.53,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "310158": {
-        "elements_num": 296,
-        "Gunning Fog Index": 22.33,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "310522": {
-        "elements_num": 267,
-        "Gunning Fog Index": 21.44,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "313616": {
-        "elements_num": 198,
-        "Gunning Fog Index": 82.01,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "313927": {
-        "elements_num": 149,
-        "Gunning Fog Index": 18.46,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "317540": {
-        "elements_num": 130,
-        "Gunning Fog Index": 17.2,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "31791": {
-        "elements_num": 143,
-        "Gunning Fog Index": 17.87,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "318154": {
-        "elements_num": 375,
-        "Gunning Fog Index": 22.74,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "318833": {
-        "elements_num": 205,
-        "Gunning Fog Index": 27.1,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "320335": {
-        "elements_num": 320,
-        "Gunning Fog Index": 31.47,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "34067": {
-        "elements_num": 71,
-        "Gunning Fog Index": 35.43,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "3453": {
-        "elements_num": 156,
-        "Gunning Fog Index": 39.89,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "34903": {
-        "elements_num": 34,
-        "Gunning Fog Index": 26.54,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "350894": {
-        "elements_num": 217,
-        "Gunning Fog Index": 18.09,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "351569": {
-        "elements_num": 251,
-        "Gunning Fog Index": 105.72,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "352541": {
-        "elements_num": 102,
-        "Gunning Fog Index": 44.91,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "352825": {
-        "elements_num": 90,
-        "Gunning Fog Index": 20.11,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "353020": {
-        "elements_num": 181,
-        "Gunning Fog Index": 20.08,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "354707": {
-        "elements_num": 45,
-        "Gunning Fog Index": 24.67,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "35527": {
-        "elements_num": 20,
-        "Gunning Fog Index": 16.0,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "3570": {
-        "elements_num": 141,
-        "Gunning Fog Index": 66.86,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "357301": {
-        "elements_num": 156,
-        "Gunning Fog Index": 24.83,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "36047": {
-        "elements_num": 76,
-        "Gunning Fog Index": 37.97,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "36270": {
-        "elements_num": 207,
-        "Gunning Fog Index": 19.03,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "36377": {
-        "elements_num": 121,
-        "Gunning Fog Index": 18.0,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "37785": {
-        "elements_num": 299,
-        "Gunning Fog Index": 15.55,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "37808": {
-        "elements_num": 128,
-        "Gunning Fog Index": 57.76,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "37996": {
-        "elements_num": 309,
-        "Gunning Fog Index": 126.18,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "39899": {
-        "elements_num": 447,
-        "Gunning Fog Index": 27.29,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "40211": {
-        "elements_num": 72,
-        "Gunning Fog Index": 19.62,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "40729": {
-        "elements_num": 94,
-        "Gunning Fog Index": 18.76,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "40888": {
-        "elements_num": 114,
-        "Gunning Fog Index": 15.66,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "40987": {
-        "elements_num": 247,
-        "Gunning Fog Index": 23.5,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "4281": {
-        "elements_num": 220,
-        "Gunning Fog Index": 20.96,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "4447": {
-        "elements_num": 259,
-        "Gunning Fog Index": 42.88,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "46080": {
-        "elements_num": 229,
-        "Gunning Fog Index": 27.81,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "46129": {
-        "elements_num": 114,
-        "Gunning Fog Index": 21.91,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "46195": {
-        "elements_num": 74,
-        "Gunning Fog Index": 35.78,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "47111": {
-        "elements_num": 164,
-        "Gunning Fog Index": 16.35,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "48039": {
-        "elements_num": 154,
-        "Gunning Fog Index": 22.95,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "4904": {
-        "elements_num": 201,
-        "Gunning Fog Index": 83.05,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "49071": {
-        "elements_num": 140,
-        "Gunning Fog Index": 22.84,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "49196": {
-        "elements_num": 309,
-        "Gunning Fog Index": 129.1,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "49826": {
-        "elements_num": 113,
-        "Gunning Fog Index": 18.58,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "50863": {
-        "elements_num": 305,
-        "Gunning Fog Index": 19.18,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "51434": {
-        "elements_num": 159,
-        "Gunning Fog Index": 27.21,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "52827": {
-        "elements_num": 132,
-        "Gunning Fog Index": 19.84,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "54381": {
-        "elements_num": 197,
-        "Gunning Fog Index": 22.76,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "55067": {
-        "elements_num": 302,
-        "Gunning Fog Index": 30.02,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "5513": {
-        "elements_num": 181,
-        "Gunning Fog Index": 75.85,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "56047": {
-        "elements_num": 47,
-        "Gunning Fog Index": 29.86,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "58492": {
-        "elements_num": 284,
-        "Gunning Fog Index": 20.86,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "59255": {
-        "elements_num": 87,
-        "Gunning Fog Index": 19.75,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "59478": {
-        "elements_num": 60,
-        "Gunning Fog Index": 13.93,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "59527": {
-        "elements_num": 105,
-        "Gunning Fog Index": 29.26,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "59558": {
-        "elements_num": 73,
-        "Gunning Fog Index": 36.87,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "60977": {
-        "elements_num": 30,
-        "Gunning Fog Index": 22.67,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "6176": {
-        "elements_num": 43,
-        "Gunning Fog Index": 18.8,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "61986": {
-        "elements_num": 137,
-        "Gunning Fog Index": 17.02,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "62709": {
-        "elements_num": 141,
-        "Gunning Fog Index": 16.19,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "62996": {
-        "elements_num": 171,
-        "Gunning Fog Index": 20.23,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "63276": {
-        "elements_num": 227,
-        "Gunning Fog Index": 36.66,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "63908": {
-        "elements_num": 336,
-        "Gunning Fog Index": 33.38,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "64040": {
-        "elements_num": 253,
-        "Gunning Fog Index": 25.2,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "64803": {
-        "elements_num": 300,
-        "Gunning Fog Index": 17.48,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "65984": {
-        "elements_num": 14,
-        "Gunning Fog Index": 15.31,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "66570": {
-        "elements_num": 213,
-        "Gunning Fog Index": 88.27,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "66756": {
-        "elements_num": 127,
-        "Gunning Fog Index": 17.34,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "67716": {
-        "elements_num": 304,
-        "Gunning Fog Index": 25.92,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "69488": {
-        "elements_num": 73,
-        "Gunning Fog Index": 19.58,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "700564": {
-        "elements_num": 54,
-        "Gunning Fog Index": 13.66,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "701288": {
-        "elements_num": 218,
-        "Gunning Fog Index": 14.77,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "701374": {
-        "elements_num": 183,
-        "Gunning Fog Index": 44.77,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "702165": {
-        "elements_num": 159,
-        "Gunning Fog Index": 72.25,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "702513": {
-        "elements_num": 62,
-        "Gunning Fog Index": 16.64,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "70415": {
-        "elements_num": 102,
-        "Gunning Fog Index": 28.52,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "704415": {
-        "elements_num": 124,
-        "Gunning Fog Index": 33.71,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "7084": {
-        "elements_num": 315,
-        "Gunning Fog Index": 120.51,
-        "table_present": 1,
-        "metric_in_di": true
-    },
-    "70858": {
-        "elements_num": 357,
-        "Gunning Fog Index": 16.59,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "708821": {
-        "elements_num": 100,
-        "Gunning Fog Index": 22.4,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "708955": {
-        "elements_num": 132,
-        "Gunning Fog Index": 33.1,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "712034": {
-        "elements_num": 196,
-        "Gunning Fog Index": 16.26,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "712534": {
-        "elements_num": 103,
-        "Gunning Fog Index": 49.11,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "713676": {
-        "elements_num": 94,
-        "Gunning Fog Index": 14.25,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "714310": {
-        "elements_num": 65,
-        "Gunning Fog Index": 18.54,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "71691": {
-        "elements_num": 289,
-        "Gunning Fog Index": 45.18,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "717423": {
-        "elements_num": 451,
-        "Gunning Fog Index": 24.63,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "718877": {
-        "elements_num": 261,
-        "Gunning Fog Index": 21.53,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "72162": {
-        "elements_num": 91,
-        "Gunning Fog Index": 20.07,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "72741": {
-        "elements_num": 300,
-        "Gunning Fog Index": 46.25,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "72971": {
-        "elements_num": 228,
-        "Gunning Fog Index": 17.44,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "73088": {
-        "elements_num": 259,
-        "Gunning Fog Index": 16.38,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "73124": {
-        "elements_num": 188,
-        "Gunning Fog Index": 20.61,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "74208": {
-        "elements_num": 150,
-        "Gunning Fog Index": 25.04,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "7431": {
-        "elements_num": 169,
-        "Gunning Fog Index": 19.67,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "77360": {
-        "elements_num": 275,
-        "Gunning Fog Index": 20.3,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "78003": {
-        "elements_num": 132,
-        "Gunning Fog Index": 32.93,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "78128": {
-        "elements_num": 192,
-        "Gunning Fog Index": 18.58,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "78814": {
-        "elements_num": 123,
-        "Gunning Fog Index": 22.0,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "79282": {
-        "elements_num": 400,
-        "Gunning Fog Index": 27.97,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "8063": {
-        "elements_num": 73,
-        "Gunning Fog Index": 16.64,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "80661": {
-        "elements_num": 219,
-        "Gunning Fog Index": 19.09,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "84246": {
-        "elements_num": 63,
-        "Gunning Fog Index": 20.85,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "84748": {
-        "elements_num": 51,
-        "Gunning Fog Index": 19.61,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "86312": {
-        "elements_num": 360,
-        "Gunning Fog Index": 18.65,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "8818": {
-        "elements_num": 86,
-        "Gunning Fog Index": 14.18,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "89800": {
-        "elements_num": 85,
-        "Gunning Fog Index": 20.24,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "9092": {
-        "elements_num": 31,
-        "Gunning Fog Index": 22.72,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "91767": {
-        "elements_num": 333,
-        "Gunning Fog Index": 17.75,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "92230": {
-        "elements_num": 222,
-        "Gunning Fog Index": 21.92,
-        "table_present": 1,
-        "metric_in_di": true
-    },
-    "92380": {
-        "elements_num": 191,
-        "Gunning Fog Index": 25.91,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "9326": {
-        "elements_num": 98,
-        "Gunning Fog Index": 48.28,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "93410": {
-        "elements_num": 158,
-        "Gunning Fog Index": 21.97,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "9346": {
-        "elements_num": 81,
-        "Gunning Fog Index": 44.75,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "93556": {
-        "elements_num": 208,
-        "Gunning Fog Index": 18.24,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "9389": {
-        "elements_num": 340,
-        "Gunning Fog Index": 21.73,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "97134": {
-        "elements_num": 87,
-        "Gunning Fog Index": 48.35,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "97216": {
-        "elements_num": 71,
-        "Gunning Fog Index": 36.85,
-        "table_present": 0,
-        "metric_in_di": false
-    },
-    "97745": {
-        "elements_num": 382,
-        "Gunning Fog Index": 17.68,
-        "table_present": 0,
-        "metric_in_di": true
-    },
-    "98222": {
-        "elements_num": 238,
-        "Gunning Fog Index": 22.65,
-        "table_present": 0,
-        "metric_in_di": false
+    "allFilings2021_part1.json": {
+        "100517": {
+            "elements_num": 265,
+            "Gunning Fog Index": 17.87,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "101199": {
+            "elements_num": 139,
+            "Gunning Fog Index": 22.67,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "101778": {
+            "elements_num": 93,
+            "Gunning Fog Index": 18.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "102212": {
+            "elements_num": 267,
+            "Gunning Fog Index": 24.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "104889": {
+            "elements_num": 76,
+            "Gunning Fog Index": 23.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "104894": {
+            "elements_num": 128,
+            "Gunning Fog Index": 22.04,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "105319": {
+            "elements_num": 113,
+            "Gunning Fog Index": 17.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "105770": {
+            "elements_num": 296,
+            "Gunning Fog Index": 16.4,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "106535": {
+            "elements_num": 266,
+            "Gunning Fog Index": 27.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "107263": {
+            "elements_num": 233,
+            "Gunning Fog Index": 22.16,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "12208": {
+            "elements_num": 142,
+            "Gunning Fog Index": 37.33,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "14272": {
+            "elements_num": 394,
+            "Gunning Fog Index": 21.8,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "15615": {
+            "elements_num": 165,
+            "Gunning Fog Index": 73.52,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1800": {
+            "elements_num": 256,
+            "Gunning Fog Index": 16.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "18230": {
+            "elements_num": 145,
+            "Gunning Fog Index": 27.03,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "18349": {
+            "elements_num": 431,
+            "Gunning Fog Index": 20.75,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "18926": {
+            "elements_num": 169,
+            "Gunning Fog Index": 21.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "19411": {
+            "elements_num": 35,
+            "Gunning Fog Index": 17.65,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "200406": {
+            "elements_num": 141,
+            "Gunning Fog Index": 21.46,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "20212": {
+            "elements_num": 163,
+            "Gunning Fog Index": 23.5,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "21344": {
+            "elements_num": 318,
+            "Gunning Fog Index": 21.06,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "21535": {
+            "elements_num": 81,
+            "Gunning Fog Index": 24.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "216085": {
+            "elements_num": 89,
+            "Gunning Fog Index": 11.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "216228": {
+            "elements_num": 174,
+            "Gunning Fog Index": 17.95,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "21665": {
+            "elements_num": 334,
+            "Gunning Fog Index": 18.36,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "217346": {
+            "elements_num": 146,
+            "Gunning Fog Index": 21.26,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "225648": {
+            "elements_num": 355,
+            "Gunning Fog Index": 25.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "230557": {
+            "elements_num": 195,
+            "Gunning Fog Index": 84.15,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "24090": {
+            "elements_num": 66,
+            "Gunning Fog Index": 18.54,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "24491": {
+            "elements_num": 253,
+            "Gunning Fog Index": 24.74,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "2488": {
+            "elements_num": 138,
+            "Gunning Fog Index": 15.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "25475": {
+            "elements_num": 168,
+            "Gunning Fog Index": 18.52,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "26172": {
+            "elements_num": 180,
+            "Gunning Fog Index": 16.78,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "26324": {
+            "elements_num": 90,
+            "Gunning Fog Index": 18.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "26780": {
+            "elements_num": 103,
+            "Gunning Fog Index": 18.48,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "277135": {
+            "elements_num": 193,
+            "Gunning Fog Index": 18.59,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "277509": {
+            "elements_num": 230,
+            "Gunning Fog Index": 22.86,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "27996": {
+            "elements_num": 239,
+            "Gunning Fog Index": 17.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "28412": {
+            "elements_num": 122,
+            "Gunning Fog Index": 24.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "28823": {
+            "elements_num": 150,
+            "Gunning Fog Index": 17.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "29669": {
+            "elements_num": 203,
+            "Gunning Fog Index": 47.92,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "30697": {
+            "elements_num": 270,
+            "Gunning Fog Index": 108.53,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "310158": {
+            "elements_num": 296,
+            "Gunning Fog Index": 22.33,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "310522": {
+            "elements_num": 267,
+            "Gunning Fog Index": 21.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "313616": {
+            "elements_num": 198,
+            "Gunning Fog Index": 82.01,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "313927": {
+            "elements_num": 149,
+            "Gunning Fog Index": 18.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "317540": {
+            "elements_num": 130,
+            "Gunning Fog Index": 17.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "31791": {
+            "elements_num": 143,
+            "Gunning Fog Index": 17.87,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "318154": {
+            "elements_num": 375,
+            "Gunning Fog Index": 22.74,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "318833": {
+            "elements_num": 205,
+            "Gunning Fog Index": 27.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "320335": {
+            "elements_num": 320,
+            "Gunning Fog Index": 31.47,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "34067": {
+            "elements_num": 71,
+            "Gunning Fog Index": 35.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "3453": {
+            "elements_num": 156,
+            "Gunning Fog Index": 39.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "34903": {
+            "elements_num": 34,
+            "Gunning Fog Index": 26.54,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "350894": {
+            "elements_num": 217,
+            "Gunning Fog Index": 18.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "351569": {
+            "elements_num": 251,
+            "Gunning Fog Index": 105.72,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "352541": {
+            "elements_num": 102,
+            "Gunning Fog Index": 44.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "352825": {
+            "elements_num": 90,
+            "Gunning Fog Index": 20.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "353020": {
+            "elements_num": 181,
+            "Gunning Fog Index": 20.08,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "354707": {
+            "elements_num": 45,
+            "Gunning Fog Index": 24.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "35527": {
+            "elements_num": 20,
+            "Gunning Fog Index": 16.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "3570": {
+            "elements_num": 141,
+            "Gunning Fog Index": 66.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "357301": {
+            "elements_num": 156,
+            "Gunning Fog Index": 24.83,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "36047": {
+            "elements_num": 76,
+            "Gunning Fog Index": 37.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "36270": {
+            "elements_num": 207,
+            "Gunning Fog Index": 19.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "36377": {
+            "elements_num": 121,
+            "Gunning Fog Index": 18.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "37785": {
+            "elements_num": 299,
+            "Gunning Fog Index": 15.55,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "37808": {
+            "elements_num": 128,
+            "Gunning Fog Index": 57.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "37996": {
+            "elements_num": 309,
+            "Gunning Fog Index": 126.18,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "39899": {
+            "elements_num": 447,
+            "Gunning Fog Index": 27.29,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "40211": {
+            "elements_num": 72,
+            "Gunning Fog Index": 19.62,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "40729": {
+            "elements_num": 94,
+            "Gunning Fog Index": 18.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "40888": {
+            "elements_num": 114,
+            "Gunning Fog Index": 15.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "40987": {
+            "elements_num": 247,
+            "Gunning Fog Index": 23.5,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "4281": {
+            "elements_num": 220,
+            "Gunning Fog Index": 20.96,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "4447": {
+            "elements_num": 259,
+            "Gunning Fog Index": 42.88,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "46080": {
+            "elements_num": 229,
+            "Gunning Fog Index": 27.81,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "46129": {
+            "elements_num": 114,
+            "Gunning Fog Index": 21.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "46195": {
+            "elements_num": 74,
+            "Gunning Fog Index": 35.78,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "47111": {
+            "elements_num": 164,
+            "Gunning Fog Index": 16.35,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "48039": {
+            "elements_num": 154,
+            "Gunning Fog Index": 22.95,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "4904": {
+            "elements_num": 201,
+            "Gunning Fog Index": 83.05,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "49071": {
+            "elements_num": 140,
+            "Gunning Fog Index": 22.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "49196": {
+            "elements_num": 309,
+            "Gunning Fog Index": 129.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "49826": {
+            "elements_num": 113,
+            "Gunning Fog Index": 18.58,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "50863": {
+            "elements_num": 305,
+            "Gunning Fog Index": 19.18,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "51434": {
+            "elements_num": 159,
+            "Gunning Fog Index": 27.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "52827": {
+            "elements_num": 132,
+            "Gunning Fog Index": 19.84,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "54381": {
+            "elements_num": 197,
+            "Gunning Fog Index": 22.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "55067": {
+            "elements_num": 302,
+            "Gunning Fog Index": 30.02,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "5513": {
+            "elements_num": 181,
+            "Gunning Fog Index": 75.85,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "56047": {
+            "elements_num": 47,
+            "Gunning Fog Index": 29.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "58492": {
+            "elements_num": 284,
+            "Gunning Fog Index": 20.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "59255": {
+            "elements_num": 87,
+            "Gunning Fog Index": 19.75,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "59478": {
+            "elements_num": 60,
+            "Gunning Fog Index": 13.93,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "59527": {
+            "elements_num": 105,
+            "Gunning Fog Index": 29.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "59558": {
+            "elements_num": 73,
+            "Gunning Fog Index": 36.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "60977": {
+            "elements_num": 30,
+            "Gunning Fog Index": 22.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "6176": {
+            "elements_num": 43,
+            "Gunning Fog Index": 18.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "61986": {
+            "elements_num": 137,
+            "Gunning Fog Index": 17.02,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "62709": {
+            "elements_num": 141,
+            "Gunning Fog Index": 16.19,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "62996": {
+            "elements_num": 171,
+            "Gunning Fog Index": 20.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "63276": {
+            "elements_num": 227,
+            "Gunning Fog Index": 36.66,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "63908": {
+            "elements_num": 336,
+            "Gunning Fog Index": 33.38,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "64040": {
+            "elements_num": 253,
+            "Gunning Fog Index": 25.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "64803": {
+            "elements_num": 300,
+            "Gunning Fog Index": 17.48,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "65984": {
+            "elements_num": 14,
+            "Gunning Fog Index": 15.31,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "66570": {
+            "elements_num": 213,
+            "Gunning Fog Index": 88.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "66756": {
+            "elements_num": 127,
+            "Gunning Fog Index": 17.34,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "67716": {
+            "elements_num": 304,
+            "Gunning Fog Index": 25.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "69488": {
+            "elements_num": 73,
+            "Gunning Fog Index": 19.58,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "700564": {
+            "elements_num": 54,
+            "Gunning Fog Index": 13.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "701288": {
+            "elements_num": 218,
+            "Gunning Fog Index": 14.77,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "701374": {
+            "elements_num": 183,
+            "Gunning Fog Index": 44.77,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "702165": {
+            "elements_num": 159,
+            "Gunning Fog Index": 72.25,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "702513": {
+            "elements_num": 62,
+            "Gunning Fog Index": 16.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "70415": {
+            "elements_num": 102,
+            "Gunning Fog Index": 28.52,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "704415": {
+            "elements_num": 124,
+            "Gunning Fog Index": 33.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "7084": {
+            "elements_num": 315,
+            "Gunning Fog Index": 120.51,
+            "table_present": 1,
+            "metric_in_di": true
+        },
+        "70858": {
+            "elements_num": 357,
+            "Gunning Fog Index": 16.59,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "708821": {
+            "elements_num": 100,
+            "Gunning Fog Index": 22.4,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "708955": {
+            "elements_num": 132,
+            "Gunning Fog Index": 33.1,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "712034": {
+            "elements_num": 196,
+            "Gunning Fog Index": 16.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "712534": {
+            "elements_num": 103,
+            "Gunning Fog Index": 49.11,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "713676": {
+            "elements_num": 94,
+            "Gunning Fog Index": 14.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "714310": {
+            "elements_num": 65,
+            "Gunning Fog Index": 18.54,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "71691": {
+            "elements_num": 289,
+            "Gunning Fog Index": 45.18,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "717423": {
+            "elements_num": 451,
+            "Gunning Fog Index": 24.63,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "718877": {
+            "elements_num": 261,
+            "Gunning Fog Index": 21.53,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "72162": {
+            "elements_num": 91,
+            "Gunning Fog Index": 20.07,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "72741": {
+            "elements_num": 300,
+            "Gunning Fog Index": 46.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "72971": {
+            "elements_num": 228,
+            "Gunning Fog Index": 17.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "73088": {
+            "elements_num": 259,
+            "Gunning Fog Index": 16.38,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "73124": {
+            "elements_num": 188,
+            "Gunning Fog Index": 20.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "74208": {
+            "elements_num": 150,
+            "Gunning Fog Index": 25.04,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "7431": {
+            "elements_num": 169,
+            "Gunning Fog Index": 19.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "77360": {
+            "elements_num": 275,
+            "Gunning Fog Index": 20.3,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "78003": {
+            "elements_num": 132,
+            "Gunning Fog Index": 32.93,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "78128": {
+            "elements_num": 192,
+            "Gunning Fog Index": 18.58,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "78814": {
+            "elements_num": 123,
+            "Gunning Fog Index": 22.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "79282": {
+            "elements_num": 400,
+            "Gunning Fog Index": 27.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "8063": {
+            "elements_num": 73,
+            "Gunning Fog Index": 16.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "80661": {
+            "elements_num": 219,
+            "Gunning Fog Index": 19.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "84246": {
+            "elements_num": 63,
+            "Gunning Fog Index": 20.85,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "84748": {
+            "elements_num": 51,
+            "Gunning Fog Index": 19.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "86312": {
+            "elements_num": 360,
+            "Gunning Fog Index": 18.65,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "8818": {
+            "elements_num": 86,
+            "Gunning Fog Index": 14.18,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "89800": {
+            "elements_num": 85,
+            "Gunning Fog Index": 20.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "9092": {
+            "elements_num": 31,
+            "Gunning Fog Index": 22.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "91767": {
+            "elements_num": 333,
+            "Gunning Fog Index": 17.75,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "92230": {
+            "elements_num": 222,
+            "Gunning Fog Index": 21.92,
+            "table_present": 1,
+            "metric_in_di": true
+        },
+        "92380": {
+            "elements_num": 191,
+            "Gunning Fog Index": 25.91,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "9326": {
+            "elements_num": 98,
+            "Gunning Fog Index": 48.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "93410": {
+            "elements_num": 158,
+            "Gunning Fog Index": 21.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "9346": {
+            "elements_num": 81,
+            "Gunning Fog Index": 44.75,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "93556": {
+            "elements_num": 208,
+            "Gunning Fog Index": 18.24,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "9389": {
+            "elements_num": 340,
+            "Gunning Fog Index": 21.73,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "97134": {
+            "elements_num": 87,
+            "Gunning Fog Index": 48.35,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "97216": {
+            "elements_num": 71,
+            "Gunning Fog Index": 36.85,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "97745": {
+            "elements_num": 382,
+            "Gunning Fog Index": 17.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "98222": {
+            "elements_num": 238,
+            "Gunning Fog Index": 22.65,
+            "table_present": 0,
+            "metric_in_di": false
+        }
+    },
+    "allFilings2021_part2.json": {
+        "722723": {
+            "elements_num": 309,
+            "Gunning Fog Index": 19.55,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "723612": {
+            "elements_num": 183,
+            "Gunning Fog Index": 16.78,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "726601": {
+            "elements_num": 89,
+            "Gunning Fog Index": 20.69,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "728535": {
+            "elements_num": 133,
+            "Gunning Fog Index": 24.38,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "732717": {
+            "elements_num": 184,
+            "Gunning Fog Index": 19.78,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "732834": {
+            "elements_num": 204,
+            "Gunning Fog Index": 19.88,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "740260": {
+            "elements_num": 121,
+            "Gunning Fog Index": 30.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "742278": {
+            "elements_num": 125,
+            "Gunning Fog Index": 21.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "749251": {
+            "elements_num": 350,
+            "Gunning Fog Index": 19.2,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "750004": {
+            "elements_num": 274,
+            "Gunning Fog Index": 22.62,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "750577": {
+            "elements_num": 78,
+            "Gunning Fog Index": 17.03,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "759944": {
+            "elements_num": 362,
+            "Gunning Fog Index": 20.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "763744": {
+            "elements_num": 192,
+            "Gunning Fog Index": 22.77,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "763901": {
+            "elements_num": 277,
+            "Gunning Fog Index": 18.65,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "764038": {
+            "elements_num": 201,
+            "Gunning Fog Index": 25.1,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "764180": {
+            "elements_num": 155,
+            "Gunning Fog Index": 35.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "764622": {
+            "elements_num": 259,
+            "Gunning Fog Index": 21.84,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "765880": {
+            "elements_num": 210,
+            "Gunning Fog Index": 18.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "766421": {
+            "elements_num": 146,
+            "Gunning Fog Index": 22.82,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "766829": {
+            "elements_num": 283,
+            "Gunning Fog Index": 62.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "768899": {
+            "elements_num": 199,
+            "Gunning Fog Index": 17.97,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "769520": {
+            "elements_num": 105,
+            "Gunning Fog Index": 19.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "776901": {
+            "elements_num": 268,
+            "Gunning Fog Index": 40.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "783325": {
+            "elements_num": 125,
+            "Gunning Fog Index": 19.2,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "784977": {
+            "elements_num": 94,
+            "Gunning Fog Index": 15.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "785161": {
+            "elements_num": 78,
+            "Gunning Fog Index": 15.49,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "789460": {
+            "elements_num": 223,
+            "Gunning Fog Index": 30.97,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "789570": {
+            "elements_num": 330,
+            "Gunning Fog Index": 39.75,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "790051": {
+            "elements_num": 422,
+            "Gunning Fog Index": 17.81,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "793074": {
+            "elements_num": 196,
+            "Gunning Fog Index": 16.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "793733": {
+            "elements_num": 61,
+            "Gunning Fog Index": 21.44,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "793952": {
+            "elements_num": 149,
+            "Gunning Fog Index": 24.18,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "798287": {
+            "elements_num": 104,
+            "Gunning Fog Index": 15.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "798354": {
+            "elements_num": 243,
+            "Gunning Fog Index": 41.09,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "802481": {
+            "elements_num": 195,
+            "Gunning Fog Index": 21.85,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "802681": {
+            "elements_num": 102,
+            "Gunning Fog Index": 19.19,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "805676": {
+            "elements_num": 240,
+            "Gunning Fog Index": 14.04,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "809248": {
+            "elements_num": 44,
+            "Gunning Fog Index": 16.98,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "811156": {
+            "elements_num": 304,
+            "Gunning Fog Index": 31.69,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "811596": {
+            "elements_num": 197,
+            "Gunning Fog Index": 28.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "813672": {
+            "elements_num": 214,
+            "Gunning Fog Index": 23.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "813828": {
+            "elements_num": 335,
+            "Gunning Fog Index": 25.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "816761": {
+            "elements_num": 344,
+            "Gunning Fog Index": 33.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "816956": {
+            "elements_num": 125,
+            "Gunning Fog Index": 32.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "818479": {
+            "elements_num": 107,
+            "Gunning Fog Index": 15.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "820027": {
+            "elements_num": 127,
+            "Gunning Fog Index": 20.59,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "820313": {
+            "elements_num": 131,
+            "Gunning Fog Index": 14.53,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "821189": {
+            "elements_num": 103,
+            "Gunning Fog Index": 50.6,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "823768": {
+            "elements_num": 165,
+            "Gunning Fog Index": 19.11,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "825313": {
+            "elements_num": 215,
+            "Gunning Fog Index": 18.49,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "827052": {
+            "elements_num": 239,
+            "Gunning Fog Index": 22.52,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "831001": {
+            "elements_num": 533,
+            "Gunning Fog Index": 44.54,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "831259": {
+            "elements_num": 179,
+            "Gunning Fog Index": 17.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "832428": {
+            "elements_num": 194,
+            "Gunning Fog Index": 26.44,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "837465": {
+            "elements_num": 164,
+            "Gunning Fog Index": 22.59,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "842162": {
+            "elements_num": 90,
+            "Gunning Fog Index": 18.31,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "842633": {
+            "elements_num": 156,
+            "Gunning Fog Index": 18.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "844965": {
+            "elements_num": 112,
+            "Gunning Fog Index": 23.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "845877": {
+            "elements_num": 108,
+            "Gunning Fog Index": 44.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "850460": {
+            "elements_num": 103,
+            "Gunning Fog Index": 32.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "855874": {
+            "elements_num": 110,
+            "Gunning Fog Index": 19.73,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "856982": {
+            "elements_num": 139,
+            "Gunning Fog Index": 21.98,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "857855": {
+            "elements_num": 169,
+            "Gunning Fog Index": 20.44,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "860413": {
+            "elements_num": 207,
+            "Gunning Fog Index": 15.97,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "860730": {
+            "elements_num": 247,
+            "Gunning Fog Index": 21.06,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "860731": {
+            "elements_num": 183,
+            "Gunning Fog Index": 26.57,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "861459": {
+            "elements_num": 93,
+            "Gunning Fog Index": 30.57,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "861842": {
+            "elements_num": 141,
+            "Gunning Fog Index": 18.55,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "861878": {
+            "elements_num": 380,
+            "Gunning Fog Index": 36.71,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "864749": {
+            "elements_num": 300,
+            "Gunning Fog Index": 128.03,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "866368": {
+            "elements_num": 129,
+            "Gunning Fog Index": 16.86,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "866829": {
+            "elements_num": 116,
+            "Gunning Fog Index": 57.78,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "867773": {
+            "elements_num": 237,
+            "Gunning Fog Index": 17.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "868780": {
+            "elements_num": 56,
+            "Gunning Fog Index": 14.62,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "871763": {
+            "elements_num": 242,
+            "Gunning Fog Index": 17.9,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "872589": {
+            "elements_num": 390,
+            "Gunning Fog Index": 20.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "873303": {
+            "elements_num": 190,
+            "Gunning Fog Index": 13.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "873860": {
+            "elements_num": 138,
+            "Gunning Fog Index": 19.03,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "874015": {
+            "elements_num": 126,
+            "Gunning Fog Index": 15.48,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "874716": {
+            "elements_num": 255,
+            "Gunning Fog Index": 18.51,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "874977": {
+            "elements_num": 244,
+            "Gunning Fog Index": 15.98,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "875045": {
+            "elements_num": 267,
+            "Gunning Fog Index": 16.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "875357": {
+            "elements_num": 55,
+            "Gunning Fog Index": 16.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "876378": {
+            "elements_num": 112,
+            "Gunning Fog Index": 24.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "876437": {
+            "elements_num": 114,
+            "Gunning Fog Index": 17.42,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "877212": {
+            "elements_num": 329,
+            "Gunning Fog Index": 21.12,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "877422": {
+            "elements_num": 154,
+            "Gunning Fog Index": 20.99,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "879526": {
+            "elements_num": 130,
+            "Gunning Fog Index": 18.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "880266": {
+            "elements_num": 171,
+            "Gunning Fog Index": 17.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "880631": {
+            "elements_num": 317,
+            "Gunning Fog Index": 28.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "882095": {
+            "elements_num": 218,
+            "Gunning Fog Index": 16.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "883948": {
+            "elements_num": 123,
+            "Gunning Fog Index": 33.55,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "884219": {
+            "elements_num": 115,
+            "Gunning Fog Index": 18.14,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "884269": {
+            "elements_num": 108,
+            "Gunning Fog Index": 21.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "884713": {
+            "elements_num": 316,
+            "Gunning Fog Index": 18.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "885590": {
+            "elements_num": 295,
+            "Gunning Fog Index": 23.58,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "885725": {
+            "elements_num": 394,
+            "Gunning Fog Index": 15.05,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "886346": {
+            "elements_num": 277,
+            "Gunning Fog Index": 17.56,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "886982": {
+            "elements_num": 329,
+            "Gunning Fog Index": 22.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "887343": {
+            "elements_num": 161,
+            "Gunning Fog Index": 20.27,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "887596": {
+            "elements_num": 259,
+            "Gunning Fog Index": 24.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "889331": {
+            "elements_num": 152,
+            "Gunning Fog Index": 18.78,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "889900": {
+            "elements_num": 126,
+            "Gunning Fog Index": 24.42,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "890564": {
+            "elements_num": 116,
+            "Gunning Fog Index": 19.87,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "891014": {
+            "elements_num": 115,
+            "Gunning Fog Index": 15.68,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "893949": {
+            "elements_num": 1137,
+            "Gunning Fog Index": 21.47,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "894405": {
+            "elements_num": 114,
+            "Gunning Fog Index": 22.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "894627": {
+            "elements_num": 55,
+            "Gunning Fog Index": 18.4,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "895126": {
+            "elements_num": 189,
+            "Gunning Fog Index": 16.34,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "895421": {
+            "elements_num": 110,
+            "Gunning Fog Index": 19.69,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "896159": {
+            "elements_num": 348,
+            "Gunning Fog Index": 20.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "896262": {
+            "elements_num": 181,
+            "Gunning Fog Index": 16.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "897448": {
+            "elements_num": 154,
+            "Gunning Fog Index": 19.87,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "898174": {
+            "elements_num": 278,
+            "Gunning Fog Index": 29.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "899051": {
+            "elements_num": 496,
+            "Gunning Fog Index": 69.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "899629": {
+            "elements_num": 206,
+            "Gunning Fog Index": 29.29,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "899866": {
+            "elements_num": 141,
+            "Gunning Fog Index": 13.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "901491": {
+            "elements_num": 180,
+            "Gunning Fog Index": 23.82,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "903129": {
+            "elements_num": 55,
+            "Gunning Fog Index": 18.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "906107": {
+            "elements_num": 182,
+            "Gunning Fog Index": 79.14,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "906345": {
+            "elements_num": 179,
+            "Gunning Fog Index": 19.36,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "908255": {
+            "elements_num": 237,
+            "Gunning Fog Index": 17.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "908937": {
+            "elements_num": 236,
+            "Gunning Fog Index": 103.16,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "909108": {
+            "elements_num": 365,
+            "Gunning Fog Index": 33.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "911177": {
+            "elements_num": 139,
+            "Gunning Fog Index": 35.3,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "912242": {
+            "elements_num": 187,
+            "Gunning Fog Index": 27.11,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "912595": {
+            "elements_num": 293,
+            "Gunning Fog Index": 26.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "913144": {
+            "elements_num": 77,
+            "Gunning Fog Index": 22.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "913241": {
+            "elements_num": 245,
+            "Gunning Fog Index": 23.12,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "914475": {
+            "elements_num": 145,
+            "Gunning Fog Index": 14.07,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "915912": {
+            "elements_num": 90,
+            "Gunning Fog Index": 14.76,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "915913": {
+            "elements_num": 224,
+            "Gunning Fog Index": 19.41,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "916365": {
+            "elements_num": 274,
+            "Gunning Fog Index": 15.63,
+            "table_present": 0,
+            "metric_in_di": true
+        }
+    },
+    "allFilings2021_part3.json": {
+        "917491": {
+            "elements_num": 277,
+            "Gunning Fog Index": 18.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "917520": {
+            "elements_num": 655,
+            "Gunning Fog Index": 30.76,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "920112": {
+            "elements_num": 151,
+            "Gunning Fog Index": 16.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "920148": {
+            "elements_num": 347,
+            "Gunning Fog Index": 24.15,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "920371": {
+            "elements_num": 75,
+            "Gunning Fog Index": 19.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "920522": {
+            "elements_num": 518,
+            "Gunning Fog Index": 22.75,
+            "table_present": 1,
+            "metric_in_di": true
+        },
+        "921082": {
+            "elements_num": 277,
+            "Gunning Fog Index": 22.86,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "921582": {
+            "elements_num": 184,
+            "Gunning Fog Index": 29.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "921738": {
+            "elements_num": 296,
+            "Gunning Fog Index": 19.88,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "922224": {
+            "elements_num": 43,
+            "Gunning Fog Index": 17.98,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "923571": {
+            "elements_num": 249,
+            "Gunning Fog Index": 16.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "923796": {
+            "elements_num": 211,
+            "Gunning Fog Index": 14.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "924901": {
+            "elements_num": 125,
+            "Gunning Fog Index": 33.64,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "926326": {
+            "elements_num": 154,
+            "Gunning Fog Index": 16.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "927066": {
+            "elements_num": 390,
+            "Gunning Fog Index": 18.86,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "927628": {
+            "elements_num": 328,
+            "Gunning Fog Index": 20.91,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "928022": {
+            "elements_num": 64,
+            "Gunning Fog Index": 21.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "929008": {
+            "elements_num": 246,
+            "Gunning Fog Index": 25.59,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "930420": {
+            "elements_num": 138,
+            "Gunning Fog Index": 34.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "931015": {
+            "elements_num": 167,
+            "Gunning Fog Index": 16.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "931584": {
+            "elements_num": 73,
+            "Gunning Fog Index": 19.37,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "933136": {
+            "elements_num": 110,
+            "Gunning Fog Index": 18.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "935494": {
+            "elements_num": 96,
+            "Gunning Fog Index": 20.68,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "936340": {
+            "elements_num": 142,
+            "Gunning Fog Index": 64.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "936468": {
+            "elements_num": 186,
+            "Gunning Fog Index": 19.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "937556": {
+            "elements_num": 90,
+            "Gunning Fog Index": 16.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "944809": {
+            "elements_num": 140,
+            "Gunning Fog Index": 63.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "945764": {
+            "elements_num": 170,
+            "Gunning Fog Index": 77.3,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "945841": {
+            "elements_num": 117,
+            "Gunning Fog Index": 55.35,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "949157": {
+            "elements_num": 126,
+            "Gunning Fog Index": 34.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "949870": {
+            "elements_num": 655,
+            "Gunning Fog Index": 26.84,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1000694": {
+            "elements_num": 89,
+            "Gunning Fog Index": 17.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1000697": {
+            "elements_num": 145,
+            "Gunning Fog Index": 19.6,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1001385": {
+            "elements_num": 218,
+            "Gunning Fog Index": 17.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1001902": {
+            "elements_num": 116,
+            "Gunning Fog Index": 17.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1004980": {
+            "elements_num": 193,
+            "Gunning Fog Index": 78.01,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1009829": {
+            "elements_num": 112,
+            "Gunning Fog Index": 58.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1011570": {
+            "elements_num": 367,
+            "Gunning Fog Index": 30.52,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1012100": {
+            "elements_num": 282,
+            "Gunning Fog Index": 24.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1013462": {
+            "elements_num": 261,
+            "Gunning Fog Index": 32.13,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1013488": {
+            "elements_num": 670,
+            "Gunning Fog Index": 25.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1013871": {
+            "elements_num": 87,
+            "Gunning Fog Index": 19.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1013880": {
+            "elements_num": 248,
+            "Gunning Fog Index": 20.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1015328": {
+            "elements_num": 161,
+            "Gunning Fog Index": 28.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1018963": {
+            "elements_num": 90,
+            "Gunning Fog Index": 41.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1020214": {
+            "elements_num": 113,
+            "Gunning Fog Index": 16.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1020569": {
+            "elements_num": 112,
+            "Gunning Fog Index": 22.34,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1020710": {
+            "elements_num": 95,
+            "Gunning Fog Index": 16.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1021860": {
+            "elements_num": 136,
+            "Gunning Fog Index": 60.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1022079": {
+            "elements_num": 141,
+            "Gunning Fog Index": 33.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1022321": {
+            "elements_num": 141,
+            "Gunning Fog Index": 18.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1022652": {
+            "elements_num": 80,
+            "Gunning Fog Index": 14.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1024725": {
+            "elements_num": 168,
+            "Gunning Fog Index": 19.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1025378": {
+            "elements_num": 165,
+            "Gunning Fog Index": 21.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1025996": {
+            "elements_num": 63,
+            "Gunning Fog Index": 32.67,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1026214": {
+            "elements_num": 147,
+            "Gunning Fog Index": 14.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1027838": {
+            "elements_num": 77,
+            "Gunning Fog Index": 19.15,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1028918": {
+            "elements_num": 83,
+            "Gunning Fog Index": 17.48,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1030469": {
+            "elements_num": 97,
+            "Gunning Fog Index": 22.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1031203": {
+            "elements_num": 156,
+            "Gunning Fog Index": 15.76,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1031296": {
+            "elements_num": 394,
+            "Gunning Fog Index": 32.85,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1033012": {
+            "elements_num": 183,
+            "Gunning Fog Index": 16.99,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1035002": {
+            "elements_num": 141,
+            "Gunning Fog Index": 19.79,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1035267": {
+            "elements_num": 321,
+            "Gunning Fog Index": 21.41,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1035443": {
+            "elements_num": 225,
+            "Gunning Fog Index": 26.81,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1035983": {
+            "elements_num": 144,
+            "Gunning Fog Index": 22.34,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1037540": {
+            "elements_num": 313,
+            "Gunning Fog Index": 47.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1037976": {
+            "elements_num": 205,
+            "Gunning Fog Index": 19.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1038357": {
+            "elements_num": 92,
+            "Gunning Fog Index": 22.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1039684": {
+            "elements_num": 291,
+            "Gunning Fog Index": 112.42,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1041061": {
+            "elements_num": 234,
+            "Gunning Fog Index": 25.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1042893": {
+            "elements_num": 137,
+            "Gunning Fog Index": 13.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1043604": {
+            "elements_num": 74,
+            "Gunning Fog Index": 20.12,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1046025": {
+            "elements_num": 338,
+            "Gunning Fog Index": 24.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1046311": {
+            "elements_num": 878,
+            "Gunning Fog Index": 21.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1047340": {
+            "elements_num": 174,
+            "Gunning Fog Index": 14.12,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1048477": {
+            "elements_num": 273,
+            "Gunning Fog Index": 19.58,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1049502": {
+            "elements_num": 192,
+            "Gunning Fog Index": 14.99,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1049606": {
+            "elements_num": 86,
+            "Gunning Fog Index": 20.21,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1050441": {
+            "elements_num": 106,
+            "Gunning Fog Index": 18.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1050797": {
+            "elements_num": 130,
+            "Gunning Fog Index": 19.77,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1051343": {
+            "elements_num": 149,
+            "Gunning Fog Index": 26.26,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1053507": {
+            "elements_num": 251,
+            "Gunning Fog Index": 23.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1057877": {
+            "elements_num": 254,
+            "Gunning Fog Index": 21.71,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1058090": {
+            "elements_num": 213,
+            "Gunning Fog Index": 84.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1059556": {
+            "elements_num": 385,
+            "Gunning Fog Index": 23.37,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1060391": {
+            "elements_num": 361,
+            "Gunning Fog Index": 21.62,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1060736": {
+            "elements_num": 124,
+            "Gunning Fog Index": 16.37,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1060822": {
+            "elements_num": 125,
+            "Gunning Fog Index": 20.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1065088": {
+            "elements_num": 171,
+            "Gunning Fog Index": 19.56,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1065696": {
+            "elements_num": 151,
+            "Gunning Fog Index": 20.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1066605": {
+            "elements_num": 454,
+            "Gunning Fog Index": 19.39,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1067701": {
+            "elements_num": 152,
+            "Gunning Fog Index": 20.51,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1068851": {
+            "elements_num": 280,
+            "Gunning Fog Index": 21.91,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1068875": {
+            "elements_num": 163,
+            "Gunning Fog Index": 19.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1069157": {
+            "elements_num": 271,
+            "Gunning Fog Index": 16.66,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1069183": {
+            "elements_num": 301,
+            "Gunning Fog Index": 20.04,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1069202": {
+            "elements_num": 90,
+            "Gunning Fog Index": 44.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1070412": {
+            "elements_num": 79,
+            "Gunning Fog Index": 16.53,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1070494": {
+            "elements_num": 38,
+            "Gunning Fog Index": 14.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1070985": {
+            "elements_num": 210,
+            "Gunning Fog Index": 28.56,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1071255": {
+            "elements_num": 139,
+            "Gunning Fog Index": 13.88,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1071739": {
+            "elements_num": 362,
+            "Gunning Fog Index": 20.38,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1073429": {
+            "elements_num": 103,
+            "Gunning Fog Index": 50.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1075531": {
+            "elements_num": 464,
+            "Gunning Fog Index": 189.96,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1076930": {
+            "elements_num": 214,
+            "Gunning Fog Index": 20.72,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1077183": {
+            "elements_num": 280,
+            "Gunning Fog Index": 19.57,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1077771": {
+            "elements_num": 184,
+            "Gunning Fog Index": 45.06,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1082554": {
+            "elements_num": 110,
+            "Gunning Fog Index": 17.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1082923": {
+            "elements_num": 78,
+            "Gunning Fog Index": 18.06,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1084048": {
+            "elements_num": 218,
+            "Gunning Fog Index": 35.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1084961": {
+            "elements_num": 111,
+            "Gunning Fog Index": 17.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1085913": {
+            "elements_num": 45,
+            "Gunning Fog Index": 12.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1090012": {
+            "elements_num": 251,
+            "Gunning Fog Index": 20.05,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1091667": {
+            "elements_num": 208,
+            "Gunning Fog Index": 17.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1091748": {
+            "elements_num": 260,
+            "Gunning Fog Index": 21.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1091883": {
+            "elements_num": 180,
+            "Gunning Fog Index": 23.19,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1093557": {
+            "elements_num": 180,
+            "Gunning Fog Index": 18.47,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1096056": {
+            "elements_num": 95,
+            "Gunning Fog Index": 19.81,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1097149": {
+            "elements_num": 91,
+            "Gunning Fog Index": 16.59,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1097864": {
+            "elements_num": 87,
+            "Gunning Fog Index": 21.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1099219": {
+            "elements_num": 79,
+            "Gunning Fog Index": 18.62,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1099590": {
+            "elements_num": 171,
+            "Gunning Fog Index": 20.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1101302": {
+            "elements_num": 145,
+            "Gunning Fog Index": 28.15,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1102112": {
+            "elements_num": 162,
+            "Gunning Fog Index": 23.33,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1102993": {
+            "elements_num": 248,
+            "Gunning Fog Index": 24.37,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1103982": {
+            "elements_num": 255,
+            "Gunning Fog Index": 17.6,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1104506": {
+            "elements_num": 87,
+            "Gunning Fog Index": 15.24,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1104657": {
+            "elements_num": 258,
+            "Gunning Fog Index": 23.4,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1107843": {
+            "elements_num": 150,
+            "Gunning Fog Index": 16.87,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1108109": {
+            "elements_num": 120,
+            "Gunning Fog Index": 17.93,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1108827": {
+            "elements_num": 201,
+            "Gunning Fog Index": 26.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1109546": {
+            "elements_num": 476,
+            "Gunning Fog Index": 24.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1111335": {
+            "elements_num": 107,
+            "Gunning Fog Index": 22.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1111711": {
+            "elements_num": 127,
+            "Gunning Fog Index": 16.43,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1114483": {
+            "elements_num": 251,
+            "Gunning Fog Index": 56.0,
+            "table_present": 0,
+            "metric_in_di": true
+        }
+    },
+    "allFilings2021_part4.json": {
+        "1120193": {
+            "elements_num": 369,
+            "Gunning Fog Index": 23.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1121142": {
+            "elements_num": 112,
+            "Gunning Fog Index": 16.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1121484": {
+            "elements_num": 229,
+            "Gunning Fog Index": 18.07,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1122976": {
+            "elements_num": 544,
+            "Gunning Fog Index": 28.55,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1123360": {
+            "elements_num": 277,
+            "Gunning Fog Index": 24.46,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1124140": {
+            "elements_num": 203,
+            "Gunning Fog Index": 21.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1124198": {
+            "elements_num": 151,
+            "Gunning Fog Index": 16.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1127703": {
+            "elements_num": 108,
+            "Gunning Fog Index": 20.06,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1128928": {
+            "elements_num": 67,
+            "Gunning Fog Index": 22.95,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1129155": {
+            "elements_num": 101,
+            "Gunning Fog Index": 19.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1130310": {
+            "elements_num": 80,
+            "Gunning Fog Index": 18.09,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1130713": {
+            "elements_num": 182,
+            "Gunning Fog Index": 24.57,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1133421": {
+            "elements_num": 123,
+            "Gunning Fog Index": 16.91,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1135185": {
+            "elements_num": 97,
+            "Gunning Fog Index": 48.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1136869": {
+            "elements_num": 329,
+            "Gunning Fog Index": 134.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1137774": {
+            "elements_num": 135,
+            "Gunning Fog Index": 19.04,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1138118": {
+            "elements_num": 237,
+            "Gunning Fog Index": 18.84,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1138639": {
+            "elements_num": 552,
+            "Gunning Fog Index": 22.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1140536": {
+            "elements_num": 36,
+            "Gunning Fog Index": 11.36,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1141103": {
+            "elements_num": 121,
+            "Gunning Fog Index": 13.97,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1142596": {
+            "elements_num": 126,
+            "Gunning Fog Index": 20.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1142750": {
+            "elements_num": 312,
+            "Gunning Fog Index": 21.5,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1144980": {
+            "elements_num": 132,
+            "Gunning Fog Index": 23.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1145197": {
+            "elements_num": 135,
+            "Gunning Fog Index": 17.88,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1156039": {
+            "elements_num": 71,
+            "Gunning Fog Index": 17.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1156375": {
+            "elements_num": 157,
+            "Gunning Fog Index": 18.51,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1158172": {
+            "elements_num": 196,
+            "Gunning Fog Index": 17.88,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1158324": {
+            "elements_num": 112,
+            "Gunning Fog Index": 28.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1158463": {
+            "elements_num": 204,
+            "Gunning Fog Index": 17.79,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1159036": {
+            "elements_num": 450,
+            "Gunning Fog Index": 19.92,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1159167": {
+            "elements_num": 119,
+            "Gunning Fog Index": 16.88,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1159281": {
+            "elements_num": 230,
+            "Gunning Fog Index": 17.66,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1162461": {
+            "elements_num": 88,
+            "Gunning Fog Index": 26.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1163165": {
+            "elements_num": 1424,
+            "Gunning Fog Index": 47.8,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1163302": {
+            "elements_num": 147,
+            "Gunning Fog Index": 20.99,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1163370": {
+            "elements_num": 253,
+            "Gunning Fog Index": 19.43,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1163739": {
+            "elements_num": 96,
+            "Gunning Fog Index": 21.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1165002": {
+            "elements_num": 41,
+            "Gunning Fog Index": 15.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1166003": {
+            "elements_num": 137,
+            "Gunning Fog Index": 21.47,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1168054": {
+            "elements_num": 105,
+            "Gunning Fog Index": 50.13,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1169445": {
+            "elements_num": 232,
+            "Gunning Fog Index": 26.85,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1171662": {
+            "elements_num": 228,
+            "Gunning Fog Index": 25.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1171759": {
+            "elements_num": 179,
+            "Gunning Fog Index": 24.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1171825": {
+            "elements_num": 257,
+            "Gunning Fog Index": 21.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1173514": {
+            "elements_num": 49,
+            "Gunning Fog Index": 21.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1175454": {
+            "elements_num": 163,
+            "Gunning Fog Index": 16.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1176948": {
+            "elements_num": 52,
+            "Gunning Fog Index": 19.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1177702": {
+            "elements_num": 214,
+            "Gunning Fog Index": 50.38,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1196501": {
+            "elements_num": 229,
+            "Gunning Fog Index": 18.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1200375": {
+            "elements_num": 92,
+            "Gunning Fog Index": 17.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1206264": {
+            "elements_num": 138,
+            "Gunning Fog Index": 22.41,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1212458": {
+            "elements_num": 224,
+            "Gunning Fog Index": 18.15,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1212545": {
+            "elements_num": 204,
+            "Gunning Fog Index": 15.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1214816": {
+            "elements_num": 488,
+            "Gunning Fog Index": 24.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1220754": {
+            "elements_num": 229,
+            "Gunning Fog Index": 23.58,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1222840": {
+            "elements_num": 168,
+            "Gunning Fog Index": 20.7,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1224608": {
+            "elements_num": 102,
+            "Gunning Fog Index": 19.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1227025": {
+            "elements_num": 108,
+            "Gunning Fog Index": 17.84,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1227636": {
+            "elements_num": 41,
+            "Gunning Fog Index": 19.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1227654": {
+            "elements_num": 311,
+            "Gunning Fog Index": 19.26,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1230245": {
+            "elements_num": 97,
+            "Gunning Fog Index": 16.02,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1232524": {
+            "elements_num": 420,
+            "Gunning Fog Index": 47.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1255474": {
+            "elements_num": 67,
+            "Gunning Fog Index": 16.27,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1257640": {
+            "elements_num": 90,
+            "Gunning Fog Index": 20.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1258602": {
+            "elements_num": 551,
+            "Gunning Fog Index": 17.72,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1267238": {
+            "elements_num": 250,
+            "Gunning Fog Index": 24.05,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1271214": {
+            "elements_num": 57,
+            "Gunning Fog Index": 14.62,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1273813": {
+            "elements_num": 143,
+            "Gunning Fog Index": 28.02,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1273931": {
+            "elements_num": 143,
+            "Gunning Fog Index": 18.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1278021": {
+            "elements_num": 237,
+            "Gunning Fog Index": 20.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1278027": {
+            "elements_num": 337,
+            "Gunning Fog Index": 19.6,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1280600": {
+            "elements_num": 86,
+            "Gunning Fog Index": 17.96,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1281761": {
+            "elements_num": 89,
+            "Gunning Fog Index": 18.4,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1283630": {
+            "elements_num": 225,
+            "Gunning Fog Index": 93.07,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1283699": {
+            "elements_num": 227,
+            "Gunning Fog Index": 22.41,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1284812": {
+            "elements_num": 327,
+            "Gunning Fog Index": 20.1,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1286613": {
+            "elements_num": 84,
+            "Gunning Fog Index": 15.07,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1287213": {
+            "elements_num": 78,
+            "Gunning Fog Index": 18.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1288403": {
+            "elements_num": 142,
+            "Gunning Fog Index": 19.61,
+            "table_present": 1,
+            "metric_in_di": false
+        },
+        "1288847": {
+            "elements_num": 234,
+            "Gunning Fog Index": 17.5,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1289848": {
+            "elements_num": 85,
+            "Gunning Fog Index": 18.31,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1289945": {
+            "elements_num": 188,
+            "Gunning Fog Index": 20.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1290677": {
+            "elements_num": 58,
+            "Gunning Fog Index": 12.55,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1293971": {
+            "elements_num": 97,
+            "Gunning Fog Index": 26.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1294133": {
+            "elements_num": 252,
+            "Gunning Fog Index": 22.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1295401": {
+            "elements_num": 201,
+            "Gunning Fog Index": 28.44,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1296435": {
+            "elements_num": 115,
+            "Gunning Fog Index": 22.27,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1297184": {
+            "elements_num": 50,
+            "Gunning Fog Index": 17.08,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1297989": {
+            "elements_num": 260,
+            "Gunning Fog Index": 27.88,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1297996": {
+            "elements_num": 183,
+            "Gunning Fog Index": 16.27,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1298675": {
+            "elements_num": 215,
+            "Gunning Fog Index": 14.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1299130": {
+            "elements_num": 89,
+            "Gunning Fog Index": 15.21,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1300514": {
+            "elements_num": 28,
+            "Gunning Fog Index": 19.69,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1303313": {
+            "elements_num": 187,
+            "Gunning Fog Index": 24.79,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1308208": {
+            "elements_num": 101,
+            "Gunning Fog Index": 17.25,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1309108": {
+            "elements_num": 382,
+            "Gunning Fog Index": 27.06,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1309402": {
+            "elements_num": 56,
+            "Gunning Fog Index": 21.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1310114": {
+            "elements_num": 92,
+            "Gunning Fog Index": 20.54,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1311370": {
+            "elements_num": 80,
+            "Gunning Fog Index": 20.18,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1316835": {
+            "elements_num": 126,
+            "Gunning Fog Index": 20.46,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1318220": {
+            "elements_num": 182,
+            "Gunning Fog Index": 33.38,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1318568": {
+            "elements_num": 319,
+            "Gunning Fog Index": 25.22,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1320414": {
+            "elements_num": 173,
+            "Gunning Fog Index": 16.59,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1320695": {
+            "elements_num": 124,
+            "Gunning Fog Index": 19.65,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1321646": {
+            "elements_num": 126,
+            "Gunning Fog Index": 12.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1323885": {
+            "elements_num": 245,
+            "Gunning Fog Index": 17.45,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1324404": {
+            "elements_num": 169,
+            "Gunning Fog Index": 20.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1324424": {
+            "elements_num": 212,
+            "Gunning Fog Index": 89.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1325702": {
+            "elements_num": 44,
+            "Gunning Fog Index": 19.52,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1326801": {
+            "elements_num": 386,
+            "Gunning Fog Index": 17.13,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1331520": {
+            "elements_num": 81,
+            "Gunning Fog Index": 14.5,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1331875": {
+            "elements_num": 256,
+            "Gunning Fog Index": 18.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1332349": {
+            "elements_num": 269,
+            "Gunning Fog Index": 17.41,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1333274": {
+            "elements_num": 247,
+            "Gunning Fog Index": 18.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1333986": {
+            "elements_num": 271,
+            "Gunning Fog Index": 18.79,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1334978": {
+            "elements_num": 214,
+            "Gunning Fog Index": 23.14,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1336917": {
+            "elements_num": 461,
+            "Gunning Fog Index": 20.62,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1337553": {
+            "elements_num": 478,
+            "Gunning Fog Index": 18.08,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1337619": {
+            "elements_num": 316,
+            "Gunning Fog Index": 27.2,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1338749": {
+            "elements_num": 231,
+            "Gunning Fog Index": 22.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1345016": {
+            "elements_num": 263,
+            "Gunning Fog Index": 19.0,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1351636": {
+            "elements_num": 238,
+            "Gunning Fog Index": 21.49,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1352010": {
+            "elements_num": 364,
+            "Gunning Fog Index": 22.3,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1354327": {
+            "elements_num": 444,
+            "Gunning Fog Index": 27.7,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1355096": {
+            "elements_num": 314,
+            "Gunning Fog Index": 17.05,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1356576": {
+            "elements_num": 116,
+            "Gunning Fog Index": 16.51,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1358762": {
+            "elements_num": 45,
+            "Gunning Fog Index": 26.69,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1359841": {
+            "elements_num": 96,
+            "Gunning Fog Index": 18.22,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1360901": {
+            "elements_num": 408,
+            "Gunning Fog Index": 27.91,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1361113": {
+            "elements_num": 124,
+            "Gunning Fog Index": 19.47,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1361658": {
+            "elements_num": 383,
+            "Gunning Fog Index": 22.59,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1361983": {
+            "elements_num": 113,
+            "Gunning Fog Index": 14.62,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1364479": {
+            "elements_num": 209,
+            "Gunning Fog Index": 28.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1364885": {
+            "elements_num": 164,
+            "Gunning Fog Index": 19.01,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1365135": {
+            "elements_num": 119,
+            "Gunning Fog Index": 17.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1366246": {
+            "elements_num": 209,
+            "Gunning Fog Index": 19.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1367644": {
+            "elements_num": 169,
+            "Gunning Fog Index": 15.34,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1370450": {
+            "elements_num": 269,
+            "Gunning Fog Index": 20.21,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1370880": {
+            "elements_num": 183,
+            "Gunning Fog Index": 20.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1371285": {
+            "elements_num": 293,
+            "Gunning Fog Index": 25.23,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1373715": {
+            "elements_num": 245,
+            "Gunning Fog Index": 20.96,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1374310": {
+            "elements_num": 657,
+            "Gunning Fog Index": 21.99,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1374535": {
+            "elements_num": 116,
+            "Gunning Fog Index": 24.32,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1377630": {
+            "elements_num": 197,
+            "Gunning Fog Index": 20.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1378946": {
+            "elements_num": 253,
+            "Gunning Fog Index": 21.51,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1380846": {
+            "elements_num": 138,
+            "Gunning Fog Index": 17.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1381531": {
+            "elements_num": 161,
+            "Gunning Fog Index": 16.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1388658": {
+            "elements_num": 286,
+            "Gunning Fog Index": 16.93,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1389002": {
+            "elements_num": 45,
+            "Gunning Fog Index": 19.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1389170": {
+            "elements_num": 107,
+            "Gunning Fog Index": 20.81,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1390777": {
+            "elements_num": 331,
+            "Gunning Fog Index": 131.08,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1391127": {
+            "elements_num": 110,
+            "Gunning Fog Index": 21.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1392972": {
+            "elements_num": 284,
+            "Gunning Fog Index": 18.98,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1393311": {
+            "elements_num": 273,
+            "Gunning Fog Index": 42.32,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1393612": {
+            "elements_num": 120,
+            "Gunning Fog Index": 18.94,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1396009": {
+            "elements_num": 410,
+            "Gunning Fog Index": 32.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1396033": {
+            "elements_num": 122,
+            "Gunning Fog Index": 52.98,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1396814": {
+            "elements_num": 120,
+            "Gunning Fog Index": 18.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1398987": {
+            "elements_num": 79,
+            "Gunning Fog Index": 41.19,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1400891": {
+            "elements_num": 280,
+            "Gunning Fog Index": 35.82,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1401521": {
+            "elements_num": 145,
+            "Gunning Fog Index": 23.17,
+            "table_present": 0,
+            "metric_in_di": true
+        }
+    },
+    "allFilings2021_part5.json": {
+        "1401680": {
+            "elements_num": 253,
+            "Gunning Fog Index": 23.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1401708": {
+            "elements_num": 236,
+            "Gunning Fog Index": 16.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1402057": {
+            "elements_num": 113,
+            "Gunning Fog Index": 16.45,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1403256": {
+            "elements_num": 278,
+            "Gunning Fog Index": 15.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1408075": {
+            "elements_num": 118,
+            "Gunning Fog Index": 21.63,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1410636": {
+            "elements_num": 446,
+            "Gunning Fog Index": 19.27,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1411207": {
+            "elements_num": 83,
+            "Gunning Fog Index": 20.72,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1411494": {
+            "elements_num": 117,
+            "Gunning Fog Index": 20.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1412707": {
+            "elements_num": 152,
+            "Gunning Fog Index": 16.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1418091": {
+            "elements_num": 203,
+            "Gunning Fog Index": 25.56,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1418135": {
+            "elements_num": 207,
+            "Gunning Fog Index": 34.08,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1419612": {
+            "elements_num": 54,
+            "Gunning Fog Index": 16.73,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1421461": {
+            "elements_num": 174,
+            "Gunning Fog Index": 42.79,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1424929": {
+            "elements_num": 159,
+            "Gunning Fog Index": 20.37,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1428439": {
+            "elements_num": 443,
+            "Gunning Fog Index": 31.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1433270": {
+            "elements_num": 198,
+            "Gunning Fog Index": 47.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1437107": {
+            "elements_num": 112,
+            "Gunning Fog Index": 18.44,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1437352": {
+            "elements_num": 166,
+            "Gunning Fog Index": 24.1,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1437402": {
+            "elements_num": 200,
+            "Gunning Fog Index": 24.56,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1437578": {
+            "elements_num": 522,
+            "Gunning Fog Index": 105.6,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1437958": {
+            "elements_num": 111,
+            "Gunning Fog Index": 17.16,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1438133": {
+            "elements_num": 161,
+            "Gunning Fog Index": 20.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1438231": {
+            "elements_num": 119,
+            "Gunning Fog Index": 18.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1439095": {
+            "elements_num": 137,
+            "Gunning Fog Index": 20.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1441683": {
+            "elements_num": 75,
+            "Gunning Fog Index": 25.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1446847": {
+            "elements_num": 197,
+            "Gunning Fog Index": 22.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1447669": {
+            "elements_num": 307,
+            "Gunning Fog Index": 17.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1449488": {
+            "elements_num": 112,
+            "Gunning Fog Index": 23.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1455684": {
+            "elements_num": 166,
+            "Gunning Fog Index": 22.38,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1459417": {
+            "elements_num": 154,
+            "Gunning Fog Index": 16.74,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1459839": {
+            "elements_num": 162,
+            "Gunning Fog Index": 70.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1460329": {
+            "elements_num": 274,
+            "Gunning Fog Index": 18.93,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1462120": {
+            "elements_num": 154,
+            "Gunning Fog Index": 71.47,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1462418": {
+            "elements_num": 222,
+            "Gunning Fog Index": 92.9,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1463172": {
+            "elements_num": 430,
+            "Gunning Fog Index": 25.98,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1464343": {
+            "elements_num": 98,
+            "Gunning Fog Index": 21.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1466085": {
+            "elements_num": 214,
+            "Gunning Fog Index": 21.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1466258": {
+            "elements_num": 246,
+            "Gunning Fog Index": 31.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1467623": {
+            "elements_num": 133,
+            "Gunning Fog Index": 19.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1467858": {
+            "elements_num": 332,
+            "Gunning Fog Index": 21.31,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1469367": {
+            "elements_num": 118,
+            "Gunning Fog Index": 23.32,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1470205": {
+            "elements_num": 381,
+            "Gunning Fog Index": 78.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1471265": {
+            "elements_num": 78,
+            "Gunning Fog Index": 37.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1474735": {
+            "elements_num": 99,
+            "Gunning Fog Index": 22.12,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1475115": {
+            "elements_num": 182,
+            "Gunning Fog Index": 25.41,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1475841": {
+            "elements_num": 157,
+            "Gunning Fog Index": 20.11,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1477294": {
+            "elements_num": 271,
+            "Gunning Fog Index": 21.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1478242": {
+            "elements_num": 370,
+            "Gunning Fog Index": 30.2,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1479290": {
+            "elements_num": 213,
+            "Gunning Fog Index": 26.29,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1481582": {
+            "elements_num": 185,
+            "Gunning Fog Index": 23.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1481792": {
+            "elements_num": 423,
+            "Gunning Fog Index": 88.57,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1482512": {
+            "elements_num": 176,
+            "Gunning Fog Index": 23.1,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1486159": {
+            "elements_num": 209,
+            "Gunning Fog Index": 22.53,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1486957": {
+            "elements_num": 54,
+            "Gunning Fog Index": 21.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1488139": {
+            "elements_num": 237,
+            "Gunning Fog Index": 19.46,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1490281": {
+            "elements_num": 146,
+            "Gunning Fog Index": 18.26,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1492691": {
+            "elements_num": 65,
+            "Gunning Fog Index": 22.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1493225": {
+            "elements_num": 159,
+            "Gunning Fog Index": 26.63,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1494319": {
+            "elements_num": 185,
+            "Gunning Fog Index": 26.63,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1497770": {
+            "elements_num": 150,
+            "Gunning Fog Index": 16.83,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1498828": {
+            "elements_num": 49,
+            "Gunning Fog Index": 14.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1499422": {
+            "elements_num": 66,
+            "Gunning Fog Index": 15.08,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1504008": {
+            "elements_num": 105,
+            "Gunning Fog Index": 15.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1507079": {
+            "elements_num": 48,
+            "Gunning Fog Index": 15.36,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1509991": {
+            "elements_num": 184,
+            "Gunning Fog Index": 30.58,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1510295": {
+            "elements_num": 169,
+            "Gunning Fog Index": 16.75,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1513761": {
+            "elements_num": 217,
+            "Gunning Fog Index": 23.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1514705": {
+            "elements_num": 337,
+            "Gunning Fog Index": 23.21,
+            "table_present": 1,
+            "metric_in_di": true
+        },
+        "1514991": {
+            "elements_num": 180,
+            "Gunning Fog Index": 24.83,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1517228": {
+            "elements_num": 170,
+            "Gunning Fog Index": 15.76,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1518715": {
+            "elements_num": 145,
+            "Gunning Fog Index": 20.66,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1519061": {
+            "elements_num": 75,
+            "Gunning Fog Index": 26.73,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1521036": {
+            "elements_num": 178,
+            "Gunning Fog Index": 23.35,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1521332": {
+            "elements_num": 112,
+            "Gunning Fog Index": 17.89,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1524358": {
+            "elements_num": 170,
+            "Gunning Fog Index": 16.74,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1524741": {
+            "elements_num": 89,
+            "Gunning Fog Index": 22.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1528129": {
+            "elements_num": 151,
+            "Gunning Fog Index": 15.77,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1533924": {
+            "elements_num": 177,
+            "Gunning Fog Index": 19.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1534992": {
+            "elements_num": 324,
+            "Gunning Fog Index": 22.51,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1535929": {
+            "elements_num": 123,
+            "Gunning Fog Index": 15.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1537054": {
+            "elements_num": 63,
+            "Gunning Fog Index": 18.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1539638": {
+            "elements_num": 289,
+            "Gunning Fog Index": 29.63,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1539838": {
+            "elements_num": 118,
+            "Gunning Fog Index": 18.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1541401": {
+            "elements_num": 99,
+            "Gunning Fog Index": 27.36,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1545654": {
+            "elements_num": 180,
+            "Gunning Fog Index": 21.39,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1551152": {
+            "elements_num": 302,
+            "Gunning Fog Index": 20.4,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1551182": {
+            "elements_num": 207,
+            "Gunning Fog Index": 24.53,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1552033": {
+            "elements_num": 301,
+            "Gunning Fog Index": 25.31,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1553079": {
+            "elements_num": 99,
+            "Gunning Fog Index": 27.24,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1555280": {
+            "elements_num": 316,
+            "Gunning Fog Index": 36.58,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1560327": {
+            "elements_num": 318,
+            "Gunning Fog Index": 19.64,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1562401": {
+            "elements_num": 108,
+            "Gunning Fog Index": 16.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1575515": {
+            "elements_num": 100,
+            "Gunning Fog Index": 14.4,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1576940": {
+            "elements_num": 141,
+            "Gunning Fog Index": 19.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1577368": {
+            "elements_num": 220,
+            "Gunning Fog Index": 18.02,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1579241": {
+            "elements_num": 276,
+            "Gunning Fog Index": 25.32,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1579877": {
+            "elements_num": 149,
+            "Gunning Fog Index": 21.69,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1580156": {
+            "elements_num": 334,
+            "Gunning Fog Index": 15.74,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1580608": {
+            "elements_num": 163,
+            "Gunning Fog Index": 21.97,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1580808": {
+            "elements_num": 315,
+            "Gunning Fog Index": 17.78,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1581091": {
+            "elements_num": 272,
+            "Gunning Fog Index": 15.99,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1581990": {
+            "elements_num": 161,
+            "Gunning Fog Index": 21.58,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1583107": {
+            "elements_num": 102,
+            "Gunning Fog Index": 29.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1585364": {
+            "elements_num": 34,
+            "Gunning Fog Index": 15.04,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1585583": {
+            "elements_num": 186,
+            "Gunning Fog Index": 80.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1585689": {
+            "elements_num": 349,
+            "Gunning Fog Index": 16.72,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1587523": {
+            "elements_num": 296,
+            "Gunning Fog Index": 21.64,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1588972": {
+            "elements_num": 192,
+            "Gunning Fog Index": 22.8,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1590877": {
+            "elements_num": 91,
+            "Gunning Fog Index": 20.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1590895": {
+            "elements_num": 120,
+            "Gunning Fog Index": 12.18,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1590955": {
+            "elements_num": 121,
+            "Gunning Fog Index": 15.17,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1593034": {
+            "elements_num": 123,
+            "Gunning Fog Index": 17.67,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1593548": {
+            "elements_num": 416,
+            "Gunning Fog Index": 22.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1595974": {
+            "elements_num": 50,
+            "Gunning Fog Index": 20.43,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1596532": {
+            "elements_num": 203,
+            "Gunning Fog Index": 86.38,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1597033": {
+            "elements_num": 91,
+            "Gunning Fog Index": 26.11,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1597672": {
+            "elements_num": 146,
+            "Gunning Fog Index": 17.94,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1598428": {
+            "elements_num": 72,
+            "Gunning Fog Index": 16.09,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1599489": {
+            "elements_num": 88,
+            "Gunning Fog Index": 44.08,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1599617": {
+            "elements_num": 240,
+            "Gunning Fog Index": 18.01,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1601548": {
+            "elements_num": 251,
+            "Gunning Fog Index": 24.37,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1603923": {
+            "elements_num": 212,
+            "Gunning Fog Index": 23.23,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1604821": {
+            "elements_num": 87,
+            "Gunning Fog Index": 19.85,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1605301": {
+            "elements_num": 81,
+            "Gunning Fog Index": 19.69,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1606498": {
+            "elements_num": 68,
+            "Gunning Fog Index": 19.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1609550": {
+            "elements_num": 64,
+            "Gunning Fog Index": 12.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1610950": {
+            "elements_num": 601,
+            "Gunning Fog Index": 20.64,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1614184": {
+            "elements_num": 498,
+            "Gunning Fog Index": 20.57,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1617406": {
+            "elements_num": 255,
+            "Gunning Fog Index": 22.49,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1617640": {
+            "elements_num": 90,
+            "Gunning Fog Index": 24.0,
+            "table_present": 0,
+            "metric_in_di": false
+        }
+    },
+    "allFilings2021_part6.json": {
+        "1619954": {
+            "elements_num": 228,
+            "Gunning Fog Index": 20.18,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1620179": {
+            "elements_num": 69,
+            "Gunning Fog Index": 21.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1621563": {
+            "elements_num": 77,
+            "Gunning Fog Index": 13.95,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1627223": {
+            "elements_num": 303,
+            "Gunning Fog Index": 15.37,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1628908": {
+            "elements_num": 235,
+            "Gunning Fog Index": 17.82,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1631574": {
+            "elements_num": 230,
+            "Gunning Fog Index": 21.99,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1632127": {
+            "elements_num": 146,
+            "Gunning Fog Index": 17.91,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1633917": {
+            "elements_num": 194,
+            "Gunning Fog Index": 25.75,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1633931": {
+            "elements_num": 123,
+            "Gunning Fog Index": 16.69,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1636286": {
+            "elements_num": 207,
+            "Gunning Fog Index": 85.61,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1637207": {
+            "elements_num": 104,
+            "Gunning Fog Index": 18.63,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1637459": {
+            "elements_num": 69,
+            "Gunning Fog Index": 21.92,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1637655": {
+            "elements_num": 156,
+            "Gunning Fog Index": 18.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1639691": {
+            "elements_num": 214,
+            "Gunning Fog Index": 17.76,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1641991": {
+            "elements_num": 13,
+            "Gunning Fog Index": 20.58,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1642081": {
+            "elements_num": 165,
+            "Gunning Fog Index": 28.93,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1643953": {
+            "elements_num": 193,
+            "Gunning Fog Index": 19.93,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1647088": {
+            "elements_num": 61,
+            "Gunning Fog Index": 17.37,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1650729": {
+            "elements_num": 308,
+            "Gunning Fog Index": 20.98,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1652130": {
+            "elements_num": 76,
+            "Gunning Fog Index": 17.66,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1655075": {
+            "elements_num": 256,
+            "Gunning Fog Index": 104.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1659166": {
+            "elements_num": 211,
+            "Gunning Fog Index": 24.95,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1665918": {
+            "elements_num": 313,
+            "Gunning Fog Index": 21.73,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1666071": {
+            "elements_num": 153,
+            "Gunning Fog Index": 14.52,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1666134": {
+            "elements_num": 213,
+            "Gunning Fog Index": 16.37,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1668105": {
+            "elements_num": 124,
+            "Gunning Fog Index": 13.21,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1669162": {
+            "elements_num": 70,
+            "Gunning Fog Index": 19.61,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1669779": {
+            "elements_num": 73,
+            "Gunning Fog Index": 16.18,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1669811": {
+            "elements_num": 238,
+            "Gunning Fog Index": 14.69,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1670592": {
+            "elements_num": 73,
+            "Gunning Fog Index": 17.93,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1671933": {
+            "elements_num": 170,
+            "Gunning Fog Index": 18.62,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1673358": {
+            "elements_num": 238,
+            "Gunning Fog Index": 17.89,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1673985": {
+            "elements_num": 519,
+            "Gunning Fog Index": 24.92,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1675149": {
+            "elements_num": 190,
+            "Gunning Fog Index": 17.83,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1679688": {
+            "elements_num": 354,
+            "Gunning Fog Index": 30.38,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1680247": {
+            "elements_num": 214,
+            "Gunning Fog Index": 48.84,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1680379": {
+            "elements_num": 102,
+            "Gunning Fog Index": 49.51,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1681459": {
+            "elements_num": 751,
+            "Gunning Fog Index": 27.45,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1689923": {
+            "elements_num": 215,
+            "Gunning Fog Index": 23.25,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1690334": {
+            "elements_num": 86,
+            "Gunning Fog Index": 25.37,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1692819": {
+            "elements_num": 338,
+            "Gunning Fog Index": 139.13,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1694426": {
+            "elements_num": 224,
+            "Gunning Fog Index": 21.73,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1697500": {
+            "elements_num": 86,
+            "Gunning Fog Index": 16.04,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1698990": {
+            "elements_num": 495,
+            "Gunning Fog Index": 23.25,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1699150": {
+            "elements_num": 360,
+            "Gunning Fog Index": 21.33,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1701114": {
+            "elements_num": 248,
+            "Gunning Fog Index": 18.39,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1701605": {
+            "elements_num": 207,
+            "Gunning Fog Index": 90.53,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1702750": {
+            "elements_num": 241,
+            "Gunning Fog Index": 55.17,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1704720": {
+            "elements_num": 242,
+            "Gunning Fog Index": 18.28,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1705338": {
+            "elements_num": 99,
+            "Gunning Fog Index": 16.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1710155": {
+            "elements_num": 154,
+            "Gunning Fog Index": 20.05,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1710583": {
+            "elements_num": 73,
+            "Gunning Fog Index": 27.73,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1712184": {
+            "elements_num": 248,
+            "Gunning Fog Index": 26.08,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1712923": {
+            "elements_num": 65,
+            "Gunning Fog Index": 37.9,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1718512": {
+            "elements_num": 175,
+            "Gunning Fog Index": 27.13,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1720635": {
+            "elements_num": 464,
+            "Gunning Fog Index": 19.05,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1722684": {
+            "elements_num": 325,
+            "Gunning Fog Index": 19.36,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1723089": {
+            "elements_num": 150,
+            "Gunning Fog Index": 21.01,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1723596": {
+            "elements_num": 305,
+            "Gunning Fog Index": 24.35,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1725579": {
+            "elements_num": 138,
+            "Gunning Fog Index": 19.7,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1727263": {
+            "elements_num": 66,
+            "Gunning Fog Index": 16.68,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1733998": {
+            "elements_num": 215,
+            "Gunning Fog Index": 19.3,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1734342": {
+            "elements_num": 106,
+            "Gunning Fog Index": 20.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1739104": {
+            "elements_num": 206,
+            "Gunning Fog Index": 23.05,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1739445": {
+            "elements_num": 71,
+            "Gunning Fog Index": 14.48,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1739940": {
+            "elements_num": 229,
+            "Gunning Fog Index": 26.66,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1740332": {
+            "elements_num": 170,
+            "Gunning Fog Index": 28.1,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1742924": {
+            "elements_num": 118,
+            "Gunning Fog Index": 20.03,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1770450": {
+            "elements_num": 313,
+            "Gunning Fog Index": 18.87,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1792044": {
+            "elements_num": 159,
+            "Gunning Fog Index": 20.71,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1823608": {
+            "elements_num": 281,
+            "Gunning Fog Index": 34.71,
+            "table_present": 0,
+            "metric_in_di": true
+        }
+    },
+    "allFilings2021_part7.json": {
+        "6201": {
+            "elements_num": 283,
+            "Gunning Fog Index": 60.85,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "45012": {
+            "elements_num": 144,
+            "Gunning Fog Index": 18.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "51253": {
+            "elements_num": 293,
+            "Gunning Fog Index": 33.19,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "51644": {
+            "elements_num": 302,
+            "Gunning Fog Index": 19.22,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "88790": {
+            "elements_num": 124,
+            "Gunning Fog Index": 25.05,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "93751": {
+            "elements_num": 233,
+            "Gunning Fog Index": 18.13,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "310764": {
+            "elements_num": 199,
+            "Gunning Fog Index": 27.2,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "915778": {
+            "elements_num": 26,
+            "Gunning Fog Index": 28.86,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1013857": {
+            "elements_num": 126,
+            "Gunning Fog Index": 18.33,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1034670": {
+            "elements_num": 73,
+            "Gunning Fog Index": 15.2,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1109357": {
+            "elements_num": 154,
+            "Gunning Fog Index": 24.26,
+            "table_present": 1,
+            "metric_in_di": true
+        },
+        "1122904": {
+            "elements_num": 124,
+            "Gunning Fog Index": 22.4,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1289419": {
+            "elements_num": 144,
+            "Gunning Fog Index": 19.27,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1583648": {
+            "elements_num": 92,
+            "Gunning Fog Index": 13.88,
+            "table_present": 0,
+            "metric_in_di": true
+        }
+    },
+    "allFilings2021_part8.json": {
+        "926282": {
+            "elements_num": 196,
+            "Gunning Fog Index": 20.82,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1274173": {
+            "elements_num": 189,
+            "Gunning Fog Index": 26.0,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1378950": {
+            "elements_num": 34,
+            "Gunning Fog Index": 12.68,
+            "table_present": 0,
+            "metric_in_di": true
+        },
+        "1404655": {
+            "elements_num": 104,
+            "Gunning Fog Index": 24.12,
+            "table_present": 0,
+            "metric_in_di": false
+        },
+        "1428875": {
+            "elements_num": 260,
+            "Gunning Fog Index": 23.78,
+            "table_present": 0,
+            "metric_in_di": true
+        }
     }
 }

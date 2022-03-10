@@ -26,7 +26,9 @@ def di_stat(d):
     summary_list = []
     value2= []
     all_cik_v2 = {}
+    #print(dictionary_data.keys())
     for key,value in dictionary_data.items():
+        print(key)
         # key is "allFilings2021_part1.json"
         # value is a dictionary
         all_cik = {}
@@ -36,7 +38,8 @@ def di_stat(d):
             # sub_value is a di_section that is in a list form
             new_value = ",".join(sub_value)
             new_dict[sub_key] = new_value
-        #print(new_dict)
+        #print(new_dict) # This is going through part 1-part 8
+        part_di = {}
         for sub_key2, sub_value2 in new_dict.items():
             #print(type(sub_value2))
             cik_di = {}
@@ -68,11 +71,21 @@ def di_stat(d):
             #print(summary_dict)
             
             cik_di[sub_key2] = summary_dict
-            #print(cik_di)
-            all_cik.update(cik_di)
-            #pprint.pprint(all_cik)
-        with open(f"../ST542_secDisclosures/dianalysis.json","w", encoding='utf8') as new_content:
-            new_content.write(json.dump(all_cik, new_content,ensure_ascii=False, indent=4)) 
+            #print(cik_di) # THis seemse to be fine
+        #     #print(cik_di)
+        #     #print(cik_di)
+            part_di.update(cik_di)
+            #print(part_di) # This is good as well
+        #     #print(part_di)
+            all_cik[key]=part_di
+            #print(all_cik) # This is good as well
+            all_cik_v2.update(all_cik)
+            #print(all_cik_v2) # This is good as well
+        #     #all_cik.update(part_di)
+        #     #all_cik.update(cik_di)
+        #     #pprint.pprint(all_cik)
+    with open(f"../ST542_secDisclosures/dianalysis.json","w", encoding='utf8') as new_content:
+        new_content.write(json.dump(all_cik_v2, new_content,ensure_ascii=False, indent=4)) 
     # all_cik_v2.update(all_cik)
     #pprint.pprint(all_cik_v2)
 
