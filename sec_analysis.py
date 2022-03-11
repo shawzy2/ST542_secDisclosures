@@ -7,16 +7,16 @@ import textstat
 
 di_stat = nlp_analysis.di_stat
 # # # # This code should combine all of the json files
-# data = {}
-# #data_dict = {}
-# files = ["part1dioutput.json","dioutput.json","allFilings2021_part8.json"]
-# # Merge all files
-# for file in files:
-#     new_name = f"../ST542_secDisclosures/{file}"
-#     data.update(json.load(open(new_name, encoding = 'utf-8')))
-# #data_dict.update(data)
-# with open(f"../ST542_secDisclosures/di.json","w", encoding='utf8') as new_content:
-#     new_content.write(json.dump(data, new_content,ensure_ascii=False, indent=4)) 
+data = {}
+#data_dict = {}
+files = ["part1dioutput.json","dioutput.json","allFilings2021_part8.json","missedCIKsExtra.json"]
+# Merge all files
+for file in files:
+    new_name = f"../ST542_secDisclosures/{file}"
+    data.update(json.load(open(new_name, encoding = 'utf-8')))
+#data_dict.update(data)
+with open(f"../ST542_secDisclosures/di.json","w", encoding='utf8') as new_content:
+    new_content.write(json.dump(data, new_content,ensure_ascii=False, indent=4)) 
 
 
 # #NLP Analysis
