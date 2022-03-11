@@ -20,19 +20,19 @@ di_stat = nlp_analysis.di_stat
 
 
 # #NLP Analysis
-di_file = "di.json"
-#if di_file  in os.listdir("../ST542_secDisclosures/"):
-    #print("TRUE")
-di_file_dic = {}
-new_di_file = f"../ST542_secDisclosures/{di_file}"
-with open(new_di_file, encoding='utf-8') as content:
-    json_data = json.load(content)
-    di_stat_data = di_stat(json_data)
-    #print(type(di_stat_data))
-    #print(type(di_stat_data))
-    di_stat_data
-    #print(di_stat_data)
-    # di_file_dic[di_file] = di_stat_data
+# di_file = "di.json"
+# #if di_file  in os.listdir("../ST542_secDisclosures/"):
+#     #print("TRUE")
+# di_file_dic = {}
+# new_di_file = f"../ST542_secDisclosures/{di_file}"
+# with open(new_di_file, encoding='utf-8') as content:
+#     json_data = json.load(content)
+#     di_stat_data = di_stat(json_data)
+#     #print(type(di_stat_data))
+#     #print(type(di_stat_data))
+#     di_stat_data
+#     #print(di_stat_data)
+#     # di_file_dic[di_file] = di_stat_data
 
 
 # Converting to dataframe
